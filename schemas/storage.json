@@ -1,0 +1,2396 @@
+{
+  "schema_version": 2,
+  "product": "Storage",
+  "slug": "storage",
+  "picker_testid": "storage-picker-item",
+  "module_testid": "storage-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:37:44.443828+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Storage Accounts",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Storage Accounts|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Type",
+      "clean_name": "type",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Type",
+      "name": "type",
+      "options": [
+        {
+          "group": null,
+          "text": "Block Blob Storage",
+          "value": "block-blob"
+        },
+        {
+          "group": null,
+          "text": "Table Storage",
+          "value": "table"
+        },
+        {
+          "group": null,
+          "text": "Queue Storage",
+          "value": "queue"
+        },
+        {
+          "group": null,
+          "text": "Data Lake Storage Gen2",
+          "value": "data-lake"
+        },
+        {
+          "group": null,
+          "text": "Azure Files",
+          "value": "file"
+        },
+        {
+          "group": "Disk Storage",
+          "text": "Page blobs (Unmanaged Disks included)",
+          "value": "page"
+        },
+        {
+          "group": "Disk Storage",
+          "text": "Managed Disks",
+          "value": "managed-disks"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Type\"][name=\"type\"]",
+      "selector_unique": true,
+      "signature": "select||type|Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "block-blob",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Performance",
+      "clean_name": "performanceTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Performance",
+      "name": "performanceTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Premium",
+          "value": "premium"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Performance\"][name=\"performanceTier\"]",
+      "selector_unique": true,
+      "signature": "select||performanceTier|Performance||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "data-lake",
+          "text": "Data Lake Storage Gen2"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageAccountType"
+      ]
+    },
+    {
+      "aria_label": "Storage Account Type",
+      "clean_name": "storageAccountType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Storage Account Type",
+      "name": "storageAccountType",
+      "options": [
+        {
+          "group": null,
+          "text": "General Purpose V2",
+          "value": "general-purpose-v2"
+        },
+        {
+          "group": null,
+          "text": "Blob Storage",
+          "value": "blob-storage"
+        },
+        {
+          "group": null,
+          "text": "General Purpose V1",
+          "value": "general-purpose"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Storage\\ Account\\ Type\"][name=\"storageAccountType\"]",
+      "selector_unique": true,
+      "signature": "select||storageAccountType|Storage Account Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "general-purpose-v2",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "Premium"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "performanceTier"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "queue",
+            "text": "Queue Storage"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "General Purpose V2",
+              "value": "general-purpose-v2"
+            },
+            {
+              "group": null,
+              "text": "General Purpose V1",
+              "value": "general-purpose"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "data-lake",
+            "text": "Data Lake Storage Gen2"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "General Purpose V2",
+              "value": "general-purpose-v2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "page",
+            "text": "Page blobs (Unmanaged Disks included)"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "General Purpose V2",
+              "value": "general-purpose-v2"
+            },
+            {
+              "group": null,
+              "text": "General Purpose V1",
+              "value": "general-purpose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "File Structure",
+      "clean_name": "fileStructure",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "File Structure",
+      "name": "fileStructure",
+      "options": [
+        {
+          "group": null,
+          "text": "Flat Namespace",
+          "value": "flat"
+        },
+        {
+          "group": null,
+          "text": "Hierarchical Namespace",
+          "value": "structured"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"File\\ Structure\"][name=\"fileStructure\"]",
+      "selector_unique": true,
+      "signature": "select||fileStructure|File Structure||||",
+      "tag": "select",
+      "type": null,
+      "value": "flat",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageAccountType"
+      ]
+    },
+    {
+      "aria_label": "Access tier",
+      "clean_name": "accessTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Access tier",
+      "name": "accessTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Hot",
+          "value": "hot"
+        },
+        {
+          "group": null,
+          "text": "Cool",
+          "value": "cool"
+        },
+        {
+          "group": null,
+          "text": "Cold",
+          "value": "cold"
+        },
+        {
+          "group": null,
+          "text": "Archive",
+          "value": "archive"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Access\\ tier\"][name=\"accessTier\"]",
+      "selector_unique": true,
+      "signature": "select||accessTier|Access tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "hot",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "performanceTier",
+        "storageAccountType"
+      ]
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "redundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "redundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "ZRS",
+          "value": "zrs"
+        },
+        {
+          "group": null,
+          "text": "GRS",
+          "value": "grs"
+        },
+        {
+          "group": null,
+          "text": "RA-GRS",
+          "value": "ra-grs"
+        },
+        {
+          "group": null,
+          "text": "GZRS",
+          "value": "gzrs"
+        },
+        {
+          "group": null,
+          "text": "RA-GZRS",
+          "value": "ra-gzrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"redundancy\"]",
+      "selector_unique": true,
+      "signature": "select||redundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "lrs",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "performanceTier",
+        "storageAccountType",
+        "accessTier"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "Premium"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "storageAccountType",
+            "value": "blob-storage",
+            "text": "Blob Storage"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            },
+            {
+              "group": null,
+              "text": "GZRS",
+              "value": "gzrs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "storageAccountType",
+            "value": "general-purpose",
+            "text": "General Purpose V1"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            },
+            {
+              "group": null,
+              "text": "RA-GRS",
+              "value": "ra-grs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "accessTier",
+            "value": "archive",
+            "text": "Archive"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            },
+            {
+              "group": null,
+              "text": "RA-GRS",
+              "value": "ra-grs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "count",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "count",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"count\"]",
+      "selector_unique": true,
+      "signature": "input|number|count|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "storageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "storageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||storageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "blobBillingOption",
+      "control": "radio",
+      "data_name_override": "blobBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-66ba2d58-f017-43e9-b5a5-d85b9d27d027-blobBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-66ba2d58-f017-43e9-b5a5-d85b9d27d027-blobBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"blobBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|blobBillingOption||blobBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "data-lake",
+            "text": "Data Lake Storage Gen2"
+          },
+          "selector": "input[data-name-override=\"dataLakeBillingOption\"][value=\"payg\"]",
+          "name": "radioButton-66ba2d58-f017-43e9-b5a5-d85b9d27d027-dataLakeBillingOption",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "blobBillingOption",
+      "control": "radio",
+      "data_name_override": "blobBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-66ba2d58-f017-43e9-b5a5-d85b9d27d027-blobBillingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-66ba2d58-f017-43e9-b5a5-d85b9d27d027-blobBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"blobBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|blobBillingOption||blobBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "data-lake",
+            "text": "Data Lake Storage Gen2"
+          },
+          "selector": "input[data-name-override=\"dataLakeBillingOption\"][value=\"one-year\"]",
+          "name": "radioButton-66ba2d58-f017-43e9-b5a5-d85b9d27d027-dataLakeBillingOption",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "blobBillingOption",
+      "control": "radio",
+      "data_name_override": "blobBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-66ba2d58-f017-43e9-b5a5-d85b9d27d027-blobBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-66ba2d58-f017-43e9-b5a5-d85b9d27d027-blobBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"blobBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|blobBillingOption||blobBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "data-lake",
+            "text": "Data Lake Storage Gen2"
+          },
+          "selector": "input[data-name-override=\"dataLakeBillingOption\"][value=\"three-year\"]",
+          "name": "radioButton-66ba2d58-f017-43e9-b5a5-d85b9d27d027-dataLakeBillingOption",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "x 10,000 operations",
+      "clean_name": "blobWriteOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 10,000 operations",
+      "name": "blobWriteOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobWriteOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobWriteOperations|x 10,000 operations||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "data-lake",
+          "text": "Data Lake Storage Gen2"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageAccountType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "storageAccountType",
+            "value": "general-purpose",
+            "text": "General Purpose V1"
+          },
+          "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobWriteOperationsV1\"]",
+          "name": "blobWriteOperationsV1",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "storageAccountType",
+            "value": "general-purpose",
+            "text": "General Purpose V1"
+          },
+          "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobCreateContainerOperationsV1\"]",
+          "name": "blobCreateContainerOperationsV1",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "storageAccountType",
+            "value": "general-purpose",
+            "text": "General Purpose V1"
+          },
+          "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobReadOperationsV1\"]",
+          "name": "blobReadOperationsV1",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "storageAccountType",
+            "value": "general-purpose",
+            "text": "General Purpose V1"
+          },
+          "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobOtherOperationsV1\"]",
+          "name": "blobOtherOperationsV1",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "x 10,000 operations",
+      "clean_name": "blobCreateContainerOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 10,000 operations",
+      "name": "blobCreateContainerOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobCreateContainerOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobCreateContainerOperations|x 10,000 operations||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "data-lake",
+          "text": "Data Lake Storage Gen2"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageAccountType",
+        "fileStructure"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "fileStructure",
+            "value": "structured",
+            "text": "Hierarchical Namespace"
+          },
+          "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobIterativeReadOperations\"]",
+          "name": "blobIterativeReadOperations",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "x 10,000 operations",
+      "clean_name": "blobReadOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 10,000 operations",
+      "name": "blobReadOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobReadOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobReadOperations|x 10,000 operations||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "data-lake",
+          "text": "Data Lake Storage Gen2"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageAccountType"
+      ]
+    },
+    {
+      "aria_label": "x 10,000 operations",
+      "clean_name": "blobOtherOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 10,000 operations",
+      "name": "blobOtherOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"blobOtherOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobOtherOperations|x 10,000 operations||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "data-lake",
+          "text": "Data Lake Storage Gen2"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        },
+        {
+          "field": "accessTier",
+          "value": "archive",
+          "text": "Archive"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "storageAccountType",
+        "accessTier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "blobDataRetrieval",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "blobDataRetrieval",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"blobDataRetrieval\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobDataRetrieval|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "data-lake",
+          "text": "Data Lake Storage Gen2"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        },
+        {
+          "field": "redundancy",
+          "value": "zrs",
+          "text": "ZRS"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "performanceTier",
+        "storageAccountType",
+        "redundancy"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "gzrs",
+            "text": "GZRS"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"geoReplications\"]",
+          "name": "geoReplications",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "ra-gzrs",
+            "text": "RA-GZRS"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"geoReplications\"]",
+          "name": "geoReplications",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "blobDataRetrievalUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "blobDataRetrievalUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"blobDataRetrievalUnits\"]",
+      "selector_unique": true,
+      "signature": "select||blobDataRetrievalUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        },
+        {
+          "field": "type",
+          "value": "data-lake",
+          "text": "Data Lake Storage Gen2"
+        },
+        {
+          "field": "type",
+          "value": "file",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        },
+        {
+          "field": "type",
+          "value": "managed-disks",
+          "text": "Managed Disks"
+        },
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "storageAccountType",
+          "value": "general-purpose",
+          "text": "General Purpose V1"
+        },
+        {
+          "field": "redundancy",
+          "value": "zrs",
+          "text": "ZRS"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "performanceTier",
+        "storageAccountType",
+        "redundancy"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "gzrs",
+            "text": "GZRS"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"geoReplicationUnits\"]",
+          "name": "geoReplicationUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "ra-gzrs",
+            "text": "RA-GZRS"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"geoReplicationUnits\"]",
+          "name": "geoReplicationUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Account Encrypted",
+          "value": "account-encrypted"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        },
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "data-lake",
+            "text": "Data Lake Storage Gen2"
+          },
+          "selector": "select[aria-label=\"Tier\"][name=\"performanceTier\"]",
+          "name": "performanceTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Premium",
+              "value": "premium"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Transaction units (10,000 transactions)",
+      "clean_name": "transactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Transaction units (10,000 transactions)",
+      "name": "transactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Transaction\\ units\\ \\(10\\,000\\ transactions\\)\"][name=\"transactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|transactions|Transaction units (10,000 transactions)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "table",
+          "text": "Table Storage"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "page",
+            "text": "Page blobs (Unmanaged Disks included)"
+          },
+          "selector": "input[aria-label=\"Transaction\\ units\\ \\(10\\,000\\ transactions\\)\"][name=\"unmanagedDiskTransactions\"]",
+          "name": "unmanagedDiskTransactions",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Operations (in 10,000s)",
+      "clean_name": "queueClass1Operations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operations (in 10,000s)",
+      "name": "queueClass1Operations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Operations\\ \\(in\\ 10\\,000s\\)\"][name=\"queueClass1Operations\"]",
+      "selector_unique": true,
+      "signature": "input|number|queueClass1Operations|Operations (in 10,000s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Operations (in 10,000s)",
+      "clean_name": "queueClass2Operations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operations (in 10,000s)",
+      "name": "queueClass2Operations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Operations\\ \\(in\\ 10\\,000s\\)\"][name=\"queueClass2Operations\"]",
+      "selector_unique": true,
+      "signature": "input|number|queueClass2Operations|Operations (in 10,000s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "queue",
+          "text": "Queue Storage"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Write operations (in 10,000s)",
+      "clean_name": "unmanagedDiskWrites",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Write operations (in 10,000s)",
+      "name": "unmanagedDiskWrites",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Write\\ operations\\ \\(in\\ 10\\,000s\\)\"][name=\"unmanagedDiskWrites\"]",
+      "selector_unique": true,
+      "signature": "input|number|unmanagedDiskWrites|Write operations (in 10,000s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Write additional IO units (in 10,000s)",
+      "clean_name": "unmanagedDiskWriteIOs",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Write additional IO units (in 10,000s)",
+      "name": "unmanagedDiskWriteIOs",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Write\\ additional\\ IO\\ units\\ \\(in\\ 10\\,000s\\)\"][name=\"unmanagedDiskWriteIOs\"]",
+      "selector_unique": true,
+      "signature": "input|number|unmanagedDiskWriteIOs|Write additional IO units (in 10,000s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Read operations (in 10,000s)",
+      "clean_name": "unmanagedDiskReads",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Read operations (in 10,000s)",
+      "name": "unmanagedDiskReads",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Read\\ operations\\ \\(in\\ 10\\,000s\\)\"][name=\"unmanagedDiskReads\"]",
+      "selector_unique": true,
+      "signature": "input|number|unmanagedDiskReads|Read operations (in 10,000s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Read additional IO units (in 10,000s)",
+      "clean_name": "unmanagedDiskReadIOs",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Read additional IO units (in 10,000s)",
+      "name": "unmanagedDiskReadIOs",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Read\\ additional\\ IO\\ units\\ \\(in\\ 10\\,000s\\)\"][name=\"unmanagedDiskReadIOs\"]",
+      "selector_unique": true,
+      "signature": "input|number|unmanagedDiskReadIOs|Read additional IO units (in 10,000s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Delete operations (in 10,000s)",
+      "clean_name": "unmanagedDiskDeletes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Delete operations (in 10,000s)",
+      "name": "unmanagedDiskDeletes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Delete\\ operations\\ \\(in\\ 10\\,000s\\)\"][name=\"unmanagedDiskDeletes\"]",
+      "selector_unique": true,
+      "signature": "input|number|unmanagedDiskDeletes|Delete operations (in 10,000s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "page",
+          "text": "Page blobs (Unmanaged Disks included)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "x 100 operations",
+      "clean_name": "blobIterativeWriteOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 100 operations",
+      "name": "blobIterativeWriteOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 100\\ operations\"][name=\"blobIterativeWriteOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobIterativeWriteOperations|x 100 operations||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "fileStructure",
+          "value": "structured",
+          "text": "Hierarchical Namespace"
+        }
+      ],
+      "depends_on": [
+        "fileStructure"
+      ]
+    },
+    {
+      "aria_label": "Operations",
+      "clean_name": "blobArchiveRead",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operations",
+      "name": "blobArchiveRead",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Operations\"][name=\"blobArchiveRead\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobArchiveRead|Operations||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "accessTier",
+          "value": "archive",
+          "text": "Archive"
+        }
+      ],
+      "depends_on": [
+        "accessTier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "blobArchiveRetrieval",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "blobArchiveRetrieval",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"blobArchiveRetrieval\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobArchiveRetrieval|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "accessTier",
+          "value": "archive",
+          "text": "Archive"
+        }
+      ],
+      "depends_on": [
+        "accessTier",
+        "redundancy"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "grs",
+            "text": "GRS"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"blobDataWrite\"]",
+          "name": "blobDataWrite",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "grs",
+            "text": "GRS"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"geoReplications\"]",
+          "name": "geoReplications",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "ra-grs",
+            "text": "RA-GRS"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"geoReplications\"]",
+          "name": "geoReplications",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "blobArchiveRetrievalUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "blobArchiveRetrievalUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"blobArchiveRetrievalUnits\"]",
+      "selector_unique": true,
+      "signature": "select||blobArchiveRetrievalUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "accessTier",
+          "value": "archive",
+          "text": "Archive"
+        }
+      ],
+      "depends_on": [
+        "accessTier",
+        "redundancy"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "grs",
+            "text": "GRS"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"blobDataWriteUnits\"]",
+          "name": "blobDataWriteUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "grs",
+            "text": "GRS"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"geoReplicationUnits\"]",
+          "name": "geoReplicationUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "ra-grs",
+            "text": "RA-GRS"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"geoReplicationUnits\"]",
+          "name": "geoReplicationUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "count",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "count",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"count\"]",
+      "selector_unique": true,
+      "signature": "input|number|count|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "storageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "storageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||storageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "blobDataRetrieval",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "blobDataRetrieval",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"blobDataRetrieval\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobDataRetrieval|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "blobDataRetrievalUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "blobDataRetrievalUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "blobDataRetrievalUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "blobDataRetrievalUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"blobDataRetrievalUnits\"]",
+      "selector_unique": true,
+      "signature": "select||blobDataRetrievalUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "blobDataRetrievalUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "blobDataRetrievalUnits"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "product": "Healthcare Agent Service",
+  "slug": "healthcare-agent-service",
+  "picker_testid": "healthcare-agent-service-picker-item",
+  "module_testid": "healthcare-agent-service-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:27:07.526798+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Healthcare agent service",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Healthcare agent service|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

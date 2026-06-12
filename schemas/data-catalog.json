@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "product": "Data Catalog",
+  "slug": "data-catalog",
+  "picker_testid": "data-catalog-picker-item",
+  "module_testid": "data-catalog-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:22:09.342074+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Data Catalog",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Data Catalog|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Free",
+          "value": "free"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "free",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Users",
+      "clean_name": "userUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Users",
+      "name": "userUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Users\"][name=\"userUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|userUnits|Users||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    }
+  ],
+  "toggles": []
+}

@@ -1,0 +1,1746 @@
+{
+  "schema_version": 2,
+  "product": "Postgresql",
+  "slug": "postgresql",
+  "picker_testid": "postgresql-picker-item",
+  "module_testid": "postgresql-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:34:30.244519+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Database for PostgreSQL",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Database for PostgreSQL|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Deployment option",
+      "clean_name": "deploymentType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Deployment option",
+      "name": "deploymentType",
+      "options": [
+        {
+          "group": null,
+          "text": "Flexible Server",
+          "value": "flexibleserver"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Deployment\\ option\"][name=\"deploymentType\"]",
+      "selector_unique": true,
+      "signature": "select||deploymentType|Deployment option||||",
+      "tag": "select",
+      "type": null,
+      "value": "flexibleserver",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Burstable",
+          "value": "burstable"
+        },
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "generalpurpose"
+        },
+        {
+          "group": null,
+          "text": "Memory Optimized",
+          "value": "memoryoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "generalpurpose",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "computeInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "computeInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "Dadsv5 - Series",
+          "value": "dadsv5"
+        },
+        {
+          "group": null,
+          "text": "Dsv6 - Series",
+          "value": "dsv6"
+        },
+        {
+          "group": null,
+          "text": "Dsv3 - Series",
+          "value": "dsv3"
+        },
+        {
+          "group": null,
+          "text": "Ddsv4 - Series",
+          "value": "ddsv4"
+        },
+        {
+          "group": null,
+          "text": "Ddsv5 - Series",
+          "value": "ddsv5"
+        },
+        {
+          "group": null,
+          "text": "Ddsv6 - Series",
+          "value": "ddsv6"
+        },
+        {
+          "group": null,
+          "text": "DCesv6 - Series",
+          "value": "dcesv6"
+        },
+        {
+          "group": null,
+          "text": "DCadsv6 - Series",
+          "value": "dcadsv6"
+        },
+        {
+          "group": null,
+          "text": "DCasv5 - Series",
+          "value": "dcasv5"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"computeInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||computeInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "ddsv5",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "memoryoptimized",
+            "text": "Memory Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Eadsv5 - Series",
+              "value": "eadsv5"
+            },
+            {
+              "group": null,
+              "text": "Esv3 - Series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv6 - Series",
+              "value": "esv6"
+            },
+            {
+              "group": null,
+              "text": "Edsv4 - Series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5 - Series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Edsv6 - Series",
+              "value": "edsv6"
+            },
+            {
+              "group": null,
+              "text": "ECesv6 - Series",
+              "value": "ecesv6"
+            },
+            {
+              "group": null,
+              "text": "ECasv5 - Series",
+              "value": "ecasv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv6 - Series",
+              "value": "ecadsv6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "computeType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "computeType",
+      "options": [
+        {
+          "group": null,
+          "text": "D2ds v5, 2 vCore, $0.1780/hour",
+          "value": "d2ds v5"
+        },
+        {
+          "group": null,
+          "text": "D4ds v5, 4 vCore, $0.3560/hour",
+          "value": "d4ds v5"
+        },
+        {
+          "group": null,
+          "text": "D8ds v5, 8 vCore, $0.7120/hour",
+          "value": "d8ds v5"
+        },
+        {
+          "group": null,
+          "text": "D16ds v5, 16 vCore, $1.4240/hour",
+          "value": "d16ds v5"
+        },
+        {
+          "group": null,
+          "text": "D32ds v5, 32 vCore, $2.8480/hour",
+          "value": "d32ds v5"
+        },
+        {
+          "group": null,
+          "text": "D48ds v5, 48 vCore, $4.2720/hour",
+          "value": "d48ds v5"
+        },
+        {
+          "group": null,
+          "text": "D64ds v5, 64 vCore, $5.6960/hour",
+          "value": "d64ds v5"
+        },
+        {
+          "group": null,
+          "text": "D96ds v5, 96 vCore, $8.5440/hour",
+          "value": "d96ds v5"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"computeType\"]",
+      "selector_unique": true,
+      "signature": "select||computeType|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "d2ds v5",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "computeInstanceSeries"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "memoryoptimized",
+            "text": "Memory Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "EC2ads v6, 2 vCore, $0.2980/hour",
+              "value": "ec2ads v6"
+            },
+            {
+              "group": null,
+              "text": "EC4ads v6, 4 vCore, $0.5960/hour",
+              "value": "ec4ads v6"
+            },
+            {
+              "group": null,
+              "text": "EC8ads v6, 8 vCore, $1.1920/hour",
+              "value": "ec8ads v6"
+            },
+            {
+              "group": null,
+              "text": "EC16ads v6, 16 vCore, $2.3840/hour",
+              "value": "ec16ads v6"
+            },
+            {
+              "group": null,
+              "text": "EC32ads v6, 32 vCore, $4.7680/hour",
+              "value": "ec32ads v6"
+            },
+            {
+              "group": null,
+              "text": "EC48ads v6, 48 vCore, $7.1520/hour",
+              "value": "ec48ads v6"
+            },
+            {
+              "group": null,
+              "text": "EC64ads v6, 64 vCore, $9.5360/hour",
+              "value": "ec64ads v6"
+            },
+            {
+              "group": null,
+              "text": "EC96ads v6, 96 vCore, $14.3040/hour",
+              "value": "ec96ads v6"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeInstanceSeries",
+            "value": "dadsv5",
+            "text": "Dadsv5 - Series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "D2ads v5, 2 vCore, $0.1780/hour",
+              "value": "d2ads v5"
+            },
+            {
+              "group": null,
+              "text": "D4ads v5, 4 vCore, $0.3560/hour",
+              "value": "d4ads v5"
+            },
+            {
+              "group": null,
+              "text": "D8ads v5, 8 vCore, $0.7120/hour",
+              "value": "d8ads v5"
+            },
+            {
+              "group": null,
+              "text": "D16ads v5, 16 vCore, $1.4240/hour",
+              "value": "d16ads v5"
+            },
+            {
+              "group": null,
+              "text": "D32ads v5, 32 vCore, $2.8480/hour",
+              "value": "d32ads v5"
+            },
+            {
+              "group": null,
+              "text": "D48ads v5, 48 vCore, $4.2720/hour",
+              "value": "d48ads v5"
+            },
+            {
+              "group": null,
+              "text": "D64ads v5, 64 vCore, $5.6960/hour",
+              "value": "d64ads v5"
+            },
+            {
+              "group": null,
+              "text": "D96ads v5, 96 vCore, $8.5440/hour",
+              "value": "d96ads v5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeInstanceSeries",
+            "value": "dsv6",
+            "text": "Dsv6 - Series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "D2s v6, 2 vCore, $0.1780/hour",
+              "value": "d2s v6"
+            },
+            {
+              "group": null,
+              "text": "D4s v6, 4 vCore, $0.3560/hour",
+              "value": "d4s v6"
+            },
+            {
+              "group": null,
+              "text": "D8s v6, 8 vCore, $0.7120/hour",
+              "value": "d8s v6"
+            },
+            {
+              "group": null,
+              "text": "D16s v6, 16 vCore, $1.4240/hour",
+              "value": "d16s v6"
+            },
+            {
+              "group": null,
+              "text": "D32s v6, 32 vCore, $2.8480/hour",
+              "value": "d32s v6"
+            },
+            {
+              "group": null,
+              "text": "D48s v6, 48 vCore, $4.2720/hour",
+              "value": "d48s v6"
+            },
+            {
+              "group": null,
+              "text": "D64s v6, 64 vCore, $5.6960/hour",
+              "value": "d64s v6"
+            },
+            {
+              "group": null,
+              "text": "D96s v6, 96 vCore, $8.5440/hour",
+              "value": "d96s v6"
+            },
+            {
+              "group": null,
+              "text": "D128s v6, 128 vCore, $11.3920/hour",
+              "value": "d128s v6"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeInstanceSeries",
+            "value": "dsv3",
+            "text": "Dsv3 - Series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "D2s v3, 2 vCore, $0.1710/hour",
+              "value": "d2s v3"
+            },
+            {
+              "group": null,
+              "text": "D4s v3, 4 vCore, $0.3420/hour",
+              "value": "d4s v3"
+            },
+            {
+              "group": null,
+              "text": "D8s v3, 8 vCore, $0.6840/hour",
+              "value": "d8s v3"
+            },
+            {
+              "group": null,
+              "text": "D16s v3, 16 vCore, $1.3680/hour",
+              "value": "d16s v3"
+            },
+            {
+              "group": null,
+              "text": "D32s v3, 32 vCore, $2.7360/hour",
+              "value": "d32s v3"
+            },
+            {
+              "group": null,
+              "text": "D48s v3, 48 vCore, $4.1040/hour",
+              "value": "d48s v3"
+            },
+            {
+              "group": null,
+              "text": "D64s v3, 64 vCore, $5.4720/hour",
+              "value": "d64s v3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeInstanceSeries",
+            "value": "ddsv4",
+            "text": "Ddsv4 - Series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "D2ds v4, 2 vCore, $0.1780/hour",
+              "value": "d2ds v4"
+            },
+            {
+              "group": null,
+              "text": "D4ds v4, 4 vCore, $0.3560/hour",
+              "value": "d4ds v4"
+            },
+            {
+              "group": null,
+              "text": "D8ds v4, 8 vCore, $0.7120/hour",
+              "value": "d8ds v4"
+            },
+            {
+              "group": null,
+              "text": "D16ds v4, 16 vCore, $1.4240/hour",
+              "value": "d16ds v4"
+            },
+            {
+              "group": null,
+              "text": "D32ds v4, 32 vCore, $2.8480/hour",
+              "value": "d32ds v4"
+            },
+            {
+              "group": null,
+              "text": "D48ds v4, 48 vCore, $4.2720/hour",
+              "value": "d48ds v4"
+            },
+            {
+              "group": null,
+              "text": "D64ds v4, 64 vCore, $5.6960/hour",
+              "value": "d64ds v4"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeInstanceSeries",
+            "value": "ddsv6",
+            "text": "Ddsv6 - Series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "D2ds v6, 2 vCore, $0.2240/hour",
+              "value": "d2ds v6"
+            },
+            {
+              "group": null,
+              "text": "D4ds v6, 4 vCore, $0.4480/hour",
+              "value": "d4ds v6"
+            },
+            {
+              "group": null,
+              "text": "D8ds v6, 8 vCore, $0.8960/hour",
+              "value": "d8ds v6"
+            },
+            {
+              "group": null,
+              "text": "D16ds v6, 16 vCore, $1.7920/hour",
+              "value": "d16ds v6"
+            },
+            {
+              "group": null,
+              "text": "D32ds v6, 32 vCore, $3.5840/hour",
+              "value": "d32ds v6"
+            },
+            {
+              "group": null,
+              "text": "D48ds v6, 48 vCore, $5.3760/hour",
+              "value": "d48ds v6"
+            },
+            {
+              "group": null,
+              "text": "D64ds v6, 64 vCore, $7.1680/hour",
+              "value": "d64ds v6"
+            },
+            {
+              "group": null,
+              "text": "D96ds v6, 96 vCore, $10.7520/hour",
+              "value": "d96ds v6"
+            },
+            {
+              "group": null,
+              "text": "D128ds v6, 128 vCore, $14.3360/hour",
+              "value": "d128ds v6"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeInstanceSeries",
+            "value": "dcesv6",
+            "text": "DCesv6 - Series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "DC2es v6, 2 vCore, $0.3024/hour",
+              "value": "dc2es v6"
+            },
+            {
+              "group": null,
+              "text": "DC4es v6, 4 vCore, $0.6048/hour",
+              "value": "dc4es v6"
+            },
+            {
+              "group": null,
+              "text": "DC8es v6, 8 vCore, $1.2096/hour",
+              "value": "dc8es v6"
+            },
+            {
+              "group": null,
+              "text": "DC16es v6, 16 vCore, $2.4192/hour",
+              "value": "dc16es v6"
+            },
+            {
+              "group": null,
+              "text": "DC32es v6, 32 vCore, $4.8384/hour",
+              "value": "dc32es v6"
+            },
+            {
+              "group": null,
+              "text": "DC48es v6, 48 vCore, $7.2576/hour",
+              "value": "dc48es v6"
+            },
+            {
+              "group": null,
+              "text": "DC64es v6, 64 vCore, $9.6768/hour",
+              "value": "dc64es v6"
+            },
+            {
+              "group": null,
+              "text": "DC96es v6, 96 vCore, $14.5152/hour",
+              "value": "dc96es v6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "singleServers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Servers or Nodes",
+      "name": "singleServers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[name=\"singleServers\"][type=\"number\"]",
+      "selector_unique": true,
+      "signature": "input|number|singleServers|||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "singleHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "singleHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"singleHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|singleHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "singleHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "singleHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "singleHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "singleHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"singleHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||singleHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "singleHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "singleHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "label": "1 year savings plan (~20% savings)",
+      "name": "radioButton-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "label": "3 year savings plan",
+      "name": "radioButton-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "label": "1 year reserved (~40% savings)",
+      "name": "radioButton-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "label": "3 year reserved (~60% savings)",
+      "name": "radioButton-f6a1b3bc-143b-4568-b568-63014da2eb95-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "premiumSsdTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "premiumSsdTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Premium SSD",
+          "value": "premiumssd"
+        },
+        {
+          "group": null,
+          "text": "Premium SSD v2",
+          "value": "premiumssdv2"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"premiumSsdTier\"]",
+      "selector_unique": true,
+      "signature": "select||premiumSsdTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "premiumssd",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "storageCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "storageCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"storageCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageCount|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "premiumSsdTier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "premiumSsdTier"
+      ]
+    },
+    {
+      "aria_label": "Provisioned IOPS",
+      "clean_name": "provisionedIops",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Provisioned IOPS",
+      "name": "provisionedIops",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Provisioned\\ IOPS\"][name=\"provisionedIops\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedIops|Provisioned IOPS||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        },
+        {
+          "field": "premiumSsdTier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "premiumSsdTier"
+      ]
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "flexibleBackupAdditionalStorageRedundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "flexibleBackupAdditionalStorageRedundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "GRS",
+          "value": "grs"
+        },
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"flexibleBackupAdditionalStorageRedundancy\"]",
+      "selector_unique": true,
+      "signature": "select||flexibleBackupAdditionalStorageRedundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "lrs",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "flexibleBackupAdditionalStorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "flexibleBackupAdditionalStorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"flexibleBackupAdditionalStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|flexibleBackupAdditionalStorageUnits|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "flexibleBackupAdditionalStorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "flexibleBackupAdditionalStorageFactor"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "flexibleBackupAdditionalStorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "flexibleBackupAdditionalStorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GiB\"][name=\"flexibleBackupAdditionalStorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||flexibleBackupAdditionalStorageFactor|GiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "flexibleBackupAdditionalStorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "flexibleBackupAdditionalStorageFactor"
+      ]
+    },
+    {
+      "aria_label": "Compute",
+      "clean_name": "burstableType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Compute",
+      "name": "burstableType",
+      "options": [
+        {
+          "group": null,
+          "text": "B1MS, 1 vCore(s), $0.02/hour",
+          "value": "flexible-server-burstable-compute-b1ms"
+        },
+        {
+          "group": null,
+          "text": "B2MS, 2 vCore(s), $0.14/hour",
+          "value": "flexible-server-burstable-compute-b2ms"
+        },
+        {
+          "group": null,
+          "text": "B2S, 2 vCore(s), $0.07/hour",
+          "value": "flexible-server-burstable-compute-b2s"
+        },
+        {
+          "group": null,
+          "text": "B4MS, 4 vCore(s), $0.27/hour",
+          "value": "flexible-server-burstable-compute-b4ms"
+        },
+        {
+          "group": null,
+          "text": "B8MS, 8 vCore(s), $0.54/hour",
+          "value": "flexible-server-burstable-compute-b8ms"
+        },
+        {
+          "group": null,
+          "text": "B12MS, 12 vCore(s), $0.82/hour",
+          "value": "flexible-server-burstable-compute-b12ms"
+        },
+        {
+          "group": null,
+          "text": "B16MS, 16 vCore(s), $1.09/hour",
+          "value": "flexible-server-burstable-compute-b16ms"
+        },
+        {
+          "group": null,
+          "text": "B20MS, 20 vCore(s), $1.36/hour",
+          "value": "flexible-server-burstable-compute-b20ms"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Compute\"][name=\"burstableType\"]",
+      "selector_unique": true,
+      "signature": "select||burstableType|Compute||||",
+      "tag": "select",
+      "type": null,
+      "value": "flexible-server-burstable-compute-b1ms",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "singleHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "singleHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"singleHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|singleHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "singleHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "singleHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "singleHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "singleHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"singleHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||singleHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "singleHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "singleHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Disk Size (GiB)",
+      "clean_name": "storageV2Size",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disk Size (GiB)",
+      "name": "storageV2Size",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Disk\\ Size\\ \\(GiB\\)\"][name=\"storageV2Size\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Size|Disk Size (GiB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "premiumSsdTier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "premiumSsdTier"
+      ]
+    },
+    {
+      "aria_label": "Additional IOPS",
+      "clean_name": "storageV2Iops",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional IOPS",
+      "name": "storageV2Iops",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ IOPS\"][name=\"storageV2Iops\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Iops|Additional IOPS||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "premiumSsdTier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "premiumSsdTier"
+      ]
+    },
+    {
+      "aria_label": "Additional throughput (MBps)",
+      "clean_name": "storageV2Throughput",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional throughput (MBps)",
+      "name": "storageV2Throughput",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ throughput\\ \\(MBps\\)\"][name=\"storageV2Throughput\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Throughput|Additional throughput (MBps)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "premiumSsdTier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "premiumSsdTier"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "flexibleBackupAdditionalStorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "flexibleBackupAdditionalStorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TiB\"][name=\"flexibleBackupAdditionalStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|flexibleBackupAdditionalStorageUnits|TiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "flexibleBackupAdditionalStorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "flexibleBackupAdditionalStorageFactor"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "flexibleBackupAdditionalStorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "flexibleBackupAdditionalStorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TiB\"][name=\"flexibleBackupAdditionalStorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||flexibleBackupAdditionalStorageFactor|TiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "flexibleBackupAdditionalStorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "flexibleBackupAdditionalStorageFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

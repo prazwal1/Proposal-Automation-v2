@@ -1,0 +1,75 @@
+{
+    "estimate_name": "Data Platform with DR",
+    "components": [
+        {
+            "product": "PostgreSQL",
+            "name": "pg-flexible-server",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Tier": "General Purpose",
+                "Instance Series": "Ddsv5 - Series",
+                "Instance": "D4ds v5",
+                "Servers or Nodes": 1,
+                "singleHoursFactor": "Month",
+                "premiumSsdTier": "Premium SSD",
+                "GiB": 512,
+                "Redundancy": "LRS"
+            }
+        },
+        {
+            "product": "Azure SQL Database",
+            "name": "analytics-db",
+            "fields": {
+                "Type": "Single Database",
+                "Region": "Southeast Asia",
+                "Purchase Model": "vCore",
+                "Service Tier": "Hyperscale",
+                "Compute Tier": "Provisioned",
+                "Hardware Type": "Standard-series (Gen 5)",
+                "Instance": "8 vCore",
+                "High availability replicas per database": 1
+            }
+        },
+        {
+            "product": "Storage",
+            "name": "datalake-storage",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Type": "Block Blob Storage",
+                "Performance": "Standard",
+                "Storage Account Type": "General Purpose V2",
+                "Access tier": "Hot",
+                "Redundancy": "RA-GRS",
+                "GB": 5000
+            }
+        },
+        {
+            "product": "Backup",
+            "name": "db-vm-backup",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Type": "Azure VMs",
+                "Backup Policy Type": "Standard",
+                "VMs": 1,
+                "GB": 500,
+                "Redundancy": "GRS"
+            }
+        },
+        {
+            "product": "Site Recovery",
+            "name": "dr-replication",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Instances": 2
+            }
+        },
+        {
+            "product": "Monitor",
+            "name": "platform-monitoring",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Per day (GB)": 10
+            }
+        }
+    ]
+}

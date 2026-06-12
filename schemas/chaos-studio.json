@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "product": "Chaos Studio",
+  "slug": "chaos-studio",
+  "picker_testid": "chaos-studio-picker-item",
+  "module_testid": "chaos-studio-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:19:42.755944+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Chaos Studio",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Chaos Studio|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east-2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Actions",
+      "clean_name": "0.actions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Actions",
+      "name": "0.actions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Actions\"][name=\"\\30 \\.actions\"]",
+      "selector_unique": true,
+      "signature": "input|number|0.actions|Actions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Duration (minutes)",
+      "clean_name": "0.minutes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Duration (minutes)",
+      "name": "0.minutes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Duration\\ \\(minutes\\)\"][name=\"\\30 \\.minutes\"]",
+      "selector_unique": true,
+      "signature": "input|number|0.minutes|Duration (minutes)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

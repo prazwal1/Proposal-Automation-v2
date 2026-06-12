@@ -1,0 +1,916 @@
+{
+  "schema_version": 2,
+  "product": "Githubenterprise",
+  "slug": "githubenterprise",
+  "picker_testid": "githubenterprise-picker-item",
+  "module_testid": "githubenterprise-module",
+  "category": null,
+  "learned_at": "2026-06-12T17:06:15.311496+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "GitHub Enterprise",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||GitHub Enterprise|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Users",
+      "clean_name": "planLicenseUsers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Users",
+      "name": "planLicenseUsers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Users\"][name=\"planLicenseUsers\"]",
+      "selector_unique": true,
+      "signature": "input|number|planLicenseUsers|Users||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Copilot Enterprise Users",
+      "clean_name": "copilotEnterpriseUsers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Copilot Enterprise Users",
+      "name": "copilotEnterpriseUsers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Copilot\\ Enterprise\\ Users\"][name=\"copilotEnterpriseUsers\"]",
+      "selector_unique": true,
+      "signature": "input|number|copilotEnterpriseUsers|Copilot Enterprise Users||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Copilot Business Users",
+      "clean_name": "copilotBusinessUsers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Copilot Business Users",
+      "name": "copilotBusinessUsers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Copilot\\ Business\\ Users\"][name=\"copilotBusinessUsers\"]",
+      "selector_unique": true,
+      "signature": "input|number|copilotBusinessUsers|Copilot Business Users||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Committers",
+      "clean_name": "codeSecurityCommitters",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Committers",
+      "name": "codeSecurityCommitters",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Committers\"][name=\"codeSecurityCommitters\"]",
+      "selector_unique": true,
+      "signature": "input|number|codeSecurityCommitters|Committers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Committers",
+      "clean_name": "secretProtectionCommitters",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Committers",
+      "name": "secretProtectionCommitters",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Committers\"][name=\"secretProtectionCommitters\"]",
+      "selector_unique": true,
+      "signature": "input|number|secretProtectionCommitters|Committers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Operating system",
+      "clean_name": "actionsOperatingSystem",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operating system",
+      "name": "actionsOperatingSystem",
+      "options": [
+        {
+          "group": null,
+          "text": "Linux",
+          "value": "linux"
+        },
+        {
+          "group": null,
+          "text": "macOS",
+          "value": "macos"
+        },
+        {
+          "group": null,
+          "text": "Windows",
+          "value": "windows"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Operating\\ system\"][name=\"actionsOperatingSystem\"]",
+      "selector_unique": true,
+      "signature": "select||actionsOperatingSystem|Operating system||||",
+      "tag": "select",
+      "type": null,
+      "value": "linux",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Machine size",
+      "clean_name": "actionsSize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Machine size",
+      "name": "actionsSize",
+      "options": [
+        {
+          "group": null,
+          "text": "1 core",
+          "value": "one-core"
+        },
+        {
+          "group": null,
+          "text": "2 core",
+          "value": "two-core"
+        },
+        {
+          "group": null,
+          "text": "4 core",
+          "value": "four-core"
+        },
+        {
+          "group": null,
+          "text": "8 core",
+          "value": "eight-core"
+        },
+        {
+          "group": null,
+          "text": "16 core",
+          "value": "sixteen-core"
+        },
+        {
+          "group": null,
+          "text": "32 core",
+          "value": "thirtytwo-core"
+        },
+        {
+          "group": null,
+          "text": "64 core",
+          "value": "sixtyfour-core"
+        },
+        {
+          "group": null,
+          "text": "96 core",
+          "value": "ninetysix-core"
+        },
+        {
+          "group": null,
+          "text": "4 core GPU",
+          "value": "four-core-gpu"
+        },
+        {
+          "group": null,
+          "text": "GPU B12",
+          "value": "gpu-b-twelve"
+        },
+        {
+          "group": null,
+          "text": "GPU B24",
+          "value": "gpu-b-twentyfour"
+        },
+        {
+          "group": null,
+          "text": "GPU B36",
+          "value": "gpu-b-thirtysix"
+        },
+        {
+          "group": null,
+          "text": "HP",
+          "value": "hp"
+        },
+        {
+          "group": null,
+          "text": "MO64",
+          "value": "mo-64"
+        },
+        {
+          "group": null,
+          "text": "MO160",
+          "value": "mo-160"
+        },
+        {
+          "group": null,
+          "text": "SO2",
+          "value": "so-2"
+        },
+        {
+          "group": null,
+          "text": "SO8",
+          "value": "so-8"
+        },
+        {
+          "group": null,
+          "text": "ARM B2",
+          "value": "arm-b-2"
+        },
+        {
+          "group": null,
+          "text": "ARM B4",
+          "value": "arm-b-4"
+        },
+        {
+          "group": null,
+          "text": "ARM B8",
+          "value": "arm-b-8"
+        },
+        {
+          "group": null,
+          "text": "ARM B16",
+          "value": "arm-b-16"
+        },
+        {
+          "group": null,
+          "text": "ARM B32",
+          "value": "arm-b-32"
+        },
+        {
+          "group": null,
+          "text": "ARM B64",
+          "value": "arm-b-64"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Machine\\ size\"][name=\"actionsSize\"]",
+      "selector_unique": true,
+      "signature": "select||actionsSize|Machine size||||",
+      "tag": "select",
+      "type": null,
+      "value": "two-core",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "actionsOperatingSystem",
+            "value": "macos",
+            "text": "macOS"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "3 core",
+              "value": "three-core"
+            },
+            {
+              "group": null,
+              "text": "XL",
+              "value": "xl"
+            },
+            {
+              "group": null,
+              "text": "L",
+              "value": "l"
+            },
+            {
+              "group": null,
+              "text": "M",
+              "value": "m"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "actionsOperatingSystem"
+      ]
+    },
+    {
+      "aria_label": "Number of Jobs per month",
+      "clean_name": "jobsNumbersPerMonth",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of Jobs per month",
+      "name": "jobsNumbersPerMonth",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ Jobs\\ per\\ month\"][name=\"jobsNumbersPerMonth\"]",
+      "selector_unique": true,
+      "signature": "input|number|jobsNumbersPerMonth|Number of Jobs per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Duration of each job in minutes",
+      "clean_name": "jobsDurationInMinutes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Duration of each job in minutes",
+      "name": "jobsDurationInMinutes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Duration\\ of\\ each\\ job\\ in\\ minutes\"][name=\"jobsDurationInMinutes\"]",
+      "selector_unique": true,
+      "signature": "input|number|jobsDurationInMinutes|Duration of each job in minutes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "packagesStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "packagesStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"packagesStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|packagesStorage|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "packagesBandwidth",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "packagesBandwidth",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"packagesBandwidth\"]",
+      "selector_unique": true,
+      "signature": "input|number|packagesBandwidth|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Operating system",
+      "clean_name": "codespacesOperatingSystem",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operating system",
+      "name": "codespacesOperatingSystem",
+      "options": [
+        {
+          "group": null,
+          "text": "Linux",
+          "value": "linux"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Operating\\ system\"][name=\"codespacesOperatingSystem\"]",
+      "selector_unique": true,
+      "signature": "select||codespacesOperatingSystem|Operating system||||",
+      "tag": "select",
+      "type": null,
+      "value": "linux",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Machine size",
+      "clean_name": "codespacesSize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Machine size",
+      "name": "codespacesSize",
+      "options": [
+        {
+          "group": null,
+          "text": "2 core",
+          "value": "two-core"
+        },
+        {
+          "group": null,
+          "text": "4 core",
+          "value": "four-core"
+        },
+        {
+          "group": null,
+          "text": "8 core",
+          "value": "eight-core"
+        },
+        {
+          "group": null,
+          "text": "16 core",
+          "value": "sixteen-core"
+        },
+        {
+          "group": null,
+          "text": "32 core",
+          "value": "thirtytwo-core"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Machine\\ size\"][name=\"codespacesSize\"]",
+      "selector_unique": true,
+      "signature": "select||codespacesSize|Machine size||||",
+      "tag": "select",
+      "type": null,
+      "value": "two-core",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of Developers",
+      "clean_name": "codespacesDevelopersNumbers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of Developers",
+      "name": "codespacesDevelopersNumbers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ Developers\"][name=\"codespacesDevelopersNumbers\"]",
+      "selector_unique": true,
+      "signature": "input|number|codespacesDevelopersNumbers|Number of Developers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Monthly Usage per developer (hours)",
+      "clean_name": "codespacesDevelopersMonthlyUses",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Monthly Usage per developer (hours)",
+      "name": "codespacesDevelopersMonthlyUses",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Monthly\\ Usage\\ per\\ developer\\ \\(hours\\)\"][name=\"codespacesDevelopersMonthlyUses\"]",
+      "selector_unique": true,
+      "signature": "input|number|codespacesDevelopersMonthlyUses|Monthly Usage per developer (hours)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Stored Codespaces per dev",
+      "clean_name": "codespacesStoredCodespaces",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Stored Codespaces per dev",
+      "name": "codespacesStoredCodespaces",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Stored\\ Codespaces\\ per\\ dev\"][name=\"codespacesStoredCodespaces\"]",
+      "selector_unique": true,
+      "signature": "input|number|codespacesStoredCodespaces|Stored Codespaces per dev||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Average project size (GiB)",
+      "clean_name": "codespacesAverageProjectSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average project size (GiB)",
+      "name": "codespacesAverageProjectSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ project\\ size\\ \\(GiB\\)\"][name=\"codespacesAverageProjectSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|codespacesAverageProjectSize|Average project size (GiB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "largeFileStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "largeFileStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"largeFileStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|largeFileStorage|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "largeFileBandwidth",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "largeFileBandwidth",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"largeFileBandwidth\"]",
+      "selector_unique": true,
+      "signature": "input|number|largeFileBandwidth|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

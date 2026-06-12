@@ -1,0 +1,721 @@
+{
+  "schema_version": 2,
+  "product": "Managed Instance Apache Cassandra",
+  "slug": "managed-instance-apache-cassandra",
+  "picker_testid": "managed-instance-apache-cassandra-picker-item",
+  "module_testid": "managed-instance-apache-cassandra-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:54:00.681577+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Managed Instance for Apache Cassandra",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Managed Instance for Apache Cassandra|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "VM SKU",
+      "clean_name": "computeInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "VM SKU",
+      "name": "computeInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "D2as v5: 2 vCPUs, 8 GB RAM, $0.108/hour",
+          "value": "d2asv5"
+        },
+        {
+          "group": null,
+          "text": "D4as v5: 4 vCPUs, 16 GB RAM, $0.215/hour",
+          "value": "d4asv5"
+        },
+        {
+          "group": null,
+          "text": "D8as v5: 8 vCPUs, 32 GB RAM, $0.430/hour",
+          "value": "d8asv5"
+        },
+        {
+          "group": null,
+          "text": "D16as v5: 16 vCPUs, 64 GB RAM, $0.860/hour",
+          "value": "d16asv5"
+        },
+        {
+          "group": null,
+          "text": "D32as v5: 32 vCPUs, 128 GB RAM, $1.720/hour",
+          "value": "d32asv5"
+        },
+        {
+          "group": null,
+          "text": "D2s v5: 2 vCPUs, 8 GB RAM, $0.120/hour",
+          "value": "d2sv5"
+        },
+        {
+          "group": null,
+          "text": "D4s v5: 4 vCPUs, 16 GB RAM, $0.240/hour",
+          "value": "d4sv5"
+        },
+        {
+          "group": null,
+          "text": "D8s v5: 8 vCPUs, 32 GB RAM, $0.480/hour",
+          "value": "d8sv5"
+        },
+        {
+          "group": null,
+          "text": "D16s v5: 16 vCPUs, 64 GB RAM, $0.960/hour",
+          "value": "d16sv5"
+        },
+        {
+          "group": null,
+          "text": "D32s v5: 32 vCPUs, 128 GB RAM, $1.920/hour",
+          "value": "d32sv5"
+        },
+        {
+          "group": null,
+          "text": "D16s v4: 16 vCPUs, 64 GB RAM, $0.768/hour",
+          "value": "d16sv4"
+        },
+        {
+          "group": null,
+          "text": "D2s v4: 2 vCPUs, 8 GB RAM, $0.120/hour",
+          "value": "d2sv4"
+        },
+        {
+          "group": null,
+          "text": "D4s v4: 4 vCPUs, 16 GB RAM, $0.240/hour",
+          "value": "d4sv4"
+        },
+        {
+          "group": null,
+          "text": "D8s v4: 8 vCPUs, 32 GB RAM, $0.384/hour",
+          "value": "d8sv4"
+        },
+        {
+          "group": null,
+          "text": "D32s v4: 32 vCPUs, 128 GB RAM, $2.016/hour",
+          "value": "d32sv4"
+        },
+        {
+          "group": null,
+          "text": "DS13 v2: 8 vCPUs, 56 GB RAM, 112 GB Temporary storage, $0.741/hour",
+          "value": "ds13v2"
+        },
+        {
+          "group": null,
+          "text": "DS14 v2: 16 vCPUs, 112 GB RAM, 224 GB Temporary storage, $1.860/hour",
+          "value": "ds14v2"
+        },
+        {
+          "group": null,
+          "text": "E2as v5: 2 vCPUs, 16 GB RAM, $0.141/hour",
+          "value": "e2asv5"
+        },
+        {
+          "group": null,
+          "text": "E4as v5: 4 vCPUs, 32 GB RAM, $0.283/hour",
+          "value": "e4asv5"
+        },
+        {
+          "group": null,
+          "text": "E16as v5: 16 vCPUs, 128 GB RAM, $1.130/hour",
+          "value": "e16asv5"
+        },
+        {
+          "group": null,
+          "text": "E20as v5: 20 vCPUs, 160 GB RAM, $1.413/hour",
+          "value": "e20asv5"
+        },
+        {
+          "group": null,
+          "text": "E32as v5: 32 vCPUs, 256 GB RAM, $2.260/hour",
+          "value": "e32asv5"
+        },
+        {
+          "group": null,
+          "text": "E2s v5: 2 vCPUs, 16 GB RAM, $0.158/hour",
+          "value": "e2sv5"
+        },
+        {
+          "group": null,
+          "text": "E4s v5: 4 vCPUs, 32 GB RAM, $0.315/hour",
+          "value": "e4sv5"
+        },
+        {
+          "group": null,
+          "text": "E8as v5: 8 vCPUs, 64 GB RAM, $0.565/hour",
+          "value": "e8asv5"
+        },
+        {
+          "group": null,
+          "text": "E8s v5: 8 vCPUs, 64 GB RAM, $0.630/hour",
+          "value": "e8sv5"
+        },
+        {
+          "group": null,
+          "text": "E16s v5: 16 vCPUs, 128 GB RAM, $1.260/hour",
+          "value": "e16sv5"
+        },
+        {
+          "group": null,
+          "text": "E20s v5: 20 vCPUs, 160 GB RAM, $1.575/hour",
+          "value": "e20sv5"
+        },
+        {
+          "group": null,
+          "text": "E32s v5: 32 vCPUs, 256 GB RAM, $2.520/hour",
+          "value": "e32sv5"
+        },
+        {
+          "group": null,
+          "text": "E2s v4: 2 vCPUs, 8 GB RAM, $0.158/hour",
+          "value": "e2sv4"
+        },
+        {
+          "group": null,
+          "text": "E4s v4: 4 vCPUs, 16 GB RAM, $0.315/hour",
+          "value": "e4sv4"
+        },
+        {
+          "group": null,
+          "text": "E8 v4: 8 vCPUs, 64 GB RAM, $0.504/hour",
+          "value": "e8v4"
+        },
+        {
+          "group": null,
+          "text": "E16 v4: 16 vCPUs, 128 GB RAM, $1.008/hour",
+          "value": "e16v4"
+        },
+        {
+          "group": null,
+          "text": "E20 v4: 20 vCPUs, 160 GB RAM, $1.260/hour",
+          "value": "e20v4"
+        },
+        {
+          "group": null,
+          "text": "E32 v4: 32 vCPUs, 256 GB RAM, $2.016/hour",
+          "value": "e32v4"
+        },
+        {
+          "group": null,
+          "text": "L8as v3: 8 vCPUs, 64 GB RAM, 80 GB Temporary storage, $0.780/hour",
+          "value": "l8asv3"
+        },
+        {
+          "group": null,
+          "text": "L16as v3: 16 vCPUs, 128 GB RAM, 160 GB Temporary storage, $1.560/hour",
+          "value": "l16asv3"
+        },
+        {
+          "group": null,
+          "text": "L32as v3: 32 vCPUs, 256 GB RAM, 320 GB Temporary storage, $3.120/hour",
+          "value": "l32asv3"
+        },
+        {
+          "group": null,
+          "text": "L8s v3: 8 vCPUs, 64 GB RAM, 80 GB Temporary storage, $0.870/hour",
+          "value": "l8sv3"
+        },
+        {
+          "group": null,
+          "text": "L16s v3: 16 vCPUs, 128 GB RAM, 160 GB Temporary storage, $1.740/hour",
+          "value": "l16sv3"
+        },
+        {
+          "group": null,
+          "text": "L32s v3: 32 vCPUs, 256 GB RAM, 320 GB Temporary storage, $3.480/hour",
+          "value": "l32sv3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"VM\\ SKU\"][name=\"computeInstance\"]",
+      "selector_unique": true,
+      "signature": "select||computeInstance|VM SKU||||",
+      "tag": "select",
+      "type": null,
+      "value": "ds13v2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "VM SKUs",
+      "clean_name": "computeInstancesCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "VM SKUs",
+      "name": "computeInstancesCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"VM\\ SKUs\"][name=\"computeInstancesCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeInstancesCount|VM SKUs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "computeInstancesHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "computeInstancesHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"computeInstancesHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeInstancesHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeInstancesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeInstancesHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "computeInstancesHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "computeInstancesHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"computeInstancesHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||computeInstancesHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeInstancesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeInstancesHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Disks",
+      "clean_name": "storageInstanceCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disks",
+      "name": "storageInstanceCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Disks\"][name=\"storageInstanceCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageInstanceCount|Disks||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "computeInstancesHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "computeInstancesHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"computeInstancesHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeInstancesHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeInstancesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeInstancesHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "computeInstancesHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "computeInstancesHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"computeInstancesHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||computeInstancesHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeInstancesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeInstancesHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

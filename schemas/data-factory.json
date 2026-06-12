@@ -1,0 +1,1509 @@
+{
+  "schema_version": 2,
+  "product": "Data Factory",
+  "slug": "data-factory",
+  "picker_testid": "data-factory-picker-item",
+  "module_testid": "data-factory-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:22:40.777494+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Data Factory",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Data Factory|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Type",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Type",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Azure Data Factory V1",
+          "value": "v1"
+        },
+        {
+          "group": null,
+          "text": "Azure Data Factory V2",
+          "value": "v2"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Type\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "v2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Service type",
+      "clean_name": "serviceType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Service type",
+      "name": "serviceType",
+      "options": [
+        {
+          "group": null,
+          "text": "Data Pipeline",
+          "value": "datapipeline"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Integration Services",
+          "value": "ssis"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Service\\ type\"][name=\"serviceType\"]",
+      "selector_unique": true,
+      "signature": "select||serviceType|Service type||||",
+      "tag": "select",
+      "type": null,
+      "value": "datapipeline",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Activity Runs (in thousands)",
+      "clean_name": "azureActivityRuns",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Activity Runs (in thousands)",
+      "name": "azureActivityRuns",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Activity\\ Runs\\ \\(in\\ thousands\\)\"][name=\"azureActivityRuns\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureActivityRuns|Activity Runs (in thousands)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Orchestration and Execution",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Data integration unit hours",
+      "clean_name": "azureDataMovement",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data integration unit hours",
+      "name": "azureDataMovement",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ integration\\ unit\\ hours\"][name=\"azureDataMovement\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureDataMovement|Data integration unit hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Orchestration and Execution",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Pipeline activity execution hours",
+      "clean_name": "azurePipelineActivities",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Pipeline activity execution hours",
+      "name": "azurePipelineActivities",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Pipeline\\ activity\\ execution\\ hours\"][name=\"azurePipelineActivities\"]",
+      "selector_unique": true,
+      "signature": "input|number|azurePipelineActivities|Pipeline activity execution hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Orchestration and Execution",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "External Pipeline activity execution hours",
+      "clean_name": "azurePipelineActivitiesExternal",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "External Pipeline activity execution hours",
+      "name": "azurePipelineActivitiesExternal",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"External\\ Pipeline\\ activity\\ execution\\ hours\"][name=\"azurePipelineActivitiesExternal\"]",
+      "selector_unique": true,
+      "signature": "input|number|azurePipelineActivitiesExternal|External Pipeline activity execution hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Orchestration and Execution",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "generalPurposeInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "generalPurposeInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "8 vCores",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "16 vCores",
+          "value": "16"
+        },
+        {
+          "group": null,
+          "text": "32 vCores",
+          "value": "32"
+        },
+        {
+          "group": null,
+          "text": "48 vCores",
+          "value": "48"
+        },
+        {
+          "group": null,
+          "text": "80 vCores",
+          "value": "80"
+        },
+        {
+          "group": null,
+          "text": "144 vCores",
+          "value": "144"
+        },
+        {
+          "group": null,
+          "text": "272 vCores",
+          "value": "272"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"generalPurposeInstance\"]",
+      "selector_unique": true,
+      "signature": "select||generalPurposeInstance|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "8",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "serviceType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "serviceType",
+            "value": "ssis",
+            "text": "SQL Server Integration Services"
+          },
+          "selector": "select[aria-label=\"Instance\"][name=\"sqlServerSize\"]",
+          "name": "sqlServerSize",
+          "options": [
+            {
+              "group": null,
+              "text": "A4 V2: 4 Cores(s), 8 GB RAM, 40GB Disks, $0.8397/hour",
+              "value": "a4v2"
+            },
+            {
+              "group": null,
+              "text": "A8 V2: 8 Cores(s), 16 GB RAM, 80GB Disks, $1.7248/hour",
+              "value": "a8v2"
+            },
+            {
+              "group": null,
+              "text": "D1 V2: 1 Cores(s), 3.5 GB RAM, 50GB Disks, $0.5916/hour",
+              "value": "d1v2"
+            },
+            {
+              "group": null,
+              "text": "D2 V2: 2 Cores(s), 7 GB RAM, 100GB Disks, $0.7944/hour",
+              "value": "d2v2"
+            },
+            {
+              "group": null,
+              "text": "D2 V3: 2 Cores(s), 8 GB RAM, 50GB Disks, $0.6800/hour",
+              "value": "d2v3"
+            },
+            {
+              "group": null,
+              "text": "D3 V2: 4 Cores(s), 14 GB RAM, 200GB Disks, $1.1987/hour",
+              "value": "d3v2"
+            },
+            {
+              "group": null,
+              "text": "D4 V2: 8 Cores(s), 28 GB RAM, 400GB Disks, $2.3975/hour",
+              "value": "d4v2"
+            },
+            {
+              "group": null,
+              "text": "D4 V3: 4 Cores(s), 16 GB RAM, 100GB Disks, $0.9690/hour",
+              "value": "d4v3"
+            },
+            {
+              "group": null,
+              "text": "D8 V3: 8 Cores(s), 32 GB RAM, 200GB Disks, $1.9380/hour",
+              "value": "d8v3"
+            },
+            {
+              "group": null,
+              "text": "D16 V3: 16 Cores(s), 64 GB RAM, 400GB Disks, $3.8750/hour",
+              "value": "d16v3"
+            },
+            {
+              "group": null,
+              "text": "D32 V3: 32 Cores(s), 128 GB RAM, 800GB Disks, $7.7510/hour",
+              "value": "d32v3"
+            },
+            {
+              "group": null,
+              "text": "D64 V3: 64 Cores(s), 256 GB RAM, 1600GB Disks, $15.5020/hour",
+              "value": "d64v3"
+            },
+            {
+              "group": null,
+              "text": "E2 V3: 2 Cores(s), 16 GB RAM, 50GB Disks, $0.7870/hour",
+              "value": "e2v3"
+            },
+            {
+              "group": null,
+              "text": "E4 V3: 4 Cores(s), 32 GB RAM, 100GB Disks, $1.1840/hour",
+              "value": "e4v3"
+            },
+            {
+              "group": null,
+              "text": "E8 V3: 8 Cores(s), 64 GB RAM, 200GB Disks, $2.3680/hour",
+              "value": "e8v3"
+            },
+            {
+              "group": null,
+              "text": "E16 V3: 16 Cores(s), 128 GB RAM, 400GB Disks, $4.7360/hour",
+              "value": "e16v3"
+            },
+            {
+              "group": null,
+              "text": "E32 V3: 32 Cores(s), 256 GB RAM, 800GB Disks, $9.4710/hour",
+              "value": "e32v3"
+            },
+            {
+              "group": null,
+              "text": "E64 V3: 64 Cores(s), 432 GB RAM, 1600GB Disks, $18.2120/hour",
+              "value": "e64v3"
+            },
+            {
+              "group": null,
+              "text": "E64i V3: 64 Cores(s), 432 GB RAM, 1600GB Disks, $18.2120/hour",
+              "value": "e64iv3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "generalPurposeCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "generalPurposeCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"generalPurposeCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|generalPurposeCount|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "generalPurposeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "generalPurposeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"generalPurposeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|generalPurposeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "serviceType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "serviceType",
+            "value": "ssis",
+            "text": "SQL Server Integration Services"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"sqlServerInstanceHours\"]",
+          "name": "sqlServerInstanceHours",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "generalPurposeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "generalPurposeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"generalPurposeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||generalPurposeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "serviceType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "serviceType",
+            "value": "ssis",
+            "text": "SQL Server Integration Services"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"sqlServerInstanceHoursFactor\"]",
+          "name": "sqlServerInstanceHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "generalPurposeBillingOption",
+      "control": "radio",
+      "data_name_override": "generalPurposeBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-0187948e-8060-4fbb-b92d-4a2ddabac5ea-generalPurposeBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-0187948e-8060-4fbb-b92d-4a2ddabac5ea-generalPurposeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"generalPurposeBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|generalPurposeBillingOption||generalPurposeBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "generalPurposeBillingOption",
+      "control": "radio",
+      "data_name_override": "generalPurposeBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-0187948e-8060-4fbb-b92d-4a2ddabac5ea-generalPurposeBillingOption",
+      "label": "1 year reserved (~25% savings)",
+      "name": "radioButton-0187948e-8060-4fbb-b92d-4a2ddabac5ea-generalPurposeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"generalPurposeBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|generalPurposeBillingOption||generalPurposeBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "generalPurposeBillingOption",
+      "control": "radio",
+      "data_name_override": "generalPurposeBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-0187948e-8060-4fbb-b92d-4a2ddabac5ea-generalPurposeBillingOption",
+      "label": "3 year reserved (~35% savings)",
+      "name": "radioButton-0187948e-8060-4fbb-b92d-4a2ddabac5ea-generalPurposeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"generalPurposeBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|generalPurposeBillingOption||generalPurposeBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "memoryOptimizedInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "memoryOptimizedInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "8 vCores",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "16 vCores",
+          "value": "16"
+        },
+        {
+          "group": null,
+          "text": "32 vCores",
+          "value": "32"
+        },
+        {
+          "group": null,
+          "text": "48 vCores",
+          "value": "48"
+        },
+        {
+          "group": null,
+          "text": "80 vCores",
+          "value": "80"
+        },
+        {
+          "group": null,
+          "text": "144 vCores",
+          "value": "144"
+        },
+        {
+          "group": null,
+          "text": "272 vCores",
+          "value": "272"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"memoryOptimizedInstance\"]",
+      "selector_unique": true,
+      "signature": "select||memoryOptimizedInstance|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "8",
+      "visible": true,
+      "revealed_by": "Cluster Configuration",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Entity units (50,000 entities)",
+      "clean_name": "readWriteOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Entity units (50,000 entities)",
+      "name": "readWriteOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Entity\\ units\\ \\(50\\,000\\ entities\\)\"][name=\"readWriteOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|readWriteOperations|Entity units (50,000 entities)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Operations",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Entity units (50,000 entities)",
+      "clean_name": "monitoringOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Entity units (50,000 entities)",
+      "name": "monitoringOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Entity\\ units\\ \\(50\\,000\\ entities\\)\"][name=\"monitoringOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|monitoringOperations|Entity units (50,000 entities)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Operations",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Low frequency activities",
+      "clean_name": "cloudLowFrequency",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Low frequency activities",
+      "name": "cloudLowFrequency",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Low\\ frequency\\ activities\"][name=\"cloudLowFrequency\"]",
+      "selector_unique": true,
+      "signature": "input|number|cloudLowFrequency|Low frequency activities||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "High frequency activities",
+      "clean_name": "cloudHighFrequency",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "High frequency activities",
+      "name": "cloudHighFrequency",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"High\\ frequency\\ activities\"][name=\"cloudHighFrequency\"]",
+      "selector_unique": true,
+      "signature": "input|number|cloudHighFrequency|High frequency activities||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Re-run activities (in thousands)",
+      "clean_name": "cloudReruns",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Re-run activities (in thousands)",
+      "name": "cloudReruns",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Re-run\\ activities\\ \\(in\\ thousands\\)\"][name=\"cloudReruns\"]",
+      "selector_unique": true,
+      "signature": "input|number|cloudReruns|Re-run activities (in thousands)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Data Movement (Hours)",
+      "clean_name": "cloudDataMovement",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Movement (Hours)",
+      "name": "cloudDataMovement",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ Movement\\ \\(Hours\\)\"][name=\"cloudDataMovement\"]",
+      "selector_unique": true,
+      "signature": "input|number|cloudDataMovement|Data Movement (Hours)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Low frequency activities",
+      "clean_name": "onPremisesLowFrequency",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Low frequency activities",
+      "name": "onPremisesLowFrequency",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Low\\ frequency\\ activities\"][name=\"onPremisesLowFrequency\"]",
+      "selector_unique": true,
+      "signature": "input|number|onPremisesLowFrequency|Low frequency activities||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "High frequency activities",
+      "clean_name": "onPremisesHighFrequency",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "High frequency activities",
+      "name": "onPremisesHighFrequency",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"High\\ frequency\\ activities\"][name=\"onPremisesHighFrequency\"]",
+      "selector_unique": true,
+      "signature": "input|number|onPremisesHighFrequency|High frequency activities||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Re-run activities (in thousands)",
+      "clean_name": "onPremisesReruns",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Re-run activities (in thousands)",
+      "name": "onPremisesReruns",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Re-run\\ activities\\ \\(in\\ thousands\\)\"][name=\"onPremisesReruns\"]",
+      "selector_unique": true,
+      "signature": "input|number|onPremisesReruns|Re-run activities (in thousands)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Data Movement (Hours)",
+      "clean_name": "onPremisesDataMovement",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Movement (Hours)",
+      "name": "onPremisesDataMovement",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ Movement\\ \\(Hours\\)\"][name=\"onPremisesDataMovement\"]",
+      "selector_unique": true,
+      "signature": "input|number|onPremisesDataMovement|Data Movement (Hours)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "v1",
+          "text": "Azure Data Factory V1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "sqlServerTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "sqlServerTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Enterprise",
+          "value": "enterprise"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"sqlServerTier\"]",
+      "selector_unique": true,
+      "signature": "select||sqlServerTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "serviceType",
+          "value": "ssis",
+          "text": "SQL Server Integration Services"
+        }
+      ],
+      "depends_on": [
+        "serviceType"
+      ]
+    },
+    {
+      "aria_label": "Virtual machines",
+      "clean_name": "sqlServerInstance",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Virtual machines",
+      "name": "sqlServerInstance",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Virtual\\ machines\"][name=\"sqlServerInstance\"]",
+      "selector_unique": true,
+      "signature": "input|number|sqlServerInstance|Virtual machines||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "serviceType",
+          "value": "ssis",
+          "text": "SQL Server Integration Services"
+        }
+      ],
+      "depends_on": [
+        "serviceType"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Orchestration and Execution",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Orchestration and Execution",
+      "tag": "button",
+      "text": "Orchestration and Execution",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": "Orchestration and Execution",
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Orchestration and Execution",
+      "name": "Orchestration and Execution",
+      "options": null,
+      "placeholder": null,
+      "selector": "button[name=\"Orchestration\\ and\\ Execution\"]",
+      "selector_unique": true,
+      "signature": "button|submit|Orchestration and Execution|||||Orchestration and Execution",
+      "tag": "button",
+      "text": "Orchestration and Execution",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Orchestration and Execution",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Orchestration and Execution",
+      "tag": "button",
+      "text": "Orchestration and Execution",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cluster Configuration",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Cluster Configuration",
+      "tag": "button",
+      "text": "Cluster Configuration",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operations",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Operations",
+      "tag": "button",
+      "text": "Operations",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

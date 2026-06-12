@@ -1,0 +1,81 @@
+{
+    "estimate_name": "Three-Tier Web Application",
+    "components": [
+        {
+            "product": "App Service",
+            "name": "web-frontend",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Operating system": "Linux",
+                "Tier": "Premium V3",
+                "Instance": "P1V3",
+                "Instances": 2,
+                "hoursFactor": "Month"
+            }
+        },
+        {
+            "product": "Virtual Machines",
+            "name": "api-server",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Operating system": "Windows",
+                "Type": "(OS Only)",
+                "Tier": "Standard",
+                "instance": "D4s v5",
+                "Virtual machines": 2,
+                "computeBillingOption": "three-year",
+                "managedDiskTier": "Premium SSD",
+                "managedDiskType": "P10",
+                "managedDisks": 1
+            }
+        },
+        {
+            "product": "Azure SQL Database",
+            "name": "app-db",
+            "fields": {
+                "Type": "Single Database",
+                "Region": "Southeast Asia",
+                "Purchase Model": "vCore",
+                "Service Tier": "General Purpose",
+                "Hardware Type": "Standard-series (Gen 5)",
+                "Instance": "4 vCore",
+                "GB": 250,
+                "databaseBillingOption": "one-year"
+            }
+        },
+        {
+            "product": "Application Gateway",
+            "name": "app-gateway",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Tier": "Standard V2",
+                "hoursFactor": "Month",
+                "Compute unit(s)": 10,
+                "Persistent Connection(s)": 100,
+                "Throughput (mb/s)": 500
+            }
+        },
+        {
+            "product": "Backup",
+            "name": "vm-backup",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Type": "Azure VMs",
+                "Backup Policy Type": "Standard",
+                "VMs": 2,
+                "GB": 256,
+                "Redundancy": "GRS"
+            }
+        },
+        {
+            "product": "Bandwidth",
+            "name": "internet-egress",
+            "fields": {
+                "Data Transfer Type": "Internet Egress",
+                "Source Region": "Southeast Asia",
+                "Routed Via": "Microsoft Global Network",
+                "GB": 500
+            }
+        }
+    ]
+}

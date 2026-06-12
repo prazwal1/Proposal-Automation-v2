@@ -1,0 +1,1636 @@
+{
+  "schema_version": 2,
+  "product": "App Service",
+  "slug": "app-service",
+  "picker_testid": "app-service-picker-item",
+  "module_testid": "app-service-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:15:14.478561+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "App Service",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||App Service|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Operating system",
+      "clean_name": "type",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operating system",
+      "name": "type",
+      "options": [
+        {
+          "group": null,
+          "text": "Windows",
+          "value": "windows"
+        },
+        {
+          "group": null,
+          "text": "Linux",
+          "value": "linux"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Operating\\ system\"][name=\"type\"]",
+      "selector_unique": true,
+      "signature": "select||type|Operating system||||",
+      "tag": "select",
+      "type": null,
+      "value": "windows",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Free",
+          "value": "free"
+        },
+        {
+          "group": null,
+          "text": "Shared",
+          "value": "shared"
+        },
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Premium V2",
+          "value": "premiumv2"
+        },
+        {
+          "group": null,
+          "text": "Premium V3",
+          "value": "premiumv3"
+        },
+        {
+          "group": null,
+          "text": "Premium V4",
+          "value": "premiumv4"
+        },
+        {
+          "group": null,
+          "text": "Isolated V4",
+          "value": "isolatedv4"
+        },
+        {
+          "group": null,
+          "text": "Isolated V2 (Use for ASEv3)",
+          "value": "isolatedv2"
+        },
+        {
+          "group": null,
+          "text": "Isolated V2 (Dedicated Host)",
+          "value": "isolatedv2dedicatedhost"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "basic",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "linux",
+            "text": "Linux"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Free",
+              "value": "free"
+            },
+            {
+              "group": null,
+              "text": "Basic",
+              "value": "basic"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            },
+            {
+              "group": null,
+              "text": "Premium V2",
+              "value": "premiumv2"
+            },
+            {
+              "group": null,
+              "text": "Premium V3",
+              "value": "premiumv3"
+            },
+            {
+              "group": null,
+              "text": "Premium V4",
+              "value": "premiumv4"
+            },
+            {
+              "group": null,
+              "text": "Isolated V4",
+              "value": "isolatedv4"
+            },
+            {
+              "group": null,
+              "text": "Isolated V2 (Use for ASEv3)",
+              "value": "isolatedv2"
+            },
+            {
+              "group": null,
+              "text": "Isolated V2 (Dedicated Host)",
+              "value": "isolatedv2dedicatedhost"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "size",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "size",
+      "options": [
+        {
+          "group": null,
+          "text": "B1: 1 Cores(s), 1.75 GB RAM, 10 GB Storage, $0.075",
+          "value": "b1"
+        },
+        {
+          "group": null,
+          "text": "B2: 2 Cores(s), 3.5 GB RAM, 10 GB Storage, $0.150",
+          "value": "b2"
+        },
+        {
+          "group": null,
+          "text": "B3: 4 Cores(s), 7 GB RAM, 10 GB Storage, $0.300",
+          "value": "b3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"size\"]",
+      "selector_unique": true,
+      "signature": "select||size|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "b1",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "linux",
+            "text": "Linux"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "B1: 1 Cores(s), 1.75 GB RAM, 10 GB Storage, $0.018",
+              "value": "b1"
+            },
+            {
+              "group": null,
+              "text": "B2: 2 Cores(s), 3.5 GB RAM, 10 GB Storage, $0.036",
+              "value": "b2"
+            },
+            {
+              "group": null,
+              "text": "B3: 4 Cores(s), 7 GB RAM, 10 GB Storage, $0.071",
+              "value": "b3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "free",
+            "text": "Free"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "F1: Shared Cores(s), 1 GB RAM, 1 GB Storage, $0.000",
+              "value": "f1"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "shared",
+            "text": "Shared"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "D1: Shared Cores(s), 1 GB RAM, 1 GB Storage, $0.013",
+              "value": "d1"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "standard",
+            "text": "Standard"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "S1: 1 Cores(s), 1.75 GB RAM, 50 GB Storage, $0.100",
+              "value": "s1"
+            },
+            {
+              "group": null,
+              "text": "S2: 2 Cores(s), 3.5 GB RAM, 50 GB Storage, $0.200",
+              "value": "s2"
+            },
+            {
+              "group": null,
+              "text": "S3: 4 Cores(s), 7 GB RAM, 50 GB Storage, $0.400",
+              "value": "s3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premiumv2",
+            "text": "Premium V2"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "P1V2: 1 vCPU(s), 3.5 GB RAM, 250 GB Storage, $0.200",
+              "value": "p1v2"
+            },
+            {
+              "group": null,
+              "text": "P2V2: 2 vCPU(s), 7 GB RAM, 250 GB Storage, $0.400",
+              "value": "p2v2"
+            },
+            {
+              "group": null,
+              "text": "P3V2: 4 vCPU(s), 14 GB RAM, 250 GB Storage, $0.800",
+              "value": "p3v2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premiumv3",
+            "text": "Premium V3"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "P0V3: 1 vCPU(s), 4 GB RAM, 250 GB Storage, $0.168",
+              "value": "p0v3"
+            },
+            {
+              "group": null,
+              "text": "P1V3: 2 vCPU(s), 8 GB RAM, 250 GB Storage, $0.335",
+              "value": "p1v3"
+            },
+            {
+              "group": null,
+              "text": "P1MV3: 2 vCPU(s), 16 GB RAM, 250 GB Storage, $0.370",
+              "value": "p1mv3"
+            },
+            {
+              "group": null,
+              "text": "P2V3: 4 vCPU(s), 16 GB RAM, 250 GB Storage, $0.670",
+              "value": "p2v3"
+            },
+            {
+              "group": null,
+              "text": "P2MV3: 4 vCPU(s), 32 GB RAM, 250 GB Storage, $0.740",
+              "value": "p2mv3"
+            },
+            {
+              "group": null,
+              "text": "P3V3: 8 vCPU(s), 32 GB RAM, 250 GB Storage, $1.340",
+              "value": "p3v3"
+            },
+            {
+              "group": null,
+              "text": "P3MV3: 8 vCPU(s), 64 GB RAM, 250 GB Storage, $1.480",
+              "value": "p3mv3"
+            },
+            {
+              "group": null,
+              "text": "P4MV3: 16 vCPU(s), 128 GB RAM, 250 GB Storage, $2.960",
+              "value": "p4mv3"
+            },
+            {
+              "group": null,
+              "text": "P5MV3: 32 vCPU(s), 256 GB RAM, 250 GB Storage, $5.920",
+              "value": "p5mv3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premiumv4",
+            "text": "Premium V4"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "P0V4: 1 vCPU(s), 4 GB RAM, 250 GB Storage, $0.141",
+              "value": "p0v4"
+            },
+            {
+              "group": null,
+              "text": "P1V4: 2 vCPU(s), 8 GB RAM, 250 GB Storage, $0.282",
+              "value": "p1v4"
+            },
+            {
+              "group": null,
+              "text": "P1MV4: 2 vCPU(s), 16 GB RAM, 250 GB Storage, $0.334",
+              "value": "p1mv4"
+            },
+            {
+              "group": null,
+              "text": "P2V4: 4 vCPU(s), 16 GB RAM, 250 GB Storage, $0.564",
+              "value": "p2v4"
+            },
+            {
+              "group": null,
+              "text": "P2MV4: 4 vCPU(s), 32 GB RAM, 250 GB Storage, $0.667",
+              "value": "p2mv4"
+            },
+            {
+              "group": null,
+              "text": "P3V4: 8 vCPU(s), 32 GB RAM, 250 GB Storage, $1.128",
+              "value": "p3v4"
+            },
+            {
+              "group": null,
+              "text": "P3MV4: 8 vCPU(s), 64 GB RAM, 250 GB Storage, $1.334",
+              "value": "p3mv4"
+            },
+            {
+              "group": null,
+              "text": "P4MV4: 16 vCPU(s), 128 GB RAM, 250 GB Storage, $2.668",
+              "value": "p4mv4"
+            },
+            {
+              "group": null,
+              "text": "P5MV4: 32 vCPU(s), 256 GB RAM, 250 GB Storage, $5.335",
+              "value": "p5mv4"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "type",
+        "tier"
+      ],
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "isolatedv4",
+          "text": "Isolated V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2",
+          "text": "Isolated V2 (Use for ASEv3)"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "isolatedv4",
+            "text": "Isolated V4"
+          },
+          "selector": "input[aria-label=\"Instances\"][name=\"isolatedV4Instances\"]",
+          "name": "isolatedV4Instances",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "isolatedv2",
+            "text": "Isolated V2 (Use for ASEv3)"
+          },
+          "selector": "input[aria-label=\"Instances\"][name=\"isolatedV2StampInstances\"]",
+          "name": "isolatedV2StampInstances",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Connections",
+      "clean_name": "sniConnections",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Connections",
+      "name": "sniConnections",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Connections\"][name=\"sniConnections\"]",
+      "selector_unique": true,
+      "signature": "input|number|sniConnections|Connections||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "SSL Connections",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "free",
+          "text": "Free"
+        },
+        {
+          "field": "tier",
+          "value": "shared",
+          "text": "Shared"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv2",
+          "text": "Premium V2"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv4",
+          "text": "Isolated V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2",
+          "text": "Isolated V2 (Use for ASEv3)"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Domains",
+      "clean_name": "domains",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Domains",
+      "name": "domains",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Domains\"][name=\"domains\"]",
+      "selector_unique": true,
+      "signature": "input|number|domains|Domains||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Custom Domain and Certificates",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "free",
+          "text": "Free"
+        },
+        {
+          "field": "tier",
+          "value": "shared",
+          "text": "Shared"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv2",
+          "text": "Premium V2"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv4",
+          "text": "Isolated V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2",
+          "text": "Isolated V2 (Use for ASEv3)"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Certificates",
+      "clean_name": "standardCertificates",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Certificates",
+      "name": "standardCertificates",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Certificates\"][name=\"standardCertificates\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardCertificates|Certificates||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Custom Domain and Certificates",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "free",
+          "text": "Free"
+        },
+        {
+          "field": "tier",
+          "value": "shared",
+          "text": "Shared"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv2",
+          "text": "Premium V2"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv4",
+          "text": "Isolated V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2",
+          "text": "Isolated V2 (Use for ASEv3)"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Certificates",
+      "clean_name": "wildcardCertificates",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Certificates",
+      "name": "wildcardCertificates",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Certificates\"][name=\"wildcardCertificates\"]",
+      "selector_unique": true,
+      "signature": "input|number|wildcardCertificates|Certificates||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Custom Domain and Certificates",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "free",
+          "text": "Free"
+        },
+        {
+          "field": "tier",
+          "value": "shared",
+          "text": "Shared"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv2",
+          "text": "Premium V2"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv4",
+          "text": "Isolated V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2",
+          "text": "Isolated V2 (Use for ASEv3)"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv4",
+          "text": "Isolated V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "label": "1 year savings plan (~13% discount)",
+      "name": "radioButton-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "label": "3 year savings plan (~24% discount)",
+      "name": "radioButton-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-one-year-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "label": "1 year reserved (~25% discount)",
+      "name": "radioButton-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-three-year-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "label": "3 year reserved (~40% discount)",
+      "name": "radioButton-9691853b-045b-4422-b79e-d3b49779d8d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumv3",
+          "text": "Premium V3"
+        },
+        {
+          "field": "tier",
+          "value": "premiumv4",
+          "text": "Premium V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "INSTANCE TYPE",
+      "clean_name": "instanceType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "INSTANCE TYPE",
+      "name": "instanceType",
+      "options": [
+        {
+          "group": null,
+          "text": "I1v4: 2 vCPU(s), 8 GB RAM, 1024 GB Storage, $0.71",
+          "value": "i1v4"
+        },
+        {
+          "group": null,
+          "text": "I1mv4: 2 vCPU(s), 16 GB RAM, 1024 GB Storage, $0.83",
+          "value": "i1mv4"
+        },
+        {
+          "group": null,
+          "text": "I2v4: 4 vCPU(s), 16 GB RAM, 1024 GB Storage, $1.43",
+          "value": "i2v4"
+        },
+        {
+          "group": null,
+          "text": "I2mv4: 4 vCPU(s), 32 GB RAM, 1024 GB Storage, $1.65",
+          "value": "i2mv4"
+        },
+        {
+          "group": null,
+          "text": "I3v4: 8 vCPU(s), 32 GB RAM, 1024 GB Storage, $2.85",
+          "value": "i3v4"
+        },
+        {
+          "group": null,
+          "text": "I3mv4: 8 vCPU(s), 64 GB RAM, 1024 GB Storage, $3.30",
+          "value": "i3mv4"
+        },
+        {
+          "group": null,
+          "text": "I4v4: 16 vCPU(s), 64 GB RAM, 1024 GB Storage, $5.70",
+          "value": "i4v4"
+        },
+        {
+          "group": null,
+          "text": "I4mv4: 16 vCPU(s), 128 GB RAM, 1024 GB Storage, $6.60",
+          "value": "i4mv4"
+        },
+        {
+          "group": null,
+          "text": "I5v4: 32 vCPU(s), 128 GB RAM, 1024 GB Storage, $11.41",
+          "value": "i5v4"
+        },
+        {
+          "group": null,
+          "text": "I5mv4: 32 vCPU(s), 256 GB RAM, 1024 GB Storage, $13.21",
+          "value": "i5mv4"
+        },
+        {
+          "group": null,
+          "text": "I6v4: 64 vCPU(s), 256 GB RAM, 1024 GB Storage, $22.82",
+          "value": "i6v4"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"INSTANCE\\ TYPE\"][name=\"instanceType\"]",
+      "selector_unique": true,
+      "signature": "select||instanceType|INSTANCE TYPE||||",
+      "tag": "select",
+      "type": null,
+      "value": "i1v4",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "isolatedv4",
+          "text": "Isolated V4"
+        },
+        {
+          "field": "tier",
+          "value": "isolatedv2",
+          "text": "Isolated V2 (Use for ASEv3)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "vCPU(s)",
+      "clean_name": "isolatedV2DedicatedHostInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "vCPU(s)",
+      "name": "isolatedV2DedicatedHostInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"vCPU\\(s\\)\"][name=\"isolatedV2DedicatedHostInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|isolatedV2DedicatedHostInstances|vCPU(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "isolatedv2dedicatedhost",
+          "text": "Isolated V2 (Dedicated Host)"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "SSL Connections",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||SSL Connections",
+      "tag": "button",
+      "text": "SSL Connections",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Custom Domain and Certificates",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Custom Domain and Certificates",
+      "tag": "button",
+      "text": "Custom Domain and Certificates",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

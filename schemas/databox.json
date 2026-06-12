@@ -1,0 +1,501 @@
+{
+  "schema_version": 2,
+  "product": "Databox",
+  "slug": "databox",
+  "picker_testid": "databox-picker-item",
+  "module_testid": "databox-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:22:56.710605+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Data Box",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Data Box|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Products",
+      "clean_name": "databoxProduct",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Products",
+      "name": "databoxProduct",
+      "options": [
+        {
+          "group": null,
+          "text": "Data Box Disk",
+          "value": "databox-disk"
+        },
+        {
+          "group": null,
+          "text": "Data Box 120",
+          "value": "databox-120"
+        },
+        {
+          "group": null,
+          "text": "Data Box 525",
+          "value": "databox-525"
+        },
+        {
+          "group": null,
+          "text": "Data Box Gateway",
+          "value": "databox-gateway"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Products\"][name=\"databoxProduct\"]",
+      "selector_unique": true,
+      "signature": "select||databoxProduct|Products||||",
+      "tag": "select",
+      "type": null,
+      "value": "databox-disk",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Order",
+      "clean_name": "diskOrderProcessingFeeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Order",
+      "name": "diskOrderProcessingFeeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Order\"][name=\"diskOrderProcessingFeeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|diskOrderProcessingFeeUnits|Order||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "databoxProduct",
+          "value": "databox-120",
+          "text": "Data Box 120"
+        },
+        {
+          "field": "databoxProduct",
+          "value": "databox-525",
+          "text": "Data Box 525"
+        },
+        {
+          "field": "databoxProduct",
+          "value": "databox-gateway",
+          "text": "Data Box Gateway"
+        }
+      ],
+      "depends_on": [
+        "databoxProduct"
+      ]
+    },
+    {
+      "aria_label": "Disk",
+      "clean_name": "diskAdditionalOrdersDisks-0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disk",
+      "name": "diskAdditionalOrdersDisks-0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Disk\"][name=\"diskAdditionalOrdersDisks-0\"]",
+      "selector_unique": true,
+      "signature": "input|number|diskAdditionalOrdersDisks-0|Disk||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "databoxProduct",
+          "value": "databox-120",
+          "text": "Data Box 120"
+        },
+        {
+          "field": "databoxProduct",
+          "value": "databox-525",
+          "text": "Data Box 525"
+        },
+        {
+          "field": "databoxProduct",
+          "value": "databox-gateway",
+          "text": "Data Box Gateway"
+        }
+      ],
+      "depends_on": [
+        "databoxProduct"
+      ]
+    },
+    {
+      "aria_label": "Additional Days",
+      "clean_name": "diskAdditionalOrdersDays-0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional Days",
+      "name": "diskAdditionalOrdersDays-0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ Days\"][name=\"diskAdditionalOrdersDays-0\"]",
+      "selector_unique": true,
+      "signature": "input|number|diskAdditionalOrdersDays-0|Additional Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "databoxProduct",
+            "value": "databox-120",
+            "text": "Data Box 120"
+          },
+          "selector": "input[aria-label=\"Additional\\ Days\"][name=\"dataBox120AdditionalDays-0\"]",
+          "name": "dataBox120AdditionalDays-0",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "databoxProduct",
+            "value": "databox-525",
+            "text": "Data Box 525"
+          },
+          "selector": "input[aria-label=\"Additional\\ Days\"][name=\"dataBox525AdditionalDays-0\"]",
+          "name": "dataBox525AdditionalDays-0",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "databoxProduct"
+      ]
+    },
+    {
+      "aria_label": "Unit",
+      "clean_name": "dataBox120AdditionalUnits-0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Unit",
+      "name": "dataBox120AdditionalUnits-0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Unit\"][name=\"dataBox120AdditionalUnits-0\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataBox120AdditionalUnits-0|Unit||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "databoxProduct",
+          "value": "databox-120",
+          "text": "Data Box 120"
+        }
+      ],
+      "depends_on": [
+        "databoxProduct"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "databoxProduct",
+            "value": "databox-525",
+            "text": "Data Box 525"
+          },
+          "selector": "input[aria-label=\"Unit\"][name=\"dataBox525AdditionalUnits-0\"]",
+          "name": "dataBox525AdditionalUnits-0",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "databoxProduct",
+            "value": "databox-gateway",
+            "text": "Data Box Gateway"
+          },
+          "selector": "input[aria-label=\"Unit\"][name=\"gatewayUnits\"]",
+          "name": "gatewayUnits",
+          "options": null
+        }
+      ]
+    }
+  ],
+  "toggles": []
+}

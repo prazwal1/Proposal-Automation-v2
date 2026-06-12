@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "product": "Open Datasets",
+  "slug": "open-datasets",
+  "picker_testid": "open-datasets-picker-item",
+  "module_testid": "open-datasets-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:33:06.578298+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Open Datasets",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Open Datasets|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

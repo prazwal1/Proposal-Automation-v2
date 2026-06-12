@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "product": "Mariadb",
+  "slug": "mariadb",
+  "picker_testid": "mariadb-picker-item",
+  "module_testid": "mariadb-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:30:50.999894+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Database for MariaDB",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Database for MariaDB|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

@@ -1,0 +1,313 @@
+{
+  "schema_version": 2,
+  "product": "Defender Easm",
+  "slug": "defender-easm",
+  "picker_testid": "defender-easm-picker-item",
+  "module_testid": "defender-easm-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:50:50.450370+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Defender External Attack Surface Management",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Defender External Attack Surface Management|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "IP Addresses",
+      "clean_name": "numberOfIPAddresses",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "IP Addresses",
+      "name": "numberOfIPAddresses",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"IP\\ Addresses\"][name=\"numberOfIPAddresses\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfIPAddresses|IP Addresses||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days per month",
+      "clean_name": "daysPerMonthIPAddresses",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days per month",
+      "name": "daysPerMonthIPAddresses",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\\ per\\ month\"][name=\"daysPerMonthIPAddresses\"]",
+      "selector_unique": true,
+      "signature": "input|number|daysPerMonthIPAddresses|Days per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "30",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Domains",
+      "clean_name": "numberOfDomains",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Domains",
+      "name": "numberOfDomains",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Domains\"][name=\"numberOfDomains\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfDomains|Domains||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days per month",
+      "clean_name": "daysPerMonthDomains",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days per month",
+      "name": "daysPerMonthDomains",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\\ per\\ month\"][name=\"daysPerMonthDomains\"]",
+      "selector_unique": true,
+      "signature": "input|number|daysPerMonthDomains|Days per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "30",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hosts",
+      "clean_name": "numberOfHosts",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hosts",
+      "name": "numberOfHosts",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hosts\"][name=\"numberOfHosts\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfHosts|Hosts||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days per month",
+      "clean_name": "daysPerMonthHosts",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days per month",
+      "name": "daysPerMonthHosts",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\\ per\\ month\"][name=\"daysPerMonthHosts\"]",
+      "selector_unique": true,
+      "signature": "input|number|daysPerMonthHosts|Days per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "30",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

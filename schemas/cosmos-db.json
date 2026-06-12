@@ -1,0 +1,3235 @@
+{
+  "schema_version": 2,
+  "product": "Cosmos Db",
+  "slug": "cosmos-db",
+  "picker_testid": "cosmos-db-picker-item",
+  "module_testid": "cosmos-db-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:22:03.721872+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Cosmos DB",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Cosmos DB|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Api Choice",
+      "clean_name": "apiChoice",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Api Choice",
+      "name": "apiChoice",
+      "options": [
+        {
+          "group": null,
+          "text": "Azure Cosmos DB for NoSQL (formerly Core)",
+          "value": "azure-cosmos-db-nosql"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)",
+          "value": "azure-cosmos-db-postgresql"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB for MongoDB (RU)",
+          "value": "azure-cosmos-db-mongodb-ru"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB for MongoDB (vCore)",
+          "value": "azure-cosmos-db-mongodb-vcore"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB for Apache Cassandra",
+          "value": "azure-cosmos-db-apache-cassandra"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB for Apache Gremlin",
+          "value": "azure-cosmos-db-apache-gremlin"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB for Table",
+          "value": "azure-cosmos-db-table"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB Garnet Cache",
+          "value": "azure-cosmos-db-garnet-cache"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Api\\ Choice\"][name=\"apiChoice\"]",
+      "selector_unique": true,
+      "signature": "select||apiChoice|Api Choice||||",
+      "tag": "select",
+      "type": null,
+      "value": "azure-cosmos-db-nosql",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Database Operations",
+      "clean_name": "databaseOperation",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Database Operations",
+      "name": "databaseOperation",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard provisioned throughput (manual)",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Autoscale provisioned throughput",
+          "value": "autoscale"
+        },
+        {
+          "group": null,
+          "text": "Serverless",
+          "value": "serverless"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Database\\ Operations\"][name=\"databaseOperation\"]",
+      "selector_unique": true,
+      "signature": "select||databaseOperation|Database Operations||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Service Tier",
+      "clean_name": "serviceTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Service Tier",
+      "name": "serviceTier",
+      "options": [
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "generalpurpose"
+        },
+        {
+          "group": null,
+          "text": "Business Critical",
+          "value": "businesscritical"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Service\\ Tier\"][name=\"serviceTier\"]",
+      "selector_unique": true,
+      "signature": "select||serviceTier|Service Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "businesscritical",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-ru",
+          "text": "Azure Cosmos DB for MongoDB (RU)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-cassandra",
+          "text": "Azure Cosmos DB for Apache Cassandra"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-gremlin",
+          "text": "Azure Cosmos DB for Apache Gremlin"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-table",
+          "text": "Azure Cosmos DB for Table"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        },
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation"
+      ]
+    },
+    {
+      "aria_label": "Write Capability",
+      "clean_name": "writeCapability",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Write Capability",
+      "name": "writeCapability",
+      "options": [
+        {
+          "group": null,
+          "text": "Multi Region Write",
+          "value": "multiwrite"
+        },
+        {
+          "group": null,
+          "text": "Per Partition Automatic Failover",
+          "value": "perpartition"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Write\\ Capability\"][name=\"writeCapability\"]",
+      "selector_unique": true,
+      "signature": "select||writeCapability|Write Capability||||",
+      "tag": "select",
+      "type": null,
+      "value": "perpartition",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-ru",
+          "text": "Azure Cosmos DB for MongoDB (RU)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-cassandra",
+          "text": "Azure Cosmos DB for Apache Cassandra"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-gremlin",
+          "text": "Azure Cosmos DB for Apache Gremlin"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-table",
+          "text": "Azure Cosmos DB for Table"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        },
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation",
+        "serviceTier"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "serviceTier",
+            "value": "generalpurpose",
+            "text": "General Purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Single Write",
+              "value": "singlewrite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-512f0413-5ac8-4e05-9a68-77c94e24e24f-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-512f0413-5ac8-4e05-9a68-77c94e24e24f-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-postgresql",
+            "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+          },
+          "selector": "input[data-name-override=\"singleNodeBillingOption\"][value=\"payg\"]",
+          "name": "radioButton-512f0413-5ac8-4e05-9a68-77c94e24e24f-singleNodeBillingOption",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-one-year-512f0413-5ac8-4e05-9a68-77c94e24e24f-billingOption",
+      "label": "1 year reserved capacity",
+      "name": "radioButton-512f0413-5ac8-4e05-9a68-77c94e24e24f-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        },
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-three-year-512f0413-5ac8-4e05-9a68-77c94e24e24f-billingOption",
+      "label": "3 year reserved capacity",
+      "name": "radioButton-512f0413-5ac8-4e05-9a68-77c94e24e24f-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        },
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation"
+      ]
+    },
+    {
+      "aria_label": "RUs",
+      "clean_name": "userRequestUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "RUs",
+      "name": "userRequestUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"RUs\"][name=\"userRequestUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|userRequestUnits|RUs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        },
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-postgresql",
+            "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"workerHours\"]",
+          "name": "workerHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-garnet-cache",
+            "text": "Azure Cosmos DB Garnet Cache"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"garnetHours\"]",
+          "name": "garnetHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-postgresql",
+            "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"workerHoursFactor\"]",
+          "name": "workerHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-garnet-cache",
+            "text": "Azure Cosmos DB Garnet Cache"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"garnetHoursFactor\"]",
+          "name": "garnetHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Preferred Write Region",
+      "clean_name": "0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Preferred Write Region",
+      "name": "0",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Preferred\\ Write\\ Region\"][name=\"\\30 \"]",
+      "selector_unique": true,
+      "signature": "select||0|Preferred Write Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-ru",
+          "text": "Azure Cosmos DB for MongoDB (RU)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-cassandra",
+          "text": "Azure Cosmos DB for Apache Cassandra"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-gremlin",
+          "text": "Azure Cosmos DB for Apache Gremlin"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-table",
+          "text": "Azure Cosmos DB for Table"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        },
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        },
+        {
+          "field": "serviceTier",
+          "value": "generalpurpose",
+          "text": "General Purpose"
+        },
+        {
+          "field": "writeCapability",
+          "value": "multiwrite",
+          "text": "Multi Region Write"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation",
+        "serviceTier",
+        "writeCapability"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "userStorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "userStorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"userStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|userStorageUnits|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Backup Type",
+      "clean_name": "backupType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Backup Type",
+      "name": "backupType",
+      "options": [
+        {
+          "group": null,
+          "text": "Periodic",
+          "value": "periodic"
+        },
+        {
+          "group": null,
+          "text": "Continuous (7-day)",
+          "value": "continuous-7-day"
+        },
+        {
+          "group": null,
+          "text": "Continuous (30-day)",
+          "value": "continuous-30-day"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Backup\\ Type\"][name=\"backupType\"]",
+      "selector_unique": true,
+      "signature": "select||backupType|Backup Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "periodic",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-apache-cassandra",
+            "text": "Azure Cosmos DB for Apache Cassandra"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Periodic",
+              "value": "periodic"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-apache-gremlin",
+            "text": "Azure Cosmos DB for Apache Gremlin"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Periodic",
+              "value": "periodic"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-table",
+            "text": "Azure Cosmos DB for Table"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Periodic",
+              "value": "periodic"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "databaseOperation",
+            "value": "serverless",
+            "text": "Serverless"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Periodic",
+              "value": "periodic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Backup Copies",
+      "clean_name": "backupCopies",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Backup Copies",
+      "name": "backupCopies",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Backup\\ Copies\"][name=\"backupCopies\"]",
+      "selector_unique": true,
+      "signature": "input|number|backupCopies|Backup Copies||||",
+      "tag": "input",
+      "type": "number",
+      "value": "2",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-vcore",
+          "text": "Azure Cosmos DB for MongoDB (vCore)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        },
+        {
+          "field": "backupType",
+          "value": "continuous-7-day",
+          "text": "Continuous (7-day)"
+        },
+        {
+          "field": "backupType",
+          "value": "continuous-30-day",
+          "text": "Continuous (30-day)"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "backupType"
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "hyperscaleTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "hyperscaleTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Single Node",
+          "value": "single-node"
+        },
+        {
+          "group": null,
+          "text": "Multi Node",
+          "value": "multi-node"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"hyperscaleTier\"]",
+      "selector_unique": true,
+      "signature": "select||hyperscaleTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "single-node",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "apiChoice",
+            "value": "azure-cosmos-db-garnet-cache",
+            "text": "Azure Cosmos DB Garnet Cache"
+          },
+          "selector": "select[aria-label=\"Tier\"][name=\"garnetCacheTier\"]",
+          "name": "garnetCacheTier",
+          "options": [
+            {
+              "group": null,
+              "text": "General Purpose v6-series",
+              "value": "generalpurposev6"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurpose"
+            },
+            {
+              "group": null,
+              "text": "General Purpose Burstable",
+              "value": "generalpurposeburstable"
+            },
+            {
+              "group": null,
+              "text": "Memory Optimized v6-series",
+              "value": "memoryoptimizedv6"
+            },
+            {
+              "group": null,
+              "text": "Memory Optimized",
+              "value": "memoryoptimized"
+            },
+            {
+              "group": null,
+              "text": "Compute Optimized v6-series",
+              "value": "computeoptimizedv6"
+            },
+            {
+              "group": null,
+              "text": "Storage Optimized",
+              "value": "storageoptimized"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Compute",
+      "clean_name": "workerComputeType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Compute",
+      "name": "workerComputeType",
+      "options": [
+        {
+          "group": null,
+          "text": "1 vCore Burstable, 2 GiB RAM, $0.0191/hour",
+          "value": "burstable-worker-1"
+        },
+        {
+          "group": null,
+          "text": "2 vCore Burstable, 4 GiB RAM, $0.0764/hour",
+          "value": "burstable-worker-2"
+        },
+        {
+          "group": null,
+          "text": "2 vCore, 8 GiB RAM, $0.2205/hour",
+          "value": "worker-2"
+        },
+        {
+          "group": null,
+          "text": "4 vCore, 16 GiB RAM, $0.4409/hour",
+          "value": "worker-4"
+        },
+        {
+          "group": null,
+          "text": "8 vCore, 32 GiB RAM, $0.8819/hour",
+          "value": "worker-8"
+        },
+        {
+          "group": null,
+          "text": "16 vCore, 64 GiB RAM, $1.7637/hour",
+          "value": "worker-16"
+        },
+        {
+          "group": null,
+          "text": "32 vCore, 128 GiB RAM, $3.5274/hour",
+          "value": "worker-32"
+        },
+        {
+          "group": null,
+          "text": "64 vCore, 256 GiB RAM, $7.0548/hour",
+          "value": "worker-64"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Compute\"][name=\"workerComputeType\"]",
+      "selector_unique": true,
+      "signature": "select||workerComputeType|Compute||||",
+      "tag": "select",
+      "type": null,
+      "value": "worker-2",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "singleNodeBillingOption",
+      "control": "radio",
+      "data_name_override": "singleNodeBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-512f0413-5ac8-4e05-9a68-77c94e24e24f-singleNodeBillingOption",
+      "label": "1 year reserved (~0% savings)",
+      "name": "radioButton-512f0413-5ac8-4e05-9a68-77c94e24e24f-singleNodeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"singleNodeBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|singleNodeBillingOption||singleNodeBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "singleNodeBillingOption",
+      "control": "radio",
+      "data_name_override": "singleNodeBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-512f0413-5ac8-4e05-9a68-77c94e24e24f-singleNodeBillingOption",
+      "label": "3 year reserved (~17% savings)",
+      "name": "radioButton-512f0413-5ac8-4e05-9a68-77c94e24e24f-singleNodeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"singleNodeBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|singleNodeBillingOption||singleNodeBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Size",
+      "clean_name": "workerStorageCount",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size",
+      "name": "workerStorageCount",
+      "options": [
+        {
+          "group": null,
+          "text": "128 GiB General Purpose Storage",
+          "value": "128"
+        },
+        {
+          "group": null,
+          "text": "256 GiB General Purpose Storage",
+          "value": "256"
+        },
+        {
+          "group": null,
+          "text": "512 GiB General Purpose Storage",
+          "value": "512"
+        },
+        {
+          "group": null,
+          "text": "1 TiB General Purpose Storage",
+          "value": "1024"
+        },
+        {
+          "group": null,
+          "text": "2 TiB General Purpose Storage",
+          "value": "2048"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Size\"][name=\"workerStorageCount\"]",
+      "selector_unique": true,
+      "signature": "select||workerStorageCount|Size||||",
+      "tag": "select",
+      "type": null,
+      "value": "128",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-postgresql",
+          "text": "Azure Cosmos DB for PostgreSQL (NEW)"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Write Regions",
+      "clean_name": "requestThroughput",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Write Regions",
+      "name": "requestThroughput",
+      "options": [
+        {
+          "group": null,
+          "text": "Single Region Write (Single-Master)",
+          "value": "single"
+        },
+        {
+          "group": null,
+          "text": "Multiple Region Write (Multi-Master)",
+          "value": "multi"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Write\\ Regions\"][name=\"requestThroughput\"]",
+      "selector_unique": true,
+      "signature": "select||requestThroughput|Write Regions||||",
+      "tag": "select",
+      "type": null,
+      "value": "single",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-ru",
+          "text": "Azure Cosmos DB for MongoDB (RU)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-cassandra",
+          "text": "Azure Cosmos DB for Apache Cassandra"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-gremlin",
+          "text": "Azure Cosmos DB for Apache Gremlin"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-table",
+          "text": "Azure Cosmos DB for Table"
+        },
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Write Region",
+      "clean_name": "0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Write Region",
+      "name": "0",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Write\\ Region\"][name=\"\\30 \"]",
+      "selector_unique": true,
+      "signature": "select||0|Write Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-mongodb-ru",
+          "text": "Azure Cosmos DB for MongoDB (RU)"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-cassandra",
+          "text": "Azure Cosmos DB for Apache Cassandra"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-apache-gremlin",
+          "text": "Azure Cosmos DB for Apache Gremlin"
+        },
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-table",
+          "text": "Azure Cosmos DB for Table"
+        },
+        {
+          "field": "serviceTier",
+          "value": "generalpurpose",
+          "text": "General Purpose"
+        }
+      ],
+      "depends_on": [
+        "apiChoice",
+        "databaseOperation"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "databaseOperation",
+            "value": "serverless",
+            "text": "Serverless"
+          },
+          "selector": "select[aria-label=\"Write\\ Region\"][name=\"serverlessRegion\"]",
+          "name": "serverlessRegion",
+          "options": [
+            {
+              "group": "United States",
+              "text": "Central US",
+              "value": "us-central"
+            },
+            {
+              "group": "United States",
+              "text": "East US",
+              "value": "us-east"
+            },
+            {
+              "group": "United States",
+              "text": "East US 2",
+              "value": "us-east-2"
+            },
+            {
+              "group": "United States",
+              "text": "North Central US",
+              "value": "us-north-central"
+            },
+            {
+              "group": "United States",
+              "text": "South Central US",
+              "value": "us-south-central"
+            },
+            {
+              "group": "United States",
+              "text": "West Central US",
+              "value": "us-west-central"
+            },
+            {
+              "group": "United States",
+              "text": "West US",
+              "value": "us-west"
+            },
+            {
+              "group": "United States",
+              "text": "West US 2",
+              "value": "us-west-2"
+            },
+            {
+              "group": "United States",
+              "text": "West US 3",
+              "value": "us-west-3"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK South",
+              "value": "united-kingdom-south"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK West",
+              "value": "united-kingdom-west"
+            },
+            {
+              "group": "United Arab Emirates",
+              "text": "UAE Central",
+              "value": "uae-central"
+            },
+            {
+              "group": "United Arab Emirates",
+              "text": "UAE North",
+              "value": "uae-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland North",
+              "value": "switzerland-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland West",
+              "value": "switzerland-west"
+            },
+            {
+              "group": "Sweden",
+              "text": "Sweden Central",
+              "value": "sweden-central"
+            },
+            {
+              "group": "Sweden",
+              "text": "Sweden South",
+              "value": "sweden-south"
+            },
+            {
+              "group": "Spain",
+              "text": "Spain Central",
+              "value": "spain-central"
+            },
+            {
+              "group": "Qatar",
+              "text": "Qatar Central",
+              "value": "qatar-central"
+            },
+            {
+              "group": "Poland",
+              "text": "Poland Central",
+              "value": "poland-central"
+            },
+            {
+              "group": "Norway",
+              "text": "Norway East",
+              "value": "norway-east"
+            },
+            {
+              "group": "Norway",
+              "text": "Norway West",
+              "value": "norway-west"
+            },
+            {
+              "group": "New Zealand",
+              "text": "New Zealand North",
+              "value": "new-zealand-north"
+            },
+            {
+              "group": "Mexico",
+              "text": "Mexico Central",
+              "value": "mexico-central"
+            },
+            {
+              "group": "Malaysia",
+              "text": "Malaysia West",
+              "value": "malaysia-west"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea Central",
+              "value": "korea-central"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea South",
+              "value": "korea-south"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan East",
+              "value": "japan-east"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan West",
+              "value": "japan-west"
+            },
+            {
+              "group": "Italy",
+              "text": "Italy North",
+              "value": "italy-north"
+            },
+            {
+              "group": "Israel",
+              "text": "Israel Central",
+              "value": "israel-central"
+            },
+            {
+              "group": "Indonesia",
+              "text": "Indonesia Central",
+              "value": "indonesia-central"
+            },
+            {
+              "group": "India",
+              "text": "Central India",
+              "value": "central-india"
+            },
+            {
+              "group": "India",
+              "text": "South India",
+              "value": "south-india"
+            },
+            {
+              "group": "India",
+              "text": "West India",
+              "value": "west-india"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany North",
+              "value": "germany-north"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany West Central",
+              "value": "germany-west-central"
+            },
+            {
+              "group": "France",
+              "text": "France Central",
+              "value": "france-central"
+            },
+            {
+              "group": "France",
+              "text": "France South",
+              "value": "france-south"
+            },
+            {
+              "group": "Europe",
+              "text": "North Europe",
+              "value": "europe-north"
+            },
+            {
+              "group": "Europe",
+              "text": "West Europe",
+              "value": "europe-west"
+            },
+            {
+              "group": "Denmark",
+              "text": "Denmark East",
+              "value": "denmark-east"
+            },
+            {
+              "group": "Chile",
+              "text": "Chile Central",
+              "value": "chile-central"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada Central",
+              "value": "canada-central"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada East",
+              "value": "canada-east"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil South",
+              "value": "brazil-south"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil Southeast",
+              "value": "brazil-southeast"
+            },
+            {
+              "group": "Belgium",
+              "text": "Belgium Central",
+              "value": "belgium-central"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Arizona",
+              "value": "usgov-arizona"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Texas",
+              "value": "usgov-texas"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Virginia",
+              "value": "usgov-virginia"
+            },
+            {
+              "group": "Austria",
+              "text": "Austria East",
+              "value": "austria-east"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia Central",
+              "value": "australia-central"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia Central 2",
+              "value": "australia-central-2"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia East",
+              "value": "australia-east"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia Southeast",
+              "value": "australia-southeast"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "East Asia",
+              "value": "asia-pacific-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "Southeast Asia",
+              "value": "asia-pacific-southeast"
+            },
+            {
+              "group": "Africa",
+              "text": "South Africa North",
+              "value": "south-africa-north"
+            },
+            {
+              "group": "Africa",
+              "text": "South Africa West",
+              "value": "south-africa-west"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "SKU",
+      "clean_name": "garnetCacheComputeType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "SKU",
+      "name": "garnetCacheComputeType",
+      "options": [
+        {
+          "group": null,
+          "text": "D2, 2 vCores per node, 8 GiB per node, $0.1259/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-2"
+        },
+        {
+          "group": null,
+          "text": "D4, 4 vCores per node, 16 GiB per node, $0.2518/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-4"
+        },
+        {
+          "group": null,
+          "text": "D8, 8 vCores per node, 32 GiB per node, $0.5037/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-8"
+        },
+        {
+          "group": null,
+          "text": "D16, 16 vCores per node, 64 GiB per node, $1.0074/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-16"
+        },
+        {
+          "group": null,
+          "text": "D32, 32 vCores per node, 128 GiB per node, $2.0147/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-32"
+        },
+        {
+          "group": null,
+          "text": "D48, 48 vCores per node, 192 GiB per node, $3.0221/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-48"
+        },
+        {
+          "group": null,
+          "text": "D64, 64 vCores per node, 256 GiB per node, $4.0294/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-64"
+        },
+        {
+          "group": null,
+          "text": "D96, 96 vCores per node, 384 GiB per node, $6.0442/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-96"
+        },
+        {
+          "group": null,
+          "text": "D128, 128 vCores per node, 512 GiB per node, $8.0589/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-128"
+        },
+        {
+          "group": null,
+          "text": "D192, 192 vCores per node, 768 GiB per node, $12.0883/vCore hour",
+          "value": "garnet-cache-generalpurpose-v6-vcore-192"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"SKU\"][name=\"garnetCacheComputeType\"]",
+      "selector_unique": true,
+      "signature": "select||garnetCacheComputeType|SKU||||",
+      "tag": "select",
+      "type": null,
+      "value": "garnet-cache-generalpurpose-v6-vcore-2",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Shards",
+      "clean_name": "shards",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Shards",
+      "name": "shards",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Shards\"][name=\"shards\"]",
+      "selector_unique": true,
+      "signature": "input|number|shards|Shards||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Replication Factor",
+      "clean_name": "replicationFactor",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Replication Factor",
+      "name": "replicationFactor",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Replication\\ Factor\"][name=\"replicationFactor\"]",
+      "selector_unique": true,
+      "signature": "input|number|replicationFactor|Replication Factor||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "DISK SIZE",
+      "clean_name": "garnetCacheDiskQuantity",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "DISK SIZE",
+      "name": "garnetCacheDiskQuantity",
+      "options": [
+        {
+          "group": null,
+          "text": "P6, 64 GiB disk",
+          "value": "64"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"DISK\\ SIZE\"][name=\"garnetCacheDiskQuantity\"]",
+      "selector_unique": true,
+      "signature": "select||garnetCacheDiskQuantity|DISK SIZE||||",
+      "tag": "select",
+      "type": null,
+      "value": "64",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "apiChoice",
+          "value": "azure-cosmos-db-garnet-cache",
+          "text": "Azure Cosmos DB Garnet Cache"
+        }
+      ],
+      "depends_on": [
+        "apiChoice"
+      ]
+    },
+    {
+      "aria_label": "Average % Utilization",
+      "clean_name": "averageUtilization",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average % Utilization",
+      "name": "averageUtilization",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ \\%\\ Utilization\"][name=\"averageUtilization\"]",
+      "selector_unique": true,
+      "signature": "input|number|averageUtilization|Average % Utilization||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "databaseOperation",
+          "value": "autoscale",
+          "text": "Autoscale provisioned throughput"
+        }
+      ],
+      "depends_on": [
+        "databaseOperation"
+      ]
+    },
+    {
+      "aria_label": "x1 million RUs",
+      "clean_name": "userRequestUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1 million RUs",
+      "name": "userRequestUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\ million\\ RUs\"][name=\"userRequestUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|userRequestUnits|x1 million RUs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "databaseOperation",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "databaseOperation"
+      ]
+    },
+    {
+      "aria_label": "Primary Write Region",
+      "clean_name": "0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Primary Write Region",
+      "name": "0",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Primary\\ Write\\ Region\"][name=\"\\30 \"]",
+      "selector_unique": true,
+      "signature": "select||0|Primary Write Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "writeCapability",
+          "value": "multiwrite",
+          "text": "Multi Region Write"
+        }
+      ],
+      "depends_on": [
+        "writeCapability"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Regional Transactional Storage Costs",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Regional Transactional Storage Costs",
+      "tag": "button",
+      "text": "Regional Transactional Storage Costs",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Regional Backup Storage Costs",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Regional Backup Storage Costs",
+      "tag": "button",
+      "text": "Regional Backup Storage Costs",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

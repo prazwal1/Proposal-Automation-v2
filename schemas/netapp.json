@@ -1,0 +1,1219 @@
+{
+  "schema_version": 2,
+  "product": "Netapp",
+  "slug": "netapp",
+  "picker_testid": "netapp-picker-item",
+  "module_testid": "netapp-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:32:47.735773+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure NetApp Files",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure NetApp Files|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Service Level",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Service Level",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard Storage",
+          "value": "standard-storage"
+        },
+        {
+          "group": null,
+          "text": "Premium Storage",
+          "value": "premium-storage"
+        },
+        {
+          "group": null,
+          "text": "Ultra Storage",
+          "value": "ultra-storage"
+        },
+        {
+          "group": null,
+          "text": "Flexible Storage",
+          "value": "flexible-storage"
+        },
+        {
+          "group": null,
+          "text": "Elastic Storage (Preview)",
+          "value": "elastic-storage-preview"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Service\\ Level\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Service Level||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard-storage",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Encryption",
+      "clean_name": "encryption",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Encryption",
+      "name": "encryption",
+      "options": [
+        {
+          "group": null,
+          "text": "Single Encryption",
+          "value": "single-encryption"
+        },
+        {
+          "group": null,
+          "text": "Double Encryption",
+          "value": "double-encryption-copy"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Encryption\"][name=\"encryption\"]",
+      "selector_unique": true,
+      "signature": "select||encryption|Encryption||||",
+      "tag": "select",
+      "type": null,
+      "value": "single-encryption",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "flexible-storage",
+            "text": "Flexible Storage"
+          },
+          "selector": "select[aria-label=\"Encryption\"][name=\"flexibleEncryption\"]",
+          "name": "flexibleEncryption",
+          "options": [
+            {
+              "group": null,
+              "text": "Single Encryption",
+              "value": "single-encryption"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "elastic-storage-preview",
+            "text": "Elastic Storage (Preview)"
+          },
+          "selector": "select[aria-label=\"Encryption\"][name=\"elasticEncryption\"]",
+          "name": "elasticEncryption",
+          "options": [
+            {
+              "group": null,
+              "text": "Single Encryption",
+              "value": "single-encryption"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Cool Access",
+      "clean_name": "coolAccessStatus",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cool Access",
+      "name": "coolAccessStatus",
+      "options": [
+        {
+          "group": null,
+          "text": "No",
+          "value": "choice-type-no"
+        },
+        {
+          "group": null,
+          "text": "Yes",
+          "value": "choice-type-yes"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Cool\\ Access\"][name=\"coolAccessStatus\"]",
+      "selector_unique": true,
+      "signature": "select||coolAccessStatus|Cool Access||||",
+      "tag": "select",
+      "type": null,
+      "value": "choice-type-no",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "flexible-storage",
+            "text": "Flexible Storage"
+          },
+          "selector": "select[aria-label=\"Cool\\ Access\"][name=\"flexibleCoolAccessStatus\"]",
+          "name": "flexibleCoolAccessStatus",
+          "options": [
+            {
+              "group": null,
+              "text": "No",
+              "value": "choice-type-no"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "elastic-storage-preview",
+            "text": "Elastic Storage (Preview)"
+          },
+          "selector": "select[aria-label=\"Cool\\ Access\"][name=\"elasticCoolAccessStatus\"]",
+          "name": "elasticCoolAccessStatus",
+          "options": [
+            {
+              "group": null,
+              "text": "No",
+              "value": "choice-type-no"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "standardUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "standardUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TiB\"][name=\"standardUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardUnits|TiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium-storage",
+            "text": "Premium Storage"
+          },
+          "selector": "input[aria-label=\"TiB\"][name=\"premiumUnits\"]",
+          "name": "premiumUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultra-storage",
+            "text": "Ultra Storage"
+          },
+          "selector": "input[aria-label=\"TiB\"][name=\"ultraUnits\"]",
+          "name": "ultraUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "flexible-storage",
+            "text": "Flexible Storage"
+          },
+          "selector": "input[aria-label=\"TiB\"][name=\"flexibleStorageUnits\"]",
+          "name": "flexibleStorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "elastic-storage-preview",
+            "text": "Elastic Storage (Preview)"
+          },
+          "selector": "input[aria-label=\"TiB\"][name=\"elasticCapacityUnits\"]",
+          "name": "elasticCapacityUnits",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"standardHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium-storage",
+            "text": "Premium Storage"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"premiumHours\"]",
+          "name": "premiumHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultra-storage",
+            "text": "Ultra Storage"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"ultraHours\"]",
+          "name": "ultraHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "flexible-storage",
+            "text": "Flexible Storage"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"flexibleStorageHours\"]",
+          "name": "flexibleStorageHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "flexible-storage",
+            "text": "Flexible Storage"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"flexibleThroughputHours\"]",
+          "name": "flexibleThroughputHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "elastic-storage-preview",
+            "text": "Elastic Storage (Preview)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"elasticCapacityHours\"]",
+          "name": "elasticCapacityHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "coolAccessStatus",
+            "value": "choice-type-yes",
+            "text": "Yes"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"capacityHours\"]",
+          "name": "capacityHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "coolAccessStatus",
+            "value": "choice-type-yes",
+            "text": "Yes"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"standardCapacityHours\"]",
+          "name": "standardCapacityHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "coolAccessStatus"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"standardHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium-storage",
+            "text": "Premium Storage"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"premiumHoursFactor\"]",
+          "name": "premiumHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultra-storage",
+            "text": "Ultra Storage"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"ultraHoursFactor\"]",
+          "name": "ultraHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "flexible-storage",
+            "text": "Flexible Storage"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"flexibleStorageHoursFactor\"]",
+          "name": "flexibleStorageHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "flexible-storage",
+            "text": "Flexible Storage"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"flexibleThroughputHoursFactor\"]",
+          "name": "flexibleThroughputHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "elastic-storage-preview",
+            "text": "Elastic Storage (Preview)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"elasticCapacityHoursFactor\"]",
+          "name": "elasticCapacityHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "coolAccessStatus",
+            "value": "choice-type-yes",
+            "text": "Yes"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"capacityHoursFactor\"]",
+          "name": "capacityHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "coolAccessStatus",
+            "value": "choice-type-yes",
+            "text": "Yes"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"standardCapacityHoursFactor\"]",
+          "name": "standardCapacityHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "coolAccessStatus"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "standardStorageBillingOption",
+      "control": "radio",
+      "data_name_override": "standardStorageBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-1a4d5d11-8cac-402b-bb24-95f12141b84c-standardStorageBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-standardStorageBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"standardStorageBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|standardStorageBillingOption||standardStorageBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium-storage",
+            "text": "Premium Storage"
+          },
+          "selector": "input[data-name-override=\"premiumStorageBillingOption\"][value=\"payg\"]",
+          "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-premiumStorageBillingOption",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultra-storage",
+            "text": "Ultra Storage"
+          },
+          "selector": "input[data-name-override=\"ultraStorageBillingOption\"][value=\"payg\"]",
+          "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-ultraStorageBillingOption",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "standardStorageBillingOption",
+      "control": "radio",
+      "data_name_override": "standardStorageBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-1a4d5d11-8cac-402b-bb24-95f12141b84c-standardStorageBillingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-standardStorageBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"standardStorageBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|standardStorageBillingOption||standardStorageBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium-storage",
+            "text": "Premium Storage"
+          },
+          "selector": "input[data-name-override=\"premiumStorageBillingOption\"][value=\"one-year\"]",
+          "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-premiumStorageBillingOption",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultra-storage",
+            "text": "Ultra Storage"
+          },
+          "selector": "input[data-name-override=\"ultraStorageBillingOption\"][value=\"one-year\"]",
+          "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-ultraStorageBillingOption",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "standardStorageBillingOption",
+      "control": "radio",
+      "data_name_override": "standardStorageBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-1a4d5d11-8cac-402b-bb24-95f12141b84c-standardStorageBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-standardStorageBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"standardStorageBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|standardStorageBillingOption||standardStorageBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium-storage",
+            "text": "Premium Storage"
+          },
+          "selector": "input[data-name-override=\"premiumStorageBillingOption\"][value=\"three-year\"]",
+          "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-premiumStorageBillingOption",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultra-storage",
+            "text": "Ultra Storage"
+          },
+          "selector": "input[data-name-override=\"ultraStorageBillingOption\"][value=\"three-year\"]",
+          "name": "radioButton-1a4d5d11-8cac-402b-bb24-95f12141b84c-ultraStorageBillingOption",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Capacity pools",
+      "clean_name": "flexibleCapacityPoolUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Capacity pools",
+      "name": "flexibleCapacityPoolUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Capacity\\ pools\"][name=\"flexibleCapacityPoolUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|flexibleCapacityPoolUnits|Capacity pools||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "flexible-storage",
+          "text": "Flexible Storage"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "MiB/sec",
+      "clean_name": "flexibleThroughputUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "MiB/sec",
+      "name": "flexibleThroughputUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"MiB\\/sec\"][name=\"flexibleThroughputUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|flexibleThroughputUnits|MiB/sec||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "flexible-storage",
+          "text": "Flexible Storage"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Percentage in cool access (%)",
+      "clean_name": "percentInCoolAccess",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Percentage in cool access (%)",
+      "name": "percentInCoolAccess",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Percentage\\ in\\ cool\\ access\\ \\(\\%\\)\"][name=\"percentInCoolAccess\"]",
+      "selector_unique": true,
+      "signature": "input|number|percentInCoolAccess|Percentage in cool access (%)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "75",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "coolAccessStatus",
+          "value": "choice-type-yes",
+          "text": "Yes"
+        }
+      ],
+      "depends_on": [
+        "coolAccessStatus"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "coolAccessReadWritePercentage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cool access data read/write percentage (%)",
+      "name": "coolAccessReadWritePercentage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[name=\"coolAccessReadWritePercentage\"][type=\"number\"]",
+      "selector_unique": true,
+      "signature": "input|number|coolAccessReadWritePercentage|||||",
+      "tag": "input",
+      "type": "number",
+      "value": "20",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "coolAccessStatus",
+          "value": "choice-type-yes",
+          "text": "Yes"
+        }
+      ],
+      "depends_on": [
+        "coolAccessStatus"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "standardHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "standardHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"standardHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "standardHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "standardHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"standardHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

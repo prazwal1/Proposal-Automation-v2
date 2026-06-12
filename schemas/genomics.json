@@ -1,0 +1,168 @@
+{
+  "schema_version": 2,
+  "product": "Genomics",
+  "slug": "genomics",
+  "picker_testid": "genomics-picker-item",
+  "module_testid": "genomics-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:25:54.183363+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Microsoft Genomics",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Microsoft Genomics|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west-2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Gigabases processed per genome",
+      "clean_name": "gigabases",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Gigabases processed per genome",
+      "name": "gigabases",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Gigabases\\ processed\\ per\\ genome\"][name=\"gigabases\"]",
+      "selector_unique": true,
+      "signature": "input|number|gigabases|Gigabases processed per genome||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of genomes processed in a month",
+      "clean_name": "genomes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of genomes processed in a month",
+      "name": "genomes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ genomes\\ processed\\ in\\ a\\ month\"][name=\"genomes\"]",
+      "selector_unique": true,
+      "signature": "input|number|genomes|Number of genomes processed in a month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

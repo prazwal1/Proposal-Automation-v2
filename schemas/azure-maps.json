@@ -1,0 +1,714 @@
+{
+  "schema_version": 2,
+  "product": "Azure Maps",
+  "slug": "azure-maps",
+  "picker_testid": "azure-maps-picker-item",
+  "module_testid": "azure-maps-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:16:52.199779+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Maps",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Maps|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Pricing Tier",
+      "clean_name": "pricingTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Pricing Tier",
+      "name": "pricingTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Gen 1",
+          "value": "gen1"
+        },
+        {
+          "group": null,
+          "text": "Gen 2",
+          "value": "gen2"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Pricing\\ Tier\"][name=\"pricingTier\"]",
+      "selector_unique": true,
+      "signature": "select||pricingTier|Pricing Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "gen2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "x 1,000 Map Tile Transactions",
+      "clean_name": "gen2MapTileTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Map Tile Transactions",
+      "name": "gen2MapTileTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Map\\ Tile\\ Transactions\"][name=\"gen2MapTileTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2MapTileTransactions|x 1,000 Map Tile Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Traffic Tile Transactions",
+      "clean_name": "gen2TrafficTileTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Traffic Tile Transactions",
+      "name": "gen2TrafficTileTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Traffic\\ Tile\\ Transactions\"][name=\"gen2TrafficTileTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2TrafficTileTransactions|x 1,000 Traffic Tile Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Weather Tile Transactions",
+      "clean_name": "gen2WeatherTileTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Weather Tile Transactions",
+      "name": "gen2WeatherTileTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Weather\\ Tile\\ Transactions\"][name=\"gen2WeatherTileTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2WeatherTileTransactions|x 1,000 Weather Tile Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Imagery Tile Transactions",
+      "clean_name": "gen2ImageryTileTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Imagery Tile Transactions",
+      "name": "gen2ImageryTileTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Imagery\\ Tile\\ Transactions\"][name=\"gen2ImageryTileTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2ImageryTileTransactions|x 1,000 Imagery Tile Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Static Map Image Transactions",
+      "clean_name": "gen2StaticMapImageTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Static Map Image Transactions",
+      "name": "gen2StaticMapImageTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Static\\ Map\\ Image\\ Transactions\"][name=\"gen2StaticMapImageTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2StaticMapImageTransactions|x 1,000 Static Map Image Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Search Transactions",
+      "clean_name": "gen2SearchTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Search Transactions",
+      "name": "gen2SearchTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Search\\ Transactions\"][name=\"gen2SearchTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2SearchTransactions|x 1,000 Search Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Route Transactions",
+      "clean_name": "gen2RouteTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Route Transactions",
+      "name": "gen2RouteTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Route\\ Transactions\"][name=\"gen2RouteTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2RouteTransactions|x 1,000 Route Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Traffic Data Transactions",
+      "clean_name": "gen2TrafficDataTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Traffic Data Transactions",
+      "name": "gen2TrafficDataTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Traffic\\ Data\\ Transactions\"][name=\"gen2TrafficDataTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2TrafficDataTransactions|x 1,000 Traffic Data Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Time Zone Transactions",
+      "clean_name": "gen2TimeZoneTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Time Zone Transactions",
+      "name": "gen2TimeZoneTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Time\\ Zone\\ Transactions\"][name=\"gen2TimeZoneTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2TimeZoneTransactions|x 1,000 Time Zone Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Geolocation Transactions",
+      "clean_name": "gen2GeolocationTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Geolocation Transactions",
+      "name": "gen2GeolocationTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Geolocation\\ Transactions\"][name=\"gen2GeolocationTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2GeolocationTransactions|x 1,000 Geolocation Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Weather Service Transactions",
+      "clean_name": "gen2WeatherServiceTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Weather Service Transactions",
+      "name": "gen2WeatherServiceTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Weather\\ Service\\ Transactions\"][name=\"gen2WeatherServiceTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2WeatherServiceTransactions|x 1,000 Weather Service Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Spatial Operation Transactions",
+      "clean_name": "gen2SpatialOperationTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Spatial Operation Transactions",
+      "name": "gen2SpatialOperationTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Spatial\\ Operation\\ Transactions\"][name=\"gen2SpatialOperationTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2SpatialOperationTransactions|x 1,000 Spatial Operation Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 Data Upload Transactions",
+      "clean_name": "gen2DataUploadTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 Data Upload Transactions",
+      "name": "gen2DataUploadTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ Data\\ Upload\\ Transactions\"][name=\"gen2DataUploadTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|gen2DataUploadTransactions|x 1,000 Data Upload Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "pricingTier",
+          "value": "gen1",
+          "text": "Gen 1"
+        }
+      ],
+      "depends_on": [
+        "pricingTier"
+      ]
+    }
+  ],
+  "toggles": []
+}

@@ -1,0 +1,1488 @@
+{
+  "schema_version": 2,
+  "product": "Frontdoor Standard Premium",
+  "slug": "frontdoor-standard-premium",
+  "picker_testid": "frontdoor-standard-premium-picker-item",
+  "module_testid": "frontdoor-standard-premium-module",
+  "category": null,
+  "learned_at": "2026-06-12T17:03:40.589863+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Front Door",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Front Door|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Azure Front Door (Classic)",
+          "value": "frontdoor"
+        },
+        {
+          "group": null,
+          "text": "Azure Front Door Standard",
+          "value": "frontdoorstandard"
+        },
+        {
+          "group": null,
+          "text": "Azure Front Door Premium",
+          "value": "frontdoorpremium"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "frontdoor",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Zone",
+      "clean_name": "outboundDataTransferZones-0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Zone",
+      "name": "outboundDataTransferZones-0",
+      "options": [
+        {
+          "group": null,
+          "text": "North America, Europe, Middle East and Africa",
+          "value": "classiczone1"
+        },
+        {
+          "group": null,
+          "text": "Asia Pacific (including Japan)",
+          "value": "classiczone2"
+        },
+        {
+          "group": null,
+          "text": "South America",
+          "value": "classiczone3"
+        },
+        {
+          "group": null,
+          "text": "Australia",
+          "value": "classiczone4"
+        },
+        {
+          "group": null,
+          "text": "India",
+          "value": "classiczone5"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Zone\"][name=\"outboundDataTransferZones-0\"]",
+      "selector_unique": true,
+      "signature": "select||outboundDataTransferZones-0|Zone||||",
+      "tag": "select",
+      "type": null,
+      "value": "classiczone1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorstandard",
+            "text": "Azure Front Door Standard"
+          },
+          "selector": "select[aria-label=\"Zone\"][name=\"zone\"]",
+          "name": "zone",
+          "options": [
+            {
+              "group": null,
+              "text": "North America",
+              "value": "zone1"
+            },
+            {
+              "group": null,
+              "text": "Asia Pacific (including Japan)",
+              "value": "zone2"
+            },
+            {
+              "group": null,
+              "text": "South America",
+              "value": "zone3"
+            },
+            {
+              "group": null,
+              "text": "Australia",
+              "value": "zone4"
+            },
+            {
+              "group": null,
+              "text": "India",
+              "value": "zone5"
+            },
+            {
+              "group": null,
+              "text": "Europe",
+              "value": "zone6"
+            },
+            {
+              "group": null,
+              "text": "Middle East and Africa",
+              "value": "zone7"
+            },
+            {
+              "group": null,
+              "text": "Korea",
+              "value": "zone8"
+            },
+            {
+              "group": null,
+              "text": "US Gov Zone 1",
+              "value": "usgov-zone1"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorpremium",
+            "text": "Azure Front Door Premium"
+          },
+          "selector": "select[aria-label=\"Zone\"][name=\"zone\"]",
+          "name": "zone",
+          "options": [
+            {
+              "group": null,
+              "text": "North America",
+              "value": "zone1"
+            },
+            {
+              "group": null,
+              "text": "Asia Pacific (including Japan)",
+              "value": "zone2"
+            },
+            {
+              "group": null,
+              "text": "South America",
+              "value": "zone3"
+            },
+            {
+              "group": null,
+              "text": "Australia",
+              "value": "zone4"
+            },
+            {
+              "group": null,
+              "text": "India",
+              "value": "zone5"
+            },
+            {
+              "group": null,
+              "text": "Europe",
+              "value": "zone6"
+            },
+            {
+              "group": null,
+              "text": "Middle East and Africa",
+              "value": "zone7"
+            },
+            {
+              "group": null,
+              "text": "Korea",
+              "value": "zone8"
+            },
+            {
+              "group": null,
+              "text": "US Gov Zone 1",
+              "value": "usgov-zone1"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "outboundDataTransferZones-0"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "outboundDataTransferZones-0",
+            "value": "classiczone2",
+            "text": "Asia Pacific (including Japan)"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Asia Pacific (including Japan)",
+              "value": "classiczone2"
+            },
+            {
+              "group": null,
+              "text": "North America, Europe, Middle East and Africa",
+              "value": "classiczone1"
+            },
+            {
+              "group": null,
+              "text": "South America",
+              "value": "classiczone3"
+            },
+            {
+              "group": null,
+              "text": "Australia",
+              "value": "classiczone4"
+            },
+            {
+              "group": null,
+              "text": "India",
+              "value": "classiczone5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "outboundDataTransferZones-0",
+            "value": "classiczone3",
+            "text": "South America"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "South America",
+              "value": "classiczone3"
+            },
+            {
+              "group": null,
+              "text": "North America, Europe, Middle East and Africa",
+              "value": "classiczone1"
+            },
+            {
+              "group": null,
+              "text": "Asia Pacific (including Japan)",
+              "value": "classiczone2"
+            },
+            {
+              "group": null,
+              "text": "Australia",
+              "value": "classiczone4"
+            },
+            {
+              "group": null,
+              "text": "India",
+              "value": "classiczone5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "outboundDataTransferZones-0",
+            "value": "classiczone4",
+            "text": "Australia"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Australia",
+              "value": "classiczone4"
+            },
+            {
+              "group": null,
+              "text": "North America, Europe, Middle East and Africa",
+              "value": "classiczone1"
+            },
+            {
+              "group": null,
+              "text": "Asia Pacific (including Japan)",
+              "value": "classiczone2"
+            },
+            {
+              "group": null,
+              "text": "South America",
+              "value": "classiczone3"
+            },
+            {
+              "group": null,
+              "text": "India",
+              "value": "classiczone5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "outboundDataTransferZones-0",
+            "value": "classiczone5",
+            "text": "India"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "India",
+              "value": "classiczone5"
+            },
+            {
+              "group": null,
+              "text": "North America, Europe, Middle East and Africa",
+              "value": "classiczone1"
+            },
+            {
+              "group": null,
+              "text": "Asia Pacific (including Japan)",
+              "value": "classiczone2"
+            },
+            {
+              "group": null,
+              "text": "South America",
+              "value": "classiczone3"
+            },
+            {
+              "group": null,
+              "text": "Australia",
+              "value": "classiczone4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "outboundDataTransferUnits-0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "outboundDataTransferUnits-0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"outboundDataTransferUnits-0\"]",
+      "selector_unique": true,
+      "signature": "input|number|outboundDataTransferUnits-0|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorstandard",
+            "text": "Azure Front Door Standard"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"internetEgressCount\"]",
+          "name": "internetEgressCount",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorstandard",
+            "text": "Azure Front Door Standard"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"internetIngressCount\"]",
+          "name": "internetIngressCount",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorpremium",
+            "text": "Azure Front Door Premium"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"internetEgressCount\"]",
+          "name": "internetEgressCount",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorpremium",
+            "text": "Azure Front Door Premium"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"internetIngressCount\"]",
+          "name": "internetIngressCount",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "outboundDataTransferUnitsFactor-0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "outboundDataTransferUnitsFactor-0",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"outboundDataTransferUnitsFactor-0\"]",
+      "selector_unique": true,
+      "signature": "select||outboundDataTransferUnitsFactor-0|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorstandard",
+            "text": "Azure Front Door Standard"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"internetEgressFactor\"]",
+          "name": "internetEgressFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorstandard",
+            "text": "Azure Front Door Standard"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"internetIngressFactor\"]",
+          "name": "internetIngressFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorpremium",
+            "text": "Azure Front Door Premium"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"internetEgressFactor\"]",
+          "name": "internetEgressFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "frontdoorpremium",
+            "text": "Azure Front Door Premium"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"internetIngressFactor\"]",
+          "name": "internetIngressFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "inboundUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "inboundUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"inboundUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|inboundUnits|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        },
+        {
+          "field": "inboundUnitsFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "inboundUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "inboundUnitsFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "inboundUnitsFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"inboundUnitsFactor\"]",
+      "selector_unique": true,
+      "signature": "select||inboundUnitsFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        },
+        {
+          "field": "inboundUnitsFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "inboundUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "Routing rules",
+      "clean_name": "routingUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Routing rules",
+      "name": "routingUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Routing\\ rules\"][name=\"routingUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|routingUnits|Routing rules||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "routingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "routingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"routingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|routingHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        },
+        {
+          "field": "routingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "routingHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "routingHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "routingHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"routingHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||routingHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        },
+        {
+          "field": "routingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "routingHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Routing rules",
+      "clean_name": "additionalRoutingUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Routing rules",
+      "name": "additionalRoutingUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Routing\\ rules\"][name=\"additionalRoutingUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|additionalRoutingUnits|Routing rules||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "additionalRoutingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "additionalRoutingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"additionalRoutingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|additionalRoutingHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        },
+        {
+          "field": "additionalRoutingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "additionalRoutingHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "additionalRoutingHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "additionalRoutingHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"additionalRoutingHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||additionalRoutingHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        },
+        {
+          "field": "additionalRoutingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "additionalRoutingHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Domains",
+      "clean_name": "additionalDomainUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Domains",
+      "name": "additionalDomainUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Domains\"][name=\"additionalDomainUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|additionalDomainUnits|Domains||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Policies",
+      "clean_name": "policyUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Policies",
+      "name": "policyUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Policies\"][name=\"policyUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|policyUnits|Policies||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Rules",
+      "clean_name": "customRules",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Rules",
+      "name": "customRules",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Rules\"][name=\"customRules\"]",
+      "selector_unique": true,
+      "signature": "input|number|customRules|Rules||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Requests processed (in millions)",
+      "clean_name": "customRequestUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Requests processed (in millions)",
+      "name": "customRequestUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Requests\\ processed\\ \\(in\\ millions\\)\"][name=\"customRequestUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|customRequestUnits|Requests processed (in millions)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Default Rulesets",
+      "clean_name": "managedRulesetUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Default Rulesets",
+      "name": "managedRulesetUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Default\\ Rulesets\"][name=\"managedRulesetUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|managedRulesetUnits|Default Rulesets||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Requests processed (in millions)",
+      "clean_name": "managedRulesetRequests",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Requests processed (in millions)",
+      "name": "managedRulesetRequests",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Requests\\ processed\\ \\(in\\ millions\\)\"][name=\"managedRulesetRequests\"]",
+      "selector_unique": true,
+      "signature": "input|number|managedRulesetRequests|Requests processed (in millions)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "x1,000 CAPTCHA sessions",
+      "clean_name": "captchaPremium",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 CAPTCHA sessions",
+      "name": "captchaPremium",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ CAPTCHA\\ sessions\"][name=\"captchaPremium\"]",
+      "selector_unique": true,
+      "signature": "input|number|captchaPremium|x1,000 CAPTCHA sessions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "x10,000 Requests",
+      "clean_name": "standardPremiumRequests",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x10,000 Requests",
+      "name": "standardPremiumRequests",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x10\\,000\\ Requests\"][name=\"standardPremiumRequests\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardPremiumRequests|x10,000 Requests||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "frontdoorstandard",
+          "text": "Azure Front Door Standard"
+        },
+        {
+          "field": "tier",
+          "value": "frontdoorpremium",
+          "text": "Azure Front Door Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "outboundDataTransferUnits-0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "outboundDataTransferUnits-0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"outboundDataTransferUnits-0\"]",
+      "selector_unique": true,
+      "signature": "input|number|outboundDataTransferUnits-0|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "outboundDataTransferUnitsFactor-0",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "outboundDataTransferUnitsFactor-0"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "outboundDataTransferUnitsFactor-0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "outboundDataTransferUnitsFactor-0",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"outboundDataTransferUnitsFactor-0\"]",
+      "selector_unique": true,
+      "signature": "select||outboundDataTransferUnitsFactor-0|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "outboundDataTransferUnitsFactor-0",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "outboundDataTransferUnitsFactor-0"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "inboundUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "inboundUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"inboundUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|inboundUnits|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "inboundUnitsFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "inboundUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "inboundUnitsFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "inboundUnitsFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"inboundUnitsFactor\"]",
+      "selector_unique": true,
+      "signature": "select||inboundUnitsFactor|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "inboundUnitsFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "inboundUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "routingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "routingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"routingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|routingHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "routingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "routingHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "routingHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "routingHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"routingHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||routingHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "routingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "routingHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "additionalRoutingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "additionalRoutingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"additionalRoutingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|additionalRoutingHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "additionalRoutingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "additionalRoutingHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "additionalRoutingHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "additionalRoutingHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"additionalRoutingHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||additionalRoutingHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "additionalRoutingHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "additionalRoutingHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

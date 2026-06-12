@@ -1,0 +1,426 @@
+{
+  "schema_version": 2,
+  "product": "Lab Services",
+  "slug": "lab-services",
+  "picker_testid": "lab-services-picker-item",
+  "module_testid": "lab-services-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:29:05.346718+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Lab Services",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Lab Services|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "size",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "size",
+      "options": [
+        {
+          "group": null,
+          "text": "Classroom Small: 2 Cores(s), 3.5 GB RAM, 20 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-small"
+        },
+        {
+          "group": null,
+          "text": "Classroom Medium: 4 Cores(s), 7 GB RAM, 42 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-medium"
+        },
+        {
+          "group": null,
+          "text": "Classroom Medium (Nested Virtualization): 4 Cores(s), 16 GB RAM, 55 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-medium-2"
+        },
+        {
+          "group": null,
+          "text": "Classroom Small GPU (Compute): 6 Cores(s), 56 GB RAM, 139 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-small-gpu-compute"
+        },
+        {
+          "group": null,
+          "text": "Classroom Small GPU (Visualization): 6 Cores(s), 56 GB RAM, 160 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-small-gpu-visualization"
+        },
+        {
+          "group": null,
+          "text": "Classroom Large (Nested Virtualization): 8 Cores(s), 32 GB RAM, 84 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-large"
+        },
+        {
+          "group": null,
+          "text": "Classroom Large: 8 Cores(s), 16 GB RAM, 70 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-large-2"
+        },
+        {
+          "group": null,
+          "text": "Classroom Medium GPU (Visualization): 12 Cores(s), 112 GB RAM, 408 Lab Units, $0.010 per hour per Lab Unit",
+          "value": "classroom-medium-gpu"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"size\"]",
+      "selector_unique": true,
+      "signature": "select||size|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "classroom-small",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instance\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|Instance||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

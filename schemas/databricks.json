@@ -1,0 +1,1492 @@
+{
+  "schema_version": 2,
+  "product": "Databricks",
+  "slug": "databricks",
+  "picker_testid": "databricks-picker-item",
+  "module_testid": "databricks-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:23:23.591658+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Databricks",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Databricks|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Workload",
+      "clean_name": "workload",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Workload",
+      "name": "workload",
+      "options": [
+        {
+          "group": null,
+          "text": "All-Purpose Compute with Photon",
+          "value": "all-purpose-compute-with-photon"
+        },
+        {
+          "group": null,
+          "text": "All-Purpose Compute",
+          "value": "all-purpose-compute"
+        },
+        {
+          "group": null,
+          "text": "Automated Serverless Compute",
+          "value": "automated-serverless-compute"
+        },
+        {
+          "group": null,
+          "text": "Spark Declarative Pipeline with Photon",
+          "value": "spark-declarative-pipeline-with-photon"
+        },
+        {
+          "group": null,
+          "text": "Spark Declarative Pipeline",
+          "value": "spark-declarative-pipeline"
+        },
+        {
+          "group": null,
+          "text": "Interactive Serverless Compute",
+          "value": "interactive-serverless-compute"
+        },
+        {
+          "group": null,
+          "text": "Jobs Compute with Photon",
+          "value": "jobs-compute-with-photon"
+        },
+        {
+          "group": null,
+          "text": "Jobs Compute",
+          "value": "jobs-compute"
+        },
+        {
+          "group": null,
+          "text": "Jobs Light Compute",
+          "value": "jobs-light-compute"
+        },
+        {
+          "group": null,
+          "text": "SQL Compute",
+          "value": "sql-compute"
+        },
+        {
+          "group": null,
+          "text": "SQL Pro Compute",
+          "value": "sql-pro-compute"
+        },
+        {
+          "group": null,
+          "text": "Serverless SQL",
+          "value": "sql-serverless"
+        },
+        {
+          "group": null,
+          "text": "Database Serverless Compute",
+          "value": "database-serverless-compute"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Workload\"][name=\"workload\"]",
+      "selector_unique": true,
+      "signature": "select||workload|Workload||||",
+      "tag": "select",
+      "type": null,
+      "value": "all-purpose-compute",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Premium",
+          "value": "premium"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "premium",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "category",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "category",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "General purpose",
+          "value": "generalpurpose"
+        },
+        {
+          "group": null,
+          "text": "GPU",
+          "value": "gpu"
+        },
+        {
+          "group": null,
+          "text": "Memory optimized",
+          "value": "memoryoptimized"
+        },
+        {
+          "group": null,
+          "text": "Storage optimized",
+          "value": "storageoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"category\"]",
+      "selector_unique": true,
+      "signature": "select||category|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "instanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "instanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "Da v4-series",
+          "value": "dav4"
+        },
+        {
+          "group": null,
+          "text": "Dadsv5-series",
+          "value": "dadsv5"
+        },
+        {
+          "group": null,
+          "text": "Dadsv6-series",
+          "value": "dadsv6"
+        },
+        {
+          "group": null,
+          "text": "Das v4-series",
+          "value": "dasv4"
+        },
+        {
+          "group": null,
+          "text": "Dasv5-series",
+          "value": "dasv5"
+        },
+        {
+          "group": null,
+          "text": "DCasv5-series",
+          "value": "dcasv5"
+        },
+        {
+          "group": null,
+          "text": "Dd v4-series",
+          "value": "ddv4"
+        },
+        {
+          "group": null,
+          "text": "Dds v4-series",
+          "value": "ddsv4"
+        },
+        {
+          "group": null,
+          "text": "Ddsv5-series",
+          "value": "ddsv5"
+        },
+        {
+          "group": null,
+          "text": "Ddsv6-series",
+          "value": "ddsv6"
+        },
+        {
+          "group": null,
+          "text": "Dpdsv6-series",
+          "value": "dpdsv6"
+        },
+        {
+          "group": null,
+          "text": "Dpsv6-series",
+          "value": "dpsv6"
+        },
+        {
+          "group": null,
+          "text": "Dsv2-series",
+          "value": "dsv2"
+        },
+        {
+          "group": null,
+          "text": "Dsv3-series",
+          "value": "dsv3"
+        },
+        {
+          "group": null,
+          "text": "Dsv5-series",
+          "value": "dsv5"
+        },
+        {
+          "group": null,
+          "text": "Dv2-series",
+          "value": "dv2"
+        },
+        {
+          "group": null,
+          "text": "Dv3-series",
+          "value": "dv3"
+        },
+        {
+          "group": null,
+          "text": "Ea v4-series",
+          "value": "eav4"
+        },
+        {
+          "group": null,
+          "text": "Eadsv5-series",
+          "value": "eadsv5"
+        },
+        {
+          "group": null,
+          "text": "Eadsv6-series",
+          "value": "eadsv6"
+        },
+        {
+          "group": null,
+          "text": "Eas v4-series",
+          "value": "easv4"
+        },
+        {
+          "group": null,
+          "text": "Easv5-series",
+          "value": "easv5"
+        },
+        {
+          "group": null,
+          "text": "ECadsv5-series",
+          "value": "ecadsv5"
+        },
+        {
+          "group": null,
+          "text": "ECasv5-series",
+          "value": "ecasv5"
+        },
+        {
+          "group": null,
+          "text": "Ed v4-series",
+          "value": "edv4"
+        },
+        {
+          "group": null,
+          "text": "Eds v4-series",
+          "value": "edsv4"
+        },
+        {
+          "group": null,
+          "text": "Edsv5-series",
+          "value": "edsv5"
+        },
+        {
+          "group": null,
+          "text": "Edsv6-series",
+          "value": "edsv6"
+        },
+        {
+          "group": null,
+          "text": "Epdsv6-series",
+          "value": "epdsv6"
+        },
+        {
+          "group": null,
+          "text": "Epsv6-series",
+          "value": "epsv6"
+        },
+        {
+          "group": null,
+          "text": "Esv3-series",
+          "value": "esv3"
+        },
+        {
+          "group": null,
+          "text": "Esv4-series",
+          "value": "esv4"
+        },
+        {
+          "group": null,
+          "text": "Esv5-series",
+          "value": "esv5"
+        },
+        {
+          "group": null,
+          "text": "Ev3-series",
+          "value": "ev3"
+        },
+        {
+          "group": null,
+          "text": "Lasv3-series",
+          "value": "lasv3"
+        },
+        {
+          "group": null,
+          "text": "Ls-series",
+          "value": "ls"
+        },
+        {
+          "group": null,
+          "text": "Lsv3-series",
+          "value": "lsv3"
+        },
+        {
+          "group": null,
+          "text": "NC A100 v4-series",
+          "value": "nca100v4"
+        },
+        {
+          "group": null,
+          "text": "NC_T4_v3-series",
+          "value": "ncast4v3"
+        },
+        {
+          "group": null,
+          "text": "NCads H100 v5-series",
+          "value": "ncadsh100v5"
+        },
+        {
+          "group": null,
+          "text": "NCsv3-series",
+          "value": "ncsv3"
+        },
+        {
+          "group": null,
+          "text": "NDsrH100v5-series",
+          "value": "ndsrv5"
+        },
+        {
+          "group": null,
+          "text": "NVads A10 v5-series",
+          "value": "nvv5"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"instanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||instanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "category",
+            "value": "generalpurpose",
+            "text": "General purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Da v4-series",
+              "value": "dav4"
+            },
+            {
+              "group": null,
+              "text": "Dadsv5-series",
+              "value": "dadsv5"
+            },
+            {
+              "group": null,
+              "text": "Dadsv6-series",
+              "value": "dadsv6"
+            },
+            {
+              "group": null,
+              "text": "Das v4-series",
+              "value": "dasv4"
+            },
+            {
+              "group": null,
+              "text": "Dasv5-series",
+              "value": "dasv5"
+            },
+            {
+              "group": null,
+              "text": "DCasv5-series",
+              "value": "dcasv5"
+            },
+            {
+              "group": null,
+              "text": "Dd v4-series",
+              "value": "ddv4"
+            },
+            {
+              "group": null,
+              "text": "Dds v4-series",
+              "value": "ddsv4"
+            },
+            {
+              "group": null,
+              "text": "Ddsv5-series",
+              "value": "ddsv5"
+            },
+            {
+              "group": null,
+              "text": "Ddsv6-series",
+              "value": "ddsv6"
+            },
+            {
+              "group": null,
+              "text": "Dpdsv6-series",
+              "value": "dpdsv6"
+            },
+            {
+              "group": null,
+              "text": "Dpsv6-series",
+              "value": "dpsv6"
+            },
+            {
+              "group": null,
+              "text": "Dsv2-series",
+              "value": "dsv2"
+            },
+            {
+              "group": null,
+              "text": "Dsv3-series",
+              "value": "dsv3"
+            },
+            {
+              "group": null,
+              "text": "Dsv5-series",
+              "value": "dsv5"
+            },
+            {
+              "group": null,
+              "text": "Dv2-series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "Dv3-series",
+              "value": "dv3"
+            },
+            {
+              "group": null,
+              "text": "ECadsv5-series",
+              "value": "ecadsv5"
+            },
+            {
+              "group": null,
+              "text": "ECasv5-series",
+              "value": "ecasv5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "gpu",
+            "text": "GPU"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "NC A100 v4-series",
+              "value": "nca100v4"
+            },
+            {
+              "group": null,
+              "text": "NC_T4_v3-series",
+              "value": "ncast4v3"
+            },
+            {
+              "group": null,
+              "text": "NCads H100 v5-series",
+              "value": "ncadsh100v5"
+            },
+            {
+              "group": null,
+              "text": "NCsv3-series",
+              "value": "ncsv3"
+            },
+            {
+              "group": null,
+              "text": "NDsrH100v5-series",
+              "value": "ndsrv5"
+            },
+            {
+              "group": null,
+              "text": "NVads A10 v5-series",
+              "value": "nvv5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "memoryoptimized",
+            "text": "Memory optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Dsv2-series",
+              "value": "dsv2"
+            },
+            {
+              "group": null,
+              "text": "Dv2-series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "Ea v4-series",
+              "value": "eav4"
+            },
+            {
+              "group": null,
+              "text": "Eadsv5-series",
+              "value": "eadsv5"
+            },
+            {
+              "group": null,
+              "text": "Eadsv6-series",
+              "value": "eadsv6"
+            },
+            {
+              "group": null,
+              "text": "Eas v4-series",
+              "value": "easv4"
+            },
+            {
+              "group": null,
+              "text": "Easv5-series",
+              "value": "easv5"
+            },
+            {
+              "group": null,
+              "text": "Ed v4-series",
+              "value": "edv4"
+            },
+            {
+              "group": null,
+              "text": "Eds v4-series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5-series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Edsv6-series",
+              "value": "edsv6"
+            },
+            {
+              "group": null,
+              "text": "Epdsv6-series",
+              "value": "epdsv6"
+            },
+            {
+              "group": null,
+              "text": "Epsv6-series",
+              "value": "epsv6"
+            },
+            {
+              "group": null,
+              "text": "Esv3-series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv4-series",
+              "value": "esv4"
+            },
+            {
+              "group": null,
+              "text": "Esv5-series",
+              "value": "esv5"
+            },
+            {
+              "group": null,
+              "text": "Ev3-series",
+              "value": "ev3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "storageoptimized",
+            "text": "Storage optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Lasv3-series",
+              "value": "lasv3"
+            },
+            {
+              "group": null,
+              "text": "Ls-series",
+              "value": "ls"
+            },
+            {
+              "group": null,
+              "text": "Lsv3-series",
+              "value": "lsv3"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "category"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": null,
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": "size",
+      "label": "Instance: (Need help finding the right VM?)",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": "#size",
+      "selector_unique": true,
+      "signature": "input|text||||||",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Virtual machines",
+      "clean_name": "count",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Virtual machines",
+      "name": "count",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Virtual\\ machines\"][name=\"count\"]",
+      "selector_unique": true,
+      "signature": "input|number|count|Virtual machines||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "label": "1 year savings plan (~31% savings)",
+      "name": "radioButton-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "label": "3 year savings plan (~53% savings)",
+      "name": "radioButton-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "label": "1 year reserved (~39% savings)",
+      "name": "radioButton-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-f61981c0-7042-48e4-ba68-fead3b01e7f8-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dbuHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dbuHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"dbuHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|dbuHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dbuHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dbuHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dbuHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dbuHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"dbuHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dbuHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dbuHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dbuHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "dbuHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "dbuHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"dbuHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|dbuHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dbuHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dbuHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "dbuHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "dbuHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"dbuHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dbuHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dbuHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dbuHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

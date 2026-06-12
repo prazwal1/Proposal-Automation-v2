@@ -1,0 +1,768 @@
+{
+  "schema_version": 2,
+  "product": "Cdn",
+  "slug": "cdn",
+  "picker_testid": "cdn-picker-item",
+  "module_testid": "cdn-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:19:41.473138+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Content Delivery Network",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Content Delivery Network|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Provider",
+      "clean_name": "provider",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Provider",
+      "name": "provider",
+      "options": [
+        {
+          "group": null,
+          "text": "Microsoft (classic)",
+          "value": "microsoft"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Provider\"][name=\"provider\"]",
+      "selector_unique": true,
+      "signature": "select||provider|Provider||||",
+      "tag": "select",
+      "type": null,
+      "value": "microsoft",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zone1",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zone1",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"zone1\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone1|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneOneStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneOneStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zoneOneStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zoneOneStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"zoneOneStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneOneStorageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneOneStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneOneStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zone2",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zone2",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"zone2\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone2|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneTwoStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneTwoStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zoneTwoStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zoneTwoStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"zoneTwoStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneTwoStorageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneTwoStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneTwoStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zone3",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zone3",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"zone3\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone3|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneThreeStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneThreeStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zoneThreeStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zoneThreeStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"zoneThreeStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneThreeStorageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneThreeStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneThreeStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zone4",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zone4",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"zone4\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone4|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneFourStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFourStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zoneFourStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zoneFourStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"zoneFourStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneFourStorageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneFourStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFourStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zone5",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zone5",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"zone5\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone5|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneFiveStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFiveStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "zoneFiveStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "zoneFiveStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"zoneFiveStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneFiveStorageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "zoneFiveStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFiveStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zone1",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zone1",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"zone1\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone1|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneOneStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneOneStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zoneOneStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zoneOneStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"zoneOneStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneOneStorageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneOneStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneOneStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zone2",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zone2",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"zone2\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone2|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneTwoStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneTwoStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zoneTwoStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zoneTwoStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"zoneTwoStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneTwoStorageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneTwoStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneTwoStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zone3",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zone3",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"zone3\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone3|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneThreeStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneThreeStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zoneThreeStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zoneThreeStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"zoneThreeStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneThreeStorageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneThreeStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneThreeStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zone4",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zone4",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"zone4\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone4|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneFourStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFourStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zoneFourStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zoneFourStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"zoneFourStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneFourStorageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneFourStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFourStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zone5",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zone5",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"zone5\"]",
+      "selector_unique": true,
+      "signature": "input|number|zone5|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneFiveStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFiveStorageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "zoneFiveStorageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "zoneFiveStorageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"zoneFiveStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||zoneFiveStorageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "zoneFiveStorageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "zoneFiveStorageUnits"
+      ]
+    }
+  ],
+  "toggles": []
+}

@@ -1,0 +1,523 @@
+{
+  "schema_version": 2,
+  "product": "Power Bi Embedded",
+  "slug": "power-bi-embedded",
+  "picker_testid": "power-bi-embedded-picker-item",
+  "module_testid": "power-bi-embedded-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:34:43.216717+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Power BI Embedded",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Power BI Embedded|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east-2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Node type",
+      "clean_name": "size",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Node type",
+      "name": "size",
+      "options": [
+        {
+          "group": null,
+          "text": "A1: 1 Virtual Core(s), 3GB RAM, $1.008",
+          "value": "a1"
+        },
+        {
+          "group": null,
+          "text": "A2: 2 Virtual Core(s), 5GB RAM, $2.008",
+          "value": "a2"
+        },
+        {
+          "group": null,
+          "text": "A3: 4 Virtual Core(s), 10GB RAM, $4.024",
+          "value": "a3"
+        },
+        {
+          "group": null,
+          "text": "A4: 8 Virtual Core(s), 25GB RAM, $8.057",
+          "value": "a4"
+        },
+        {
+          "group": null,
+          "text": "A5: 16 Virtual Core(s), 50GB RAM, $16.121",
+          "value": "a5"
+        },
+        {
+          "group": null,
+          "text": "A6: 32 Virtual Core(s), 100GB RAM, $32.251",
+          "value": "a6"
+        },
+        {
+          "group": null,
+          "text": "A7: 64 Virtual Core(s), 200GB RAM, $NaN",
+          "value": "a7"
+        },
+        {
+          "group": null,
+          "text": "A8: 128 Virtual Core(s), 400GB RAM, $NaN",
+          "value": "a8"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Node\\ type\"][name=\"size\"]",
+      "selector_unique": true,
+      "signature": "select||size|Node type||||",
+      "tag": "select",
+      "type": null,
+      "value": "a1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Nodes",
+      "clean_name": "nodes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Nodes",
+      "name": "nodes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Nodes\"][name=\"nodes\"]",
+      "selector_unique": true,
+      "signature": "input|number|nodes|Nodes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "size",
+          "value": "a7",
+          "text": "A7: 64 Virtual Core(s), 200GB RAM, $NaN"
+        },
+        {
+          "field": "size",
+          "value": "a8",
+          "text": "A8: 128 Virtual Core(s), 400GB RAM, $NaN"
+        }
+      ],
+      "depends_on": [
+        "size"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "size",
+          "value": "a7",
+          "text": "A7: 64 Virtual Core(s), 200GB RAM, $NaN"
+        },
+        {
+          "field": "size",
+          "value": "a8",
+          "text": "A8: 128 Virtual Core(s), 400GB RAM, $NaN"
+        },
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "size",
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "size",
+          "value": "a7",
+          "text": "A7: 64 Virtual Core(s), 200GB RAM, $NaN"
+        },
+        {
+          "field": "size",
+          "value": "a8",
+          "text": "A8: 128 Virtual Core(s), 400GB RAM, $NaN"
+        },
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "size",
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

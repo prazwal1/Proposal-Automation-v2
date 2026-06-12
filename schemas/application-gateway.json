@@ -1,0 +1,1616 @@
+{
+  "schema_version": 2,
+  "product": "Application Gateway",
+  "slug": "application-gateway",
+  "picker_testid": "application-gateway-picker-item",
+  "module_testid": "application-gateway-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:15:33.826112+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Application Gateway",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Application Gateway|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic V1",
+          "value": "basicv1"
+        },
+        {
+          "group": null,
+          "text": "Web Application Firewall V1",
+          "value": "wafv1"
+        },
+        {
+          "group": null,
+          "text": "Basic V2",
+          "value": "basicv2"
+        },
+        {
+          "group": null,
+          "text": "Standard V2",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Web Application Firewall V2",
+          "value": "wafv2"
+        },
+        {
+          "group": null,
+          "text": "Application Gateway for Containers",
+          "value": "containers"
+        },
+        {
+          "group": null,
+          "text": "Application Gateway for Containers with WAF",
+          "value": "containerswaf"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "basicv1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Size",
+      "clean_name": "size",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size",
+      "name": "size",
+      "options": [
+        {
+          "group": null,
+          "text": "Small",
+          "value": "small"
+        },
+        {
+          "group": null,
+          "text": "Medium",
+          "value": "medium"
+        },
+        {
+          "group": null,
+          "text": "Large",
+          "value": "large"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Size\"][name=\"size\"]",
+      "selector_unique": true,
+      "signature": "select||size|Size||||",
+      "tag": "select",
+      "type": null,
+      "value": "small",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "wafv1",
+            "text": "Web Application Firewall V1"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Medium",
+              "value": "medium"
+            },
+            {
+              "group": null,
+              "text": "Large",
+              "value": "large"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "basicv2",
+          "text": "Basic V2"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard V2"
+        },
+        {
+          "field": "tier",
+          "value": "wafv2",
+          "text": "Web Application Firewall V2"
+        },
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        },
+        {
+          "field": "tier",
+          "value": "containerswaf",
+          "text": "Application Gateway for Containers with WAF"
+        }
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "basicv2",
+          "text": "Basic V2"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard V2"
+        },
+        {
+          "field": "tier",
+          "value": "wafv2",
+          "text": "Web Application Firewall V2"
+        },
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        },
+        {
+          "field": "tier",
+          "value": "containerswaf",
+          "text": "Application Gateway for Containers with WAF"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"gatewayContainersHours\"]",
+          "name": "gatewayContainersHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"frontEndsHours\"]",
+          "name": "frontEndsHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"associationHours\"]",
+          "name": "associationHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"capacityHours\"]",
+          "name": "capacityHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"gatewayContainersWafHours\"]",
+          "name": "gatewayContainersWafHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"frontEndsWafHours\"]",
+          "name": "frontEndsWafHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"associationWafHours\"]",
+          "name": "associationWafHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"capacityWafHours\"]",
+          "name": "capacityWafHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"gatewayContainersHoursFactor\"]",
+          "name": "gatewayContainersHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"frontEndsHoursFactor\"]",
+          "name": "frontEndsHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"associationHoursFactor\"]",
+          "name": "associationHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containers",
+            "text": "Application Gateway for Containers"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"capacityHoursFactor\"]",
+          "name": "capacityHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"gatewayContainersWafHoursFactor\"]",
+          "name": "gatewayContainersWafHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"frontEndsWafHoursFactor\"]",
+          "name": "frontEndsWafHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"associationWafHoursFactor\"]",
+          "name": "associationWafHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"capacityWafHoursFactor\"]",
+          "name": "capacityWafHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "dataUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "dataUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"dataUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataUnits|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "basicv2",
+          "text": "Basic V2"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard V2"
+        },
+        {
+          "field": "tier",
+          "value": "wafv2",
+          "text": "Web Application Firewall V2"
+        },
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        },
+        {
+          "field": "tier",
+          "value": "containerswaf",
+          "text": "Application Gateway for Containers with WAF"
+        },
+        {
+          "field": "processedUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "processedUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "processedUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "processedUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"processedUnits\"]",
+      "selector_unique": true,
+      "signature": "select||processedUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "basicv2",
+          "text": "Basic V2"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard V2"
+        },
+        {
+          "field": "tier",
+          "value": "wafv2",
+          "text": "Web Application Firewall V2"
+        },
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        },
+        {
+          "field": "tier",
+          "value": "containerswaf",
+          "text": "Application Gateway for Containers with WAF"
+        },
+        {
+          "field": "processedUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "processedUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "units",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "units",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"units\"]",
+      "selector_unique": true,
+      "signature": "input|number|units|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        },
+        {
+          "field": "tier",
+          "value": "containerswaf",
+          "text": "Application Gateway for Containers with WAF"
+        },
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "storageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "storageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||storageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        },
+        {
+          "field": "tier",
+          "value": "containerswaf",
+          "text": "Application Gateway for Containers with WAF"
+        },
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "Compute unit(s)",
+      "clean_name": "computeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Compute unit(s)",
+      "name": "computeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Compute\\ unit\\(s\\)\"][name=\"computeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeUnits|Compute unit(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "basicv2",
+          "text": "Basic V2"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard V2"
+        },
+        {
+          "field": "tier",
+          "value": "wafv2",
+          "text": "Web Application Firewall V2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Persistent Connection(s)",
+      "clean_name": "persistentConnections",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Persistent Connection(s)",
+      "name": "persistentConnections",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Persistent\\ Connection\\(s\\)\"][name=\"persistentConnections\"]",
+      "selector_unique": true,
+      "signature": "input|number|persistentConnections|Persistent Connection(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "basicv2",
+          "text": "Basic V2"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard V2"
+        },
+        {
+          "field": "tier",
+          "value": "wafv2",
+          "text": "Web Application Firewall V2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Throughput (mb/s)",
+      "clean_name": "throughput",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Throughput (mb/s)",
+      "name": "throughput",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Throughput\\ \\(mb\\/s\\)\"][name=\"throughput\"]",
+      "selector_unique": true,
+      "signature": "input|number|throughput|Throughput (mb/s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "basicv2",
+          "text": "Basic V2"
+        },
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard V2"
+        },
+        {
+          "field": "tier",
+          "value": "wafv2",
+          "text": "Web Application Firewall V2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Quantity",
+      "clean_name": "gatewayContainersInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Quantity",
+      "name": "gatewayContainersInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Quantity\"][name=\"gatewayContainersInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|gatewayContainersInstances|Quantity||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Quantity\"][name=\"gatewayContainersWafInstances\"]",
+          "name": "gatewayContainersWafInstances",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Quantity\"][name=\"frontEndsWafInstances\"]",
+          "name": "frontEndsWafInstances",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Quantity\"][name=\"associationWafInstances\"]",
+          "name": "associationWafInstances",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "containerswaf",
+            "text": "Application Gateway for Containers with WAF"
+          },
+          "selector": "input[aria-label=\"Quantity\"][name=\"capacityWafInstances\"]",
+          "name": "capacityWafInstances",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Quantity",
+      "clean_name": "frontEndsInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Quantity",
+      "name": "frontEndsInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Quantity\"][name=\"frontEndsInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|frontEndsInstances|Quantity||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Quantity",
+      "clean_name": "associationInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Quantity",
+      "name": "associationInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Quantity\"][name=\"associationInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|associationInstances|Quantity||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Quantity",
+      "clean_name": "capacityInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Quantity",
+      "name": "capacityInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Quantity\"][name=\"capacityInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|capacityInstances|Quantity||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "containers",
+          "text": "Application Gateway for Containers"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "dataUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "dataUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"dataUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataUnits|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "processedUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "processedUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "processedUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "processedUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"processedUnits\"]",
+      "selector_unique": true,
+      "signature": "select||processedUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "processedUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "processedUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "units",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "units",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"units\"]",
+      "selector_unique": true,
+      "signature": "input|number|units|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "storageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "storageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||storageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "storageUnits"
+      ]
+    }
+  ],
+  "toggles": []
+}

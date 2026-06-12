@@ -1,0 +1,1579 @@
+{
+  "schema_version": 2,
+  "product": "Expressroute",
+  "slug": "expressroute",
+  "picker_testid": "expressroute-picker-item",
+  "module_testid": "expressroute-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:25:10.997227+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure ExpressRoute",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure ExpressRoute|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Product",
+      "clean_name": "product",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Product",
+      "name": "product",
+      "options": [
+        {
+          "group": null,
+          "text": "ExpressRoute",
+          "value": "expressRoute"
+        },
+        {
+          "group": null,
+          "text": "ExpressRoute Direct",
+          "value": "expressRouteDirect"
+        },
+        {
+          "group": null,
+          "text": "ExpressRoute Metro",
+          "value": "expressRouteMetro"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Product\"][name=\"product\"]",
+      "selector_unique": true,
+      "signature": "select||product|Product||||",
+      "tag": "select",
+      "type": null,
+      "value": "expressRoute",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Zone",
+      "clean_name": "zone",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Zone",
+      "name": "zone",
+      "options": [
+        {
+          "group": null,
+          "text": "Zone 1",
+          "value": "zone1"
+        },
+        {
+          "group": null,
+          "text": "Zone 2",
+          "value": "zone2"
+        },
+        {
+          "group": null,
+          "text": "Zone 3",
+          "value": "zone3"
+        },
+        {
+          "group": null,
+          "text": "Zone 4",
+          "value": "zone4"
+        },
+        {
+          "group": null,
+          "text": "US Gov Zone 1",
+          "value": "usgov-zone1"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Zone\"][name=\"zone\"]",
+      "selector_unique": true,
+      "signature": "select||zone|Zone||||",
+      "tag": "select",
+      "type": null,
+      "value": "zone1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "SKU",
+      "clean_name": "skuSelection",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "SKU",
+      "name": "skuSelection",
+      "options": [
+        {
+          "group": null,
+          "text": "Local",
+          "value": "local"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Premium",
+          "value": "premium"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"SKU\"][name=\"skuSelection\"]",
+      "selector_unique": true,
+      "signature": "select||skuSelection|SKU||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteDirect",
+            "text": "ExpressRoute Direct"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Premium",
+              "value": "premium"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteMetro",
+            "text": "ExpressRoute Metro"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Premium",
+              "value": "premium"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "product"
+      ]
+    },
+    {
+      "aria_label": "Data plan",
+      "clean_name": "plan",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data plan",
+      "name": "plan",
+      "options": [
+        {
+          "group": null,
+          "text": "Metered",
+          "value": "metered"
+        },
+        {
+          "group": null,
+          "text": "Unlimited",
+          "value": "unlimited"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Data\\ plan\"][name=\"plan\"]",
+      "selector_unique": true,
+      "signature": "select||plan|Data plan||||",
+      "tag": "select",
+      "type": null,
+      "value": "metered",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteMetro",
+            "text": "ExpressRoute Metro"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Metered",
+              "value": "metered"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "product",
+        "skuSelection"
+      ],
+      "absent_when": [
+        {
+          "field": "skuSelection",
+          "value": "local",
+          "text": "Local"
+        }
+      ]
+    },
+    {
+      "aria_label": "Circuit speed",
+      "clean_name": "portSpeed",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Circuit speed",
+      "name": "portSpeed",
+      "options": [
+        {
+          "group": null,
+          "text": "50 Mbps $55.00/month",
+          "value": "50mbps"
+        },
+        {
+          "group": null,
+          "text": "100 Mbps $110.00/month",
+          "value": "100mbps"
+        },
+        {
+          "group": null,
+          "text": "200 Mbps $145.00/month",
+          "value": "200mbps"
+        },
+        {
+          "group": null,
+          "text": "500 Mbps $290.00/month",
+          "value": "500mbps"
+        },
+        {
+          "group": null,
+          "text": "1 Gbps $436.00/month",
+          "value": "1gbps"
+        },
+        {
+          "group": null,
+          "text": "2 Gbps $872.00/month",
+          "value": "2gbps"
+        },
+        {
+          "group": null,
+          "text": "5 Gbps $2,180.00/month",
+          "value": "5gbps"
+        },
+        {
+          "group": null,
+          "text": "10 Gbps $3,400.00/month",
+          "value": "10gbps"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Circuit\\ speed\"][name=\"portSpeed\"]",
+      "selector_unique": true,
+      "signature": "select||portSpeed|Circuit speed||||",
+      "tag": "select",
+      "type": null,
+      "value": "50mbps",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteDirect",
+            "text": "ExpressRoute Direct"
+          },
+          "selector": "select[aria-label=\"Circuit\\ speed\"][name=\"directCircuits\\[0\\]\\.speed\"]",
+          "name": "directCircuits[0].speed",
+          "options": [
+            {
+              "group": null,
+              "text": "1 Gbps $700.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $1,500.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $2,000.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $3,000.00/month",
+              "value": "10gbps"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteMetro",
+            "text": "ExpressRoute Metro"
+          },
+          "selector": "select[aria-label=\"Circuit\\ speed\"][name=\"metroCircuits\\[0\\]\\.speed\"]",
+          "name": "metroCircuits[0].speed",
+          "options": [
+            {
+              "group": null,
+              "text": "1 Gbps $700.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $1,500.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $2,000.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $3,000.00/month",
+              "value": "10gbps"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "product",
+        "zone",
+        "skuSelection"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "zone",
+            "value": "zone2",
+            "text": "Zone 2"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "50 Mbps $155.00/month",
+              "value": "50mbps"
+            },
+            {
+              "group": null,
+              "text": "100 Mbps $275.00/month",
+              "value": "100mbps"
+            },
+            {
+              "group": null,
+              "text": "200 Mbps $445.00/month",
+              "value": "200mbps"
+            },
+            {
+              "group": null,
+              "text": "500 Mbps $1,090.00/month",
+              "value": "500mbps"
+            },
+            {
+              "group": null,
+              "text": "1 Gbps $1,886.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $3,122.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $5,180.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $6,400.00/month",
+              "value": "10gbps"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "zone",
+            "value": "zone3",
+            "text": "Zone 3"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "50 Mbps $155.00/month",
+              "value": "50mbps"
+            },
+            {
+              "group": null,
+              "text": "100 Mbps $275.00/month",
+              "value": "100mbps"
+            },
+            {
+              "group": null,
+              "text": "200 Mbps $445.00/month",
+              "value": "200mbps"
+            },
+            {
+              "group": null,
+              "text": "500 Mbps $1,090.00/month",
+              "value": "500mbps"
+            },
+            {
+              "group": null,
+              "text": "1 Gbps $1,886.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $3,122.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $5,180.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $6,400.00/month",
+              "value": "10gbps"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "zone",
+            "value": "zone4",
+            "text": "Zone 4"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "50 Mbps $155.00/month",
+              "value": "50mbps"
+            },
+            {
+              "group": null,
+              "text": "100 Mbps $275.00/month",
+              "value": "100mbps"
+            },
+            {
+              "group": null,
+              "text": "200 Mbps $445.00/month",
+              "value": "200mbps"
+            },
+            {
+              "group": null,
+              "text": "500 Mbps $1,090.00/month",
+              "value": "500mbps"
+            },
+            {
+              "group": null,
+              "text": "1 Gbps $1,886.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $3,122.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $5,180.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $6,400.00/month",
+              "value": "10gbps"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "zone",
+            "value": "usgov-zone1",
+            "text": "US Gov Zone 1"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "50 Mbps $164.00/month",
+              "value": "50mbps"
+            },
+            {
+              "group": null,
+              "text": "100 Mbps $265.00/month",
+              "value": "100mbps"
+            },
+            {
+              "group": null,
+              "text": "200 Mbps $365.00/month",
+              "value": "200mbps"
+            },
+            {
+              "group": null,
+              "text": "500 Mbps $865.00/month",
+              "value": "500mbps"
+            },
+            {
+              "group": null,
+              "text": "1 Gbps $1,480.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $2,965.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $6,475.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $8,000.00/month",
+              "value": "10gbps"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "skuSelection",
+            "value": "local",
+            "text": "Local"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "1 Gbps $1,200.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $2,200.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $3,600.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $5,500.00/month",
+              "value": "10gbps"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "skuSelection",
+            "value": "premium",
+            "text": "Premium"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "50 Mbps $375.00/month",
+              "value": "50mbps"
+            },
+            {
+              "group": null,
+              "text": "100 Mbps $675.00/month",
+              "value": "100mbps"
+            },
+            {
+              "group": null,
+              "text": "200 Mbps $1,300.00/month",
+              "value": "200mbps"
+            },
+            {
+              "group": null,
+              "text": "500 Mbps $3,150.00/month",
+              "value": "500mbps"
+            },
+            {
+              "group": null,
+              "text": "1 Gbps $6,450.00/month",
+              "value": "1gbps"
+            },
+            {
+              "group": null,
+              "text": "2 Gbps $12,900.00/month",
+              "value": "2gbps"
+            },
+            {
+              "group": null,
+              "text": "5 Gbps $28,650.00/month",
+              "value": "5gbps"
+            },
+            {
+              "group": null,
+              "text": "10 Gbps $54,300.00/month",
+              "value": "10gbps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Circuit(s)",
+      "clean_name": "circuits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Circuit(s)",
+      "name": "circuits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Circuit\\(s\\)\"][name=\"circuits\"]",
+      "selector_unique": true,
+      "signature": "input|number|circuits|Circuit(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteDirect",
+            "text": "ExpressRoute Direct"
+          },
+          "selector": "input[aria-label=\"Circuit\\(s\\)\"][name=\"directCircuits\\[0\\]\\.count\"]",
+          "name": "directCircuits[0].count",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteMetro",
+            "text": "ExpressRoute Metro"
+          },
+          "selector": "input[aria-label=\"Circuit\\(s\\)\"][name=\"metroCircuits\\[0\\]\\.count\"]",
+          "name": "metroCircuits[0].count",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "product"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "units",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "units",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"units\"]",
+      "selector_unique": true,
+      "signature": "input|number|units|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "skuSelection",
+          "value": "local",
+          "text": "Local"
+        },
+        {
+          "field": "skuSelection",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "skuSelection",
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "storageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "storageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||storageUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "skuSelection",
+          "value": "local",
+          "text": "Local"
+        },
+        {
+          "field": "skuSelection",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "skuSelection",
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "ExpressRoute Gateways",
+      "clean_name": "gatewayValue",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "ExpressRoute Gateways",
+      "name": "gatewayValue",
+      "options": [
+        {
+          "group": null,
+          "text": "Virtual Network Gateways",
+          "value": "virtual-network-gateways"
+        },
+        {
+          "group": null,
+          "text": "Availability Zones",
+          "value": "availability-zones"
+        },
+        {
+          "group": null,
+          "text": "Scalable Gateway",
+          "value": "scalable-gateway"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"ExpressRoute\\ Gateways\"][name=\"gatewayValue\"]",
+      "selector_unique": true,
+      "signature": "select||gatewayValue|ExpressRoute Gateways||||",
+      "tag": "select",
+      "type": null,
+      "value": "virtual-network-gateways",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Gateway Type",
+      "clean_name": "gatewayTypeValue",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Gateway Type",
+      "name": "gatewayTypeValue",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard VNet Gateway",
+          "value": "virtual-network-standard-gateway"
+        },
+        {
+          "group": null,
+          "text": "High Performance VNet Gateway",
+          "value": "virtual-network-high-performance-gateway"
+        },
+        {
+          "group": null,
+          "text": "Ultra Performance VNet Gateway",
+          "value": "virtual-network-ultra-performance-gateway"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Gateway\\ Type\"][name=\"gatewayTypeValue\"]",
+      "selector_unique": true,
+      "signature": "select||gatewayTypeValue|Gateway Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "virtual-network-standard-gateway",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "gatewayValue",
+            "value": "availability-zones",
+            "text": "Availability Zones"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "ErGw1AZ",
+              "value": "gateway-ergw1az"
+            },
+            {
+              "group": null,
+              "text": "ErGw2AZ",
+              "value": "gateway-ergw2az"
+            },
+            {
+              "group": null,
+              "text": "ErGw3AZ",
+              "value": "gateway-ergw3az"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "gatewayValue",
+            "value": "scalable-gateway",
+            "text": "Scalable Gateway"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "ErGwScale",
+              "value": "gateway-ergwscale"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "gatewayValue"
+      ]
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "expressRouteGatewayHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "expressRouteGatewayHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"expressRouteGatewayHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|expressRouteGatewayHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "expressRouteGatewayHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "expressRouteGatewayHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "expressRouteGatewayHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "expressRouteGatewayHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"expressRouteGatewayHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||expressRouteGatewayHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "expressRouteGatewayHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "expressRouteGatewayHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Port pair speed",
+      "clean_name": "portPairSpeed",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Port pair speed",
+      "name": "portPairSpeed",
+      "options": [
+        {
+          "group": null,
+          "text": "10 Gbps $6,000.00/month",
+          "value": "10gbps"
+        },
+        {
+          "group": null,
+          "text": "100 Gbps $50,000.00/month",
+          "value": "100gbps"
+        },
+        {
+          "group": null,
+          "text": "400 Gbps $150,000.00/month",
+          "value": "400gbps"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Port\\ pair\\ speed\"][name=\"portPairSpeed\"]",
+      "selector_unique": true,
+      "signature": "select||portPairSpeed|Port pair speed||||",
+      "tag": "select",
+      "type": null,
+      "value": "10gbps",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "product",
+          "value": "expressRouteDirect",
+          "text": "ExpressRoute Direct"
+        }
+      ],
+      "depends_on": [
+        "product"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "product",
+            "value": "expressRouteMetro",
+            "text": "ExpressRoute Metro"
+          },
+          "selector": "select[aria-label=\"Port\\ pair\\ speed\"][name=\"metroPortPairSpeed\"]",
+          "name": "metroPortPairSpeed",
+          "options": [
+            {
+              "group": null,
+              "text": "10 Gbps $3,300.00/month",
+              "value": "10gbps"
+            },
+            {
+              "group": null,
+              "text": "100 Gbps $33,000.00/month",
+              "value": "100gbps"
+            },
+            {
+              "group": null,
+              "text": "400 Gbps $125,000.00/month",
+              "value": "400gbps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "units",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "units",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"units\"]",
+      "selector_unique": true,
+      "signature": "input|number|units|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "storageUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "storageUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "select||storageUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "storageUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "storageUnits"
+      ]
+    },
+    {
+      "aria_label": "Gbps",
+      "clean_name": "scalableBandwidth",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Gbps",
+      "name": "scalableBandwidth",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Gbps\"][name=\"scalableBandwidth\"]",
+      "selector_unique": true,
+      "signature": "input|number|scalableBandwidth|Gbps||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "gatewayValue",
+          "value": "scalable-gateway",
+          "text": "Scalable Gateway"
+        }
+      ],
+      "depends_on": [
+        "gatewayValue"
+      ]
+    },
+    {
+      "aria_label": "Gbps",
+      "clean_name": "scalableBandwidthFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Gbps",
+      "name": "scalableBandwidthFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Gbps",
+          "value": "1"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Gbps\"][name=\"scalableBandwidthFactor\"]",
+      "selector_unique": true,
+      "signature": "select||scalableBandwidthFactor|Gbps||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "gatewayValue",
+          "value": "scalable-gateway",
+          "text": "Scalable Gateway"
+        }
+      ],
+      "depends_on": [
+        "gatewayValue"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "expressRouteGatewayHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "expressRouteGatewayHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"expressRouteGatewayHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|expressRouteGatewayHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "expressRouteGatewayHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "expressRouteGatewayHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "expressRouteGatewayHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "expressRouteGatewayHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"expressRouteGatewayHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||expressRouteGatewayHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "expressRouteGatewayHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "expressRouteGatewayHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

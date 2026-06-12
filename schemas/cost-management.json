@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "product": "Cost Management",
+  "slug": "cost-management",
+  "picker_testid": "cost-management-picker-item",
+  "module_testid": "cost-management-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:22:04.991971+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Microsoft Cost Management",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Microsoft Cost Management|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Amount",
+      "clean_name": "azureCloud",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Amount",
+      "name": "azureCloud",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Amount\"][name=\"azureCloud\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureCloud|Amount||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

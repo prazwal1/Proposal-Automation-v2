@@ -1,0 +1,970 @@
+{
+  "schema_version": 2,
+  "product": "Media Services",
+  "slug": "media-services",
+  "picker_testid": "media-services-picker-item",
+  "module_testid": "media-services-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:31:06.332527+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Media Services",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Media Services|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Type",
+      "clean_name": "service",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Type",
+      "name": "service",
+      "options": [
+        {
+          "group": null,
+          "text": "Video on Demand (VoD) Encoding",
+          "value": "vod"
+        },
+        {
+          "group": null,
+          "text": "Streaming",
+          "value": "streaming"
+        },
+        {
+          "group": null,
+          "text": "Live Video",
+          "value": "livevideo"
+        },
+        {
+          "group": null,
+          "text": "Content Protection",
+          "value": "contentprotection"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Type\"][name=\"service\"]",
+      "selector_unique": true,
+      "signature": "select||service|Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "vod",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Encoder type",
+      "clean_name": "encoderType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Encoder type",
+      "name": "encoderType",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standardencoder"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Encoder\\ type\"][name=\"encoderType\"]",
+      "selector_unique": true,
+      "signature": "select||encoderType|Encoder type||||",
+      "tag": "select",
+      "type": null,
+      "value": "standardencoder",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "service",
+          "value": "streaming",
+          "text": "Streaming"
+        },
+        {
+          "field": "service",
+          "value": "livevideo",
+          "text": "Live Video"
+        },
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Codec Type",
+      "clean_name": "codecType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Codec Type",
+      "name": "codecType",
+      "options": [
+        {
+          "group": null,
+          "text": "H.264",
+          "value": "h"
+        },
+        {
+          "group": null,
+          "text": "HEVC(H.265)",
+          "value": "multiplierhevccodec"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Codec\\ Type\"][name=\"codecType\"]",
+      "selector_unique": true,
+      "signature": "select||codecType|Codec Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "h",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "service",
+          "value": "streaming",
+          "text": "Streaming"
+        },
+        {
+          "field": "service",
+          "value": "livevideo",
+          "text": "Live Video"
+        },
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Video output quality",
+      "clean_name": "outputQuality",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Video output quality",
+      "name": "outputQuality",
+      "options": [
+        {
+          "group": null,
+          "text": "SD (less than 1280\u00d7720)",
+          "value": "sd"
+        },
+        {
+          "group": null,
+          "text": "HD (at least 1280x720, up to 1920x1080)",
+          "value": "hd"
+        },
+        {
+          "group": null,
+          "text": "4K (more than 1920x1080, up to 4096x2304)",
+          "value": "fourk"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Video\\ output\\ quality\"][name=\"outputQuality\"]",
+      "selector_unique": true,
+      "signature": "select||outputQuality|Video output quality||||",
+      "tag": "select",
+      "type": null,
+      "value": "sd",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "service",
+          "value": "streaming",
+          "text": "Streaming"
+        },
+        {
+          "field": "service",
+          "value": "livevideo",
+          "text": "Live Video"
+        },
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service",
+        "codecType"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "codecType",
+            "value": "multiplierhevccodec",
+            "text": "HEVC(H.265)"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "SD (less than 1280\u00d7720)",
+              "value": "sd"
+            },
+            {
+              "group": null,
+              "text": "HD (at least 1280x720, up to 1920x1080)",
+              "value": "hd"
+            },
+            {
+              "group": null,
+              "text": "4K (more than 1920x1080, up to 4096x2304)",
+              "value": "fourk"
+            },
+            {
+              "group": null,
+              "text": "8K (more than 4096x2304, up to 8192x2608)",
+              "value": "eightk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Total Minutes Of Content",
+      "clean_name": "output",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total Minutes Of Content",
+      "name": "output",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ Minutes\\ Of\\ Content\"][name=\"output\"]",
+      "selector_unique": true,
+      "signature": "input|number|output|Total Minutes Of Content||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "service",
+          "value": "streaming",
+          "text": "Streaming"
+        },
+        {
+          "field": "service",
+          "value": "livevideo",
+          "text": "Live Video"
+        },
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "streamingTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "streamingTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Premium streaming units",
+          "value": "premiumstreamingunits"
+        },
+        {
+          "group": null,
+          "text": "Standard streaming endpoint",
+          "value": "standardstreamingunits"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"streamingTier\"]",
+      "selector_unique": true,
+      "signature": "select||streamingTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standardstreamingunits",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "service",
+          "value": "streaming",
+          "text": "Streaming"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Live encoding type",
+      "clean_name": "liveVideoType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Live encoding type",
+      "name": "liveVideoType",
+      "options": [
+        {
+          "group": null,
+          "text": "Live Transcriptions",
+          "value": "livetranscriptions"
+        },
+        {
+          "group": null,
+          "text": "Running Basic Pass-through",
+          "value": "running-basicpassthrough"
+        },
+        {
+          "group": null,
+          "text": "Running Pass-through",
+          "value": "running-passthrough"
+        },
+        {
+          "group": null,
+          "text": "Running Premium Live Encoding",
+          "value": "running-premiumliveencoding"
+        },
+        {
+          "group": null,
+          "text": "Running Standard Live Encoding",
+          "value": "running-standardliveencoding"
+        },
+        {
+          "group": null,
+          "text": "Standby Basic Pass-through",
+          "value": "standby-basicpassthrough"
+        },
+        {
+          "group": null,
+          "text": "Standby Pass-through",
+          "value": "standby-passthrough"
+        },
+        {
+          "group": null,
+          "text": "Standby Premium Live Encoding",
+          "value": "standby-premiumliveencoding"
+        },
+        {
+          "group": null,
+          "text": "Standby Standard Live Encoding",
+          "value": "standby-standardliveencoding"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Live\\ encoding\\ type\"][name=\"liveVideoType\"]",
+      "selector_unique": true,
+      "signature": "select||liveVideoType|Live encoding type||||",
+      "tag": "select",
+      "type": null,
+      "value": "livetranscriptions",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "service",
+          "value": "livevideo",
+          "text": "Live Video"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "liveVideoWithEncodingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "liveVideoWithEncodingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"liveVideoWithEncodingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|liveVideoWithEncodingHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "service",
+          "value": "livevideo",
+          "text": "Live Video"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Units of 100 keys",
+      "clean_name": "contentProtectionProtectionAES",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Units of 100 keys",
+      "name": "contentProtectionProtectionAES",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Units\\ of\\ 100\\ keys\"][name=\"contentProtectionProtectionAES\"]",
+      "selector_unique": true,
+      "signature": "input|number|contentProtectionProtectionAES|Units of 100 keys||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Units of 100 licenses",
+      "clean_name": "contentProtectionProtectionPlayReady",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Units of 100 licenses",
+      "name": "contentProtectionProtectionPlayReady",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Units\\ of\\ 100\\ licenses\"][name=\"contentProtectionProtectionPlayReady\"]",
+      "selector_unique": true,
+      "signature": "input|number|contentProtectionProtectionPlayReady|Units of 100 licenses||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Units of 100 licenses",
+      "clean_name": "contentProtectionWidevine",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Units of 100 licenses",
+      "name": "contentProtectionWidevine",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Units\\ of\\ 100\\ licenses\"][name=\"contentProtectionWidevine\"]",
+      "selector_unique": true,
+      "signature": "input|number|contentProtectionWidevine|Units of 100 licenses||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Units of 100 licenses",
+      "clean_name": "contentProtectionFairplay",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Units of 100 licenses",
+      "name": "contentProtectionFairplay",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Units\\ of\\ 100\\ licenses\"][name=\"contentProtectionFairplay\"]",
+      "selector_unique": true,
+      "signature": "input|number|contentProtectionFairplay|Units of 100 licenses||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "service",
+          "value": "contentprotection",
+          "text": "Content Protection"
+        }
+      ],
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "aria_label": "Preset",
+      "clean_name": "preset",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Preset",
+      "name": "preset",
+      "options": [
+        {
+          "group": null,
+          "text": "Speed Optimized",
+          "value": "speedoptimized"
+        },
+        {
+          "group": null,
+          "text": "Balance Optimized",
+          "value": "balanceoptimized"
+        },
+        {
+          "group": null,
+          "text": "Quality Optimized",
+          "value": "qualityoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Preset\"][name=\"preset\"]",
+      "selector_unique": true,
+      "signature": "select||preset|Preset||||",
+      "tag": "select",
+      "type": null,
+      "value": "speedoptimized",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "codecType",
+          "value": "multiplierhevccodec",
+          "text": "HEVC(H.265)"
+        }
+      ],
+      "depends_on": [
+        "codecType"
+      ]
+    },
+    {
+      "aria_label": "Frame Rate",
+      "clean_name": "frameRate",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Frame Rate",
+      "name": "frameRate",
+      "options": [
+        {
+          "group": null,
+          "text": "<=30 frames/sec",
+          "value": "less30fps"
+        },
+        {
+          "group": null,
+          "text": ">30 frames/sec and <=60 frames/sec",
+          "value": "from30to60fps"
+        },
+        {
+          "group": null,
+          "text": ">60 frames/sec and <=120 frames/sec",
+          "value": "from60to120fps"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Frame\\ Rate\"][name=\"frameRate\"]",
+      "selector_unique": true,
+      "signature": "select||frameRate|Frame Rate||||",
+      "tag": "select",
+      "type": null,
+      "value": "less30fps",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "codecType",
+          "value": "multiplierhevccodec",
+          "text": "HEVC(H.265)"
+        }
+      ],
+      "depends_on": [
+        "codecType"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Cost Calculations",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Cost Calculations",
+      "tag": "button",
+      "text": "View Cost Calculations",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

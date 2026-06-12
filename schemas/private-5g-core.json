@@ -1,0 +1,844 @@
+{
+  "schema_version": 2,
+  "product": "Private 5g Core",
+  "slug": "private-5g-core",
+  "picker_testid": "private-5g-core-picker-item",
+  "module_testid": "private-5g-core-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:35:01.709272+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Private 5G Core",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Private 5G Core|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Package",
+      "clean_name": "package0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Package",
+      "name": "package0",
+      "options": [
+        {
+          "group": null,
+          "text": "Package G0",
+          "value": "g0"
+        },
+        {
+          "group": null,
+          "text": "Package G1",
+          "value": "g1"
+        },
+        {
+          "group": null,
+          "text": "Package G2",
+          "value": "g2"
+        },
+        {
+          "group": null,
+          "text": "Package G5",
+          "value": "g5"
+        },
+        {
+          "group": null,
+          "text": "Package G10",
+          "value": "g10"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Package\"][name=\"package0\"]",
+      "selector_unique": true,
+      "signature": "select||package0|Package||||",
+      "tag": "select",
+      "type": null,
+      "value": "g0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Site(s)",
+      "clean_name": "azurePrivateCoreSites0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Site(s)",
+      "name": "azurePrivateCoreSites0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Site\\(s\\)\"][name=\"azurePrivateCoreSites0\"]",
+      "selector_unique": true,
+      "signature": "input|number|azurePrivateCoreSites0|Site(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "additionalHours0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "additionalHours0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"additionalHours0\"]",
+      "selector_unique": true,
+      "signature": "input|number|additionalHours0|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "additionalHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "additionalHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "additionalHoursFactor0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "additionalHoursFactor0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"additionalHoursFactor0\"]",
+      "selector_unique": true,
+      "signature": "select||additionalHoursFactor0|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "additionalHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "additionalHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Gbps per site",
+      "clean_name": "throughputOverage0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Gbps per site",
+      "name": "throughputOverage0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Gbps\\ per\\ site\"][name=\"throughputOverage0\"]",
+      "selector_unique": true,
+      "signature": "input|number|throughputOverage0|Gbps per site||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "throughputHours0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "throughputHours0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"throughputHours0\"]",
+      "selector_unique": true,
+      "signature": "input|number|throughputHours0|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "throughputHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "throughputHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "throughputHoursFactor0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "throughputHoursFactor0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"throughputHoursFactor0\"]",
+      "selector_unique": true,
+      "signature": "select||throughputHoursFactor0|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "throughputHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "throughputHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Per site",
+      "clean_name": "overageRan0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Per site",
+      "name": "overageRan0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Per\\ site\"][name=\"overageRan0\"]",
+      "selector_unique": true,
+      "signature": "input|number|overageRan0|Per site||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "package0",
+          "value": "g5",
+          "text": "Package G5"
+        },
+        {
+          "field": "package0",
+          "value": "g10",
+          "text": "Package G10"
+        }
+      ],
+      "depends_on": [
+        "package0"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "ranHours0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "ranHours0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"ranHours0\"]",
+      "selector_unique": true,
+      "signature": "input|number|ranHours0|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "package0",
+          "value": "g5",
+          "text": "Package G5"
+        },
+        {
+          "field": "package0",
+          "value": "g10",
+          "text": "Package G10"
+        },
+        {
+          "field": "ranHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "package0",
+        "ranHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "ranHoursFactor0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "ranHoursFactor0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"ranHoursFactor0\"]",
+      "selector_unique": true,
+      "signature": "select||ranHoursFactor0|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "package0",
+          "value": "g5",
+          "text": "Package G5"
+        },
+        {
+          "field": "package0",
+          "value": "g10",
+          "text": "Package G10"
+        },
+        {
+          "field": "ranHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "package0",
+        "ranHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "x100 devices/hour",
+      "clean_name": "azurePrivateCoreDevices",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x100 devices/hour",
+      "name": "azurePrivateCoreDevices",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x100\\ devices\\/hour\"][name=\"azurePrivateCoreDevices\"]",
+      "selector_unique": true,
+      "signature": "input|number|azurePrivateCoreDevices|x100 devices/hour||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "deviceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "deviceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"deviceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|deviceHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "deviceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "deviceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "deviceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "deviceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"deviceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||deviceHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "deviceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "deviceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "additionalHours0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "additionalHours0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"additionalHours0\"]",
+      "selector_unique": true,
+      "signature": "input|number|additionalHours0|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "additionalHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "additionalHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "additionalHoursFactor0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "additionalHoursFactor0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"additionalHoursFactor0\"]",
+      "selector_unique": true,
+      "signature": "select||additionalHoursFactor0|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "additionalHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "additionalHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "throughputHours0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "throughputHours0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"throughputHours0\"]",
+      "selector_unique": true,
+      "signature": "input|number|throughputHours0|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "throughputHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "throughputHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "throughputHoursFactor0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "throughputHoursFactor0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"throughputHoursFactor0\"]",
+      "selector_unique": true,
+      "signature": "select||throughputHoursFactor0|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "throughputHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "throughputHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "ranHours0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "ranHours0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"ranHours0\"]",
+      "selector_unique": true,
+      "signature": "input|number|ranHours0|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ranHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "ranHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "ranHoursFactor0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "ranHoursFactor0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"ranHoursFactor0\"]",
+      "selector_unique": true,
+      "signature": "select||ranHoursFactor0|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ranHoursFactor0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "ranHoursFactor0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "deviceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "deviceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"deviceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|deviceHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "deviceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "deviceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "deviceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "deviceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"deviceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||deviceHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "deviceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "deviceHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

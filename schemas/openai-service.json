@@ -1,0 +1,1213 @@
+{
+  "schema_version": 2,
+  "product": "Openai Service",
+  "slug": "openai-service",
+  "picker_testid": "openai-service-picker-item",
+  "module_testid": "openai-service-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:54:29.663977+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure OpenAI",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure OpenAI|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Model type",
+      "clean_name": "selectedModelSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Model type",
+      "name": "selectedModelSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "Language Models",
+          "value": "language-models"
+        },
+        {
+          "group": null,
+          "text": "Computer-Using Agent (CUA)",
+          "value": "cua"
+        },
+        {
+          "group": null,
+          "text": "Built-in Tools",
+          "value": "built-in-tools"
+        },
+        {
+          "group": null,
+          "text": "Base Models",
+          "value": "base-models"
+        },
+        {
+          "group": null,
+          "text": "Fine-tuning Models",
+          "value": "fine-tuning-models"
+        },
+        {
+          "group": null,
+          "text": "Image Models",
+          "value": "image-models"
+        },
+        {
+          "group": null,
+          "text": "Embedding Models",
+          "value": "embedding-models"
+        },
+        {
+          "group": null,
+          "text": "Speech Models",
+          "value": "speech-models"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Model\\ type\"][name=\"selectedModelSeries\"]",
+      "selector_unique": true,
+      "signature": "select||selectedModelSeries|Model type||||",
+      "tag": "select",
+      "type": null,
+      "value": "language-models",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Model",
+      "clean_name": "modelForLanguage",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Model",
+      "name": "modelForLanguage",
+      "options": [
+        {
+          "group": null,
+          "text": "o1 Preview",
+          "value": "o1-preview"
+        },
+        {
+          "group": null,
+          "text": "o1 mini",
+          "value": "o1-mini-2024-0912"
+        },
+        {
+          "group": null,
+          "text": "GPT-4o-2024-08-06",
+          "value": "gptfouro-0806"
+        },
+        {
+          "group": null,
+          "text": "GPT-4o-128K",
+          "value": "gpt4o"
+        },
+        {
+          "group": null,
+          "text": "GPT-4o-mini",
+          "value": "gpt-4o-mini"
+        },
+        {
+          "group": null,
+          "text": "GPT-3.5-Turbo-0125-16K",
+          "value": "gpt-turbo-sixteenk-0125"
+        },
+        {
+          "group": null,
+          "text": "GPT-3.5-Turbo-Instruct-4K",
+          "value": "gpt-turbo-instruct"
+        },
+        {
+          "group": null,
+          "text": "GPT-4-Turbo-128K",
+          "value": "gptfour-onetwentyeightk"
+        },
+        {
+          "group": null,
+          "text": "GPT-4-Turbo-Vision-128K",
+          "value": "gptfour-turbovision-onetwentyeightk"
+        },
+        {
+          "group": null,
+          "text": "GPT-4-8K",
+          "value": "gptfour-eightk"
+        },
+        {
+          "group": null,
+          "text": "GPT-4-32K",
+          "value": "gptfour-thirtytwok"
+        },
+        {
+          "group": null,
+          "text": "GPT-3.5-Turbo-0301-4K",
+          "value": "gpt-turbo-fourk-0301"
+        },
+        {
+          "group": null,
+          "text": "GPT-3.5-Turbo-0613-4K",
+          "value": "gpt-turbo-fourk-0613"
+        },
+        {
+          "group": null,
+          "text": "GPT-3.5-Turbo-0613-16K",
+          "value": "gpt-turbo-sixteenk-0613"
+        },
+        {
+          "group": null,
+          "text": "GPT-3.5-Turbo-1106-16K",
+          "value": "gpt-turbo-sixteenk-1106"
+        },
+        {
+          "group": null,
+          "text": "GPT-4o-1120",
+          "value": "gptfouro-1120"
+        },
+        {
+          "group": null,
+          "text": "GPT 4.1",
+          "value": "gpt-4-1-2025-04-14"
+        },
+        {
+          "group": null,
+          "text": "GPT 4.1 mini",
+          "value": "gpt-4-1-mini-2025-04-14"
+        },
+        {
+          "group": null,
+          "text": "GPT 4.1 nano",
+          "value": "gpt-4-1-nano-2025-04-14"
+        },
+        {
+          "group": null,
+          "text": "o4 mini",
+          "value": "o4-mini-2025-04-16"
+        },
+        {
+          "group": null,
+          "text": "o3",
+          "value": "o3-2025-04-16"
+        },
+        {
+          "group": null,
+          "text": "GPT-5",
+          "value": "gpt5-2025-08-07"
+        },
+        {
+          "group": null,
+          "text": "GPT-5 Pro",
+          "value": "gpt5-pro"
+        },
+        {
+          "group": null,
+          "text": "GPT-5 Codex",
+          "value": "gpt5-codex"
+        },
+        {
+          "group": null,
+          "text": "GPT-5-mini",
+          "value": "gpt5-mini"
+        },
+        {
+          "group": null,
+          "text": "GPT-5-nano",
+          "value": "gpt5-nano"
+        },
+        {
+          "group": null,
+          "text": "GPT-5 chat",
+          "value": "gpt5-chat"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.1",
+          "value": "gpt-5-1"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.1-chat",
+          "value": "gpt-5-1-chat"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.1-codex",
+          "value": "gpt-5-1-codex"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.1-codex-mini",
+          "value": "gpt-5-1-codex-mini"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.1-codex-max",
+          "value": "gpt-5-1-codex-max"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.2",
+          "value": "gpt-5-2"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.2-codex",
+          "value": "gpt-5-2-codex"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.2-chat",
+          "value": "gpt-5-2-chat"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.3-codex",
+          "value": "gpt-5-3-codex"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.3-chat",
+          "value": "gpt-5-3-chat"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.4 (<272k context length)",
+          "value": "gpt-5-4-less-than-272k-context"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.4 (>272k context length)",
+          "value": "gpt-5-4-greater-than-272k-context"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.4 Pro (<272k context length)",
+          "value": "gpt-5-4-pro-less-than-272k-context"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.4 Pro (>272k context length)",
+          "value": "gpt-5-4-pro-greater-than-272k-context"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.4 mini",
+          "value": "gpt-5-4-mini"
+        },
+        {
+          "group": null,
+          "text": "GPT-5.4 nano",
+          "value": "gpt-5-4-nano"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Model\"][name=\"modelForLanguage\"]",
+      "selector_unique": true,
+      "signature": "select||modelForLanguage|Model||||",
+      "tag": "select",
+      "type": null,
+      "value": "gpt4o",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "cua",
+            "text": "Computer-Using Agent (CUA)"
+          },
+          "selector": "select[aria-label=\"Model\"][name=\"modelForCua\"]",
+          "name": "modelForCua",
+          "options": [
+            {
+              "group": null,
+              "text": "Computer use preview Global",
+              "value": "computer-use-preview-global"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "built-in-tools",
+            "text": "Built-in Tools"
+          },
+          "selector": "select[aria-label=\"Model\"][name=\"modelForBuiltInTools\"]",
+          "name": "modelForBuiltInTools",
+          "options": [
+            {
+              "group": null,
+              "text": "Computer Use (Responses API only)",
+              "value": "cua-responses-api"
+            },
+            {
+              "group": null,
+              "text": "File Search Tool Call (Responses API only)",
+              "value": "file-search-tool-call"
+            },
+            {
+              "group": null,
+              "text": "File Search",
+              "value": "file-search"
+            },
+            {
+              "group": null,
+              "text": "Code Interpreter",
+              "value": "code-interpreter"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "base-models",
+            "text": "Base Models"
+          },
+          "selector": "select[aria-label=\"Model\"][name=\"baseModel\"]",
+          "name": "baseModel",
+          "options": [
+            {
+              "group": null,
+              "text": "Babbage-002",
+              "value": "babbage002"
+            },
+            {
+              "group": null,
+              "text": "Davinci-002",
+              "value": "davinci002"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "fine-tuning-models",
+            "text": "Fine-tuning Models"
+          },
+          "selector": "select[aria-label=\"Model\"][name=\"modelForFineTuning\"]",
+          "name": "modelForFineTuning",
+          "options": [
+            {
+              "group": null,
+              "text": "GPT-3.5-Turbo-16K",
+              "value": "gpt-turbo-sixteenk"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "image-models",
+            "text": "Image Models"
+          },
+          "selector": "select[aria-label=\"Model\"][name=\"modelForImage\"]",
+          "name": "modelForImage",
+          "options": [
+            {
+              "group": null,
+              "text": "Dall-E-2",
+              "value": "dall-e-two"
+            },
+            {
+              "group": null,
+              "text": "Dall-E-3",
+              "value": "dall-e-three"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "embedding-models",
+            "text": "Embedding Models"
+          },
+          "selector": "select[aria-label=\"Model\"][name=\"modelForEmbedding\"]",
+          "name": "modelForEmbedding",
+          "options": [
+            {
+              "group": null,
+              "text": "Ada",
+              "value": "ada"
+            },
+            {
+              "group": null,
+              "text": "Text-Embedding-3-Large",
+              "value": "text-embedding-3-large"
+            },
+            {
+              "group": null,
+              "text": "Text-Embedding-3-Small",
+              "value": "text-embedding-3-small"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "speech-models",
+            "text": "Speech Models"
+          },
+          "selector": "select[aria-label=\"Model\"][name=\"modelForSpeech\"]",
+          "name": "modelForSpeech",
+          "options": [
+            {
+              "group": null,
+              "text": "Whisper",
+              "value": "whisper"
+            },
+            {
+              "group": null,
+              "text": "Text To Speech",
+              "value": "text-to-speech"
+            },
+            {
+              "group": null,
+              "text": "Text To Speech HD",
+              "value": "text-to-speech-hd"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "selectedModelSeries"
+      ]
+    },
+    {
+      "aria_label": "Pricing Strategy",
+      "clean_name": "pricingStrategy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Pricing Strategy",
+      "name": "pricingStrategy",
+      "options": [
+        {
+          "group": null,
+          "text": "Provisioned (PTU)",
+          "value": "provisioned-throughput-units"
+        },
+        {
+          "group": null,
+          "text": "Standard (On-Demand)",
+          "value": "token-consumption"
+        },
+        {
+          "group": null,
+          "text": "Batch (On-Demand)",
+          "value": "batch"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Pricing\\ Strategy\"][name=\"pricingStrategy\"]",
+      "selector_unique": true,
+      "signature": "select||pricingStrategy|Pricing Strategy||||",
+      "tag": "select",
+      "type": null,
+      "value": "token-consumption",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "selectedModelSeries",
+          "value": "cua",
+          "text": "Computer-Using Agent (CUA)"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "built-in-tools",
+          "text": "Built-in Tools"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "base-models",
+          "text": "Base Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "fine-tuning-models",
+          "text": "Fine-tuning Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "image-models",
+          "text": "Image Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "embedding-models",
+          "text": "Embedding Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "speech-models",
+          "text": "Speech Models"
+        }
+      ],
+      "depends_on": [
+        "selectedModelSeries"
+      ]
+    },
+    {
+      "aria_label": "Deployment type",
+      "clean_name": "deploymentType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Deployment type",
+      "name": "deploymentType",
+      "options": [
+        {
+          "group": null,
+          "text": "Global",
+          "value": "global"
+        },
+        {
+          "group": null,
+          "text": "Data Zone",
+          "value": "area"
+        },
+        {
+          "group": null,
+          "text": "Regional",
+          "value": "regional"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Deployment\\ type\"][name=\"deploymentType\"]",
+      "selector_unique": true,
+      "signature": "select||deploymentType|Deployment type||||",
+      "tag": "select",
+      "type": null,
+      "value": "global",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "selectedModelSeries",
+          "value": "cua",
+          "text": "Computer-Using Agent (CUA)"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "built-in-tools",
+          "text": "Built-in Tools"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "base-models",
+          "text": "Base Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "fine-tuning-models",
+          "text": "Fine-tuning Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "image-models",
+          "text": "Image Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "embedding-models",
+          "text": "Embedding Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "speech-models",
+          "text": "Speech Models"
+        }
+      ],
+      "depends_on": [
+        "selectedModelSeries",
+        "pricingStrategy"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "pricingStrategy",
+            "value": "batch",
+            "text": "Batch (On-Demand)"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Global",
+              "value": "global"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "x1,000 tokens",
+      "clean_name": "prompt",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 tokens",
+      "name": "prompt",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ tokens\"][name=\"prompt\"]",
+      "selector_unique": true,
+      "signature": "input|number|prompt|x1,000 tokens||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "selectedModelSeries",
+          "value": "base-models",
+          "text": "Base Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "fine-tuning-models",
+          "text": "Fine-tuning Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "image-models",
+          "text": "Image Models"
+        }
+      ],
+      "depends_on": [
+        "selectedModelSeries"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "selectedModelSeries",
+            "value": "embedding-models",
+            "text": "Embedding Models"
+          },
+          "selector": "input[aria-label=\"x1\\,000\\ tokens\"][name=\"tokens\"]",
+          "name": "tokens",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "x1,000 tokens",
+      "clean_name": "completion",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 tokens",
+      "name": "completion",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ tokens\"][name=\"completion\"]",
+      "selector_unique": true,
+      "signature": "input|number|completion|x1,000 tokens||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "selectedModelSeries",
+          "value": "base-models",
+          "text": "Base Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "fine-tuning-models",
+          "text": "Fine-tuning Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "image-models",
+          "text": "Image Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "embedding-models",
+          "text": "Embedding Models"
+        },
+        {
+          "field": "selectedModelSeries",
+          "value": "speech-models",
+          "text": "Speech Models"
+        },
+        {
+          "field": "pricingStrategy",
+          "value": "provisioned-throughput-units",
+          "text": "Provisioned (PTU)"
+        }
+      ],
+      "depends_on": [
+        "selectedModelSeries",
+        "pricingStrategy"
+      ]
+    },
+    {
+      "aria_label": "x100 images",
+      "clean_name": "standardLowInput",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x100 images",
+      "name": "standardLowInput",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x100\\ images\"][name=\"standardLowInput\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardLowInput|x100 images||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "selectedModelSeries",
+          "value": "image-models",
+          "text": "Image Models"
+        }
+      ],
+      "depends_on": [
+        "selectedModelSeries"
+      ]
+    },
+    {
+      "aria_label": "PTUs",
+      "clean_name": "ptuUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "PTUs",
+      "name": "ptuUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"PTUs\"][name=\"ptuUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|ptuUnits|PTUs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "pricingStrategy",
+          "value": "provisioned-throughput-units",
+          "text": "Provisioned (PTU)"
+        }
+      ],
+      "depends_on": [
+        "pricingStrategy"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "pricingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "pricingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"pricingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|pricingHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "pricingStrategy",
+          "value": "provisioned-throughput-units",
+          "text": "Provisioned (PTU)"
+        }
+      ],
+      "depends_on": [
+        "pricingStrategy"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "pricingHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "pricingHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"pricingHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||pricingHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "pricingStrategy",
+          "value": "provisioned-throughput-units",
+          "text": "Provisioned (PTU)"
+        }
+      ],
+      "depends_on": [
+        "pricingStrategy"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-1a79f0ce-9056-46e2-874e-e779dfb48952-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-1a79f0ce-9056-46e2-874e-e779dfb48952-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "pricingStrategy",
+          "value": "provisioned-throughput-units",
+          "text": "Provisioned (PTU)"
+        }
+      ],
+      "depends_on": [
+        "pricingStrategy"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-p1m-1a79f0ce-9056-46e2-874e-e779dfb48952-billingOption",
+      "label": "1 month reserved",
+      "name": "radioButton-1a79f0ce-9056-46e2-874e-e779dfb48952-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "p1m",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"p1m\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|p1m||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "pricingStrategy",
+          "value": "provisioned-throughput-units",
+          "text": "Provisioned (PTU)"
+        }
+      ],
+      "depends_on": [
+        "pricingStrategy"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-p1y-1a79f0ce-9056-46e2-874e-e779dfb48952-billingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-1a79f0ce-9056-46e2-874e-e779dfb48952-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "p1y",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"p1y\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|p1y||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "pricingStrategy",
+          "value": "provisioned-throughput-units",
+          "text": "Provisioned (PTU)"
+        }
+      ],
+      "depends_on": [
+        "pricingStrategy"
+      ]
+    }
+  ],
+  "toggles": []
+}

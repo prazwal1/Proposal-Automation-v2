@@ -1,0 +1,1523 @@
+{
+  "schema_version": 2,
+  "product": "Azure Sql",
+  "slug": "azure-sql",
+  "picker_testid": "azure-sql-picker-item",
+  "module_testid": "azure-sql-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:17:49.910216+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure SQL Managed Instance",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure SQL Managed Instance|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "type",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "type",
+      "options": [
+        {
+          "group": null,
+          "text": "Managed Instance",
+          "value": "managed"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"type\"]",
+      "selector_unique": true,
+      "signature": "select||type|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "managed",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Service Tier",
+      "clean_name": "vcoreTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Service Tier",
+      "name": "vcoreTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Next Generation General Purpose",
+          "value": "next-gen-general-purpose"
+        },
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "general-purpose"
+        },
+        {
+          "group": null,
+          "text": "Business Critical",
+          "value": "business-critical"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Service\\ Tier\"][name=\"vcoreTier\"]",
+      "selector_unique": true,
+      "signature": "select||vcoreTier|Service Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "general-purpose",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance Type",
+      "clean_name": "managedInstanceType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Type",
+      "name": "managedInstanceType",
+      "options": [
+        {
+          "group": null,
+          "text": "Single Instance",
+          "value": "single-instance"
+        },
+        {
+          "group": null,
+          "text": "Instance Pools",
+          "value": "instance-pools"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Type\"][name=\"managedInstanceType\"]",
+      "selector_unique": true,
+      "signature": "select||managedInstanceType|Instance Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "single-instance",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "vcoreTier",
+            "value": "next-gen-general-purpose",
+            "text": "Next Generation General Purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Single Instance",
+              "value": "single-instance"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vcoreTier",
+            "value": "business-critical",
+            "text": "Business Critical"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Single Instance",
+              "value": "single-instance"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "generation",
+            "value": "premium-series-memory-optimized",
+            "text": "Premium-series, memory optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Single Instance",
+              "value": "single-instance"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "vcoreTier",
+        "generation"
+      ]
+    },
+    {
+      "aria_label": "Hardware Type",
+      "clean_name": "generation",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hardware Type",
+      "name": "generation",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard-series (Gen 5)",
+          "value": "gen5"
+        },
+        {
+          "group": null,
+          "text": "Premium-series",
+          "value": "premium-series"
+        },
+        {
+          "group": null,
+          "text": "Premium-series, memory optimized",
+          "value": "premium-series-memory-optimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hardware\\ Type\"][name=\"generation\"]",
+      "selector_unique": true,
+      "signature": "select||generation|Hardware Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "gen5",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "managedInstanceType",
+            "value": "instance-pools",
+            "text": "Instance Pools"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Standard-series (Gen 5)",
+              "value": "gen5"
+            },
+            {
+              "group": null,
+              "text": "Premium-series",
+              "value": "premium-series"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "managedInstanceType"
+      ]
+    },
+    {
+      "aria_label": "Compute",
+      "clean_name": "instanceSize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Compute",
+      "name": "instanceSize",
+      "options": [
+        {
+          "group": null,
+          "text": "4 vCore",
+          "value": "4"
+        },
+        {
+          "group": null,
+          "text": "8 vCore",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "16 vCore",
+          "value": "16"
+        },
+        {
+          "group": null,
+          "text": "24 vCore",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "32 vCore",
+          "value": "32"
+        },
+        {
+          "group": null,
+          "text": "40 vCore",
+          "value": "40"
+        },
+        {
+          "group": null,
+          "text": "64 vCore",
+          "value": "64"
+        },
+        {
+          "group": null,
+          "text": "80 vCore",
+          "value": "80"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Compute\"][name=\"instanceSize\"]",
+      "selector_unique": true,
+      "signature": "select||instanceSize|Compute||||",
+      "tag": "select",
+      "type": null,
+      "value": "8",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "managedInstanceType",
+            "value": "instance-pools",
+            "text": "Instance Pools"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "8 vCore",
+              "value": "8"
+            },
+            {
+              "group": null,
+              "text": "16 vCore",
+              "value": "16"
+            },
+            {
+              "group": null,
+              "text": "24 vCore",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "32 vCore",
+              "value": "32"
+            },
+            {
+              "group": null,
+              "text": "40 vCore",
+              "value": "40"
+            },
+            {
+              "group": null,
+              "text": "64 vCore",
+              "value": "64"
+            },
+            {
+              "group": null,
+              "text": "80 vCore",
+              "value": "80"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "generation",
+            "value": "premium-series-memory-optimized",
+            "text": "Premium-series, memory optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "4 vCore",
+              "value": "4"
+            },
+            {
+              "group": null,
+              "text": "8 vCore",
+              "value": "8"
+            },
+            {
+              "group": null,
+              "text": "16 vCore",
+              "value": "16"
+            },
+            {
+              "group": null,
+              "text": "24 vCore",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "32 vCore",
+              "value": "32"
+            },
+            {
+              "group": null,
+              "text": "40 vCore",
+              "value": "40"
+            },
+            {
+              "group": null,
+              "text": "64 vCore",
+              "value": "64"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "managedInstanceType",
+        "generation"
+      ]
+    },
+    {
+      "aria_label": "Disaster Recovery",
+      "clean_name": "recovery",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disaster Recovery",
+      "name": "recovery",
+      "options": [
+        {
+          "group": null,
+          "text": "Primary Instance",
+          "value": "primaryinstance"
+        },
+        {
+          "group": null,
+          "text": "Geo-secondary replicated instance",
+          "value": "geosecondary"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Disaster\\ Recovery\"][name=\"recovery\"]",
+      "selector_unique": true,
+      "signature": "select||recovery|Disaster Recovery||||",
+      "tag": "select",
+      "type": null,
+      "value": "primaryinstance",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "zoneRedundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "zoneRedundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "Locally Redundant",
+          "value": "local"
+        },
+        {
+          "group": null,
+          "text": "Zone Redundant",
+          "value": "zone"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"zoneRedundancy\"]",
+      "selector_unique": true,
+      "signature": "select||zoneRedundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "local",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "vcoreTier",
+          "value": "next-gen-general-purpose",
+          "text": "Next Generation General Purpose"
+        },
+        {
+          "field": "managedInstanceType",
+          "value": "instance-pools",
+          "text": "Instance Pools"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier",
+        "managedInstanceType"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "managedCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "managedCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"managedCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|managedCount|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "label": "1 year savings plan (~24% discount)",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "label": "3 year savings plan",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "label": "1 year savings plan",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-ahb-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "label": "Azure Hybrid Benefit",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "ahb",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"ahb\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|ahb||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-failover-rights-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "label": "Failover rights, standby replica",
+      "name": "radioButton-0963da9c-78d3-4513-88f0-7bef21046726-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "failover-rights",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"failover-rights\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|failover-rights||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "32GB units",
+      "clean_name": "managedStorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "32GB units",
+      "name": "managedStorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"\\33 2GB\\ units\"][name=\"managedStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|managedStorageUnits|32GB units||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Backup Storage Tier",
+      "clean_name": "redundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Backup Storage Tier",
+      "name": "redundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "ZRS",
+          "value": "zrs"
+        },
+        {
+          "group": null,
+          "text": "RA-GRS",
+          "value": "ra-grs"
+        },
+        {
+          "group": null,
+          "text": "RA-GZRS",
+          "value": "ra-gzrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Backup\\ Storage\\ Tier\"][name=\"redundancy\"]",
+      "selector_unique": true,
+      "signature": "select||redundancy|Backup Storage Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "lrs",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "recovery",
+          "value": "geosecondary",
+          "text": "Geo-secondary replicated instance"
+        }
+      ],
+      "depends_on": [
+        "recovery"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "backupStorageSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "backupStorageSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"backupStorageSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|backupStorageSize|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "recovery",
+          "value": "geosecondary",
+          "text": "Geo-secondary replicated instance"
+        }
+      ],
+      "depends_on": [
+        "recovery"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "ltrDatabaseSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "ltrDatabaseSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"ltrDatabaseSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|ltrDatabaseSize|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "recovery",
+          "value": "geosecondary",
+          "text": "Geo-secondary replicated instance"
+        },
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "recovery",
+        "ltrDatabaseSizeFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "ltrDatabaseSizeFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "ltrDatabaseSizeFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"ltrDatabaseSizeFactor\"]",
+      "selector_unique": true,
+      "signature": "select||ltrDatabaseSizeFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "recovery",
+          "value": "geosecondary",
+          "text": "Geo-secondary replicated instance"
+        },
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "recovery",
+        "ltrDatabaseSizeFactor"
+      ]
+    },
+    {
+      "aria_label": "Number of weeks",
+      "clean_name": "weeklyBackups",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of weeks",
+      "name": "weeklyBackups",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ weeks\"][name=\"weeklyBackups\"]",
+      "selector_unique": true,
+      "signature": "input|number|weeklyBackups|Number of weeks||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "recovery",
+          "value": "geosecondary",
+          "text": "Geo-secondary replicated instance"
+        }
+      ],
+      "depends_on": [
+        "recovery"
+      ]
+    },
+    {
+      "aria_label": "Number of months",
+      "clean_name": "monthlyBackups",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of months",
+      "name": "monthlyBackups",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ months\"][name=\"monthlyBackups\"]",
+      "selector_unique": true,
+      "signature": "input|number|monthlyBackups|Number of months||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "recovery",
+          "value": "geosecondary",
+          "text": "Geo-secondary replicated instance"
+        }
+      ],
+      "depends_on": [
+        "recovery"
+      ]
+    },
+    {
+      "aria_label": "Number of years",
+      "clean_name": "yearlyBackups",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of years",
+      "name": "yearlyBackups",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ years\"][name=\"yearlyBackups\"]",
+      "selector_unique": true,
+      "signature": "input|number|yearlyBackups|Number of years||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "recovery",
+          "value": "geosecondary",
+          "text": "Geo-secondary replicated instance"
+        }
+      ],
+      "depends_on": [
+        "recovery"
+      ]
+    },
+    {
+      "aria_label": "Additional IOPS",
+      "clean_name": "additionalIopsSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional IOPS",
+      "name": "additionalIopsSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ IOPS\"][name=\"additionalIopsSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|additionalIopsSize|Additional IOPS||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "next-gen-general-purpose",
+          "text": "Next Generation General Purpose"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "ltrDatabaseSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "ltrDatabaseSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"ltrDatabaseSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|ltrDatabaseSize|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "ltrDatabaseSizeFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "ltrDatabaseSizeFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "ltrDatabaseSizeFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"ltrDatabaseSizeFactor\"]",
+      "selector_unique": true,
+      "signature": "select||ltrDatabaseSizeFactor|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "ltrDatabaseSizeFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

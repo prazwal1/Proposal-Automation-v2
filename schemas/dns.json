@@ -1,0 +1,406 @@
+{
+  "schema_version": 2,
+  "product": "Dns",
+  "slug": "dns",
+  "picker_testid": "dns-picker-item",
+  "module_testid": "dns-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:24:08.345719+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure DNS",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure DNS|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Zone",
+      "clean_name": "zone",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Zone",
+      "name": "zone",
+      "options": [
+        {
+          "group": null,
+          "text": "Zone 1",
+          "value": "zone1"
+        },
+        {
+          "group": null,
+          "text": "Zone 2",
+          "value": "zone2"
+        },
+        {
+          "group": null,
+          "text": "Zone 3",
+          "value": "zone3"
+        },
+        {
+          "group": null,
+          "text": "Zone 4",
+          "value": "zone4"
+        },
+        {
+          "group": null,
+          "text": "US Gov Zone 1",
+          "value": "usgov-zone1"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Zone\"][name=\"zone\"]",
+      "selector_unique": true,
+      "signature": "select||zone|Zone||||",
+      "tag": "select",
+      "type": null,
+      "value": "zone1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "SKU",
+      "clean_name": "dnsSku",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "SKU",
+      "name": "dnsSku",
+      "options": [
+        {
+          "group": null,
+          "text": "DNS",
+          "value": "dns"
+        },
+        {
+          "group": null,
+          "text": "DNS Private Resolver",
+          "value": "dns_private"
+        },
+        {
+          "group": null,
+          "text": "DNS Security Policy",
+          "value": "dns_security"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"SKU\"][name=\"dnsSku\"]",
+      "selector_unique": true,
+      "signature": "select||dnsSku|SKU||||",
+      "tag": "select",
+      "type": null,
+      "value": "dns",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Type",
+      "clean_name": "type",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Type",
+      "name": "type",
+      "options": [
+        {
+          "group": null,
+          "text": "Public",
+          "value": "public"
+        },
+        {
+          "group": null,
+          "text": "Private",
+          "value": "private"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Type\"][name=\"type\"]",
+      "selector_unique": true,
+      "signature": "select||type|Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "public",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_private",
+          "text": "DNS Private Resolver"
+        },
+        {
+          "field": "dnsSku",
+          "value": "dns_security",
+          "text": "DNS Security Policy"
+        }
+      ],
+      "depends_on": [
+        "dnsSku"
+      ]
+    },
+    {
+      "aria_label": "Hosted DNS zones",
+      "clean_name": "zones",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hosted DNS zones",
+      "name": "zones",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hosted\\ DNS\\ zones\"][name=\"zones\"]",
+      "selector_unique": true,
+      "signature": "input|number|zones|Hosted DNS zones||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_private",
+          "text": "DNS Private Resolver"
+        },
+        {
+          "field": "dnsSku",
+          "value": "dns_security",
+          "text": "DNS Security Policy"
+        }
+      ],
+      "depends_on": [
+        "dnsSku",
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "private",
+            "text": "Private"
+          },
+          "selector": "input[aria-label=\"Hosted\\ DNS\\ zones\"][name=\"privateZones\"]",
+          "name": "privateZones",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "DNS queries (millions)",
+      "clean_name": "queries",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "DNS queries (millions)",
+      "name": "queries",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"DNS\\ queries\\ \\(millions\\)\"][name=\"queries\"]",
+      "selector_unique": true,
+      "signature": "input|number|queries|DNS queries (millions)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_private",
+          "text": "DNS Private Resolver"
+        },
+        {
+          "field": "dnsSku",
+          "value": "dns_security",
+          "text": "DNS Security Policy"
+        }
+      ],
+      "depends_on": [
+        "dnsSku",
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "private",
+            "text": "Private"
+          },
+          "selector": "input[aria-label=\"DNS\\ queries\\ \\(millions\\)\"][name=\"privateQueries\"]",
+          "name": "privateQueries",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Number of Inbound endpoints",
+      "clean_name": "inboundEndpoints",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of Inbound endpoints",
+      "name": "inboundEndpoints",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ Inbound\\ endpoints\"][name=\"inboundEndpoints\"]",
+      "selector_unique": true,
+      "signature": "input|number|inboundEndpoints|Number of Inbound endpoints||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_private",
+          "text": "DNS Private Resolver"
+        }
+      ],
+      "depends_on": [
+        "dnsSku"
+      ]
+    },
+    {
+      "aria_label": "Number of Outbound endpoints",
+      "clean_name": "outboundEndpoints",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of Outbound endpoints",
+      "name": "outboundEndpoints",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ Outbound\\ endpoints\"][name=\"outboundEndpoints\"]",
+      "selector_unique": true,
+      "signature": "input|number|outboundEndpoints|Number of Outbound endpoints||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_private",
+          "text": "DNS Private Resolver"
+        }
+      ],
+      "depends_on": [
+        "dnsSku"
+      ]
+    },
+    {
+      "aria_label": "Number of rulesets",
+      "clean_name": "rulesets",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of rulesets",
+      "name": "rulesets",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ rulesets\"][name=\"rulesets\"]",
+      "selector_unique": true,
+      "signature": "input|number|rulesets|Number of rulesets||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_private",
+          "text": "DNS Private Resolver"
+        }
+      ],
+      "depends_on": [
+        "dnsSku"
+      ]
+    },
+    {
+      "aria_label": "x1 million queries",
+      "clean_name": "millionEndPoints",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1 million queries",
+      "name": "millionEndPoints",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\ million\\ queries\"][name=\"millionEndPoints\"]",
+      "selector_unique": true,
+      "signature": "input|number|millionEndPoints|x1 million queries||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_security",
+          "text": "DNS Security Policy"
+        }
+      ],
+      "depends_on": [
+        "dnsSku"
+      ]
+    },
+    {
+      "aria_label": "x1,000 domains",
+      "clean_name": "domainEndpoints",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 domains",
+      "name": "domainEndpoints",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ domains\"][name=\"domainEndpoints\"]",
+      "selector_unique": true,
+      "signature": "input|number|domainEndpoints|x1,000 domains||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dnsSku",
+          "value": "dns_security",
+          "text": "DNS Security Policy"
+        }
+      ],
+      "depends_on": [
+        "dnsSku"
+      ]
+    }
+  ],
+  "toggles": []
+}

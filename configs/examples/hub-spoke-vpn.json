@@ -1,0 +1,71 @@
+{
+    "estimate_name": "Hub-Spoke Network with VPN",
+    "components": [
+        {
+            "product": "VPN Gateway",
+            "name": "hub-vpn-gateway",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Type": "VPN Gateways",
+                "Gateway Type": "VpnGw2",
+                "Gateway hours": 730,
+                "VPN Gateway type": "VPN",
+                "GB": 200
+            }
+        },
+        {
+            "product": "Azure Firewall",
+            "name": "hub-firewall",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Tier": "Standard",
+                "Logical firewall units": 1,
+                "Hours": 730,
+                "GB": 1000
+            }
+        },
+        {
+            "product": "Azure Bastion",
+            "name": "hub-bastion",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Tier": "Standard",
+                "Hours": 730,
+                "GB": 50
+            }
+        },
+        {
+            "product": "Virtual Network",
+            "name": "hub-spoke-peering",
+            "fields": {
+                "VNet 1 Region": "Southeast Asia",
+                "VNet 2 Region": "East Asia",
+                "GB": 500,
+                "vNet2Peering": 500
+            }
+        },
+        {
+            "product": "DNS",
+            "name": "dns-zones",
+            "fields": {
+                "Zone": "Zone 1",
+                "SKU": "DNS",
+                "Type": "Public",
+                "Hosted DNS zones": 2,
+                "DNS queries (millions)": 10
+            }
+        },
+        {
+            "product": "Virtual Machines",
+            "name": "spoke-workload",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Operating system": "Linux",
+                "Tier": "Standard",
+                "instance": "D2s v5",
+                "Virtual machines": 4,
+                "computeBillingOption": "one-year"
+            }
+        }
+    ]
+}

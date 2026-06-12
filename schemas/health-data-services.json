@@ -1,0 +1,1435 @@
+{
+  "schema_version": 2,
+  "product": "Health Data Services",
+  "slug": "health-data-services",
+  "picker_testid": "health-data-services-picker-item",
+  "module_testid": "health-data-services-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:27:03.911543+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Health Data Services",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Health Data Services|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "API",
+      "clean_name": "api",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "API",
+      "name": "api",
+      "options": [
+        {
+          "group": null,
+          "text": "Azure API for FHIR",
+          "value": "azureapiforfhir"
+        },
+        {
+          "group": null,
+          "text": "Azure Health Data Services",
+          "value": "azurehealthdataservice"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"API\"][name=\"api\"]",
+      "selector_unique": true,
+      "signature": "select||api|API||||",
+      "tag": "select",
+      "type": null,
+      "value": "azurehealthdataservice",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "structuredStorageHealthcare",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "structuredStorageHealthcare",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"structuredStorageHealthcare\"]",
+      "selector_unique": true,
+      "signature": "input|number|structuredStorageHealthcare|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "api",
+            "value": "azureapiforfhir",
+            "text": "Azure API for FHIR"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"structuredStorageFhir\"]",
+          "name": "structuredStorageFhir",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "structuredStorageFactorHealthcare",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "structuredStorageFactorHealthcare",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"structuredStorageFactorHealthcare\"]",
+      "selector_unique": true,
+      "signature": "select||structuredStorageFactorHealthcare|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "api",
+            "value": "azureapiforfhir",
+            "text": "Azure API for FHIR"
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"structuredStorageFactorFhir\"]",
+          "name": "structuredStorageFactorFhir",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "blobStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "blobStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"blobStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobStorage|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        },
+        {
+          "field": "blobStorageFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "api",
+        "blobStorageFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "blobStorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "blobStorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"blobStorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||blobStorageFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        },
+        {
+          "field": "blobStorageFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "api",
+        "blobStorageFactor"
+      ]
+    },
+    {
+      "aria_label": "x100K requests",
+      "clean_name": "apiRequests",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x100K requests",
+      "name": "apiRequests",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x100K\\ requests\"][name=\"apiRequests\"]",
+      "selector_unique": true,
+      "signature": "input|number|apiRequests|x100K requests||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Size of each request (KB)",
+      "clean_name": "transformHl7v2Size",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size of each request (KB)",
+      "name": "transformHl7v2Size",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Size\\ of\\ each\\ request\\ \\(KB\\)\"][name=\"transformHl7v2Size\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformHl7v2Size|Size of each request (KB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Requests per month",
+      "clean_name": "transformHl7v2Operations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Requests per month",
+      "name": "transformHl7v2Operations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Requests\\ per\\ month\"][name=\"transformHl7v2Operations\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformHl7v2Operations|Requests per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Size of each request (KB)",
+      "clean_name": "transformCcdaSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size of each request (KB)",
+      "name": "transformCcdaSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Size\\ of\\ each\\ request\\ \\(KB\\)\"][name=\"transformCcdaSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformCcdaSize|Size of each request (KB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Requests per month",
+      "clean_name": "transformCcdaOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Requests per month",
+      "name": "transformCcdaOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Requests\\ per\\ month\"][name=\"transformCcdaOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformCcdaOperations|Requests per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Size of each request (KB)",
+      "clean_name": "transformJsonSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size of each request (KB)",
+      "name": "transformJsonSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Size\\ of\\ each\\ request\\ \\(KB\\)\"][name=\"transformJsonSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformJsonSize|Size of each request (KB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Requests per month",
+      "clean_name": "transformJsonOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Requests per month",
+      "name": "transformJsonOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Requests\\ per\\ month\"][name=\"transformJsonOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformJsonOperations|Requests per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Size of each request (KB)",
+      "clean_name": "transformMedicalSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size of each request (KB)",
+      "name": "transformMedicalSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Size\\ of\\ each\\ request\\ \\(KB\\)\"][name=\"transformMedicalSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformMedicalSize|Size of each request (KB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Requests per month",
+      "clean_name": "transformMedicalOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Requests per month",
+      "name": "transformMedicalOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Requests\\ per\\ month\"][name=\"transformMedicalOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformMedicalOperations|Requests per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Size of each resource (KB)",
+      "clean_name": "unstructuredDeidentificationSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size of each resource (KB)",
+      "name": "unstructuredDeidentificationSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Size\\ of\\ each\\ resource\\ \\(KB\\)\"][name=\"unstructuredDeidentificationSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|unstructuredDeidentificationSize|Size of each resource (KB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Resource per month",
+      "clean_name": "unstructuredeidentificationOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Resource per month",
+      "name": "unstructuredeidentificationOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Resource\\ per\\ month\"][name=\"unstructuredeidentificationOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|unstructuredeidentificationOperations|Resource per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Size of each resource (KB)",
+      "clean_name": "structuredDeidentificationSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size of each resource (KB)",
+      "name": "structuredDeidentificationSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Size\\ of\\ each\\ resource\\ \\(KB\\)\"][name=\"structuredDeidentificationSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|structuredDeidentificationSize|Size of each resource (KB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Resource per month",
+      "clean_name": "structuredDeidentificationOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Resource per month",
+      "name": "structuredDeidentificationOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Resource\\ per\\ month\"][name=\"structuredDeidentificationOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|structuredDeidentificationOperations|Resource per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Size of each image (KB)",
+      "clean_name": "transformDicomSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size of each image (KB)",
+      "name": "transformDicomSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Size\\ of\\ each\\ image\\ \\(KB\\)\"][name=\"transformDicomSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformDicomSize|Size of each image (KB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Images per month",
+      "clean_name": "transformDicomOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Images per month",
+      "name": "transformDicomOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Images\\ per\\ month\"][name=\"transformDicomOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|transformDicomOperations|Images per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "exportBatch",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "exportBatch",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"exportBatch\"]",
+      "selector_unique": true,
+      "signature": "input|number|exportBatch|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        },
+        {
+          "field": "exportBatchFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "api",
+        "exportBatchFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "exportBatchFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "exportBatchFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"exportBatchFactor\"]",
+      "selector_unique": true,
+      "signature": "select||exportBatchFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        },
+        {
+          "field": "exportBatchFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "api",
+        "exportBatchFactor"
+      ]
+    },
+    {
+      "aria_label": "x1 million events",
+      "clean_name": "events",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1 million events",
+      "name": "events",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\ million\\ events\"][name=\"events\"]",
+      "selector_unique": true,
+      "signature": "input|number|events|x1 million events||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "serviceRuntimeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "serviceRuntimeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"serviceRuntimeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|serviceRuntimeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "serviceRuntimeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "serviceRuntimeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"serviceRuntimeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||serviceRuntimeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "x 100 RU/sec",
+      "clean_name": "provisionedRUs",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 100 RU/sec",
+      "name": "provisionedRUs",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 100\\ RU\\/sec\"][name=\"provisionedRUs\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedRUs|x 100 RU/sec||||",
+      "tag": "input",
+      "type": "number",
+      "value": "4",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedRUsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedRUsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"provisionedRUsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedRUsHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedRUsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedRUsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"provisionedRUsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedRUsHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "azureapiforfhir",
+          "text": "Azure API for FHIR"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "structuredStorageHealthcare",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "structuredStorageHealthcare",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"structuredStorageHealthcare\"]",
+      "selector_unique": true,
+      "signature": "input|number|structuredStorageHealthcare|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "structuredStorageFactorHealthcare",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "structuredStorageFactorHealthcare"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "structuredStorageFactorHealthcare",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "structuredStorageFactorHealthcare",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"structuredStorageFactorHealthcare\"]",
+      "selector_unique": true,
+      "signature": "select||structuredStorageFactorHealthcare|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "structuredStorageFactorHealthcare",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "structuredStorageFactorHealthcare"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "blobStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "blobStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"blobStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|blobStorage|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "blobStorageFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "blobStorageFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "blobStorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "blobStorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"blobStorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||blobStorageFactor|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "blobStorageFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "blobStorageFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "exportBatch",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "exportBatch",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"exportBatch\"]",
+      "selector_unique": true,
+      "signature": "input|number|exportBatch|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "exportBatchFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "exportBatchFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "exportBatchFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "exportBatchFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"exportBatchFactor\"]",
+      "selector_unique": true,
+      "signature": "select||exportBatchFactor|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "exportBatchFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "exportBatchFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Detailed Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Detailed Calculation",
+      "tag": "button",
+      "text": "View Detailed Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Detailed Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Detailed Calculation",
+      "tag": "button",
+      "text": "View Detailed Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Detailed Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Detailed Calculation",
+      "tag": "button",
+      "text": "View Detailed Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Detailed Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Detailed Calculation",
+      "tag": "button",
+      "text": "View Detailed Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

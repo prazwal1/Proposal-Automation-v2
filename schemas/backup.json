@@ -1,0 +1,1468 @@
+{
+  "schema_version": 2,
+  "product": "Backup",
+  "slug": "backup",
+  "picker_testid": "backup-picker-item",
+  "module_testid": "backup-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:02:30.094521+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Backup",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Backup|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Type",
+      "clean_name": "type",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Type",
+      "name": "type",
+      "options": [
+        {
+          "group": null,
+          "text": "Azure VMs",
+          "value": "backup-azure-vm"
+        },
+        {
+          "group": null,
+          "text": "Azure Blob (non-HNS)",
+          "value": "backup-blobs"
+        },
+        {
+          "group": null,
+          "text": "On-premises Servers",
+          "value": "backup-on-prem"
+        },
+        {
+          "group": null,
+          "text": "Azure Files",
+          "value": "backup-file-server"
+        },
+        {
+          "group": null,
+          "text": "SAP HANA in Azure VMs",
+          "value": "backup-sap-server"
+        },
+        {
+          "group": null,
+          "text": "SAP ASE in Azure VMs",
+          "value": "backup-sap-ase-azure-vm"
+        },
+        {
+          "group": null,
+          "text": "SQL Server on Azure VMs",
+          "value": "backup-sql-server"
+        },
+        {
+          "group": null,
+          "text": "Azure PostgreSQL Servers or Flexible Servers",
+          "value": "backup-postgresql-flexible-server"
+        },
+        {
+          "group": null,
+          "text": "Kubernetes Service",
+          "value": "backup-kubernetes-service"
+        },
+        {
+          "group": null,
+          "text": "Azure Data Lake Storage (HNS)",
+          "value": "backup-azure-data-lake-storage"
+        },
+        {
+          "group": null,
+          "text": "Azure Cosmos DB",
+          "value": "azure-cosmos-db"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Type\"][name=\"type\"]",
+      "selector_unique": true,
+      "signature": "select||type|Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "backup-azure-vm",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Backup Policy Type",
+      "clean_name": "backuppolicytype",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Backup Policy Type",
+      "name": "backuppolicytype",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Enhanced",
+          "value": "enhanced"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"backuppolicytype\"]",
+      "selector_unique": true,
+      "signature": "select||backuppolicytype|Backup Policy Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-blobs",
+          "text": "Azure Blob (non-HNS)"
+        },
+        {
+          "field": "type",
+          "value": "backup-on-prem",
+          "text": "On-premises Servers"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-file-server",
+            "text": "Azure Files"
+          },
+          "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"azurefilesbackuppolicytype\"]",
+          "name": "azurefilesbackuppolicytype",
+          "options": [
+            {
+              "group": null,
+              "text": "Snapshot",
+              "value": "snapshot"
+            },
+            {
+              "group": null,
+              "text": "Vaulted",
+              "value": "vaulted"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-kubernetes-service",
+            "text": "Kubernetes Service"
+          },
+          "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"kubernetesbackuppolicytype\"]",
+          "name": "kubernetesbackuppolicytype",
+          "options": [
+            {
+              "group": null,
+              "text": "Operational Tier",
+              "value": "operationaltier"
+            },
+            {
+              "group": null,
+              "text": "Vault Tier",
+              "value": "vaulttier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "VMs",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "VMs",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"VMs\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|VMs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-blobs",
+          "text": "Azure Blob (non-HNS)"
+        },
+        {
+          "field": "type",
+          "value": "backup-on-prem",
+          "text": "On-premises Servers"
+        },
+        {
+          "field": "type",
+          "value": "backup-file-server",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "backup-sap-server",
+          "text": "SAP HANA in Azure VMs"
+        },
+        {
+          "field": "type",
+          "value": "backup-sap-ase-azure-vm",
+          "text": "SAP ASE in Azure VMs"
+        },
+        {
+          "field": "type",
+          "value": "backup-sql-server",
+          "text": "SQL Server on Azure VMs"
+        },
+        {
+          "field": "type",
+          "value": "backup-postgresql-flexible-server",
+          "text": "Azure PostgreSQL Servers or Flexible Servers"
+        },
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service"
+        },
+        {
+          "field": "type",
+          "value": "backup-azure-data-lake-storage",
+          "text": "Azure Data Lake Storage (HNS)"
+        },
+        {
+          "field": "type",
+          "value": "azure-cosmos-db",
+          "text": "Azure Cosmos DB"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "backup",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "backup",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"backup\"]",
+      "selector_unique": true,
+      "signature": "input|number|backup|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "azure-cosmos-db",
+            "text": "Azure Cosmos DB"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"cosmosDBBackup\"]",
+          "name": "cosmosDBBackup",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "backupUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "backupUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"backupUnits\"]",
+      "selector_unique": true,
+      "signature": "select||backupUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service"
+        },
+        {
+          "field": "backupUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "backupUnits"
+      ]
+    },
+    {
+      "aria_label": "Day(s)",
+      "clean_name": "dailyRPs",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Day(s)",
+      "name": "dailyRPs",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"dailyRPs\"]",
+      "selector_unique": true,
+      "signature": "input|number|dailyRPs|Day(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "30",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-postgresql-flexible-server",
+          "text": "Azure PostgreSQL Servers or Flexible Servers"
+        },
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Week(s)",
+      "clean_name": "weeklyRPs",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Week(s)",
+      "name": "weeklyRPs",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Week\\(s\\)\"][name=\"weeklyRPs\"]",
+      "selector_unique": true,
+      "signature": "input|number|weeklyRPs|Week(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers"
+          },
+          "selector": "input[aria-label=\"Week\\(s\\)\"][name=\"weeklyPostgreSqlRPs\"]",
+          "name": "weeklyPostgreSqlRPs",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Month(s)",
+      "clean_name": "monthlyRPs",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Month(s)",
+      "name": "monthlyRPs",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Month\\(s\\)\"][name=\"monthlyRPs\"]",
+      "selector_unique": true,
+      "signature": "input|number|monthlyRPs|Month(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers"
+          },
+          "selector": "input[aria-label=\"Month\\(s\\)\"][name=\"monthlyPostgreSqlRPs\"]",
+          "name": "monthlyPostgreSqlRPs",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Year(s)",
+      "clean_name": "yearlyRPs",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Year(s)",
+      "name": "yearlyRPs",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Year\\(s\\)\"][name=\"yearlyRPs\"]",
+      "selector_unique": true,
+      "signature": "input|number|yearlyRPs|Year(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers"
+          },
+          "selector": "input[aria-label=\"Year\\(s\\)\"][name=\"yearlyPostgreSqlRPs\"]",
+          "name": "yearlyPostgreSqlRPs",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Day(s)",
+      "clean_name": "restoreSnapshots",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Day(s)",
+      "name": "restoreSnapshots",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"restoreSnapshots\"]",
+      "selector_unique": true,
+      "signature": "input|number|restoreSnapshots|Day(s)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-blobs",
+          "text": "Azure Blob (non-HNS)"
+        },
+        {
+          "field": "type",
+          "value": "backup-on-prem",
+          "text": "On-premises Servers"
+        },
+        {
+          "field": "type",
+          "value": "backup-file-server",
+          "text": "Azure Files"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sap-server",
+            "text": "SAP HANA in Azure VMs"
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sap-ase-azure-vm",
+            "text": "SAP ASE in Azure VMs"
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sql-server",
+            "text": "SQL Server on Azure VMs"
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Average Daily Data Churn",
+      "clean_name": "averageDailyChurn",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average Daily Data Churn",
+      "name": "averageDailyChurn",
+      "options": [
+        {
+          "group": null,
+          "text": "Low",
+          "value": "low"
+        },
+        {
+          "group": null,
+          "text": "Moderate",
+          "value": "moderate"
+        },
+        {
+          "group": null,
+          "text": "High",
+          "value": "high"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Average\\ Daily\\ Data\\ Churn\"][name=\"averageDailyChurn\"]",
+      "selector_unique": true,
+      "signature": "select||averageDailyChurn|Average Daily Data Churn||||",
+      "tag": "select",
+      "type": null,
+      "value": "low",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-postgresql-flexible-server",
+          "text": "Azure PostgreSQL Servers or Flexible Servers"
+        },
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "redundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "redundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "GRS",
+          "value": "grs"
+        },
+        {
+          "group": null,
+          "text": "RA-GRS",
+          "value": "ra-grs"
+        },
+        {
+          "group": null,
+          "text": "ZRS",
+          "value": "zrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"redundancy\"]",
+      "selector_unique": true,
+      "signature": "select||redundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "lrs",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-blobs",
+            "text": "Azure Blob (non-HNS)"
+          },
+          "selector": "select[aria-label=\"Redundancy\"][name=\"redundancyType\"]",
+          "name": "redundancyType",
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-azure-data-lake-storage",
+            "text": "Azure Data Lake Storage (HNS)"
+          },
+          "selector": "select[aria-label=\"Redundancy\"][name=\"redundancyType\"]",
+          "name": "redundancyType",
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-file-server",
+            "text": "Azure Files"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            },
+            {
+              "group": null,
+              "text": "GZRS",
+              "value": "gzrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Storage Accounts",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Storage Accounts",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Storage\\ Accounts\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|Storage Accounts||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "backup-blobs",
+          "text": "Azure Blob (non-HNS)"
+        },
+        {
+          "field": "type",
+          "value": "backup-file-server",
+          "text": "Azure Files"
+        },
+        {
+          "field": "type",
+          "value": "backup-azure-data-lake-storage",
+          "text": "Azure Data Lake Storage (HNS)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "x 10,000 operations",
+      "clean_name": "writeOperations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 10,000 operations",
+      "name": "writeOperations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 10\\,000\\ operations\"][name=\"writeOperations\"]",
+      "selector_unique": true,
+      "signature": "input|number|writeOperations|x 10,000 operations||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "backup-blobs",
+          "text": "Azure Blob (non-HNS)"
+        },
+        {
+          "field": "type",
+          "value": "backup-azure-data-lake-storage",
+          "text": "Azure Data Lake Storage (HNS)"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Servers",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Servers",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Servers\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|Servers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "backup-on-prem",
+          "text": "On-premises Servers"
+        },
+        {
+          "field": "type",
+          "value": "backup-sap-server",
+          "text": "SAP HANA in Azure VMs"
+        },
+        {
+          "field": "type",
+          "value": "backup-sap-ase-azure-vm",
+          "text": "SAP ASE in Azure VMs"
+        },
+        {
+          "field": "type",
+          "value": "backup-sql-server",
+          "text": "SQL Server on Azure VMs"
+        },
+        {
+          "field": "type",
+          "value": "backup-postgresql-flexible-server",
+          "text": "Azure PostgreSQL Servers or Flexible Servers"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Performance Tier",
+      "clean_name": "fileTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Performance Tier",
+      "name": "fileTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Transaction Optimized",
+          "value": "transactionoptimized"
+        },
+        {
+          "group": null,
+          "text": "Premium",
+          "value": "premium"
+        },
+        {
+          "group": null,
+          "text": "Hot",
+          "value": "hot"
+        },
+        {
+          "group": null,
+          "text": "Cool",
+          "value": "cool"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Performance\\ Tier\"][name=\"fileTier\"]",
+      "selector_unique": true,
+      "signature": "select||fileTier|Performance Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "transactionoptimized",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "backup-file-server",
+          "text": "Azure Files"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "AKS Clusters",
+      "clean_name": "aksClusters",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "AKS Clusters",
+      "name": "aksClusters",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"AKS\\ Clusters\"][name=\"aksClusters\"]",
+      "selector_unique": true,
+      "signature": "input|number|aksClusters|AKS Clusters||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Namespaces",
+      "clean_name": "namespaces",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Namespaces",
+      "name": "namespaces",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Namespaces\"][name=\"namespaces\"]",
+      "selector_unique": true,
+      "signature": "input|number|namespaces|Namespaces||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Cosmos DB account",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cosmos DB account",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Cosmos\\ DB\\ account\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|Cosmos DB account||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "azure-cosmos-db",
+          "text": "Azure Cosmos DB"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Schedule for hourly backup",
+      "clean_name": "hourlybackup",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Schedule for hourly backup",
+      "name": "hourlybackup",
+      "options": [
+        {
+          "group": null,
+          "text": "4 hours",
+          "value": "fourhrs"
+        },
+        {
+          "group": null,
+          "text": "6 hours",
+          "value": "sixhrs"
+        },
+        {
+          "group": null,
+          "text": "8 hours",
+          "value": "eighthrs"
+        },
+        {
+          "group": null,
+          "text": "12 hours",
+          "value": "twelvehrs"
+        },
+        {
+          "group": null,
+          "text": "24 hours",
+          "value": "twentyfourhrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Schedule\\ for\\ hourly\\ backup\"][name=\"hourlybackup\"]",
+      "selector_unique": true,
+      "signature": "select||hourlybackup|Schedule for hourly backup||||",
+      "tag": "select",
+      "type": null,
+      "value": "fourhrs",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "backuppolicytype",
+          "value": "enhanced",
+          "text": "Enhanced"
+        }
+      ],
+      "depends_on": [
+        "backuppolicytype"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "backup",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "backup",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"backup\"]",
+      "selector_unique": true,
+      "signature": "input|number|backup|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "backupUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "backupUnits"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "backupUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "backupUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"backupUnits\"]",
+      "selector_unique": true,
+      "signature": "select||backupUnits|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "backupUnits",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "backupUnits"
+      ]
+    }
+  ],
+  "toggles": []
+}

@@ -1,0 +1,432 @@
+{
+  "schema_version": 2,
+  "product": "Azure Devops",
+  "slug": "azure-devops",
+  "picker_testid": "azure-devops-picker-item",
+  "module_testid": "azure-devops-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:16:28.410968+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure DevOps",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure DevOps|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Additional users",
+      "clean_name": "devOpsUsers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional users",
+      "name": "devOpsUsers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ users\"][name=\"devOpsUsers\"]",
+      "selector_unique": true,
+      "signature": "input|number|devOpsUsers|Additional users||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Users",
+      "clean_name": "test",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Users",
+      "name": "test",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Users\"][name=\"test\"]",
+      "selector_unique": true,
+      "signature": "input|number|test|Users||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Free",
+          "value": "free"
+        },
+        {
+          "group": null,
+          "text": "Paid",
+          "value": "paid"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "free",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Additional parallel CI/CD jobs",
+      "clean_name": "privateAgents",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional parallel CI/CD jobs",
+      "name": "privateAgents",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ parallel\\ CI\\/CD\\ jobs\"][name=\"privateAgents\"]",
+      "selector_unique": true,
+      "signature": "input|number|privateAgents|Additional parallel CI/CD jobs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Operating system",
+      "clean_name": "actionsOperatingSystem",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operating system",
+      "name": "actionsOperatingSystem",
+      "options": [
+        {
+          "group": null,
+          "text": "macOS",
+          "value": "macos"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Operating\\ system\"][name=\"actionsOperatingSystem\"]",
+      "selector_unique": true,
+      "signature": "select||actionsOperatingSystem|Operating system||||",
+      "tag": "select",
+      "type": null,
+      "value": "macos",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Machine size",
+      "clean_name": "actionsSize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Machine size",
+      "name": "actionsSize",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "XL",
+          "value": "xl"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Machine\\ size\"][name=\"actionsSize\"]",
+      "selector_unique": true,
+      "signature": "select||actionsSize|Machine size||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of Jobs per month",
+      "clean_name": "jobsNumbersPerMonth",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of Jobs per month",
+      "name": "jobsNumbersPerMonth",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ Jobs\\ per\\ month\"][name=\"jobsNumbersPerMonth\"]",
+      "selector_unique": true,
+      "signature": "input|number|jobsNumbersPerMonth|Number of Jobs per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Duration of each job in minutes",
+      "clean_name": "jobsDurationInMinutes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Duration of each job in minutes",
+      "name": "jobsDurationInMinutes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Duration\\ of\\ each\\ job\\ in\\ minutes\"][name=\"jobsDurationInMinutes\"]",
+      "selector_unique": true,
+      "signature": "input|number|jobsDurationInMinutes|Duration of each job in minutes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "artifacts",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "artifacts",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"artifacts\"]",
+      "selector_unique": true,
+      "signature": "input|number|artifacts|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "artifactUnits",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "artifactUnits"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "artifactUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "artifactUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GiB\"][name=\"artifactUnits\"]",
+      "selector_unique": true,
+      "signature": "select||artifactUnits|GiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "artifactUnits",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "artifactUnits"
+      ]
+    },
+    {
+      "aria_label": "Committers",
+      "clean_name": "codeSecurityCommitters",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Committers",
+      "name": "codeSecurityCommitters",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Committers\"][name=\"codeSecurityCommitters\"]",
+      "selector_unique": true,
+      "signature": "input|number|codeSecurityCommitters|Committers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Committers",
+      "clean_name": "secretProtectionCommitters",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Committers",
+      "name": "secretProtectionCommitters",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Committers\"][name=\"secretProtectionCommitters\"]",
+      "selector_unique": true,
+      "signature": "input|number|secretProtectionCommitters|Committers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Parallel CI/CD jobs",
+      "clean_name": "hostedAgents",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Parallel CI/CD jobs",
+      "name": "hostedAgents",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Parallel\\ CI\\/CD\\ jobs\"][name=\"hostedAgents\"]",
+      "selector_unique": true,
+      "signature": "input|number|hostedAgents|Parallel CI/CD jobs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "paid",
+          "text": "Paid"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "artifacts",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "artifacts",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TiB\"][name=\"artifacts\"]",
+      "selector_unique": true,
+      "signature": "input|number|artifacts|TiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "artifactUnits",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "artifactUnits"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "artifactUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "artifactUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TiB\"][name=\"artifactUnits\"]",
+      "selector_unique": true,
+      "signature": "select||artifactUnits|TiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "artifactUnits",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "artifactUnits"
+      ]
+    }
+  ],
+  "toggles": []
+}

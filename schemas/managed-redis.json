@@ -1,0 +1,902 @@
+{
+  "schema_version": 2,
+  "product": "Managed Redis",
+  "slug": "managed-redis",
+  "picker_testid": "managed-redis-picker-item",
+  "module_testid": "managed-redis-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:30:48.111574+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Managed Redis",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Managed Redis|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Memory Optimized",
+          "value": "memoryoptimized"
+        },
+        {
+          "group": null,
+          "text": "Balanced (Memory + Compute)",
+          "value": "balanced"
+        },
+        {
+          "group": null,
+          "text": "Compute Optimized",
+          "value": "computeoptimized"
+        },
+        {
+          "group": null,
+          "text": "Flash Optimized",
+          "value": "flashoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "memoryoptimized",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "sizes",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "sizes",
+      "options": [
+        {
+          "group": null,
+          "text": "M10:  12 GB cache, 2 vCPU, $0.216/hour",
+          "value": "m10"
+        },
+        {
+          "group": null,
+          "text": "M20:  24 GB cache, 4 vCPU, $0.431/hour",
+          "value": "m20"
+        },
+        {
+          "group": null,
+          "text": "M50:  60 GB cache, 8 vCPU, $0.862/hour",
+          "value": "m50"
+        },
+        {
+          "group": null,
+          "text": "M100:  120 GB cache, 16 vCPU, $1.724/hour",
+          "value": "m100"
+        },
+        {
+          "group": null,
+          "text": "M150:  175 GB cache, 24 vCPU, $2.592/hour",
+          "value": "m150"
+        },
+        {
+          "group": null,
+          "text": "M250:  235 GB cache, 32 vCPU, $3.456/hour",
+          "value": "m250"
+        },
+        {
+          "group": null,
+          "text": "M350:  360 GB cache, 48 vCPU, $5.184/hour",
+          "value": "m350"
+        },
+        {
+          "group": null,
+          "text": "M500:  480 GB cache, 64 vCPU, $6.912/hour",
+          "value": "m500"
+        },
+        {
+          "group": null,
+          "text": "M700:  720 GB cache, 96 vCPU, $10.368/hour",
+          "value": "m700"
+        },
+        {
+          "group": null,
+          "text": "M1000:  960 GB cache, 128 vCPU, $13.824/hour",
+          "value": "m1000"
+        },
+        {
+          "group": null,
+          "text": "M1500:  1440 GB cache, 192 vCPU, $20.736/hour",
+          "value": "m1500"
+        },
+        {
+          "group": null,
+          "text": "M2000:  1920 GB cache, 256 vCPU, $27.648/hour",
+          "value": "m2000"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"sizes\"]",
+      "selector_unique": true,
+      "signature": "select||sizes|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "m10",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "balanced",
+            "text": "Balanced (Memory + Compute)"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "B0:  0.5 GB cache, 2 vCPU, $0.016/hour",
+              "value": "b0"
+            },
+            {
+              "group": null,
+              "text": "B1:  1 GB cache, 2 vCPU, $0.032/hour",
+              "value": "b1"
+            },
+            {
+              "group": null,
+              "text": "B3:  3 GB cache, 2 vCPU, $0.065/hour",
+              "value": "b3"
+            },
+            {
+              "group": null,
+              "text": "B5:  6 GB cache, 2 vCPU, $0.156/hour",
+              "value": "b5"
+            },
+            {
+              "group": null,
+              "text": "B10:  12 GB cache, 4 vCPU, $0.315/hour",
+              "value": "b10"
+            },
+            {
+              "group": null,
+              "text": "B20:  24 GB cache, 8 vCPU, $0.629/hour",
+              "value": "b20"
+            },
+            {
+              "group": null,
+              "text": "B50:  60 GB cache, 16 vCPU, $1.257/hour",
+              "value": "b50"
+            },
+            {
+              "group": null,
+              "text": "B100:  120 GB cache, 32 vCPU, $2.496/hour",
+              "value": "b100"
+            },
+            {
+              "group": null,
+              "text": "B150:  175 GB cache, 48 vCPU, $3.770/hour",
+              "value": "b150"
+            },
+            {
+              "group": null,
+              "text": "B250:  235 GB cache, 64 vCPU, $5.040/hour",
+              "value": "b250"
+            },
+            {
+              "group": null,
+              "text": "B350:  360 GB cache, 96 vCPU, $7.540/hour",
+              "value": "b350"
+            },
+            {
+              "group": null,
+              "text": "B500:  480 GB cache, 128 vCPU, $9.984/hour",
+              "value": "b500"
+            },
+            {
+              "group": null,
+              "text": "B700:  720 GB cache, 192 vCPU, $14.976/hour",
+              "value": "b700"
+            },
+            {
+              "group": null,
+              "text": "B1000:  960 GB cache, 256 vCPU, $19.968/hour",
+              "value": "b1000"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "computeoptimized",
+            "text": "Compute Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "X3:  3 GB cache, 4 vCPU, $0.219/hour",
+              "value": "x3"
+            },
+            {
+              "group": null,
+              "text": "X5:  6 GB cache, 4 vCPU, $0.291/hour",
+              "value": "x5"
+            },
+            {
+              "group": null,
+              "text": "X10:  12 GB cache, 8 vCPU, $0.583/hour",
+              "value": "x10"
+            },
+            {
+              "group": null,
+              "text": "X20:  24 GB cache, 16 vCPU, $1.166/hour",
+              "value": "x20"
+            },
+            {
+              "group": null,
+              "text": "X50:  60 GB cache, 32 vCPU, $2.331/hour",
+              "value": "x50"
+            },
+            {
+              "group": null,
+              "text": "X100:  120 GB cache, 64 vCPU, $4.663/hour",
+              "value": "x100"
+            },
+            {
+              "group": null,
+              "text": "X150:  175 GB cache, 96 vCPU, $6.994/hour",
+              "value": "x150"
+            },
+            {
+              "group": null,
+              "text": "X250:  235 GB cache, 128 vCPU, $9.326/hour",
+              "value": "x250"
+            },
+            {
+              "group": null,
+              "text": "X350:  360 GB cache, 192 vCPU, $13.989/hour",
+              "value": "x350"
+            },
+            {
+              "group": null,
+              "text": "X500:  480 GB cache, 256 vCPU, $18.651/hour",
+              "value": "x500"
+            },
+            {
+              "group": null,
+              "text": "X700:  720 GB cache, 320 vCPU, $23.314/hour",
+              "value": "x700"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "flashoptimized",
+            "text": "Flash Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "A250:  256 GB cache, 8 vCPU, $1.560/hour",
+              "value": "a250"
+            },
+            {
+              "group": null,
+              "text": "A500:  525 GB cache, 16 vCPU, $3.120/hour",
+              "value": "a500"
+            },
+            {
+              "group": null,
+              "text": "A700:  787 GB cache, 24 vCPU, $4.680/hour",
+              "value": "a700"
+            },
+            {
+              "group": null,
+              "text": "A1000:  1050 GB cache, 32 vCPU, $6.240/hour",
+              "value": "a1000"
+            },
+            {
+              "group": null,
+              "text": "A1500:  1574 GB cache, 48 vCPU, $9.358/hour",
+              "value": "a1500"
+            },
+            {
+              "group": null,
+              "text": "A2000:  2099 GB cache, 64 vCPU, $12.477/hour",
+              "value": "a2000"
+            },
+            {
+              "group": null,
+              "text": "A4500:  4723 GB cache, 144 vCPU, $24.954/hour",
+              "value": "a4500"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "instances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "instances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"instances\"]",
+      "selector_unique": true,
+      "signature": "input|number|instances|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-a96bcecf-c7d5-4acf-ab7d-d799041f8222-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-a96bcecf-c7d5-4acf-ab7d-d799041f8222-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-one-year-a96bcecf-c7d5-4acf-ab7d-d799041f8222-billingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-a96bcecf-c7d5-4acf-ab7d-d799041f8222-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-three-year-a96bcecf-c7d5-4acf-ab7d-d799041f8222-billingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-a96bcecf-c7d5-4acf-ab7d-d799041f8222-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

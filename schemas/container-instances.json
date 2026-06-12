@@ -1,0 +1,846 @@
+{
+  "schema_version": 2,
+  "product": "Container Instances",
+  "slug": "container-instances",
+  "picker_testid": "container-instances-picker-item",
+  "module_testid": "container-instances-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:21:02.757062+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Container Instances",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Container Instances|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Operating system",
+      "clean_name": "operatingSystem",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operating system",
+      "name": "operatingSystem",
+      "options": [
+        {
+          "group": null,
+          "text": "Linux",
+          "value": "linux"
+        },
+        {
+          "group": null,
+          "text": "Windows",
+          "value": "windows"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Operating\\ system\"][name=\"operatingSystem\"]",
+      "selector_unique": true,
+      "signature": "select||operatingSystem|Operating system||||",
+      "tag": "select",
+      "type": null,
+      "value": "linux",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "containerGroups",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": null,
+      "name": "containerGroups",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[name=\"containerGroups\"][type=\"number\"]",
+      "selector_unique": true,
+      "signature": "input|number|containerGroups|||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Seconds",
+      "clean_name": "durationUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Seconds",
+      "name": "durationUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Seconds\"][name=\"durationUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|durationUnits|Seconds||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "durationUnitsFactor",
+          "value": "60",
+          "text": "Minutes"
+        }
+      ],
+      "depends_on": [
+        "durationUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "Seconds",
+      "clean_name": "durationUnitsFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Seconds",
+      "name": "durationUnitsFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Seconds",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Minutes",
+          "value": "60"
+        },
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "3600"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "86400"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Seconds\"][name=\"durationUnitsFactor\"]",
+      "selector_unique": true,
+      "signature": "select||durationUnitsFactor|Seconds||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "durationUnitsFactor",
+          "value": "60",
+          "text": "Minutes"
+        }
+      ],
+      "depends_on": [
+        "durationUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "Memory",
+      "clean_name": "memory",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Memory",
+      "name": "memory",
+      "options": [
+        {
+          "group": null,
+          "text": "1 GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "1.5 GB",
+          "value": "1.5"
+        },
+        {
+          "group": null,
+          "text": "2 GB",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "2.5 GB",
+          "value": "2.5"
+        },
+        {
+          "group": null,
+          "text": "3 GB",
+          "value": "3"
+        },
+        {
+          "group": null,
+          "text": "3.5 GB",
+          "value": "3.5"
+        },
+        {
+          "group": null,
+          "text": "4 GB",
+          "value": "4"
+        },
+        {
+          "group": null,
+          "text": "4.5 GB",
+          "value": "4.5"
+        },
+        {
+          "group": null,
+          "text": "5 GB",
+          "value": "5"
+        },
+        {
+          "group": null,
+          "text": "5.5 GB",
+          "value": "5.5"
+        },
+        {
+          "group": null,
+          "text": "6 GB",
+          "value": "6"
+        },
+        {
+          "group": null,
+          "text": "6.5 GB",
+          "value": "6.5"
+        },
+        {
+          "group": null,
+          "text": "7 GB",
+          "value": "7"
+        },
+        {
+          "group": null,
+          "text": "7.5 GB",
+          "value": "7.5"
+        },
+        {
+          "group": null,
+          "text": "8 GB",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "8.5 GB",
+          "value": "8.5"
+        },
+        {
+          "group": null,
+          "text": "9 GB",
+          "value": "9"
+        },
+        {
+          "group": null,
+          "text": "9.5 GB",
+          "value": "9.5"
+        },
+        {
+          "group": null,
+          "text": "10 GB",
+          "value": "10"
+        },
+        {
+          "group": null,
+          "text": "10.5 GB",
+          "value": "10.5"
+        },
+        {
+          "group": null,
+          "text": "11 GB",
+          "value": "11"
+        },
+        {
+          "group": null,
+          "text": "11.5 GB",
+          "value": "11.5"
+        },
+        {
+          "group": null,
+          "text": "12 GB",
+          "value": "12"
+        },
+        {
+          "group": null,
+          "text": "12.5 GB",
+          "value": "12.5"
+        },
+        {
+          "group": null,
+          "text": "13 GB",
+          "value": "13"
+        },
+        {
+          "group": null,
+          "text": "13.5 GB",
+          "value": "13.5"
+        },
+        {
+          "group": null,
+          "text": "14 GB",
+          "value": "14"
+        },
+        {
+          "group": null,
+          "text": "14.5 GB",
+          "value": "14.5"
+        },
+        {
+          "group": null,
+          "text": "15 GB",
+          "value": "15"
+        },
+        {
+          "group": null,
+          "text": "15.5 GB",
+          "value": "15.5"
+        },
+        {
+          "group": null,
+          "text": "16 GB",
+          "value": "16"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Memory\"][name=\"memory\"]",
+      "selector_unique": true,
+      "signature": "select||memory|Memory||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Cores",
+      "clean_name": "cores",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cores",
+      "name": "cores",
+      "options": [
+        {
+          "group": null,
+          "text": "1",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "group": null,
+          "text": "4",
+          "value": "4"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Cores\"][name=\"cores\"]",
+      "selector_unique": true,
+      "signature": "select||cores|Cores||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-4e136994-23f2-4e48-a7e0-7e963d7d60d9-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-4e136994-23f2-4e48-a7e0-7e963d7d60d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-4e136994-23f2-4e48-a7e0-7e963d7d60d9-billingOption",
+      "label": "1 year savings plan (~27% savings)",
+      "name": "radioButton-4e136994-23f2-4e48-a7e0-7e963d7d60d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-4e136994-23f2-4e48-a7e0-7e963d7d60d9-billingOption",
+      "label": "3 year savings plan (~52% savings)",
+      "name": "radioButton-4e136994-23f2-4e48-a7e0-7e963d7d60d9-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Minutes",
+      "clean_name": "durationUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Minutes",
+      "name": "durationUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Minutes\"][name=\"durationUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|durationUnits|Minutes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "durationUnitsFactor",
+          "value": "60",
+          "text": "Minutes"
+        }
+      ],
+      "depends_on": [
+        "durationUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "Minutes",
+      "clean_name": "durationUnitsFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Minutes",
+      "name": "durationUnitsFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Seconds",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Minutes",
+          "value": "60"
+        },
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "3600"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "86400"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Minutes\"][name=\"durationUnitsFactor\"]",
+      "selector_unique": true,
+      "signature": "select||durationUnitsFactor|Minutes||||",
+      "tag": "select",
+      "type": null,
+      "value": "60",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "durationUnitsFactor",
+          "value": "60",
+          "text": "Minutes"
+        }
+      ],
+      "depends_on": [
+        "durationUnitsFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

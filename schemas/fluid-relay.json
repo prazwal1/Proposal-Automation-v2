@@ -1,0 +1,394 @@
+{
+  "schema_version": 2,
+  "product": "Fluid Relay",
+  "slug": "fluid-relay",
+  "picker_testid": "fluid-relay-picker-item",
+  "module_testid": "fluid-relay-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:25:31.310560+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Fluid Relay",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Fluid Relay|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "fluidRelayOfferTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "fluidRelayOfferTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"fluidRelayOfferTier\"]",
+      "selector_unique": true,
+      "signature": "select||fluidRelayOfferTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Average number of users per session",
+      "clean_name": "averageUsersPerSession",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average number of users per session",
+      "name": "averageUsersPerSession",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ number\\ of\\ users\\ per\\ session\"][name=\"averageUsersPerSession\"]",
+      "selector_unique": true,
+      "signature": "input|number|averageUsersPerSession|Average number of users per session||||",
+      "tag": "input",
+      "type": "number",
+      "value": "2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Average number of operations sent per user per minute",
+      "clean_name": "averageOperationsPerUserPerMinute",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average number of operations sent per user per minute",
+      "name": "averageOperationsPerUserPerMinute",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ number\\ of\\ operations\\ sent\\ per\\ user\\ per\\ minute\"][name=\"averageOperationsPerUserPerMinute\"]",
+      "selector_unique": true,
+      "signature": "input|number|averageOperationsPerUserPerMinute|Average number of operations sent per user per minute||||",
+      "tag": "input",
+      "type": "number",
+      "value": "10",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Average session duration in minutes",
+      "clean_name": "averageSessionDurationInMinutes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average session duration in minutes",
+      "name": "averageSessionDurationInMinutes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ session\\ duration\\ in\\ minutes\"][name=\"averageSessionDurationInMinutes\"]",
+      "selector_unique": true,
+      "signature": "input|number|averageSessionDurationInMinutes|Average session duration in minutes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "60",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Storage per session (MB)",
+      "clean_name": "storagePerSession",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Storage per session (MB)",
+      "name": "storagePerSession",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Storage\\ per\\ session\\ \\(MB\\)\"][name=\"storagePerSession\"]",
+      "selector_unique": true,
+      "signature": "input|number|storagePerSession|Storage per session (MB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "averageSessionsPerMonth",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average number of sessions per month",
+      "name": "averageSessionsPerMonth",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[name=\"averageSessionsPerMonth\"][type=\"number\"]",
+      "selector_unique": true,
+      "signature": "input|number|averageSessionsPerMonth|||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Operations in Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Operations in Calculation",
+      "tag": "button",
+      "text": "View Operations in Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Opertations out Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Opertations out Calculation",
+      "tag": "button",
+      "text": "View Opertations out Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Connectivity minutes Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Connectivity minutes Calculation",
+      "tag": "button",
+      "text": "View Connectivity minutes Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

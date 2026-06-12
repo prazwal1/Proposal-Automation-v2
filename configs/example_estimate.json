@@ -1,0 +1,39 @@
+{
+    "estimate_name": "Generic Engine Demo",
+    "components": [
+        {
+            "product": "Virtual Machines",
+            "name": "web-server-01",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Operating system": "Windows",
+                "Type": "(OS Only)",
+                "Tier": "Standard",
+                "size": "E4s v6",
+                "Virtual machines": 2,
+                "managedDiskTier": "Premium SSD",
+                "managedDiskType": "P10",
+                "managedDisks": 1
+            }
+        },
+        {
+            "product": "Managed Disks",
+            "name": "web-server-01_DataDisk1",
+            "fields": {
+                "Region": "Southeast Asia",
+                "Disk tier": "Standard SSD",
+                "Disk size": "E10",
+                "Disks": 2
+            }
+        },
+        {
+            "product": "Azure Backup",
+            "name": "web-server-01_Backup",
+            "fields": {
+                "Region": "Southeast Asia",
+                "VMs": 1,
+                "GB": 128
+            }
+        }
+    ]
+}

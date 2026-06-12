@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "product": "Windows 10 Iot Core",
+  "slug": "windows-10-iot-core",
+  "picker_testid": "windows-10-iot-core-picker-item",
+  "module_testid": "windows-10-iot-core-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:41:49.805400+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Windows 10 IoT Core Services",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Windows 10 IoT Core Services|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of devices",
+      "clean_name": "devices",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of devices",
+      "name": "devices",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ devices\"][name=\"devices\"]",
+      "selector_unique": true,
+      "signature": "input|number|devices|Number of devices||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

@@ -1,0 +1,2618 @@
+{
+  "schema_version": 2,
+  "product": "Azure Sql Database",
+  "slug": "azure-sql-database",
+  "picker_testid": "azure-sql-database-picker-item",
+  "module_testid": "azure-sql-database-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:18:23.053628+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure SQL Database",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure SQL Database|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Type",
+      "clean_name": "type",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Type",
+      "name": "type",
+      "options": [
+        {
+          "group": null,
+          "text": "Elastic Pool",
+          "value": "elastic"
+        },
+        {
+          "group": null,
+          "text": "Single Database",
+          "value": "single"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Type\"][name=\"type\"]",
+      "selector_unique": true,
+      "signature": "select||type|Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "single",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Purchase Model",
+      "clean_name": "purchaseModel",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Purchase Model",
+      "name": "purchaseModel",
+      "options": [
+        {
+          "group": null,
+          "text": "vCore",
+          "value": "vcore"
+        },
+        {
+          "group": null,
+          "text": "DTU",
+          "value": "dtu"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Purchase\\ Model\"][name=\"purchaseModel\"]",
+      "selector_unique": true,
+      "signature": "select||purchaseModel|Purchase Model||||",
+      "tag": "select",
+      "type": null,
+      "value": "vcore",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Service Tier",
+      "clean_name": "vcoreTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Service Tier",
+      "name": "vcoreTier",
+      "options": [
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "general-purpose"
+        },
+        {
+          "group": null,
+          "text": "Business Critical",
+          "value": "business-critical"
+        },
+        {
+          "group": null,
+          "text": "Hyperscale",
+          "value": "hyperscale"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Service\\ Tier\"][name=\"vcoreTier\"]",
+      "selector_unique": true,
+      "signature": "select||vcoreTier|Service Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "general-purpose",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "purchaseModel",
+            "value": "dtu",
+            "text": "DTU"
+          },
+          "selector": "select[aria-label=\"Service\\ Tier\"][name=\"dtuTier\"]",
+          "name": "dtuTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Basic",
+              "value": "basic"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            },
+            {
+              "group": null,
+              "text": "Premium",
+              "value": "premium-tier"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "purchaseModel"
+      ]
+    },
+    {
+      "aria_label": "Compute Tier",
+      "clean_name": "computeTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Compute Tier",
+      "name": "computeTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Provisioned",
+          "value": "provisioned"
+        },
+        {
+          "group": null,
+          "text": "Serverless",
+          "value": "serverless"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Compute\\ Tier\"][name=\"computeTier\"]",
+      "selector_unique": true,
+      "signature": "select||computeTier|Compute Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "provisioned",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "elastic",
+          "text": "Elastic Pool"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ],
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ]
+    },
+    {
+      "aria_label": "Hardware Type",
+      "clean_name": "generation",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hardware Type",
+      "name": "generation",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard-series (Gen 5)",
+          "value": "gen5"
+        },
+        {
+          "group": null,
+          "text": "Fsv2-series",
+          "value": "fsv2"
+        },
+        {
+          "group": null,
+          "text": "DC-series",
+          "value": "dc"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hardware\\ Type\"][name=\"generation\"]",
+      "selector_unique": true,
+      "signature": "select||generation|Hardware Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "gen5",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "elastic",
+            "text": "Elastic Pool"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Standard-series (Gen 5)",
+              "value": "gen5"
+            },
+            {
+              "group": null,
+              "text": "DC-series",
+              "value": "dc"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vcoreTier",
+            "value": "hyperscale",
+            "text": "Hyperscale"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Standard-series (Gen 5)",
+              "value": "gen5"
+            },
+            {
+              "group": null,
+              "text": "Premium-series",
+              "value": "premium"
+            },
+            {
+              "group": null,
+              "text": "Premium-series, memory optimized",
+              "value": "memoryoptimized"
+            },
+            {
+              "group": null,
+              "text": "DC-series",
+              "value": "dc"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeTier",
+            "value": "serverless",
+            "text": "Serverless"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Standard-series (Gen 5)",
+              "value": "gen5"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "type",
+        "purchaseModel",
+        "vcoreTier",
+        "computeTier"
+      ],
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        }
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "instanceSize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "instanceSize",
+      "options": [
+        {
+          "group": null,
+          "text": "2 vCore",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "4 vCore",
+          "value": "4"
+        },
+        {
+          "group": null,
+          "text": "6 vCore",
+          "value": "6"
+        },
+        {
+          "group": null,
+          "text": "8 vCore",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "10 vCore",
+          "value": "10"
+        },
+        {
+          "group": null,
+          "text": "12 vCore",
+          "value": "12"
+        },
+        {
+          "group": null,
+          "text": "14 vCore",
+          "value": "14"
+        },
+        {
+          "group": null,
+          "text": "16 vCore",
+          "value": "16"
+        },
+        {
+          "group": null,
+          "text": "18 vCore",
+          "value": "18"
+        },
+        {
+          "group": null,
+          "text": "20 vCore",
+          "value": "20"
+        },
+        {
+          "group": null,
+          "text": "24 vCore",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "32 vCore",
+          "value": "32"
+        },
+        {
+          "group": null,
+          "text": "40 vCore",
+          "value": "40"
+        },
+        {
+          "group": null,
+          "text": "80 vCore",
+          "value": "80"
+        },
+        {
+          "group": null,
+          "text": "128 vCore",
+          "value": "128"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"instanceSize\"]",
+      "selector_unique": true,
+      "signature": "select||instanceSize|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "2",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "elastic",
+            "text": "Elastic Pool"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "4 vCore",
+              "value": "4"
+            },
+            {
+              "group": null,
+              "text": "6 vCore",
+              "value": "6"
+            },
+            {
+              "group": null,
+              "text": "8 vCore",
+              "value": "8"
+            },
+            {
+              "group": null,
+              "text": "10 vCore",
+              "value": "10"
+            },
+            {
+              "group": null,
+              "text": "12 vCore",
+              "value": "12"
+            },
+            {
+              "group": null,
+              "text": "14 vCore",
+              "value": "14"
+            },
+            {
+              "group": null,
+              "text": "16 vCore",
+              "value": "16"
+            },
+            {
+              "group": null,
+              "text": "18 vCore",
+              "value": "18"
+            },
+            {
+              "group": null,
+              "text": "20 vCore",
+              "value": "20"
+            },
+            {
+              "group": null,
+              "text": "24 vCore",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "32 vCore",
+              "value": "32"
+            },
+            {
+              "group": null,
+              "text": "40 vCore",
+              "value": "40"
+            },
+            {
+              "group": null,
+              "text": "80 vCore",
+              "value": "80"
+            },
+            {
+              "group": null,
+              "text": "128 vCore",
+              "value": "128"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vcoreTier",
+            "value": "hyperscale",
+            "text": "Hyperscale"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "2 vCore",
+              "value": "2"
+            },
+            {
+              "group": null,
+              "text": "4 vCore",
+              "value": "4"
+            },
+            {
+              "group": null,
+              "text": "6 vCore",
+              "value": "6"
+            },
+            {
+              "group": null,
+              "text": "8 vCore",
+              "value": "8"
+            },
+            {
+              "group": null,
+              "text": "10 vCore",
+              "value": "10"
+            },
+            {
+              "group": null,
+              "text": "12 vCore",
+              "value": "12"
+            },
+            {
+              "group": null,
+              "text": "14 vCore",
+              "value": "14"
+            },
+            {
+              "group": null,
+              "text": "16 vCore",
+              "value": "16"
+            },
+            {
+              "group": null,
+              "text": "18 vCore",
+              "value": "18"
+            },
+            {
+              "group": null,
+              "text": "20 vCore",
+              "value": "20"
+            },
+            {
+              "group": null,
+              "text": "24 vCore",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "32 vCore",
+              "value": "32"
+            },
+            {
+              "group": null,
+              "text": "40 vCore",
+              "value": "40"
+            },
+            {
+              "group": null,
+              "text": "80 vCore",
+              "value": "80"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "generation",
+            "value": "fsv2",
+            "text": "Fsv2-series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "8 vCore",
+              "value": "8"
+            },
+            {
+              "group": null,
+              "text": "10 vCore",
+              "value": "10"
+            },
+            {
+              "group": null,
+              "text": "12 vCore",
+              "value": "12"
+            },
+            {
+              "group": null,
+              "text": "14 vCore",
+              "value": "14"
+            },
+            {
+              "group": null,
+              "text": "16 vCore",
+              "value": "16"
+            },
+            {
+              "group": null,
+              "text": "18 vCore",
+              "value": "18"
+            },
+            {
+              "group": null,
+              "text": "20 vCore",
+              "value": "20"
+            },
+            {
+              "group": null,
+              "text": "24 vCore",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "32 vCore",
+              "value": "32"
+            },
+            {
+              "group": null,
+              "text": "36 vCore",
+              "value": "36"
+            },
+            {
+              "group": null,
+              "text": "72 vCore",
+              "value": "72"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "generation",
+            "value": "dc",
+            "text": "DC-series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "2 vCore",
+              "value": "2"
+            },
+            {
+              "group": null,
+              "text": "4 vCore",
+              "value": "4"
+            },
+            {
+              "group": null,
+              "text": "6 vCore",
+              "value": "6"
+            },
+            {
+              "group": null,
+              "text": "8 vCore",
+              "value": "8"
+            },
+            {
+              "group": null,
+              "text": "10 vCore",
+              "value": "10"
+            },
+            {
+              "group": null,
+              "text": "12 vCore",
+              "value": "12"
+            },
+            {
+              "group": null,
+              "text": "14 vCore",
+              "value": "14"
+            },
+            {
+              "group": null,
+              "text": "16 vCore",
+              "value": "16"
+            },
+            {
+              "group": null,
+              "text": "18 vCore",
+              "value": "18"
+            },
+            {
+              "group": null,
+              "text": "20 vCore",
+              "value": "20"
+            },
+            {
+              "group": null,
+              "text": "32 vCore",
+              "value": "32"
+            },
+            {
+              "group": null,
+              "text": "40 vCore",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "type",
+        "purchaseModel",
+        "vcoreTier",
+        "computeTier",
+        "generation"
+      ],
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ]
+    },
+    {
+      "aria_label": "Disaster Recovery",
+      "clean_name": "disasterRecovery",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disaster Recovery",
+      "name": "disasterRecovery",
+      "options": [
+        {
+          "group": null,
+          "text": "Primary or Geo replica",
+          "value": "primary-or-georeplica"
+        },
+        {
+          "group": null,
+          "text": "Standby replica",
+          "value": "standby-replica"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Disaster\\ Recovery\"][name=\"disasterRecovery\"]",
+      "selector_unique": true,
+      "signature": "select||disasterRecovery|Disaster Recovery||||",
+      "tag": "select",
+      "type": null,
+      "value": "primary-or-georeplica",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "elastic",
+          "text": "Elastic Pool"
+        },
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "purchaseModel",
+        "vcoreTier",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "zoneRedundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "zoneRedundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "Locally Redundant",
+          "value": "local"
+        },
+        {
+          "group": null,
+          "text": "Zone Redundant",
+          "value": "zone"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"zoneRedundancy\"]",
+      "selector_unique": true,
+      "signature": "select||zoneRedundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "local",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "elastic",
+          "text": "Elastic Pool"
+        },
+        {
+          "field": "generation",
+          "value": "fsv2",
+          "text": "Fsv2-series"
+        },
+        {
+          "field": "generation",
+          "value": "dc",
+          "text": "DC-series"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "generation"
+      ],
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ]
+    },
+    {
+      "aria_label": "Databases",
+      "clean_name": "singleCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Databases",
+      "name": "singleCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Databases\"][name=\"singleCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|singleCount|Databases||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "elastic",
+          "text": "Elastic Pool"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        },
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeTier",
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        },
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeTier",
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "label": "1 year savings plan (~24% discount)",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "label": "3 year savings plan",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "databaseBillingOption",
+      "control": "radio",
+      "data_name_override": "databaseBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-databaseBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"databaseBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|databaseBillingOption||databaseBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel",
+        "vcoreTier",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "label": "1 year savings plan",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel",
+        "vcoreTier",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-ahb-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "label": "Azure Hybrid Benefit",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "ahb",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"ahb\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|ahb||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel",
+        "vcoreTier",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-failover-rights-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "label": "Failover rights, standby replica",
+      "name": "radioButton-a7a8c95c-41d9-4b9a-8271-e78e2b68e6db-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "failover-rights",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"failover-rights\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|failover-rights||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "elastic",
+          "text": "Elastic Pool"
+        },
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        },
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        },
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "type",
+        "purchaseModel",
+        "vcoreTier",
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "singleStorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "singleStorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"singleStorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|singleStorageUnits|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "32",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "type",
+            "value": "elastic",
+            "text": "Elastic Pool"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"elasticStorageUnits\"]",
+          "name": "elasticStorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vcoreTier",
+            "value": "hyperscale",
+            "text": "Hyperscale"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"singleHyperscaleStorageUnits\"]",
+          "name": "singleHyperscaleStorageUnits",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "type",
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "redundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "redundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "ZRS",
+          "value": "zrs"
+        },
+        {
+          "group": null,
+          "text": "RA-GRS",
+          "value": "ra-grs"
+        },
+        {
+          "group": null,
+          "text": "RA-GZRS",
+          "value": "ra-gzrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"redundancy\"]",
+      "selector_unique": true,
+      "signature": "select||redundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "ra-grs",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "backupStorageSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "backupStorageSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"backupStorageSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|backupStorageSize|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "ltrDatabaseSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "ltrDatabaseSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"ltrDatabaseSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|ltrDatabaseSize|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "ltrDatabaseSizeFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "ltrDatabaseSizeFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "ltrDatabaseSizeFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"ltrDatabaseSizeFactor\"]",
+      "selector_unique": true,
+      "signature": "select||ltrDatabaseSizeFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "ltrDatabaseSizeFactor"
+      ]
+    },
+    {
+      "aria_label": "Number of weeks",
+      "clean_name": "weeklyBackups",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of weeks",
+      "name": "weeklyBackups",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ weeks\"][name=\"weeklyBackups\"]",
+      "selector_unique": true,
+      "signature": "input|number|weeklyBackups|Number of weeks||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of months",
+      "clean_name": "monthlyBackups",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of months",
+      "name": "monthlyBackups",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ months\"][name=\"monthlyBackups\"]",
+      "selector_unique": true,
+      "signature": "input|number|monthlyBackups|Number of months||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of years",
+      "clean_name": "yearlyBackups",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of years",
+      "name": "yearlyBackups",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ years\"][name=\"yearlyBackups\"]",
+      "selector_unique": true,
+      "signature": "input|number|yearlyBackups|Number of years||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Pools",
+      "clean_name": "elasticCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Pools",
+      "name": "elasticCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Pools\"][name=\"elasticCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|elasticCount|Pools||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "elastic",
+          "text": "Elastic Pool"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Performance level",
+      "clean_name": "singlePerformanceLevel",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Performance level",
+      "name": "singlePerformanceLevel",
+      "options": [
+        {
+          "group": null,
+          "text": "B: 5 DTUs, 2 GB included storage per DB, $0.0067/hour",
+          "value": "b"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Performance\\ level\"][name=\"singlePerformanceLevel\"]",
+      "selector_unique": true,
+      "signature": "select||singlePerformanceLevel|Performance level||||",
+      "tag": "select",
+      "type": null,
+      "value": "b",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purchaseModel",
+          "value": "dtu",
+          "text": "DTU"
+        }
+      ],
+      "depends_on": [
+        "purchaseModel"
+      ]
+    },
+    {
+      "aria_label": "High availability replicas per database",
+      "clean_name": "singleHyperscaleReplicaUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "High availability replicas per database",
+      "name": "singleHyperscaleReplicaUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"High\\ availability\\ replicas\\ per\\ database\"][name=\"singleHyperscaleReplicaUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|singleHyperscaleReplicaUnits|High availability replicas per database||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "singleHyperscaleReplicaHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "singleHyperscaleReplicaHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"singleHyperscaleReplicaHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|singleHyperscaleReplicaHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "singleHyperscaleReplicaHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "singleHyperscaleReplicaHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"singleHyperscaleReplicaHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||singleHyperscaleReplicaHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Named replicas per database",
+      "clean_name": "namedReplicaUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Named replicas per database",
+      "name": "namedReplicaUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Named\\ replicas\\ per\\ database\"][name=\"namedReplicaUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|namedReplicaUnits|Named replicas per database||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "namedReplicaHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "namedReplicaHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"namedReplicaHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|namedReplicaHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "namedReplicaHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "namedReplicaHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"namedReplicaHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||namedReplicaHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "singleHyperscaleStorageUnitsFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "singleHyperscaleStorageUnitsFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"singleHyperscaleStorageUnitsFactor\"]",
+      "selector_unique": true,
+      "signature": "select||singleHyperscaleStorageUnitsFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "vcoreTier",
+          "value": "hyperscale",
+          "text": "Hyperscale"
+        }
+      ],
+      "depends_on": [
+        "vcoreTier"
+      ]
+    },
+    {
+      "aria_label": "Maximum vCores",
+      "clean_name": "maxVCores",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Maximum vCores",
+      "name": "maxVCores",
+      "options": [
+        {
+          "group": null,
+          "text": "1",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "group": null,
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "group": null,
+          "text": "8",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "10",
+          "value": "10"
+        },
+        {
+          "group": null,
+          "text": "12",
+          "value": "12"
+        },
+        {
+          "group": null,
+          "text": "14",
+          "value": "14"
+        },
+        {
+          "group": null,
+          "text": "16",
+          "value": "16"
+        },
+        {
+          "group": null,
+          "text": "18",
+          "value": "18"
+        },
+        {
+          "group": null,
+          "text": "20",
+          "value": "20"
+        },
+        {
+          "group": null,
+          "text": "24",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "32",
+          "value": "32"
+        },
+        {
+          "group": null,
+          "text": "40",
+          "value": "40"
+        },
+        {
+          "group": null,
+          "text": "80",
+          "value": "80"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Maximum\\ vCores\"][name=\"maxVCores\"]",
+      "selector_unique": true,
+      "signature": "select||maxVCores|Maximum vCores||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "Minimum vCores",
+      "clean_name": "minVCores",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Minimum vCores",
+      "name": "minVCores",
+      "options": [
+        {
+          "group": null,
+          "text": "0.5",
+          "value": "0.5"
+        },
+        {
+          "group": null,
+          "text": "0.75",
+          "value": "0.75"
+        },
+        {
+          "group": null,
+          "text": "1",
+          "value": "1"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Minimum\\ vCores\"][name=\"minVCores\"]",
+      "selector_unique": true,
+      "signature": "select||minVCores|Minimum vCores||||",
+      "tag": "select",
+      "type": null,
+      "value": "0.5",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "CPU Used (vCores)",
+      "clean_name": "cpuUsed",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "CPU Used (vCores)",
+      "name": "cpuUsed",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"CPU\\ Used\\ \\(vCores\\)\"][name=\"cpuUsed\"]",
+      "selector_unique": true,
+      "signature": "input|number|cpuUsed|CPU Used (vCores)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0.75",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "Memory used (GB)",
+      "clean_name": "memoryUsed",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Memory used (GB)",
+      "name": "memoryUsed",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Memory\\ used\\ \\(GB\\)\"][name=\"memoryUsed\"]",
+      "selector_unique": true,
+      "signature": "input|number|memoryUsed|Memory used (GB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "Duration (in seconds, max 2,678,400 seconds (744 hours))",
+      "clean_name": "duration",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Duration (in seconds, max 2,678,400 seconds (744 hours))",
+      "name": "duration",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Duration\\ \\(in\\ seconds\\,\\ max\\ 2\\,678\\,400\\ seconds\\ \\(744\\ hours\\)\\)\"][name=\"duration\"]",
+      "selector_unique": true,
+      "signature": "input|number|duration|Duration (in seconds, max 2,678,400 seconds (744 hours))||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3600",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeTier",
+          "value": "serverless",
+          "text": "Serverless"
+        }
+      ],
+      "depends_on": [
+        "computeTier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "ltrDatabaseSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "ltrDatabaseSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"ltrDatabaseSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|ltrDatabaseSize|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "ltrDatabaseSizeFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "ltrDatabaseSizeFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "ltrDatabaseSizeFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"ltrDatabaseSizeFactor\"]",
+      "selector_unique": true,
+      "signature": "select||ltrDatabaseSizeFactor|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ltrDatabaseSizeFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "ltrDatabaseSizeFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

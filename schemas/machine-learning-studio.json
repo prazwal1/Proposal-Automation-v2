@@ -1,0 +1,337 @@
+{
+  "schema_version": 2,
+  "product": "Machine Learning Studio",
+  "slug": "machine-learning-studio",
+  "picker_testid": "machine-learning-studio-picker-item",
+  "module_testid": "machine-learning-studio-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:29:59.732632+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Machine Learning Studio (classic)",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Machine Learning Studio (classic)|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-south-central",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Feature",
+      "clean_name": "feature",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Feature",
+      "name": "feature",
+      "options": [
+        {
+          "group": null,
+          "text": "Workspace",
+          "value": "workspace"
+        },
+        {
+          "group": null,
+          "text": "API Usage - Classic Web Service",
+          "value": "webapiclassic"
+        },
+        {
+          "group": null,
+          "text": "API Usage - New Web Service",
+          "value": "webapi"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Feature\"][name=\"feature\"]",
+      "selector_unique": true,
+      "signature": "select||feature|Feature||||",
+      "tag": "select",
+      "type": null,
+      "value": "workspace",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "studioTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "studioTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Free",
+          "value": "free"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"studioTier\"]",
+      "selector_unique": true,
+      "signature": "select||studioTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "free",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "feature",
+            "value": "webapiclassic",
+            "text": "API Usage - Classic Web Service"
+          },
+          "selector": "select[aria-label=\"Tier\"][name=\"webApiClassicTier\"]",
+          "name": "webApiClassicTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "feature",
+            "value": "webapi",
+            "text": "API Usage - New Web Service"
+          },
+          "selector": "select[aria-label=\"Tier\"][name=\"webApiTier\"]",
+          "name": "webApiTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Dev/Test",
+              "value": "devtest"
+            },
+            {
+              "group": null,
+              "text": "Standard S1",
+              "value": "s1"
+            },
+            {
+              "group": null,
+              "text": "Standard S2",
+              "value": "s2"
+            },
+            {
+              "group": null,
+              "text": "Standard S3",
+              "value": "s3"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "feature"
+      ]
+    },
+    {
+      "aria_label": "Transactions",
+      "clean_name": "webApiClassicTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Transactions",
+      "name": "webApiClassicTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Transactions\"][name=\"webApiClassicTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|webApiClassicTransactions|Transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "feature",
+          "value": "webapiclassic",
+          "text": "API Usage - Classic Web Service"
+        }
+      ],
+      "depends_on": [
+        "feature"
+      ]
+    },
+    {
+      "aria_label": "Compute hours",
+      "clean_name": "webApiClassicHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Compute hours",
+      "name": "webApiClassicHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Compute\\ hours\"][name=\"webApiClassicHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|webApiClassicHours|Compute hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "feature",
+          "value": "webapiclassic",
+          "text": "API Usage - Classic Web Service"
+        }
+      ],
+      "depends_on": [
+        "feature"
+      ]
+    },
+    {
+      "aria_label": "Workspaces",
+      "clean_name": "studioSeats",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Workspaces",
+      "name": "studioSeats",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Workspaces\"][name=\"studioSeats\"]",
+      "selector_unique": true,
+      "signature": "input|number|studioSeats|Workspaces||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "studioTier",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "studioTier"
+      ]
+    },
+    {
+      "aria_label": "Experiment hours per seat",
+      "clean_name": "studioHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Experiment hours per seat",
+      "name": "studioHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Experiment\\ hours\\ per\\ seat\"][name=\"studioHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|studioHours|Experiment hours per seat||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "studioTier",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "studioTier"
+      ]
+    }
+  ],
+  "toggles": []
+}

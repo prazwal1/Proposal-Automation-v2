@@ -1,0 +1,164 @@
+{
+  "schema_version": 2,
+  "product": "Static",
+  "slug": "app-service--static",
+  "picker_testid": "app-service\\static-picker-item",
+  "module_testid": "app-service\\static-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:54:54.671078+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Static Web Apps",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Static Web Apps|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Free",
+          "value": "free"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "free",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "App",
+      "clean_name": "standardApps",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "App",
+      "name": "standardApps",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"App\"][name=\"standardApps\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardApps|App||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "standardBandwidthOverages",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "standardBandwidthOverages",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"standardBandwidthOverages\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardBandwidthOverages|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "standardBandwidthOveragesFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "standardBandwidthOveragesFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"standardBandwidthOveragesFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardBandwidthOveragesFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    }
+  ],
+  "toggles": []
+}

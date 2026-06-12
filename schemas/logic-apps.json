@@ -1,0 +1,1749 @@
+{
+  "schema_version": 2,
+  "product": "Logic Apps",
+  "slug": "logic-apps",
+  "picker_testid": "logic-apps-picker-item",
+  "module_testid": "logic-apps-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:29:44.094457+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Logic Apps",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Logic Apps|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Plan",
+      "clean_name": "standardPlan",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Plan",
+      "name": "standardPlan",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Consumption",
+          "value": "consumption"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Plan\"][name=\"standardPlan\"]",
+      "selector_unique": true,
+      "signature": "select||standardPlan|Plan||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "standardPlanInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "standardPlanInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "WS1: 1 vCore, 3.5 GiB RAM, 250 GB Storage",
+          "value": "ws1"
+        },
+        {
+          "group": null,
+          "text": "WS2: 2 vCores, 7 GiB RAM, 250 GB Storage",
+          "value": "ws2"
+        },
+        {
+          "group": null,
+          "text": "WS3: 4 vCores, 14 GiB RAM, 250 GB Storage",
+          "value": "ws3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"standardPlanInstance\"]",
+      "selector_unique": true,
+      "signature": "select||standardPlanInstance|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "ws1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "standardPlanInstanceCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "standardPlanInstanceCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"standardPlanInstanceCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardPlanInstanceCount|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardPlanInstanceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardPlanInstanceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"standardPlanInstanceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardPlanInstanceHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        },
+        {
+          "field": "standardPlanInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardPlan",
+        "standardPlanInstanceHoursFactor",
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "developer",
+            "text": "Developer"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"baseUnitsDeveloperHours\"]",
+          "name": "baseUnitsDeveloperHours",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardPlanInstanceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardPlanInstanceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"standardPlanInstanceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardPlanInstanceHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        },
+        {
+          "field": "standardPlanInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardPlan",
+        "standardPlanInstanceHoursFactor",
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "developer",
+            "text": "Developer"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"baseUnitsDeveloperHoursFactor\"]",
+          "name": "baseUnitsDeveloperHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Standard Connector Calls per day",
+      "clean_name": "standardExecutions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Standard Connector Calls per day",
+      "name": "standardExecutions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Standard\\ Connector\\ Calls\\ per\\ day\"][name=\"standardExecutions\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardExecutions|Standard Connector Calls per day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Day",
+      "clean_name": "standardDays",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Day",
+      "name": "standardDays",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Day\"][name=\"standardDays\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardDays|Day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Enterprise Connector Calls per day",
+      "clean_name": "enterpriseExecutions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Enterprise Connector Calls per day",
+      "name": "enterpriseExecutions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Enterprise\\ Connector\\ Calls\\ per\\ day\"][name=\"enterpriseExecutions\"]",
+      "selector_unique": true,
+      "signature": "input|number|enterpriseExecutions|Enterprise Connector Calls per day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Day",
+      "clean_name": "enterpriseDays",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Day",
+      "name": "enterpriseDays",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Day\"][name=\"enterpriseDays\"]",
+      "selector_unique": true,
+      "signature": "input|number|enterpriseDays|Day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Developer",
+          "value": "developer"
+        },
+        {
+          "group": null,
+          "text": "Premium",
+          "value": "premium"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "premium",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Base Units",
+      "clean_name": "baseUnitsPremium",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Base Units",
+      "name": "baseUnitsPremium",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Base\\ Units\"][name=\"baseUnitsPremium\"]",
+      "selector_unique": true,
+      "signature": "input|number|baseUnitsPremium|Base Units||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "developer",
+            "text": "Developer"
+          },
+          "selector": "input[aria-label=\"Base\\ Units\"][name=\"baseUnitsDeveloper\"]",
+          "name": "baseUnitsDeveloper",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "baseUnitsPremiumHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "baseUnitsPremiumHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"baseUnitsPremiumHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|baseUnitsPremiumHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "developer",
+          "text": "Developer"
+        },
+        {
+          "field": "baseUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "baseUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "baseUnitsPremiumHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "baseUnitsPremiumHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"baseUnitsPremiumHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||baseUnitsPremiumHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "developer",
+          "text": "Developer"
+        },
+        {
+          "field": "baseUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "baseUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Scale Units",
+      "clean_name": "scaleUnitsPremium",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Scale Units",
+      "name": "scaleUnitsPremium",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Scale\\ Units\"][name=\"scaleUnitsPremium\"]",
+      "selector_unique": true,
+      "signature": "input|number|scaleUnitsPremium|Scale Units||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "developer",
+          "text": "Developer"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "scaleUnitsPremiumHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "scaleUnitsPremiumHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"scaleUnitsPremiumHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|scaleUnitsPremiumHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "developer",
+          "text": "Developer"
+        },
+        {
+          "field": "scaleUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "scaleUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "scaleUnitsPremiumHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "scaleUnitsPremiumHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"scaleUnitsPremiumHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||scaleUnitsPremiumHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "developer",
+          "text": "Developer"
+        },
+        {
+          "field": "scaleUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "scaleUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Standard Integration Accounts",
+      "clean_name": "standardIntegrationAccounts",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Standard Integration Accounts",
+      "name": "standardIntegrationAccounts",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Standard\\ Integration\\ Accounts\"][name=\"standardIntegrationAccounts\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardIntegrationAccounts|Standard Integration Accounts||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardIntegrationHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardIntegrationHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"standardIntegrationHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardIntegrationHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardIntegrationHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardIntegrationHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardIntegrationHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"standardIntegrationHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardIntegrationHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "standardIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardIntegrationHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Basic Integration Accounts",
+      "clean_name": "basicIntegrationAccounts",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Basic Integration Accounts",
+      "name": "basicIntegrationAccounts",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Basic\\ Integration\\ Accounts\"][name=\"basicIntegrationAccounts\"]",
+      "selector_unique": true,
+      "signature": "input|number|basicIntegrationAccounts|Basic Integration Accounts||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "basicIntegrationHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "basicIntegrationHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"basicIntegrationHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|basicIntegrationHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "basicIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "basicIntegrationHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "basicIntegrationHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "basicIntegrationHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"basicIntegrationHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||basicIntegrationHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "basicIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "basicIntegrationHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Action Executions per day",
+      "clean_name": "actionExecutions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Action Executions per day",
+      "name": "actionExecutions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Action\\ Executions\\ per\\ day\"][name=\"actionExecutions\"]",
+      "selector_unique": true,
+      "signature": "input|number|actionExecutions|Action Executions per day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Day",
+      "clean_name": "actionDays",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Day",
+      "name": "actionDays",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Day\"][name=\"actionDays\"]",
+      "selector_unique": true,
+      "signature": "input|number|actionDays|Day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "dataRetention",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "dataRetention",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"dataRetention\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataRetention|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "dataRetentionUnits",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "dataRetentionUnits",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"dataRetentionUnits\"]",
+      "selector_unique": true,
+      "signature": "select||dataRetentionUnits|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Standard Connector Executions per day",
+      "clean_name": "standardExecutions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Standard Connector Executions per day",
+      "name": "standardExecutions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Standard\\ Connector\\ Executions\\ per\\ day\"][name=\"standardExecutions\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardExecutions|Standard Connector Executions per day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Enterprise Connector Executions per day",
+      "clean_name": "enterpriseExecutions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Enterprise Connector Executions per day",
+      "name": "enterpriseExecutions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Enterprise\\ Connector\\ Executions\\ per\\ day\"][name=\"enterpriseExecutions\"]",
+      "selector_unique": true,
+      "signature": "input|number|enterpriseExecutions|Enterprise Connector Executions per day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlan",
+          "value": "consumption",
+          "text": "Consumption"
+        }
+      ],
+      "depends_on": [
+        "standardPlan"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "standardPlanInstanceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "standardPlanInstanceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"standardPlanInstanceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardPlanInstanceHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlanInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardPlanInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "standardPlanInstanceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "standardPlanInstanceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"standardPlanInstanceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardPlanInstanceHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardPlanInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardPlanInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "baseUnitsPremiumHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "baseUnitsPremiumHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"baseUnitsPremiumHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|baseUnitsPremiumHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "baseUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "baseUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "baseUnitsPremiumHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "baseUnitsPremiumHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"baseUnitsPremiumHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||baseUnitsPremiumHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "baseUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "baseUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "scaleUnitsPremiumHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "scaleUnitsPremiumHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"scaleUnitsPremiumHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|scaleUnitsPremiumHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "scaleUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "scaleUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "scaleUnitsPremiumHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "scaleUnitsPremiumHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"scaleUnitsPremiumHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||scaleUnitsPremiumHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "scaleUnitsPremiumHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "scaleUnitsPremiumHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "standardIntegrationHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "standardIntegrationHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"standardIntegrationHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardIntegrationHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardIntegrationHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "standardIntegrationHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "standardIntegrationHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"standardIntegrationHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardIntegrationHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "standardIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "standardIntegrationHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "basicIntegrationHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "basicIntegrationHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"basicIntegrationHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|basicIntegrationHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "basicIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "basicIntegrationHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "basicIntegrationHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "basicIntegrationHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"basicIntegrationHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||basicIntegrationHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "basicIntegrationHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "basicIntegrationHoursFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Cost Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Cost Calculation",
+      "tag": "button",
+      "text": "View Cost Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

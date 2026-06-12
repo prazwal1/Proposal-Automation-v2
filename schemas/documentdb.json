@@ -1,0 +1,677 @@
+{
+  "schema_version": 2,
+  "product": "Documentdb",
+  "slug": "documentdb",
+  "picker_testid": "documentdb-picker-item",
+  "module_testid": "documentdb-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:51:55.199902+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure DocumentDB (with MongoDB compatibility)",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure DocumentDB (with MongoDB compatibility)|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Cluster Tier",
+      "clean_name": "documentDBVcoreClusterOption",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cluster Tier",
+      "name": "documentDBVcoreClusterOption",
+      "options": [
+        {
+          "group": null,
+          "text": "M10, 1 vCores per node, 2 GiB per node, $0.02/vCore hour",
+          "value": "documentdb-vcore-node-10"
+        },
+        {
+          "group": null,
+          "text": "M20, 2 vCores per node, 4 GiB per node, $0.08/vCore hour",
+          "value": "documentdb-vcore-node-20"
+        },
+        {
+          "group": null,
+          "text": "M25, 2 vCores per node, 8 GiB per node, $0.11/vCore hour",
+          "value": "documentdb-vcore-node-1"
+        },
+        {
+          "group": null,
+          "text": "M30, 2 vCores per node, 8 GiB per node, $0.14/vCore hour",
+          "value": "documentdb-vcore-node-2"
+        },
+        {
+          "group": null,
+          "text": "M40, 4 vCores per node, 16 GiB per node, $0.28/vCore hour",
+          "value": "documentdb-vcore-node-4"
+        },
+        {
+          "group": null,
+          "text": "M50, 8 vCores per node, 32 GiB per node, $0.55/vCore hour",
+          "value": "documentdb-vcore-node-8"
+        },
+        {
+          "group": null,
+          "text": "M60, 16 vCores per node, 64 GiB per node, $1.10/vCore hour",
+          "value": "documentdb-vcore-node-16"
+        },
+        {
+          "group": null,
+          "text": "M80, 32 vCores per node, 128 GiB per node, $2.21/vCore hour",
+          "value": "documentdb-vcore-node-32"
+        },
+        {
+          "group": null,
+          "text": "M200, 64 vCores per node, 256 GiB per node, $4.41/vCore hour",
+          "value": "documentdb-vcore-node-64"
+        },
+        {
+          "group": null,
+          "text": "M200-Autoscale, Up to 64 vCores per node, Up to 256 GiB per node, Up to $6.62/vCore hour",
+          "value": "documentdb-vcore-node-auto-scale-64"
+        },
+        {
+          "group": null,
+          "text": "M300, 96 vCores per node, 384 GiB per node, $6.62/vCore hour",
+          "value": "documentdb-vcore-node-96"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Cluster\\ Tier\"][name=\"documentDBVcoreClusterOption\"]",
+      "selector_unique": true,
+      "signature": "select||documentDBVcoreClusterOption|Cluster Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "documentdb-vcore-node-10",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Shards",
+      "clean_name": "documentDBVcoreNode",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Shards",
+      "name": "documentDBVcoreNode",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Shards\"][name=\"documentDBVcoreNode\"]",
+      "selector_unique": true,
+      "signature": "input|number|documentDBVcoreNode|Shards||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "documentDBVcoreHour",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "documentDBVcoreHour",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"documentDBVcoreHour\"]",
+      "selector_unique": true,
+      "signature": "input|number|documentDBVcoreHour|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "documentDBVcoreHourFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "documentDBVcoreHourFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "documentDBVcoreHourFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "documentDBVcoreHourFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"documentDBVcoreHourFactor\"]",
+      "selector_unique": true,
+      "signature": "select||documentDBVcoreHourFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "documentDBVcoreHourFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "documentDBVcoreHourFactor"
+      ]
+    },
+    {
+      "aria_label": "Size",
+      "clean_name": "documentDBVcoreStorageOption",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Size",
+      "name": "documentDBVcoreStorageOption",
+      "options": [
+        {
+          "group": null,
+          "text": "32 GiB General Purpose Storage",
+          "value": "32"
+        },
+        {
+          "group": null,
+          "text": "64 GiB General Purpose Storage",
+          "value": "64"
+        },
+        {
+          "group": null,
+          "text": "128 GiB General Purpose Storage",
+          "value": "128"
+        },
+        {
+          "group": null,
+          "text": "256 GiB General Purpose Storage",
+          "value": "256"
+        },
+        {
+          "group": null,
+          "text": "512 GiB General Purpose Storage",
+          "value": "512"
+        },
+        {
+          "group": null,
+          "text": "1 TiB General Purpose Storage",
+          "value": "1024"
+        },
+        {
+          "group": null,
+          "text": "2 TiB General Purpose Storage",
+          "value": "2048"
+        },
+        {
+          "group": null,
+          "text": "4 TiB General Purpose Storage",
+          "value": "4095"
+        },
+        {
+          "group": null,
+          "text": "8 TiB General Purpose Storage",
+          "value": "8192"
+        },
+        {
+          "group": null,
+          "text": "16 TiB General Purpose Storage",
+          "value": "16384"
+        },
+        {
+          "group": null,
+          "text": "32 TiB General Purpose Storage",
+          "value": "32767"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Size\"][name=\"documentDBVcoreStorageOption\"]",
+      "selector_unique": true,
+      "signature": "select||documentDBVcoreStorageOption|Size||||",
+      "tag": "select",
+      "type": null,
+      "value": "64",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "documentDBVcoreHour",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "documentDBVcoreHour",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"documentDBVcoreHour\"]",
+      "selector_unique": true,
+      "signature": "input|number|documentDBVcoreHour|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "documentDBVcoreHourFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "documentDBVcoreHourFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "documentDBVcoreHourFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "documentDBVcoreHourFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"documentDBVcoreHourFactor\"]",
+      "selector_unique": true,
+      "signature": "select||documentDBVcoreHourFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "documentDBVcoreHourFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "documentDBVcoreHourFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

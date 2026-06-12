@@ -1,0 +1,1492 @@
+{
+  "schema_version": 2,
+  "product": "Managed Disks",
+  "slug": "managed-disks",
+  "picker_testid": "managed-disks-picker-item",
+  "module_testid": "managed-disks-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:02:47.451292+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Managed Disks",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Managed Disks|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard HDD",
+          "value": "standardhdd"
+        },
+        {
+          "group": null,
+          "text": "Standard SSD",
+          "value": "standardssd"
+        },
+        {
+          "group": null,
+          "text": "Premium SSD",
+          "value": "premiumssd"
+        },
+        {
+          "group": null,
+          "text": "Premium SSD v2",
+          "value": "premiumssdv2"
+        },
+        {
+          "group": null,
+          "text": "Ultra Disk",
+          "value": "ultrassd"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standardhdd",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Disk size",
+      "clean_name": "managedDiskType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disk size",
+      "name": "managedDiskType",
+      "options": [
+        {
+          "group": null,
+          "text": "S4: 32 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $1.536/month",
+          "value": "s4"
+        },
+        {
+          "group": null,
+          "text": "S6: 64 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $3.008/month",
+          "value": "s6"
+        },
+        {
+          "group": null,
+          "text": "S10: 128 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $5.888/month",
+          "value": "s10"
+        },
+        {
+          "group": null,
+          "text": "S15: 256 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $11.328/month",
+          "value": "s15"
+        },
+        {
+          "group": null,
+          "text": "S20: 512 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $21.760/month",
+          "value": "s20"
+        },
+        {
+          "group": null,
+          "text": "S30: 1,024 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $40.960/month",
+          "value": "s30"
+        },
+        {
+          "group": null,
+          "text": "S40: 2,048 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $77.824/month",
+          "value": "s40"
+        },
+        {
+          "group": null,
+          "text": "S50: 4,096 GiB, 500 Provisioned IOPS, 60 Provisioned MB/s, $143.360/month",
+          "value": "s50"
+        },
+        {
+          "group": null,
+          "text": "S60: 8,192 GiB, 1,300 Provisioned IOPS, 300 Provisioned MB/s, $262.140/month",
+          "value": "s60"
+        },
+        {
+          "group": null,
+          "text": "S70: 16,384 GiB, 2,000 Provisioned IOPS, 500 Provisioned MB/s, $491.520/month",
+          "value": "s70"
+        },
+        {
+          "group": null,
+          "text": "S80: 32,767 GiB, 2,000 Provisioned IOPS, 500 Provisioned MB/s, $953.550/month",
+          "value": "s80"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Disk\\ size\"][name=\"managedDiskType\"]",
+      "selector_unique": true,
+      "signature": "select||managedDiskType|Disk size||||",
+      "tag": "select",
+      "type": null,
+      "value": "s4",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "standardssd",
+            "text": "Standard SSD"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "E1: 4 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $0.300/month",
+              "value": "e1"
+            },
+            {
+              "group": null,
+              "text": "E2: 8 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $0.600/month",
+              "value": "e2"
+            },
+            {
+              "group": null,
+              "text": "E3: 16 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $1.200/month",
+              "value": "e3"
+            },
+            {
+              "group": null,
+              "text": "E4: 32 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $2.400/month",
+              "value": "e4"
+            },
+            {
+              "group": null,
+              "text": "E6: 64 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $4.800/month",
+              "value": "e6"
+            },
+            {
+              "group": null,
+              "text": "E10: 128 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $9.600/month",
+              "value": "e10"
+            },
+            {
+              "group": null,
+              "text": "E15: 256 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $19.200/month",
+              "value": "e15"
+            },
+            {
+              "group": null,
+              "text": "E20: 512 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $38.400/month",
+              "value": "e20"
+            },
+            {
+              "group": null,
+              "text": "E30: 1,024 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $76.800/month",
+              "value": "e30"
+            },
+            {
+              "group": null,
+              "text": "E40: 2,048 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $153.600/month",
+              "value": "e40"
+            },
+            {
+              "group": null,
+              "text": "E50: 4,096 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $307.200/month",
+              "value": "e50"
+            },
+            {
+              "group": null,
+              "text": "E60: 8,192 GiB, 2,000 Provisioned IOPS, 400 Provisioned MB/s, $614.400/month",
+              "value": "e60"
+            },
+            {
+              "group": null,
+              "text": "E70: 16,384 GiB, 4,000 Provisioned IOPS, 600 Provisioned MB/s, $1,228.800/month",
+              "value": "e70"
+            },
+            {
+              "group": null,
+              "text": "E80: 32,767 GiB, 6,000 Provisioned IOPS, 750 Provisioned MB/s, $2,457.600/month",
+              "value": "e80"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premiumssd",
+            "text": "Premium SSD"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "P1: 4 GiB, 120 Provisioned IOPS, 25 Provisioned MB/s, $0.600/month",
+              "value": "p1"
+            },
+            {
+              "group": null,
+              "text": "P2: 8 GiB, 120 Provisioned IOPS, 25 Provisioned MB/s, $1.200/month",
+              "value": "p2"
+            },
+            {
+              "group": null,
+              "text": "P3: 16 GiB, 120 Provisioned IOPS, 25 Provisioned MB/s, $2.400/month",
+              "value": "p3"
+            },
+            {
+              "group": null,
+              "text": "P4: 32 GiB, 120 Provisioned IOPS, 25 Provisioned MB/s, $5.280/month",
+              "value": "p4"
+            },
+            {
+              "group": null,
+              "text": "P6: 64 GiB, 240 Provisioned IOPS, 50 Provisioned MB/s, $10.207/month",
+              "value": "p6"
+            },
+            {
+              "group": null,
+              "text": "P10: 128 GiB, 500 Provisioned IOPS, 100 Provisioned MB/s, $19.710/month",
+              "value": "p10"
+            },
+            {
+              "group": null,
+              "text": "P15: 256 GiB, 1,100 Provisioned IOPS, 125 Provisioned MB/s, $38.012/month",
+              "value": "p15"
+            },
+            {
+              "group": null,
+              "text": "P20: 512 GiB, 2,300 Provisioned IOPS, 150 Provisioned MB/s, $73.220/month",
+              "value": "p20"
+            },
+            {
+              "group": null,
+              "text": "P30: 1,024 GiB, 5,000 Provisioned IOPS, 200 Provisioned MB/s, $135.170/month",
+              "value": "p30"
+            },
+            {
+              "group": null,
+              "text": "P40: 2,048 GiB, 7,500 Provisioned IOPS, 250 Provisioned MB/s, $259.046/month",
+              "value": "p40"
+            },
+            {
+              "group": null,
+              "text": "P50: 4,096 GiB, 7,500 Provisioned IOPS, 250 Provisioned MB/s, $495.566/month",
+              "value": "p50"
+            },
+            {
+              "group": null,
+              "text": "P60: 8,192 GiB, 16,000 Provisioned IOPS, 500 Provisioned MB/s, $946.080/month",
+              "value": "p60"
+            },
+            {
+              "group": null,
+              "text": "P70: 16,384 GiB, 18,000 Provisioned IOPS, 750 Provisioned MB/s, $1,802.060/month",
+              "value": "p70"
+            },
+            {
+              "group": null,
+              "text": "P80: 32,767 GiB, 20,000 Provisioned IOPS, 900 Provisioned MB/s, $3,604.110/month",
+              "value": "p80"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultrassd",
+            "text": "Ultra Disk"
+          },
+          "selector": "select[aria-label=\"Disk\\ size\"][name=\"ultraSize\"]",
+          "name": "ultraSize",
+          "options": [
+            {
+              "group": null,
+              "text": "4 GiB",
+              "value": "4"
+            },
+            {
+              "group": null,
+              "text": "8 GiB",
+              "value": "8"
+            },
+            {
+              "group": null,
+              "text": "16 GiB",
+              "value": "16"
+            },
+            {
+              "group": null,
+              "text": "32 GiB",
+              "value": "32"
+            },
+            {
+              "group": null,
+              "text": "64 GiB",
+              "value": "64"
+            },
+            {
+              "group": null,
+              "text": "128 GiB",
+              "value": "128"
+            },
+            {
+              "group": null,
+              "text": "256 GiB",
+              "value": "256"
+            },
+            {
+              "group": null,
+              "text": "512 GiB",
+              "value": "512"
+            },
+            {
+              "group": null,
+              "text": "1 TiB",
+              "value": "1024"
+            },
+            {
+              "group": null,
+              "text": "2 TiB",
+              "value": "2048"
+            },
+            {
+              "group": null,
+              "text": "3 TiB",
+              "value": "3072"
+            },
+            {
+              "group": null,
+              "text": "4 TiB",
+              "value": "4096"
+            },
+            {
+              "group": null,
+              "text": "5 TiB",
+              "value": "5120"
+            },
+            {
+              "group": null,
+              "text": "6 TiB",
+              "value": "6144"
+            },
+            {
+              "group": null,
+              "text": "7 TiB",
+              "value": "7168"
+            },
+            {
+              "group": null,
+              "text": "8 TiB",
+              "value": "8192"
+            },
+            {
+              "group": null,
+              "text": "9 TiB",
+              "value": "9216"
+            },
+            {
+              "group": null,
+              "text": "10 TiB",
+              "value": "10240"
+            },
+            {
+              "group": null,
+              "text": "11 TiB",
+              "value": "11264"
+            },
+            {
+              "group": null,
+              "text": "12 TiB",
+              "value": "12288"
+            },
+            {
+              "group": null,
+              "text": "13 TiB",
+              "value": "13312"
+            },
+            {
+              "group": null,
+              "text": "14 TiB",
+              "value": "14336"
+            },
+            {
+              "group": null,
+              "text": "15 TiB",
+              "value": "15360"
+            },
+            {
+              "group": null,
+              "text": "16 TiB",
+              "value": "16384"
+            },
+            {
+              "group": null,
+              "text": "17 TiB",
+              "value": "17408"
+            },
+            {
+              "group": null,
+              "text": "18 TiB",
+              "value": "18432"
+            },
+            {
+              "group": null,
+              "text": "19 TiB",
+              "value": "19456"
+            },
+            {
+              "group": null,
+              "text": "20 TiB",
+              "value": "20480"
+            },
+            {
+              "group": null,
+              "text": "21 TiB",
+              "value": "21504"
+            },
+            {
+              "group": null,
+              "text": "22 TiB",
+              "value": "22528"
+            },
+            {
+              "group": null,
+              "text": "23 TiB",
+              "value": "23552"
+            },
+            {
+              "group": null,
+              "text": "24 TiB",
+              "value": "24576"
+            },
+            {
+              "group": null,
+              "text": "25 TiB",
+              "value": "25600"
+            },
+            {
+              "group": null,
+              "text": "26 TiB",
+              "value": "26624"
+            },
+            {
+              "group": null,
+              "text": "27 TiB",
+              "value": "27648"
+            },
+            {
+              "group": null,
+              "text": "28 TiB",
+              "value": "28672"
+            },
+            {
+              "group": null,
+              "text": "29 TiB",
+              "value": "29696"
+            },
+            {
+              "group": null,
+              "text": "30 TiB",
+              "value": "30720"
+            },
+            {
+              "group": null,
+              "text": "31 TiB",
+              "value": "31744"
+            },
+            {
+              "group": null,
+              "text": "32 TiB",
+              "value": "32768"
+            },
+            {
+              "group": null,
+              "text": "33 TiB",
+              "value": "33792"
+            },
+            {
+              "group": null,
+              "text": "34 TiB",
+              "value": "34816"
+            },
+            {
+              "group": null,
+              "text": "35 TiB",
+              "value": "35840"
+            },
+            {
+              "group": null,
+              "text": "36 TiB",
+              "value": "36864"
+            },
+            {
+              "group": null,
+              "text": "37 TiB",
+              "value": "37888"
+            },
+            {
+              "group": null,
+              "text": "38 TiB",
+              "value": "38912"
+            },
+            {
+              "group": null,
+              "text": "39 TiB",
+              "value": "39936"
+            },
+            {
+              "group": null,
+              "text": "40 TiB",
+              "value": "40960"
+            },
+            {
+              "group": null,
+              "text": "41 TiB",
+              "value": "41984"
+            },
+            {
+              "group": null,
+              "text": "42 TiB",
+              "value": "43008"
+            },
+            {
+              "group": null,
+              "text": "43 TiB",
+              "value": "44032"
+            },
+            {
+              "group": null,
+              "text": "44 TiB",
+              "value": "45056"
+            },
+            {
+              "group": null,
+              "text": "45 TiB",
+              "value": "46080"
+            },
+            {
+              "group": null,
+              "text": "46 TiB",
+              "value": "47104"
+            },
+            {
+              "group": null,
+              "text": "47 TiB",
+              "value": "48128"
+            },
+            {
+              "group": null,
+              "text": "48 TiB",
+              "value": "49152"
+            },
+            {
+              "group": null,
+              "text": "49 TiB",
+              "value": "50176"
+            },
+            {
+              "group": null,
+              "text": "50 TiB",
+              "value": "51200"
+            },
+            {
+              "group": null,
+              "text": "51 TiB",
+              "value": "52224"
+            },
+            {
+              "group": null,
+              "text": "52 TiB",
+              "value": "53248"
+            },
+            {
+              "group": null,
+              "text": "53 TiB",
+              "value": "54272"
+            },
+            {
+              "group": null,
+              "text": "54 TiB",
+              "value": "55296"
+            },
+            {
+              "group": null,
+              "text": "55 TiB",
+              "value": "56320"
+            },
+            {
+              "group": null,
+              "text": "56 TiB",
+              "value": "57344"
+            },
+            {
+              "group": null,
+              "text": "57 TiB",
+              "value": "58368"
+            },
+            {
+              "group": null,
+              "text": "58 TiB",
+              "value": "59392"
+            },
+            {
+              "group": null,
+              "text": "59 TiB",
+              "value": "60416"
+            },
+            {
+              "group": null,
+              "text": "60 TiB",
+              "value": "61440"
+            },
+            {
+              "group": null,
+              "text": "61 TiB",
+              "value": "62464"
+            },
+            {
+              "group": null,
+              "text": "62 TiB",
+              "value": "63488"
+            },
+            {
+              "group": null,
+              "text": "63 TiB",
+              "value": "64512"
+            },
+            {
+              "group": null,
+              "text": "64 TiB",
+              "value": "65536"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Disks",
+      "clean_name": "managedDisks",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disks",
+      "name": "managedDisks",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Disks\"][name=\"managedDisks\"]",
+      "selector_unique": true,
+      "signature": "input|number|managedDisks|Disks||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultrassd",
+            "text": "Ultra Disk"
+          },
+          "selector": "input[aria-label=\"Disks\"][name=\"ultraDisks\"]",
+          "name": "ultraDisks",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Transaction units (10,000 transactions)",
+      "clean_name": "managedDisksTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Transaction units (10,000 transactions)",
+      "name": "managedDisksTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Transaction\\ units\\ \\(10\\,000\\ transactions\\)\"][name=\"managedDisksTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|managedDisksTransactions|Transaction units (10,000 transactions)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "premiumssd",
+          "text": "Premium SSD"
+        },
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        },
+        {
+          "field": "tier",
+          "value": "ultrassd",
+          "text": "Ultra Disk"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "managedDiskRedundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "managedDiskRedundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "ZRS",
+          "value": "zrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"managedDiskRedundancy\"]",
+      "selector_unique": true,
+      "signature": "select||managedDiskRedundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "lrs",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "standardssd",
+          "text": "Standard SSD"
+        },
+        {
+          "field": "tier",
+          "value": "premiumssd",
+          "text": "Premium SSD"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "managedDiskBillingOption",
+      "control": "radio",
+      "data_name_override": "managedDiskBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-cbad2c7c-f000-438f-8cc8-777b9c59d90e-managedDiskBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-cbad2c7c-f000-438f-8cc8-777b9c59d90e-managedDiskBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"managedDiskBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|managedDiskBillingOption||managedDiskBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssd",
+          "text": "Premium SSD"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "managedDiskBillingOption",
+      "control": "radio",
+      "data_name_override": "managedDiskBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-cbad2c7c-f000-438f-8cc8-777b9c59d90e-managedDiskBillingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-cbad2c7c-f000-438f-8cc8-777b9c59d90e-managedDiskBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"managedDiskBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|managedDiskBillingOption||managedDiskBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssd",
+          "text": "Premium SSD"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Disk Size (GiB)",
+      "clean_name": "storageV2Size",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disk Size (GiB)",
+      "name": "storageV2Size",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Disk\\ Size\\ \\(GiB\\)\"][name=\"storageV2Size\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Size|Disk Size (GiB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Number of Disks",
+      "clean_name": "storageV2Number",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of Disks",
+      "name": "storageV2Number",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ Disks\"][name=\"storageV2Number\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Number|Number of Disks||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "storageV2Hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "storageV2Hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"storageV2Hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultrassd",
+            "text": "Ultra Disk"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"ultraHours\"]",
+          "name": "ultraHours",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "storageV2HoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "storageV2HoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"storageV2HoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||storageV2HoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultrassd",
+            "text": "Ultra Disk"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"ultraHoursFactor\"]",
+          "name": "ultraHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Number of IOPS",
+      "clean_name": "storageV2Iops",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of IOPS",
+      "name": "storageV2Iops",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ IOPS\"][name=\"storageV2Iops\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Iops|Number of IOPS||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultrassd",
+            "text": "Ultra Disk"
+          },
+          "selector": "input[aria-label=\"Number\\ of\\ IOPS\"][name=\"ultraIops\"]",
+          "name": "ultraIops",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "MB/s",
+      "clean_name": "storageV2Throughput",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "MB/s",
+      "name": "storageV2Throughput",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"MB\\/s\"][name=\"storageV2Throughput\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageV2Throughput|MB/s||||",
+      "tag": "input",
+      "type": "number",
+      "value": "125",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premiumssdv2",
+          "text": "Premium SSD v2"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "ultrassd",
+            "text": "Ultra Disk"
+          },
+          "selector": "input[aria-label=\"MB\\/s\"][name=\"ultraThroughput\"]",
+          "name": "ultraThroughput",
+          "options": null
+        }
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

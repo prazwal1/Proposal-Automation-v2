@@ -1,0 +1,1370 @@
+{
+  "managed-disks": {
+    "product": "Managed Disks",
+    "picker_testid": "managed-disks-picker-item",
+    "module_testid": "managed-disks-module",
+    "category": null,
+    "file": "managed-disks.json",
+    "n_fields": 15,
+    "learned_at": "2026-06-12T16:02:47.451292+00:00"
+  },
+  "virtual-machines": {
+    "product": "Virtual Machines",
+    "picker_testid": "virtual-machines-picker-item",
+    "module_testid": "virtual-machines-module",
+    "category": null,
+    "file": "virtual-machines.json",
+    "n_fields": 31,
+    "learned_at": "2026-06-12T16:03:31.906750+00:00"
+  },
+  "backup": {
+    "product": "Backup",
+    "picker_testid": "backup-picker-item",
+    "module_testid": "backup-module",
+    "category": null,
+    "file": "backup.json",
+    "n_fields": 24,
+    "learned_at": "2026-06-12T16:02:30.094521+00:00"
+  },
+  "active-directory": {
+    "product": "Active Directory",
+    "picker_testid": "active-directory-picker-item",
+    "module_testid": "active-directory-module",
+    "category": null,
+    "file": "active-directory.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:14:13.412854+00:00"
+  },
+  "active-directory-b2c": {
+    "product": "Active Directory B2c",
+    "picker_testid": "active-directory-b2c-picker-item",
+    "module_testid": "active-directory-b2c-module",
+    "category": null,
+    "file": "active-directory-b2c.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:14:17.149030+00:00"
+  },
+  "advanced-container-networking-services": {
+    "product": "Advanced Container Networking Services",
+    "picker_testid": "advanced-container-networking-services-picker-item",
+    "module_testid": "advanced-container-networking-services-module",
+    "category": null,
+    "file": "advanced-container-networking-services.json",
+    "n_fields": 7,
+    "learned_at": "2026-06-12T16:14:20.883155+00:00"
+  },
+  "advisor": {
+    "product": "Advisor",
+    "picker_testid": "advisor-picker-item",
+    "module_testid": "advisor-module",
+    "category": null,
+    "file": "advisor.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:14:22.752902+00:00"
+  },
+  "aks-ee": {
+    "product": "Aks Ee",
+    "picker_testid": "aks-ee-picker-item",
+    "module_testid": "aks-ee-module",
+    "category": null,
+    "file": "aks-ee.json",
+    "n_fields": 3,
+    "learned_at": "2026-06-12T16:14:24.037447+00:00"
+  },
+  "aks-hci": {
+    "product": "Aks Hci",
+    "picker_testid": "aks-hci-picker-item",
+    "module_testid": "aks-hci-module",
+    "category": null,
+    "file": "aks-hci.json",
+    "n_fields": 3,
+    "learned_at": "2026-06-12T16:14:25.387363+00:00"
+  },
+  "analysis-services": {
+    "product": "Analysis Services",
+    "picker_testid": "analysis-services-picker-item",
+    "module_testid": "analysis-services-module",
+    "category": null,
+    "file": "analysis-services.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:14:35.913493+00:00"
+  },
+  "api-management": {
+    "product": "Api Management",
+    "picker_testid": "api-management-picker-item",
+    "module_testid": "api-management-module",
+    "category": null,
+    "file": "api-management.json",
+    "n_fields": 19,
+    "learned_at": "2026-06-12T16:14:48.948970+00:00"
+  },
+  "app-configuration": {
+    "product": "App Configuration",
+    "picker_testid": "app-configuration-picker-item",
+    "module_testid": "app-configuration-module",
+    "category": null,
+    "file": "app-configuration.json",
+    "n_fields": 7,
+    "learned_at": "2026-06-12T16:14:52.690525+00:00"
+  },
+  "app-service": {
+    "product": "App Service",
+    "picker_testid": "app-service-picker-item",
+    "module_testid": "app-service-module",
+    "category": null,
+    "file": "app-service.json",
+    "n_fields": 21,
+    "learned_at": "2026-06-12T16:15:14.478561+00:00"
+  },
+  "application-gateway": {
+    "product": "Application Gateway",
+    "picker_testid": "application-gateway-picker-item",
+    "module_testid": "application-gateway-module",
+    "category": null,
+    "file": "application-gateway.json",
+    "n_fields": 24,
+    "learned_at": "2026-06-12T16:15:33.826112+00:00"
+  },
+  "artifact-signing": {
+    "product": "Artifact Signing",
+    "picker_testid": "artifact-signing-picker-item",
+    "module_testid": "artifact-signing-module",
+    "category": null,
+    "file": "artifact-signing.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:15:38.149860+00:00"
+  },
+  "automation": {
+    "product": "Automation",
+    "picker_testid": "automation-picker-item",
+    "module_testid": "automation-module",
+    "category": null,
+    "file": "automation.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:15:44.236844+00:00"
+  },
+  "azure-arc": {
+    "product": "Azure Arc",
+    "picker_testid": "azure-arc-picker-item",
+    "module_testid": "azure-arc-module",
+    "category": null,
+    "file": "azure-arc.json",
+    "n_fields": 29,
+    "learned_at": "2026-06-12T16:16:04.058792+00:00"
+  },
+  "azure-bastion": {
+    "product": "Azure Bastion",
+    "picker_testid": "azure-bastion-picker-item",
+    "module_testid": "azure-bastion-module",
+    "category": null,
+    "file": "azure-bastion.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:16:14.212156+00:00"
+  },
+  "azure-cloud-hsm": {
+    "product": "Azure Cloud Hsm",
+    "picker_testid": "azure-cloud-hsm-picker-item",
+    "module_testid": "azure-cloud-hsm-module",
+    "category": null,
+    "file": "azure-cloud-hsm.json",
+    "n_fields": 3,
+    "learned_at": "2026-06-12T16:16:16.073656+00:00"
+  },
+  "azure-dedicated-hsm": {
+    "product": "Azure Dedicated Hsm",
+    "picker_testid": "azure-dedicated-hsm-picker-item",
+    "module_testid": "azure-dedicated-hsm-module",
+    "category": null,
+    "file": "azure-dedicated-hsm.json",
+    "n_fields": 7,
+    "learned_at": "2026-06-12T16:16:19.759643+00:00"
+  },
+  "azure-devops": {
+    "product": "Azure Devops",
+    "picker_testid": "azure-devops-picker-item",
+    "module_testid": "azure-devops-module",
+    "category": null,
+    "file": "azure-devops.json",
+    "n_fields": 16,
+    "learned_at": "2026-06-12T16:16:28.410968+00:00"
+  },
+  "azure-elastic-san": {
+    "product": "Azure Elastic San",
+    "picker_testid": "azure-elastic-san-picker-item",
+    "module_testid": "azure-elastic-san-module",
+    "category": null,
+    "file": "azure-elastic-san.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:16:32.152927+00:00"
+  },
+  "azure-firewall": {
+    "product": "Azure Firewall",
+    "picker_testid": "azure-firewall-picker-item",
+    "module_testid": "azure-firewall-module",
+    "category": null,
+    "file": "azure-firewall.json",
+    "n_fields": 18,
+    "learned_at": "2026-06-12T16:16:47.206417+00:00"
+  },
+  "azure-lighthouse": {
+    "product": "Azure Lighthouse",
+    "picker_testid": "azure-lighthouse-picker-item",
+    "module_testid": "azure-lighthouse-module",
+    "category": null,
+    "file": "azure-lighthouse.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:16:48.457836+00:00"
+  },
+  "azure-maps": {
+    "product": "Azure Maps",
+    "picker_testid": "azure-maps-picker-item",
+    "module_testid": "azure-maps-module",
+    "category": null,
+    "file": "azure-maps.json",
+    "n_fields": 16,
+    "learned_at": "2026-06-12T16:16:52.199779+00:00"
+  },
+  "azure-migrate": {
+    "product": "Azure Migrate",
+    "picker_testid": "azure-migrate-picker-item",
+    "module_testid": "azure-migrate-module",
+    "category": null,
+    "file": "azure-migrate.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:16:53.448128+00:00"
+  },
+  "azure-policy": {
+    "product": "Azure Policy",
+    "picker_testid": "azure-policy-picker-item",
+    "module_testid": "azure-policy-module",
+    "category": null,
+    "file": "azure-policy.json",
+    "n_fields": 2,
+    "learned_at": "2026-06-12T16:16:55.289190+00:00"
+  },
+  "azure-sentinel": {
+    "product": "Azure Sentinel",
+    "picker_testid": "azure-sentinel-picker-item",
+    "module_testid": "azure-sentinel-module",
+    "category": null,
+    "file": "azure-sentinel.json",
+    "n_fields": 34,
+    "learned_at": "2026-06-12T16:17:15.606552+00:00"
+  },
+  "azure-sql": {
+    "product": "Azure Sql",
+    "picker_testid": "azure-sql-picker-item",
+    "module_testid": "azure-sql-module",
+    "category": null,
+    "file": "azure-sql.json",
+    "n_fields": 34,
+    "learned_at": "2026-06-12T16:17:49.910216+00:00"
+  },
+  "azure-sql-database": {
+    "product": "Azure Sql Database",
+    "picker_testid": "azure-sql-database-picker-item",
+    "module_testid": "azure-sql-database-module",
+    "category": null,
+    "file": "azure-sql-database.json",
+    "n_fields": 48,
+    "learned_at": "2026-06-12T16:18:23.053628+00:00"
+  },
+  "azure-sql-edge": {
+    "product": "Azure Sql Edge",
+    "picker_testid": "azure-sql-edge-picker-item",
+    "module_testid": "azure-sql-edge-module",
+    "category": null,
+    "file": "azure-sql-edge.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:18:24.321425+00:00"
+  },
+  "azure-stack-edge": {
+    "product": "Azure Stack Edge",
+    "picker_testid": "azure-stack-edge-picker-item",
+    "module_testid": "azure-stack-edge-module",
+    "category": null,
+    "file": "azure-stack-edge.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:18:34.579420+00:00"
+  },
+  "azure-storage-discovery": {
+    "product": "Azure Storage Discovery",
+    "picker_testid": "azure-storage-discovery-picker-item",
+    "module_testid": "azure-storage-discovery-module",
+    "category": null,
+    "file": "azure-storage-discovery.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:18:35.822664+00:00"
+  },
+  "azure-vmware": {
+    "product": "Azure Vmware",
+    "picker_testid": "azure-vmware-picker-item",
+    "module_testid": "azure-vmware-module",
+    "category": null,
+    "file": "azure-vmware.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:18:43.708797+00:00"
+  },
+  "bandwidth": {
+    "product": "Bandwidth",
+    "picker_testid": "bandwidth-picker-item",
+    "module_testid": "bandwidth-module",
+    "category": null,
+    "file": "bandwidth.json",
+    "n_fields": 6,
+    "learned_at": "2026-06-12T16:18:47.446277+00:00"
+  },
+  "batch": {
+    "product": "Batch",
+    "picker_testid": "batch-picker-item",
+    "module_testid": "batch-module",
+    "category": null,
+    "file": "batch.json",
+    "n_fields": 28,
+    "learned_at": "2026-06-12T16:19:24.134242+00:00"
+  },
+  "bot-services": {
+    "product": "Bot Services",
+    "picker_testid": "bot-services-picker-item",
+    "module_testid": "bot-services-module",
+    "category": null,
+    "file": "bot-services.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:19:27.895804+00:00"
+  },
+  "cdn": {
+    "product": "Cdn",
+    "picker_testid": "cdn-picker-item",
+    "module_testid": "cdn-module",
+    "category": null,
+    "file": "cdn.json",
+    "n_fields": 22,
+    "learned_at": "2026-06-12T16:19:41.473138+00:00"
+  },
+  "chaos-studio": {
+    "product": "Chaos Studio",
+    "picker_testid": "chaos-studio-picker-item",
+    "module_testid": "chaos-studio-module",
+    "category": null,
+    "file": "chaos-studio.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:19:42.755944+00:00"
+  },
+  "cloud-services": {
+    "product": "Cloud Services",
+    "picker_testid": "cloud-services-picker-item",
+    "module_testid": "cloud-services-module",
+    "category": null,
+    "file": "cloud-services.json",
+    "n_fields": 13,
+    "learned_at": "2026-06-12T16:20:03.812261+00:00"
+  },
+  "cognitive-services": {
+    "product": "Cognitive Services",
+    "picker_testid": "cognitive-services-picker-item",
+    "module_testid": "cognitive-services-module",
+    "category": null,
+    "file": "cognitive-services.json",
+    "n_fields": 20,
+    "learned_at": "2026-06-12T16:20:19.021387+00:00"
+  },
+  "communication-services": {
+    "product": "Communication Services",
+    "picker_testid": "communication-services-picker-item",
+    "module_testid": "communication-services-module",
+    "category": null,
+    "file": "communication-services.json",
+    "n_fields": 27,
+    "learned_at": "2026-06-12T16:20:27.775014+00:00"
+  },
+  "communications-gateway": {
+    "product": "Communications Gateway",
+    "picker_testid": "communications-gateway-picker-item",
+    "module_testid": "communications-gateway-module",
+    "category": null,
+    "file": "communications-gateway.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:20:31.542451+00:00"
+  },
+  "confidential-ledger": {
+    "product": "Confidential Ledger",
+    "picker_testid": "confidential-ledger-picker-item",
+    "module_testid": "confidential-ledger-module",
+    "category": null,
+    "file": "confidential-ledger.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:20:38.315240+00:00"
+  },
+  "container-apps": {
+    "product": "Container Apps",
+    "picker_testid": "container-apps-picker-item",
+    "module_testid": "container-apps-module",
+    "category": null,
+    "file": "container-apps.json",
+    "n_fields": 19,
+    "learned_at": "2026-06-12T16:20:52.304995+00:00"
+  },
+  "container-instances": {
+    "product": "Container Instances",
+    "picker_testid": "container-instances-picker-item",
+    "module_testid": "container-instances-module",
+    "category": null,
+    "file": "container-instances.json",
+    "n_fields": 13,
+    "learned_at": "2026-06-12T16:21:02.757062+00:00"
+  },
+  "container-registry": {
+    "product": "Container Registry",
+    "picker_testid": "container-registry-picker-item",
+    "module_testid": "container-registry-module",
+    "category": null,
+    "file": "container-registry.json",
+    "n_fields": 17,
+    "learned_at": "2026-06-12T16:21:13.808610+00:00"
+  },
+  "container-storage": {
+    "product": "Container Storage",
+    "picker_testid": "container-storage-picker-item",
+    "module_testid": "container-storage-module",
+    "category": null,
+    "file": "container-storage.json",
+    "n_fields": 21,
+    "learned_at": "2026-06-12T16:21:36.724824+00:00"
+  },
+  "content-understanding": {
+    "product": "Content Understanding",
+    "picker_testid": "content-understanding-picker-item",
+    "module_testid": "content-understanding-module",
+    "category": null,
+    "file": "content-understanding.json",
+    "n_fields": 16,
+    "learned_at": "2026-06-12T16:21:38.577957+00:00"
+  },
+  "cosmos-db": {
+    "product": "Cosmos Db",
+    "picker_testid": "cosmos-db-picker-item",
+    "module_testid": "cosmos-db-module",
+    "category": null,
+    "file": "cosmos-db.json",
+    "n_fields": 32,
+    "learned_at": "2026-06-12T16:22:03.721872+00:00"
+  },
+  "cost-management": {
+    "product": "Cost Management",
+    "picker_testid": "cost-management-picker-item",
+    "module_testid": "cost-management-module",
+    "category": null,
+    "file": "cost-management.json",
+    "n_fields": 2,
+    "learned_at": "2026-06-12T16:22:04.991971+00:00"
+  },
+  "data-catalog": {
+    "product": "Data Catalog",
+    "picker_testid": "data-catalog-picker-item",
+    "module_testid": "data-catalog-module",
+    "category": null,
+    "file": "data-catalog.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:22:09.342074+00:00"
+  },
+  "data-explorer": {
+    "product": "Data Explorer",
+    "picker_testid": "data-explorer-picker-item",
+    "module_testid": "data-explorer-module",
+    "category": null,
+    "file": "data-explorer.json",
+    "n_fields": 31,
+    "learned_at": "2026-06-12T16:22:27.094582+00:00"
+  },
+  "data-factory": {
+    "product": "Data Factory",
+    "picker_testid": "data-factory-picker-item",
+    "module_testid": "data-factory-module",
+    "category": null,
+    "file": "data-factory.json",
+    "n_fields": 28,
+    "learned_at": "2026-06-12T16:22:40.777494+00:00"
+  },
+  "data-share": {
+    "product": "Data Share",
+    "picker_testid": "data-share-picker-item",
+    "module_testid": "data-share-module",
+    "category": null,
+    "file": "data-share.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:22:45.070275+00:00"
+  },
+  "database-migration": {
+    "product": "Database Migration",
+    "picker_testid": "database-migration-picker-item",
+    "module_testid": "database-migration-module",
+    "category": null,
+    "file": "database-migration.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:22:51.274253+00:00"
+  },
+  "databox": {
+    "product": "Databox",
+    "picker_testid": "databox-picker-item",
+    "module_testid": "databox-module",
+    "category": null,
+    "file": "databox.json",
+    "n_fields": 7,
+    "learned_at": "2026-06-12T16:22:56.710605+00:00"
+  },
+  "databricks": {
+    "product": "Databricks",
+    "picker_testid": "databricks-picker-item",
+    "module_testid": "databricks-module",
+    "category": null,
+    "file": "databricks.json",
+    "n_fields": 21,
+    "learned_at": "2026-06-12T16:23:23.591658+00:00"
+  },
+  "ddos-protection": {
+    "product": "Ddos Protection",
+    "picker_testid": "ddos-protection-picker-item",
+    "module_testid": "ddos-protection-module",
+    "category": null,
+    "file": "ddos-protection.json",
+    "n_fields": 7,
+    "learned_at": "2026-06-12T16:23:27.324740+00:00"
+  },
+  "defender-for-cloud": {
+    "product": "Defender For Cloud",
+    "picker_testid": "defender-for-cloud-picker-item",
+    "module_testid": "defender-for-cloud-module",
+    "category": null,
+    "file": "defender-for-cloud.json",
+    "n_fields": 26,
+    "learned_at": "2026-06-12T16:23:44.935857+00:00"
+  },
+  "digital-twins": {
+    "product": "Digital Twins",
+    "picker_testid": "digital-twins-picker-item",
+    "module_testid": "digital-twins-module",
+    "category": null,
+    "file": "digital-twins.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:23:54.658228+00:00"
+  },
+  "dns": {
+    "product": "Dns",
+    "picker_testid": "dns-picker-item",
+    "module_testid": "dns-module",
+    "category": null,
+    "file": "dns.json",
+    "n_fields": 11,
+    "learned_at": "2026-06-12T16:24:08.345719+00:00"
+  },
+  "event-grid": {
+    "product": "Event Grid",
+    "picker_testid": "event-grid-picker-item",
+    "module_testid": "event-grid-module",
+    "category": null,
+    "file": "event-grid.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:24:24.828445+00:00"
+  },
+  "event-hubs": {
+    "product": "Event Hubs",
+    "picker_testid": "event-hubs-picker-item",
+    "module_testid": "event-hubs-module",
+    "category": null,
+    "file": "event-hubs.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:24:34.334155+00:00"
+  },
+  "expressroute": {
+    "product": "Expressroute",
+    "picker_testid": "expressroute-picker-item",
+    "module_testid": "expressroute-module",
+    "category": null,
+    "file": "expressroute.json",
+    "n_fields": 21,
+    "learned_at": "2026-06-12T16:25:10.997227+00:00"
+  },
+  "firewall-manager": {
+    "product": "Firewall Manager",
+    "picker_testid": "firewall-manager-picker-item",
+    "module_testid": "firewall-manager-module",
+    "category": null,
+    "file": "firewall-manager.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:25:23.476949+00:00"
+  },
+  "fluid-relay": {
+    "product": "Fluid Relay",
+    "picker_testid": "fluid-relay-picker-item",
+    "module_testid": "fluid-relay-module",
+    "category": null,
+    "file": "fluid-relay.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:25:31.310560+00:00"
+  },
+  "functions": {
+    "product": "Functions",
+    "picker_testid": "functions-picker-item",
+    "module_testid": "functions-module",
+    "category": null,
+    "file": "functions.json",
+    "n_fields": 20,
+    "learned_at": "2026-06-12T16:25:51.242081+00:00"
+  },
+  "genomics": {
+    "product": "Genomics",
+    "picker_testid": "genomics-picker-item",
+    "module_testid": "genomics-module",
+    "category": null,
+    "file": "genomics.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:25:54.183363+00:00"
+  },
+  "graph-data-connect": {
+    "product": "Graph Data Connect",
+    "picker_testid": "graph-data-connect-picker-item",
+    "module_testid": "graph-data-connect-module",
+    "category": null,
+    "file": "graph-data-connect.json",
+    "n_fields": 11,
+    "learned_at": "2026-06-12T16:26:07.228803+00:00"
+  },
+  "hdinsight": {
+    "product": "Hdinsight",
+    "picker_testid": "hdinsight-picker-item",
+    "module_testid": "hdinsight-module",
+    "category": null,
+    "file": "hdinsight.json",
+    "n_fields": 35,
+    "learned_at": "2026-06-12T16:26:50.232711+00:00"
+  },
+  "health-data-services": {
+    "product": "Health Data Services",
+    "picker_testid": "health-data-services-picker-item",
+    "module_testid": "health-data-services-module",
+    "category": null,
+    "file": "health-data-services.json",
+    "n_fields": 36,
+    "learned_at": "2026-06-12T16:27:03.911543+00:00"
+  },
+  "healthcare-agent-service": {
+    "product": "Healthcare Agent Service",
+    "picker_testid": "healthcare-agent-service-picker-item",
+    "module_testid": "healthcare-agent-service-module",
+    "category": null,
+    "file": "healthcare-agent-service.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:27:07.526798+00:00"
+  },
+  "horizondb": {
+    "product": "Horizondb",
+    "picker_testid": "horizondb-picker-item",
+    "module_testid": "horizondb-module",
+    "category": null,
+    "file": "horizondb.json",
+    "n_fields": 16,
+    "learned_at": "2026-06-12T16:27:28.065242+00:00"
+  },
+  "iot-central": {
+    "product": "Iot Central",
+    "picker_testid": "iot-central-picker-item",
+    "module_testid": "iot-central-module",
+    "category": null,
+    "file": "iot-central.json",
+    "n_fields": 6,
+    "learned_at": "2026-06-12T16:27:34.308860+00:00"
+  },
+  "iot-edge": {
+    "product": "Iot Edge",
+    "picker_testid": "iot-edge-picker-item",
+    "module_testid": "iot-edge-module",
+    "category": null,
+    "file": "iot-edge.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:27:37.636431+00:00"
+  },
+  "iot-hub": {
+    "product": "Iot Hub",
+    "picker_testid": "iot-hub-picker-item",
+    "module_testid": "iot-hub-module",
+    "category": null,
+    "file": "iot-hub.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:27:47.339839+00:00"
+  },
+  "iot-operations": {
+    "product": "Iot Operations",
+    "picker_testid": "iot-operations-picker-item",
+    "module_testid": "iot-operations-module",
+    "category": null,
+    "file": "iot-operations.json",
+    "n_fields": 11,
+    "learned_at": "2026-06-12T16:27:55.173798+00:00"
+  },
+  "ip-addresses": {
+    "product": "Ip Addresses",
+    "picker_testid": "ip-addresses-picker-item",
+    "module_testid": "ip-addresses-module",
+    "category": null,
+    "file": "ip-addresses.json",
+    "n_fields": 13,
+    "learned_at": "2026-06-12T16:28:08.009821+00:00"
+  },
+  "key-vault": {
+    "product": "Key Vault",
+    "picker_testid": "key-vault-picker-item",
+    "module_testid": "key-vault-module",
+    "category": null,
+    "file": "key-vault.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:28:13.944413+00:00"
+  },
+  "kubernetes-service": {
+    "product": "Kubernetes Service",
+    "picker_testid": "kubernetes-service-picker-item",
+    "module_testid": "kubernetes-service-module",
+    "category": null,
+    "file": "kubernetes-service.json",
+    "n_fields": 24,
+    "learned_at": "2026-06-12T16:28:52.319717+00:00"
+  },
+  "lab-services": {
+    "product": "Lab Services",
+    "picker_testid": "lab-services-picker-item",
+    "module_testid": "lab-services-module",
+    "category": null,
+    "file": "lab-services.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:29:05.346718+00:00"
+  },
+  "load-balancer": {
+    "product": "Load Balancer",
+    "picker_testid": "load-balancer-picker-item",
+    "module_testid": "load-balancer-module",
+    "category": null,
+    "file": "load-balancer.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:29:13.114597+00:00"
+  },
+  "logic-apps": {
+    "product": "Logic Apps",
+    "picker_testid": "logic-apps-picker-item",
+    "module_testid": "logic-apps-module",
+    "category": null,
+    "file": "logic-apps.json",
+    "n_fields": 40,
+    "learned_at": "2026-06-12T16:29:44.094457+00:00"
+  },
+  "machine-learning-studio": {
+    "product": "Machine Learning Studio",
+    "picker_testid": "machine-learning-studio-picker-item",
+    "module_testid": "machine-learning-studio-module",
+    "category": null,
+    "file": "machine-learning-studio.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:29:59.732632+00:00"
+  },
+  "managed-applications": {
+    "product": "Managed Applications",
+    "picker_testid": "managed-applications-picker-item",
+    "module_testid": "managed-applications-module",
+    "category": null,
+    "file": "managed-applications.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:30:02.694873+00:00"
+  },
+  "managed-grafana": {
+    "product": "Managed Grafana",
+    "picker_testid": "managed-grafana-picker-item",
+    "module_testid": "managed-grafana-module",
+    "category": null,
+    "file": "managed-grafana.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:30:10.574104+00:00"
+  },
+  "managed-lustre": {
+    "product": "Managed Lustre",
+    "picker_testid": "managed-lustre-picker-item",
+    "module_testid": "managed-lustre-module",
+    "category": null,
+    "file": "managed-lustre.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:30:27.307824+00:00"
+  },
+  "managed-redis": {
+    "product": "Managed Redis",
+    "picker_testid": "managed-redis-picker-item",
+    "module_testid": "managed-redis-module",
+    "category": null,
+    "file": "managed-redis.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:30:48.111574+00:00"
+  },
+  "mariadb": {
+    "product": "Mariadb",
+    "picker_testid": "mariadb-picker-item",
+    "module_testid": "mariadb-module",
+    "category": null,
+    "file": "mariadb.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:30:50.999894+00:00"
+  },
+  "media-services": {
+    "product": "Media Services",
+    "picker_testid": "media-services-picker-item",
+    "module_testid": "media-services-module",
+    "category": null,
+    "file": "media-services.json",
+    "n_fields": 16,
+    "learned_at": "2026-06-12T16:31:06.332527+00:00"
+  },
+  "metrics-advisor": {
+    "product": "Metrics Advisor",
+    "picker_testid": "metrics-advisor-picker-item",
+    "module_testid": "metrics-advisor-module",
+    "category": null,
+    "file": "metrics-advisor.json",
+    "n_fields": 3,
+    "learned_at": "2026-06-12T16:31:09.206258+00:00"
+  },
+  "microsoft-entra-external-id": {
+    "product": "Microsoft Entra External Id",
+    "picker_testid": "microsoft-entra-external-id-picker-item",
+    "module_testid": "microsoft-entra-external-id-module",
+    "category": null,
+    "file": "microsoft-entra-external-id.json",
+    "n_fields": 3,
+    "learned_at": "2026-06-12T16:31:12.074187+00:00"
+  },
+  "microsoft-fabric": {
+    "product": "Microsoft Fabric",
+    "picker_testid": "microsoft-fabric-picker-item",
+    "module_testid": "microsoft-fabric-module",
+    "category": null,
+    "file": "microsoft-fabric.json",
+    "n_fields": 18,
+    "learned_at": "2026-06-12T16:31:35.963939+00:00"
+  },
+  "microsoft-security-copilot": {
+    "product": "Microsoft Security Copilot",
+    "picker_testid": "microsoft-security-copilot-picker-item",
+    "module_testid": "microsoft-security-copilot-module",
+    "category": null,
+    "file": "microsoft-security-copilot.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:31:43.843091+00:00"
+  },
+  "monitor": {
+    "product": "Monitor",
+    "picker_testid": "monitor-picker-item",
+    "module_testid": "monitor-module",
+    "category": null,
+    "file": "monitor.json",
+    "n_fields": 47,
+    "learned_at": "2026-06-12T16:32:03.897975+00:00"
+  },
+  "mysql": {
+    "product": "Mysql",
+    "picker_testid": "mysql-picker-item",
+    "module_testid": "mysql-module",
+    "category": null,
+    "file": "mysql.json",
+    "n_fields": 26,
+    "learned_at": "2026-06-12T16:32:31.552134+00:00"
+  },
+  "netapp": {
+    "product": "Netapp",
+    "picker_testid": "netapp-picker-item",
+    "module_testid": "netapp-module",
+    "category": null,
+    "file": "netapp.json",
+    "n_fields": 17,
+    "learned_at": "2026-06-12T16:32:47.735773+00:00"
+  },
+  "network-watcher": {
+    "product": "Network Watcher",
+    "picker_testid": "network-watcher-picker-item",
+    "module_testid": "network-watcher-module",
+    "category": null,
+    "file": "network-watcher.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:32:50.676243+00:00"
+  },
+  "notification-hubs": {
+    "product": "Notification Hubs",
+    "picker_testid": "notification-hubs-picker-item",
+    "module_testid": "notification-hubs-module",
+    "category": null,
+    "file": "notification-hubs.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:32:57.060344+00:00"
+  },
+  "open-datasets": {
+    "product": "Open Datasets",
+    "picker_testid": "open-datasets-picker-item",
+    "module_testid": "open-datasets-module",
+    "category": null,
+    "file": "open-datasets.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:33:06.578298+00:00"
+  },
+  "openshift": {
+    "product": "Openshift",
+    "picker_testid": "openshift-picker-item",
+    "module_testid": "openshift-module",
+    "category": null,
+    "file": "openshift.json",
+    "n_fields": 29,
+    "learned_at": "2026-06-12T16:33:41.801597+00:00"
+  },
+  "planetary-computer-pro": {
+    "product": "Planetary Computer Pro",
+    "picker_testid": "planetary-computer-pro-picker-item",
+    "module_testid": "planetary-computer-pro-module",
+    "category": null,
+    "file": "planetary-computer-pro.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:33:49.811322+00:00"
+  },
+  "playwright-testing": {
+    "product": "Playwright Testing",
+    "picker_testid": "playwright-testing-picker-item",
+    "module_testid": "playwright-testing-module",
+    "category": null,
+    "file": "playwright-testing.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:33:55.876750+00:00"
+  },
+  "postgresql": {
+    "product": "Postgresql",
+    "picker_testid": "postgresql-picker-item",
+    "module_testid": "postgresql-module",
+    "category": null,
+    "file": "postgresql.json",
+    "n_fields": 28,
+    "learned_at": "2026-06-12T16:34:30.244519+00:00"
+  },
+  "power-bi-embedded": {
+    "product": "Power Bi Embedded",
+    "picker_testid": "power-bi-embedded-picker-item",
+    "module_testid": "power-bi-embedded-module",
+    "category": null,
+    "file": "power-bi-embedded.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:34:43.216717+00:00"
+  },
+  "private-5g-core": {
+    "product": "Private 5g Core",
+    "picker_testid": "private-5g-core-picker-item",
+    "module_testid": "private-5g-core-module",
+    "category": null,
+    "file": "private-5g-core.json",
+    "n_fields": 23,
+    "learned_at": "2026-06-12T16:35:01.709272+00:00"
+  },
+  "private-link": {
+    "product": "Private Link",
+    "picker_testid": "private-link-picker-item",
+    "module_testid": "private-link-module",
+    "category": null,
+    "file": "private-link.json",
+    "n_fields": 15,
+    "learned_at": "2026-06-12T16:35:11.964797+00:00"
+  },
+  "purview": {
+    "product": "Purview",
+    "picker_testid": "purview-picker-item",
+    "module_testid": "purview-module",
+    "category": null,
+    "file": "purview.json",
+    "n_fields": 38,
+    "learned_at": "2026-06-12T16:35:27.158832+00:00"
+  },
+  "remote-rendering": {
+    "product": "Remote Rendering",
+    "picker_testid": "remote-rendering-picker-item",
+    "module_testid": "remote-rendering-module",
+    "category": null,
+    "file": "remote-rendering.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:35:40.684202+00:00"
+  },
+  "resource-mover": {
+    "product": "Resource Mover",
+    "picker_testid": "resource-mover-picker-item",
+    "module_testid": "resource-mover-module",
+    "category": null,
+    "file": "resource-mover.json",
+    "n_fields": 1,
+    "learned_at": "2026-06-12T16:35:43.618872+00:00"
+  },
+  "route-server": {
+    "product": "Route Server",
+    "picker_testid": "route-server-picker-item",
+    "module_testid": "route-server-module",
+    "category": null,
+    "file": "route-server.json",
+    "n_fields": 3,
+    "learned_at": "2026-06-12T16:35:46.502811+00:00"
+  },
+  "scheduler": {
+    "product": "Scheduler",
+    "picker_testid": "scheduler-picker-item",
+    "module_testid": "scheduler-module",
+    "category": null,
+    "file": "scheduler.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:35:52.683853+00:00"
+  },
+  "search": {
+    "product": "Search",
+    "picker_testid": "search-picker-item",
+    "module_testid": "search-module",
+    "category": null,
+    "file": "search.json",
+    "n_fields": 6,
+    "learned_at": "2026-06-12T16:36:02.548037+00:00"
+  },
+  "service-bus": {
+    "product": "Service Bus",
+    "picker_testid": "service-bus-picker-item",
+    "module_testid": "service-bus-module",
+    "category": null,
+    "file": "service-bus.json",
+    "n_fields": 13,
+    "learned_at": "2026-06-12T16:36:11.463796+00:00"
+  },
+  "service-fabric": {
+    "product": "Service Fabric",
+    "picker_testid": "service-fabric-picker-item",
+    "module_testid": "service-fabric-module",
+    "category": null,
+    "file": "service-fabric.json",
+    "n_fields": 37,
+    "learned_at": "2026-06-12T16:36:39.870573+00:00"
+  },
+  "signalr-service": {
+    "product": "Signalr Service",
+    "picker_testid": "signalr-service-picker-item",
+    "module_testid": "signalr-service-module",
+    "category": null,
+    "file": "signalr-service.json",
+    "n_fields": 6,
+    "learned_at": "2026-06-12T16:36:46.117923+00:00"
+  },
+  "site-recovery": {
+    "product": "Site Recovery",
+    "picker_testid": "site-recovery-picker-item",
+    "module_testid": "site-recovery-module",
+    "category": null,
+    "file": "site-recovery.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:36:49.435410+00:00"
+  },
+  "spring-apps": {
+    "product": "Spring Apps",
+    "picker_testid": "spring-apps-picker-item",
+    "module_testid": "spring-apps-module",
+    "category": null,
+    "file": "spring-apps.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:36:59.052557+00:00"
+  },
+  "sre-agent": {
+    "product": "Sre Agent",
+    "picker_testid": "sre-agent-picker-item",
+    "module_testid": "sre-agent-module",
+    "category": null,
+    "file": "sre-agent.json",
+    "n_fields": 10,
+    "learned_at": "2026-06-12T16:37:04.415840+00:00"
+  },
+  "storage": {
+    "product": "Storage",
+    "picker_testid": "storage-picker-item",
+    "module_testid": "storage-module",
+    "category": null,
+    "file": "storage.json",
+    "n_fields": 36,
+    "learned_at": "2026-06-12T16:37:44.443828+00:00"
+  },
+  "storage-actions": {
+    "product": "Storage Actions",
+    "picker_testid": "storage-actions-picker-item",
+    "module_testid": "storage-actions-module",
+    "category": null,
+    "file": "storage-actions.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:37:48.700602+00:00"
+  },
+  "stream-analytics": {
+    "product": "Stream Analytics",
+    "picker_testid": "stream-analytics-picker-item",
+    "module_testid": "stream-analytics-module",
+    "category": null,
+    "file": "stream-analytics.json",
+    "n_fields": 10,
+    "learned_at": "2026-06-12T16:37:58.375016+00:00"
+  },
+  "synapse-analytics": {
+    "product": "Synapse Analytics",
+    "picker_testid": "synapse-analytics-picker-item",
+    "module_testid": "synapse-analytics-module",
+    "category": null,
+    "file": "synapse-analytics.json",
+    "n_fields": 65,
+    "learned_at": "2026-06-12T16:38:44.541960+00:00"
+  },
+  "time-series-insights": {
+    "product": "Time Series Insights",
+    "picker_testid": "time-series-insights-picker-item",
+    "module_testid": "time-series-insights-module",
+    "category": null,
+    "file": "time-series-insights.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:38:50.122835+00:00"
+  },
+  "traffic-manager": {
+    "product": "Traffic Manager",
+    "picker_testid": "traffic-manager-picker-item",
+    "module_testid": "traffic-manager-module",
+    "category": null,
+    "file": "traffic-manager.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:38:53.643909+00:00"
+  },
+  "video-indexer": {
+    "product": "Video Indexer",
+    "picker_testid": "video-indexer-picker-item",
+    "module_testid": "video-indexer-module",
+    "category": null,
+    "file": "video-indexer.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:39:10.863994+00:00"
+  },
+  "virtual-desktop": {
+    "product": "Virtual Desktop",
+    "picker_testid": "virtual-desktop-picker-item",
+    "module_testid": "virtual-desktop-module",
+    "category": null,
+    "file": "virtual-desktop.json",
+    "n_fields": 35,
+    "learned_at": "2026-06-12T16:40:07.261876+00:00"
+  },
+  "virtual-machine-scale-sets": {
+    "product": "Virtual Machine Scale Sets",
+    "picker_testid": "virtual-machine-scale-sets-picker-item",
+    "module_testid": "virtual-machine-scale-sets-module",
+    "category": null,
+    "file": "virtual-machine-scale-sets.json",
+    "n_fields": 24,
+    "learned_at": "2026-06-12T16:40:33.500330+00:00"
+  },
+  "virtual-network": {
+    "product": "Virtual Network",
+    "picker_testid": "virtual-network-picker-item",
+    "module_testid": "virtual-network-module",
+    "category": null,
+    "file": "virtual-network.json",
+    "n_fields": 11,
+    "learned_at": "2026-06-12T16:40:42.492430+00:00"
+  },
+  "virtual-network-manager": {
+    "product": "Virtual Network Manager",
+    "picker_testid": "virtual-network-manager-picker-item",
+    "module_testid": "virtual-network-manager-module",
+    "category": null,
+    "file": "virtual-network-manager.json",
+    "n_fields": 14,
+    "learned_at": "2026-06-12T16:40:52.095418+00:00"
+  },
+  "virtual-network-nat": {
+    "product": "Virtual Network Nat",
+    "picker_testid": "virtual-network-nat-picker-item",
+    "module_testid": "virtual-network-nat-module",
+    "category": null,
+    "file": "virtual-network-nat.json",
+    "n_fields": 11,
+    "learned_at": "2026-06-12T16:40:58.460682+00:00"
+  },
+  "virtual-wan": {
+    "product": "Virtual Wan",
+    "picker_testid": "virtual-wan-picker-item",
+    "module_testid": "virtual-wan-module",
+    "category": null,
+    "file": "virtual-wan.json",
+    "n_fields": 33,
+    "learned_at": "2026-06-12T16:41:17.733198+00:00"
+  },
+  "vpn-gateway": {
+    "product": "Vpn Gateway",
+    "picker_testid": "vpn-gateway-picker-item",
+    "module_testid": "vpn-gateway-module",
+    "category": null,
+    "file": "vpn-gateway.json",
+    "n_fields": 12,
+    "learned_at": "2026-06-12T16:41:39.131990+00:00"
+  },
+  "windows-10-iot-core": {
+    "product": "Windows 10 Iot Core",
+    "picker_testid": "windows-10-iot-core-picker-item",
+    "module_testid": "windows-10-iot-core-module",
+    "category": null,
+    "file": "windows-10-iot-core.json",
+    "n_fields": 2,
+    "learned_at": "2026-06-12T16:41:49.805400+00:00"
+  },
+  "virtual-machines--dedicated-host": {
+    "product": "Dedicated Host",
+    "picker_testid": "virtual-machines\\dedicated-host-picker-item",
+    "module_testid": "virtual-machines\\dedicated-host-module",
+    "category": null,
+    "file": "virtual-machines--dedicated-host.json",
+    "n_fields": 20,
+    "learned_at": "2026-06-12T16:50:46.686268+00:00"
+  },
+  "defender-easm": {
+    "product": "Defender Easm",
+    "picker_testid": "defender-easm-picker-item",
+    "module_testid": "defender-easm-module",
+    "category": null,
+    "file": "defender-easm.json",
+    "n_fields": 8,
+    "learned_at": "2026-06-12T16:50:50.450370+00:00"
+  },
+  "documentdb": {
+    "product": "Documentdb",
+    "picker_testid": "documentdb-picker-item",
+    "module_testid": "documentdb-module",
+    "category": null,
+    "file": "documentdb.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:51:55.199902+00:00"
+  },
+  "energy-data-services": {
+    "product": "Energy Data Services",
+    "picker_testid": "energy-data-services-picker-item",
+    "module_testid": "energy-data-services-module",
+    "category": null,
+    "file": "energy-data-services.json",
+    "n_fields": 13,
+    "learned_at": "2026-06-12T16:52:06.989302+00:00"
+  },
+  "storage--files": {
+    "product": "Files",
+    "picker_testid": "storage\\files-picker-item",
+    "module_testid": "storage\\files-module",
+    "category": null,
+    "file": "storage--files.json",
+    "n_fields": 48,
+    "learned_at": "2026-06-12T16:52:42.161614+00:00"
+  },
+  "form-recognizer": {
+    "product": "Form Recognizer",
+    "picker_testid": "form-recognizer-picker-item",
+    "module_testid": "form-recognizer-module",
+    "category": null,
+    "file": "form-recognizer.json",
+    "n_fields": 16,
+    "learned_at": "2026-06-12T16:52:52.383968+00:00"
+  },
+  "load-testing": {
+    "product": "Load Testing",
+    "picker_testid": "load-testing-picker-item",
+    "module_testid": "load-testing-module",
+    "category": null,
+    "file": "load-testing.json",
+    "n_fields": 11,
+    "learned_at": "2026-06-12T16:53:39.494015+00:00"
+  },
+  "machine-learning-service": {
+    "product": "Machine Learning Service",
+    "picker_testid": "machine-learning-service-picker-item",
+    "module_testid": "machine-learning-service-module",
+    "category": null,
+    "file": "machine-learning-service.json",
+    "n_fields": 15,
+    "learned_at": "2026-06-12T16:53:53.296726+00:00"
+  },
+  "managed-instance-apache-cassandra": {
+    "product": "Managed Instance Apache Cassandra",
+    "picker_testid": "managed-instance-apache-cassandra-picker-item",
+    "module_testid": "managed-instance-apache-cassandra-module",
+    "category": null,
+    "file": "managed-instance-apache-cassandra.json",
+    "n_fields": 9,
+    "learned_at": "2026-06-12T16:54:00.681577+00:00"
+  },
+  "nutanix-on-azure": {
+    "product": "Nutanix On Azure",
+    "picker_testid": "nutanix-on-azure-picker-item",
+    "module_testid": "nutanix-on-azure-module",
+    "category": null,
+    "file": "nutanix-on-azure.json",
+    "n_fields": 11,
+    "learned_at": "2026-06-12T16:54:09.969976+00:00"
+  },
+  "openai-service": {
+    "product": "Openai Service",
+    "picker_testid": "openai-service-picker-item",
+    "module_testid": "openai-service-module",
+    "category": null,
+    "file": "openai-service.json",
+    "n_fields": 15,
+    "learned_at": "2026-06-12T16:54:29.663977+00:00"
+  },
+  "redis-cache": {
+    "product": "Redis Cache",
+    "picker_testid": "redis-cache-picker-item",
+    "module_testid": "redis-cache-module",
+    "category": null,
+    "file": "redis-cache.json",
+    "n_fields": 17,
+    "learned_at": "2026-06-12T16:54:48.396768+00:00"
+  },
+  "app-service--static": {
+    "product": "Static",
+    "picker_testid": "app-service\\static-picker-item",
+    "module_testid": "app-service\\static-module",
+    "category": null,
+    "file": "app-service--static.json",
+    "n_fields": 5,
+    "learned_at": "2026-06-12T16:54:54.671078+00:00"
+  },
+  "update-management-center": {
+    "product": "Update Management Center",
+    "picker_testid": "update-management-center-picker-item",
+    "module_testid": "update-management-center-module",
+    "category": null,
+    "file": "update-management-center.json",
+    "n_fields": 4,
+    "learned_at": "2026-06-12T16:55:02.751420+00:00"
+  },
+  "web-pubsub": {
+    "product": "Web Pubsub",
+    "picker_testid": "web-pubsub-picker-item",
+    "module_testid": "web-pubsub-module",
+    "category": null,
+    "file": "web-pubsub.json",
+    "n_fields": 7,
+    "learned_at": "2026-06-12T16:55:09.749753+00:00"
+  },
+  "frontdoor-standard-premium": {
+    "product": "Frontdoor Standard Premium",
+    "picker_testid": "frontdoor-standard-premium-picker-item",
+    "module_testid": "frontdoor-standard-premium-module",
+    "category": null,
+    "file": "frontdoor-standard-premium.json",
+    "n_fields": 29,
+    "learned_at": "2026-06-12T17:03:40.589863+00:00"
+  },
+  "githubenterprise": {
+    "product": "Githubenterprise",
+    "picker_testid": "githubenterprise-picker-item",
+    "module_testid": "githubenterprise-module",
+    "category": null,
+    "file": "githubenterprise.json",
+    "n_fields": 21,
+    "learned_at": "2026-06-12T17:06:15.311496+00:00"
+  }
+}

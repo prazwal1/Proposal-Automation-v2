@@ -1,0 +1,2782 @@
+{
+  "schema_version": 2,
+  "product": "Files",
+  "slug": "storage--files",
+  "picker_testid": "storage\\files-picker-item",
+  "module_testid": "storage\\files-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:52:42.161614+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Files",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Files|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Media tier",
+      "clean_name": "performanceTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Media tier",
+      "name": "performanceTier",
+      "options": [
+        {
+          "group": null,
+          "text": "SSD (Premium)",
+          "value": "premium"
+        },
+        {
+          "group": null,
+          "text": "HDD (Standard)",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Media\\ tier\"][name=\"performanceTier\"]",
+      "selector_unique": true,
+      "signature": "select||performanceTier|Media tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "redundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "redundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "Local (LRS)",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "Zone (ZRS)",
+          "value": "zrs"
+        },
+        {
+          "group": null,
+          "text": "Geo (GRS)",
+          "value": "grs"
+        },
+        {
+          "group": null,
+          "text": "GeoZone (GZRS)",
+          "value": "gzrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"redundancy\"]",
+      "selector_unique": true,
+      "signature": "select||redundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "lrs",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Local (LRS)",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "Zone (ZRS)",
+              "value": "zrs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Local (LRS)",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "Zone (ZRS)",
+              "value": "zrs"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "Billing model",
+      "clean_name": "billingModel",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Billing model",
+      "name": "billingModel",
+      "options": [
+        {
+          "group": null,
+          "text": "Provisioned v1",
+          "value": "provisionedv1"
+        },
+        {
+          "group": null,
+          "text": "Provisioned v2",
+          "value": "provisionedv2"
+        },
+        {
+          "group": null,
+          "text": "Pay-as-you-go",
+          "value": "payg"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Billing\\ model\"][name=\"billingModel\"]",
+      "selector_unique": true,
+      "signature": "select||billingModel|Billing model||||",
+      "tag": "select",
+      "type": null,
+      "value": "provisionedv2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "provisionedV2StorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "provisionedV2StorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"provisionedV2StorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2StorageUnits|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "256",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"ssdProvisionedV2StorageUnits\"]",
+          "name": "ssdProvisionedV2StorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"ssdUsedSnapshotV2StorageUnits\"]",
+          "name": "ssdUsedSnapshotV2StorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"ssdUsedSoftDeletedV2StorageUnits\"]",
+          "name": "ssdUsedSoftDeletedV2StorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"provisionedV1StorageUnits\"]",
+          "name": "provisionedV1StorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"usedSnapshotV1StorageUnits\"]",
+          "name": "usedSnapshotV1StorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"usedSoftDeletedV1StorageUnits\"]",
+          "name": "usedSoftDeletedV1StorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "payg",
+            "text": "Pay-as-you-go"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"usedPaygStorageUnits\"]",
+          "name": "usedPaygStorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "payg",
+            "text": "Pay-as-you-go"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"usedSnapshotPaygStorageUnits\"]",
+          "name": "usedSnapshotPaygStorageUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "payg",
+            "text": "Pay-as-you-go"
+          },
+          "selector": "input[aria-label=\"GiB\"][name=\"usedSoftDeletedPaygStorageUnits\"]",
+          "name": "usedSoftDeletedPaygStorageUnits",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "provisionedV2StorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "provisionedV2StorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GiB\"][name=\"provisionedV2StorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2StorageFactor|GiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"ssdProvisionedV2StorageFactor\"]",
+          "name": "ssdProvisionedV2StorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"ssdUsedSnapshotV2StorageFactor\"]",
+          "name": "ssdUsedSnapshotV2StorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"ssdUsedSoftDeletedV2StorageFactor\"]",
+          "name": "ssdUsedSoftDeletedV2StorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"provisionedV1StorageFactor\"]",
+          "name": "provisionedV1StorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"usedSnapshotV1StorageFactor\"]",
+          "name": "usedSnapshotV1StorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"usedSoftDeletedV1StorageFactor\"]",
+          "name": "usedSoftDeletedV1StorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "payg",
+            "text": "Pay-as-you-go"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"usedPaygStorageFactor\"]",
+          "name": "usedPaygStorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "payg",
+            "text": "Pay-as-you-go"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"usedSnapshotPaygStorageFactor\"]",
+          "name": "usedSnapshotPaygStorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "payg",
+            "text": "Pay-as-you-go"
+          },
+          "selector": "select[aria-label=\"GiB\"][name=\"usedSoftDeletedPaygStorageFactor\"]",
+          "name": "usedSoftDeletedPaygStorageFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "GiB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TiB",
+              "value": "1024"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedV2StorageHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedV2StorageHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"provisionedV2StorageHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2StorageHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"ssdProvisionedV2StorageHours\"]",
+          "name": "ssdProvisionedV2StorageHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"ssdProvisionedV2IopsHours\"]",
+          "name": "ssdProvisionedV2IopsHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"ssdProvisionedV2ThroughputHours\"]",
+          "name": "ssdProvisionedV2ThroughputHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"ssdUsedSnapshotV2StorageHours\"]",
+          "name": "ssdUsedSnapshotV2StorageHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"ssdUsedSoftDeletedV2StorageHours\"]",
+          "name": "ssdUsedSoftDeletedV2StorageHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "performanceTier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedV2StorageHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedV2StorageHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"provisionedV2StorageHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2StorageHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"ssdProvisionedV2StorageHoursFactor\"]",
+          "name": "ssdProvisionedV2StorageHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"ssdProvisionedV2IopsHoursFactor\"]",
+          "name": "ssdProvisionedV2IopsHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"ssdProvisionedV2ThroughputHoursFactor\"]",
+          "name": "ssdProvisionedV2ThroughputHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"ssdUsedSnapshotV2StorageHoursFactor\"]",
+          "name": "ssdUsedSnapshotV2StorageHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"ssdUsedSoftDeletedV2StorageHoursFactor\"]",
+          "name": "ssdUsedSoftDeletedV2StorageHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "performanceTier"
+      ]
+    },
+    {
+      "aria_label": "IO/sec",
+      "clean_name": "provisionedV2Iops",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "IO/sec",
+      "name": "provisionedV2Iops",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"IO\\/sec\"][name=\"provisionedV2Iops\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2Iops|IO/sec||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1052",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"IO\\/sec\"][name=\"ssdProvisionedV2Iops\"]",
+          "name": "ssdProvisionedV2Iops",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "input[aria-label=\"IO\\/sec\"][name=\"provisionedV1Iops\"]",
+          "name": "provisionedV1Iops",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedV2IopsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedV2IopsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"provisionedV2IopsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2IopsHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "provisionedV2IopsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "provisionedV2IopsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedV2IopsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedV2IopsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"provisionedV2IopsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2IopsHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "provisionedV2IopsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "provisionedV2IopsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "MiB/sec",
+      "clean_name": "provisionedV2Throughput",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "MiB/sec",
+      "name": "provisionedV2Throughput",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"MiB\\/sec\"][name=\"provisionedV2Throughput\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2Throughput|MiB/sec||||",
+      "tag": "input",
+      "type": "number",
+      "value": "66",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"MiB\\/sec\"][name=\"ssdProvisionedV2Throughput\"]",
+          "name": "ssdProvisionedV2Throughput",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "input[aria-label=\"MiB\\/sec\"][name=\"provisionedV1Throughput\"]",
+          "name": "provisionedV1Throughput",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedV2ThroughputHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedV2ThroughputHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"provisionedV2ThroughputHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2ThroughputHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "provisionedV2ThroughputHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "provisionedV2ThroughputHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedV2ThroughputHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedV2ThroughputHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"provisionedV2ThroughputHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2ThroughputHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "provisionedV2ThroughputHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "provisionedV2ThroughputHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "usedSnapshotV2StorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "usedSnapshotV2StorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"usedSnapshotV2StorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSnapshotV2StorageUnits|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSnapshotV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSnapshotV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "usedSnapshotV2StorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "usedSnapshotV2StorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GiB\"][name=\"usedSnapshotV2StorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSnapshotV2StorageFactor|GiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSnapshotV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSnapshotV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "usedSnapshotV2StorageHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "usedSnapshotV2StorageHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"usedSnapshotV2StorageHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSnapshotV2StorageHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSnapshotV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSnapshotV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "usedSnapshotV2StorageHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "usedSnapshotV2StorageHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"usedSnapshotV2StorageHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSnapshotV2StorageHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSnapshotV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSnapshotV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "usedSoftDeletedV2StorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "usedSoftDeletedV2StorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"usedSoftDeletedV2StorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSoftDeletedV2StorageUnits|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSoftDeletedV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSoftDeletedV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "usedSoftDeletedV2StorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "usedSoftDeletedV2StorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GiB\"][name=\"usedSoftDeletedV2StorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSoftDeletedV2StorageFactor|GiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSoftDeletedV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSoftDeletedV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "usedSoftDeletedV2StorageHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "usedSoftDeletedV2StorageHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"usedSoftDeletedV2StorageHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSoftDeletedV2StorageHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSoftDeletedV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSoftDeletedV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "usedSoftDeletedV2StorageHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "usedSoftDeletedV2StorageHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"usedSoftDeletedV2StorageHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSoftDeletedV2StorageHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "performanceTier",
+          "value": "premium",
+          "text": "SSD (Premium)"
+        },
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        },
+        {
+          "field": "usedSoftDeletedV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel",
+        "usedSoftDeletedV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Additional sync servers",
+      "clean_name": "fileSyncV2Servers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional sync servers",
+      "name": "fileSyncV2Servers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ sync\\ servers\"][name=\"fileSyncV2Servers\"]",
+      "selector_unique": true,
+      "signature": "input|number|fileSyncV2Servers|Additional sync servers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "performanceTier",
+            "value": "premium",
+            "text": "SSD (Premium)"
+          },
+          "selector": "input[aria-label=\"Additional\\ sync\\ servers\"][name=\"ssdFileSyncV2Servers\"]",
+          "name": "ssdFileSyncV2Servers",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "provisionedv1",
+            "text": "Provisioned v1"
+          },
+          "selector": "input[aria-label=\"Additional\\ sync\\ servers\"][name=\"fileSyncV1Servers\"]",
+          "name": "fileSyncV1Servers",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "billingModel",
+            "value": "payg",
+            "text": "Pay-as-you-go"
+          },
+          "selector": "input[aria-label=\"Additional\\ sync\\ servers\"][name=\"fileSyncPaygServers\"]",
+          "name": "fileSyncPaygServers",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "performanceTier",
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-0cc120e0-311c-4595-9a12-e0b1ee8a55f7-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-0cc120e0-311c-4595-9a12-e0b1ee8a55f7-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-one-year-0cc120e0-311c-4595-9a12-e0b1ee8a55f7-billingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-0cc120e0-311c-4595-9a12-e0b1ee8a55f7-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-three-year-0cc120e0-311c-4595-9a12-e0b1ee8a55f7-billingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-0cc120e0-311c-4595-9a12-e0b1ee8a55f7-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "provisionedv1",
+          "text": "Provisioned v1"
+        },
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "Access tier",
+      "clean_name": "accessType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Access tier",
+      "name": "accessType",
+      "options": [
+        {
+          "group": null,
+          "text": "Transaction Optimized",
+          "value": "transactionoptimized"
+        },
+        {
+          "group": null,
+          "text": "Hot",
+          "value": "hot"
+        },
+        {
+          "group": null,
+          "text": "Cool",
+          "value": "cool"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Access\\ tier\"][name=\"accessType\"]",
+      "selector_unique": true,
+      "signature": "select||accessType|Access tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "transactionoptimized",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "Write Transactions (x 10,000)",
+      "clean_name": "filesWrite",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Write Transactions (x 10,000)",
+      "name": "filesWrite",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Write\\ Transactions\\ \\(x\\ 10\\,000\\)\"][name=\"filesWrite\"]",
+      "selector_unique": true,
+      "signature": "input|number|filesWrite|Write Transactions (x 10,000)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "List Transactions (x 10,000)",
+      "clean_name": "filesList",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "List Transactions (x 10,000)",
+      "name": "filesList",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"List\\ Transactions\\ \\(x\\ 10\\,000\\)\"][name=\"filesList\"]",
+      "selector_unique": true,
+      "signature": "input|number|filesList|List Transactions (x 10,000)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "Read Transactions (x 10,000)",
+      "clean_name": "filesRead",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Read Transactions (x 10,000)",
+      "name": "filesRead",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Read\\ Transactions\\ \\(x\\ 10\\,000\\)\"][name=\"filesRead\"]",
+      "selector_unique": true,
+      "signature": "input|number|filesRead|Read Transactions (x 10,000)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "All Other Operations, except for Delete (x 10,000)",
+      "clean_name": "filesOther",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "All Other Operations, except for Delete (x 10,000)",
+      "name": "filesOther",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"All\\ Other\\ Operations\\,\\ except\\ for\\ Delete\\ \\(x\\ 10\\,000\\)\"][name=\"filesOther\"]",
+      "selector_unique": true,
+      "signature": "input|number|filesOther|All Other Operations, except for Delete (x 10,000)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "billingModel",
+          "value": "payg",
+          "text": "Pay-as-you-go"
+        }
+      ],
+      "depends_on": [
+        "billingModel"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "provisionedV2StorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "provisionedV2StorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TiB\"][name=\"provisionedV2StorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2StorageUnits|TiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "provisionedV2StorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "provisionedV2StorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TiB\"][name=\"provisionedV2StorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2StorageFactor|TiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedV2StorageHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedV2StorageHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"provisionedV2StorageHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2StorageHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedV2StorageHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedV2StorageHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"provisionedV2StorageHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2StorageHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedV2IopsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedV2IopsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"provisionedV2IopsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2IopsHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2IopsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2IopsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedV2IopsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedV2IopsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"provisionedV2IopsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2IopsHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2IopsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2IopsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedV2ThroughputHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedV2ThroughputHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"provisionedV2ThroughputHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedV2ThroughputHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2ThroughputHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2ThroughputHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedV2ThroughputHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedV2ThroughputHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"provisionedV2ThroughputHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedV2ThroughputHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedV2ThroughputHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedV2ThroughputHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "usedSnapshotV2StorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "usedSnapshotV2StorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TiB\"][name=\"usedSnapshotV2StorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSnapshotV2StorageUnits|TiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSnapshotV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "usedSnapshotV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "usedSnapshotV2StorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "usedSnapshotV2StorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TiB\"][name=\"usedSnapshotV2StorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSnapshotV2StorageFactor|TiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSnapshotV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "usedSnapshotV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "usedSnapshotV2StorageHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "usedSnapshotV2StorageHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"usedSnapshotV2StorageHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSnapshotV2StorageHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSnapshotV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "usedSnapshotV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "usedSnapshotV2StorageHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "usedSnapshotV2StorageHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"usedSnapshotV2StorageHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSnapshotV2StorageHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSnapshotV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "usedSnapshotV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "usedSoftDeletedV2StorageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "usedSoftDeletedV2StorageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TiB\"][name=\"usedSoftDeletedV2StorageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSoftDeletedV2StorageUnits|TiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSoftDeletedV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "usedSoftDeletedV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "usedSoftDeletedV2StorageFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "usedSoftDeletedV2StorageFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TiB\"][name=\"usedSoftDeletedV2StorageFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSoftDeletedV2StorageFactor|TiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSoftDeletedV2StorageFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "usedSoftDeletedV2StorageFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "usedSoftDeletedV2StorageHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "usedSoftDeletedV2StorageHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"usedSoftDeletedV2StorageHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|usedSoftDeletedV2StorageHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSoftDeletedV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "usedSoftDeletedV2StorageHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "usedSoftDeletedV2StorageHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "usedSoftDeletedV2StorageHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"usedSoftDeletedV2StorageHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||usedSoftDeletedV2StorageHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usedSoftDeletedV2StorageHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "usedSoftDeletedV2StorageHoursFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

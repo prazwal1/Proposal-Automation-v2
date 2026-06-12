@@ -1,0 +1,1309 @@
+{
+  "schema_version": 2,
+  "product": "Data Explorer",
+  "slug": "data-explorer",
+  "picker_testid": "data-explorer-picker-item",
+  "module_testid": "data-explorer-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:22:27.094582+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Data Explorer",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Data Explorer|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east-2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Environment",
+      "clean_name": "environment",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Environment",
+      "name": "environment",
+      "options": [
+        {
+          "group": null,
+          "text": "Dev/Test",
+          "value": "devtest"
+        },
+        {
+          "group": null,
+          "text": "Production",
+          "value": "production"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Environment\"][name=\"environment\"]",
+      "selector_unique": true,
+      "signature": "select||environment|Environment||||",
+      "tag": "select",
+      "type": null,
+      "value": "production",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "dataCollectedUnit",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "dataCollectedUnit",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"dataCollectedUnit\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataCollectedUnit|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "dataCollectedUnitFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "dataCollectedUnitFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"dataCollectedUnitFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataCollectedUnitFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "Hot Cache retention (days)",
+      "clean_name": "hotCache",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hot Cache retention (days)",
+      "name": "hotCache",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hot\\ Cache\\ retention\\ \\(days\\)\"][name=\"hotCache\"]",
+      "selector_unique": true,
+      "signature": "input|number|hotCache|Hot Cache retention (days)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "7",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Total retention (days)",
+      "clean_name": "totalRetention",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total retention (days)",
+      "name": "totalRetention",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ retention\\ \\(days\\)\"][name=\"totalRetention\"]",
+      "selector_unique": true,
+      "signature": "input|number|totalRetention|Total retention (days)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "30",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Estimated Data Compression",
+      "clean_name": "estimatedDataCompression",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Estimated Data Compression",
+      "name": "estimatedDataCompression",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Estimated\\ Data\\ Compression\"][name=\"estimatedDataCompression\"]",
+      "selector_unique": true,
+      "signature": "input|number|estimatedDataCompression|Estimated Data Compression||||",
+      "tag": "input",
+      "type": "number",
+      "value": "7",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "engineInstanceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "engineInstanceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"engineInstanceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|engineInstanceHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Engine Instances",
+      "absent_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "engineInstanceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "engineInstanceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"engineInstanceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||engineInstanceHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Engine Instances",
+      "absent_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "engineInstanceBillingOption",
+      "control": "radio",
+      "data_name_override": "engineInstanceBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"engineInstanceBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|engineInstanceBillingOption||engineInstanceBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": "Engine Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "engineInstanceBillingOption",
+      "control": "radio",
+      "data_name_override": "engineInstanceBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "label": "1 year savings plan (~32% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"engineInstanceBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|engineInstanceBillingOption||engineInstanceBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Engine Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "engineInstanceBillingOption",
+      "control": "radio",
+      "data_name_override": "engineInstanceBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "label": "3 year savings plan (~53% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"engineInstanceBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|engineInstanceBillingOption||engineInstanceBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Engine Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "engineInstanceBillingOption",
+      "control": "radio",
+      "data_name_override": "engineInstanceBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "label": "1 year reserved (~41% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"engineInstanceBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|engineInstanceBillingOption||engineInstanceBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Engine Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "engineInstanceBillingOption",
+      "control": "radio",
+      "data_name_override": "engineInstanceBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "label": "3 year reserved (~62% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-engineInstanceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"engineInstanceBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|engineInstanceBillingOption||engineInstanceBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Engine Instances"
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dataManagementHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dataManagementHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"dataManagementHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataManagementHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Data Management Instances",
+      "absent_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dataManagementHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dataManagementHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"dataManagementHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataManagementHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Data Management Instances",
+      "absent_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataManagementBillingOption",
+      "control": "radio",
+      "data_name_override": "dataManagementBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"dataManagementBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataManagementBillingOption||dataManagementBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": "Data Management Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataManagementBillingOption",
+      "control": "radio",
+      "data_name_override": "dataManagementBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "label": "1 year savings plan (~31% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"dataManagementBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataManagementBillingOption||dataManagementBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Data Management Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataManagementBillingOption",
+      "control": "radio",
+      "data_name_override": "dataManagementBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "label": "3 year savings plan (~53% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"dataManagementBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataManagementBillingOption||dataManagementBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Data Management Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataManagementBillingOption",
+      "control": "radio",
+      "data_name_override": "dataManagementBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "label": "1 year reserved (~35% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"dataManagementBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataManagementBillingOption||dataManagementBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Data Management Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataManagementBillingOption",
+      "control": "radio",
+      "data_name_override": "dataManagementBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataManagementBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"dataManagementBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataManagementBillingOption||dataManagementBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Data Management Instances"
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataExplorerMarkupBillingOption",
+      "control": "radio",
+      "data_name_override": "dataExplorerMarkupBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataExplorerMarkupBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataExplorerMarkupBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"dataExplorerMarkupBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataExplorerMarkupBillingOption||dataExplorerMarkupBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": "Azure Data Explorer Markup",
+      "absent_when": [
+        {
+          "field": "environment",
+          "value": "devtest",
+          "text": "Dev/Test"
+        }
+      ],
+      "depends_on": [
+        "environment"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataExplorerMarkupBillingOption",
+      "control": "radio",
+      "data_name_override": "dataExplorerMarkupBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataExplorerMarkupBillingOption",
+      "label": "1 year reserved (~15% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataExplorerMarkupBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"dataExplorerMarkupBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataExplorerMarkupBillingOption||dataExplorerMarkupBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Azure Data Explorer Markup",
+      "absent_when": [
+        {
+          "field": "environment",
+          "value": "devtest",
+          "text": "Dev/Test"
+        }
+      ],
+      "depends_on": [
+        "environment"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "dataExplorerMarkupBillingOption",
+      "control": "radio",
+      "data_name_override": "dataExplorerMarkupBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataExplorerMarkupBillingOption",
+      "label": "3 year reserved (~30% savings)",
+      "name": "radioButton-55fa8f18-abb6-420f-b9a7-fcc6e69f0e9b-dataExplorerMarkupBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"dataExplorerMarkupBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|dataExplorerMarkupBillingOption||dataExplorerMarkupBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": "Azure Data Explorer Markup",
+      "absent_when": [
+        {
+          "field": "environment",
+          "value": "devtest",
+          "text": "Dev/Test"
+        }
+      ],
+      "depends_on": [
+        "environment"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "dataCollectedUnit",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "dataCollectedUnit",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"dataCollectedUnit\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataCollectedUnit|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "dataCollectedUnitFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "dataCollectedUnitFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"dataCollectedUnitFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataCollectedUnitFactor|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "engineInstanceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "engineInstanceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"engineInstanceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|engineInstanceHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "engineInstanceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "engineInstanceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"engineInstanceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||engineInstanceHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "dataManagementHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "dataManagementHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"dataManagementHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataManagementHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "dataManagementHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "dataManagementHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"dataManagementHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataManagementHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Engine Instances",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Engine Instances",
+      "tag": "button",
+      "text": "Engine Instances",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Management Instances",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Data Management Instances",
+      "tag": "button",
+      "text": "Data Management Instances",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Storage and Transactions",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Storage and Transactions",
+      "tag": "button",
+      "text": "Storage and Transactions",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Networking",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Networking",
+      "tag": "button",
+      "text": "Networking",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Azure Data Explorer Markup",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Azure Data Explorer Markup",
+      "tag": "button",
+      "text": "Azure Data Explorer Markup",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

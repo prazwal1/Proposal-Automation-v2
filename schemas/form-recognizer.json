@@ -1,0 +1,746 @@
+{
+  "schema_version": 2,
+  "product": "Form Recognizer",
+  "slug": "form-recognizer",
+  "picker_testid": "form-recognizer-picker-item",
+  "module_testid": "form-recognizer-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:52:52.383968+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Document Intelligence",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Document Intelligence|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Payment Option",
+      "clean_name": "formRecognizerPaymentOption",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Payment Option",
+      "name": "formRecognizerPaymentOption",
+      "options": [
+        {
+          "group": null,
+          "text": "Pay as you go",
+          "value": "payg"
+        },
+        {
+          "group": null,
+          "text": "Commitment Tier",
+          "value": "commitmenttier"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Payment\\ Option\"][name=\"formRecognizerPaymentOption\"]",
+      "selector_unique": true,
+      "signature": "select||formRecognizerPaymentOption|Payment Option||||",
+      "tag": "select",
+      "type": null,
+      "value": "payg",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "formRecognizerTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "formRecognizerTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Free",
+          "value": "free"
+        },
+        {
+          "group": null,
+          "text": "S0",
+          "value": "s0"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"formRecognizerTier\"]",
+      "selector_unique": true,
+      "signature": "select||formRecognizerTier|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "free",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "formRecognizerPaymentOption",
+            "value": "commitmenttier",
+            "text": "Commitment Tier"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Azure standard",
+              "value": "azurestandard"
+            },
+            {
+              "group": null,
+              "text": "Connected Container",
+              "value": "connectedcontainer"
+            },
+            {
+              "group": null,
+              "text": "Disconnected Container",
+              "value": "disconnectedcontainerread"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "formRecognizerPaymentOption"
+      ]
+    },
+    {
+      "aria_label": "Feature",
+      "clean_name": "formRecognizerFeature",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Feature",
+      "name": "formRecognizerFeature",
+      "options": [
+        {
+          "group": null,
+          "text": "Custom",
+          "value": "custom"
+        },
+        {
+          "group": null,
+          "text": "Pre-built",
+          "value": "prebuilt"
+        },
+        {
+          "group": null,
+          "text": "Read",
+          "value": "read"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Feature\"][name=\"formRecognizerFeature\"]",
+      "selector_unique": true,
+      "signature": "select||formRecognizerFeature|Feature||||",
+      "tag": "select",
+      "type": null,
+      "value": "custom",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerPaymentOption",
+          "value": "commitmenttier",
+          "text": "Commitment Tier"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerPaymentOption"
+      ]
+    },
+    {
+      "aria_label": "Commitment tier",
+      "clean_name": "formRecognizerAzureStandardCommitmentTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Commitment tier",
+      "name": "formRecognizerAzureStandardCommitmentTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Commitment tier $540 per 20,000 pages",
+          "value": "20k"
+        },
+        {
+          "group": null,
+          "text": "Commitment tier $2,400 per 100,000 pages",
+          "value": "100k"
+        },
+        {
+          "group": null,
+          "text": "Commitment tier $10,500 per 500,000 pages",
+          "value": "500k"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Commitment\\ tier\"][name=\"formRecognizerAzureStandardCommitmentTier\"]",
+      "selector_unique": true,
+      "signature": "select||formRecognizerAzureStandardCommitmentTier|Commitment tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "20k",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerPaymentOption",
+          "value": "commitmenttier",
+          "text": "Commitment Tier"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerPaymentOption"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 pages per month",
+      "clean_name": "formRecognizerAzureStandardCommitmentOverage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 pages per month",
+      "name": "formRecognizerAzureStandardCommitmentOverage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ pages\\ per\\ month\"][name=\"formRecognizerAzureStandardCommitmentOverage\"]",
+      "selector_unique": true,
+      "signature": "input|number|formRecognizerAzureStandardCommitmentOverage|x 1,000 pages per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerPaymentOption",
+          "value": "commitmenttier",
+          "text": "Commitment Tier"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerPaymentOption"
+      ]
+    },
+    {
+      "aria_label": "x1,000 Pages",
+      "clean_name": "formRecognizerPagesReadTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 Pages",
+      "name": "formRecognizerPagesReadTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ Pages\"][name=\"formRecognizerPagesReadTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|formRecognizerPagesReadTransactions|x1,000 Pages||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "x1,000 Pages",
+      "clean_name": "formRecognizerPagesPrebuiltTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 Pages",
+      "name": "formRecognizerPagesPrebuiltTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ Pages\"][name=\"formRecognizerPagesPrebuiltTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|formRecognizerPagesPrebuiltTransactions|x1,000 Pages||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "x1,000 Pages",
+      "clean_name": "customClassification",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 Pages",
+      "name": "customClassification",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ Pages\"][name=\"customClassification\"]",
+      "selector_unique": true,
+      "signature": "input|number|customClassification|x1,000 Pages||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "x1,000 Pages",
+      "clean_name": "formRecognizerPagesTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 Pages",
+      "name": "formRecognizerPagesTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ Pages\"][name=\"formRecognizerPagesTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|formRecognizerPagesTransactions|x1,000 Pages||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "x1,000 Pages",
+      "clean_name": "formRecognizerPagesAddonTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 Pages",
+      "name": "formRecognizerPagesAddonTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ Pages\"][name=\"formRecognizerPagesAddonTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|formRecognizerPagesAddonTransactions|x1,000 Pages||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "x1,000 Pages",
+      "clean_name": "formRecognizerPagesQueryTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 Pages",
+      "name": "formRecognizerPagesQueryTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ Pages\"][name=\"formRecognizerPagesQueryTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|formRecognizerPagesQueryTransactions|x1,000 Pages||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "x1,000 Pages",
+      "clean_name": "paidTraining",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 Pages",
+      "name": "paidTraining",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ Pages\"][name=\"paidTraining\"]",
+      "selector_unique": true,
+      "signature": "input|number|paidTraining|x1,000 Pages||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "Minutes",
+      "clean_name": "paidTrainingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Minutes",
+      "name": "paidTrainingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Minutes\"][name=\"paidTrainingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|paidTrainingHours|Minutes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "60",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    },
+    {
+      "aria_label": "Minutes",
+      "clean_name": "paidTrainingHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Minutes",
+      "name": "paidTrainingHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Minutes",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "60"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Minutes\"][name=\"paidTrainingHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||paidTrainingHoursFactor|Minutes||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "formRecognizerTier",
+          "value": "s0",
+          "text": "S0"
+        }
+      ],
+      "depends_on": [
+        "formRecognizerTier"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

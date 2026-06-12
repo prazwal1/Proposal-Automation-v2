@@ -1,0 +1,843 @@
+{
+  "schema_version": 2,
+  "product": "Microsoft Fabric",
+  "slug": "microsoft-fabric",
+  "picker_testid": "microsoft-fabric-picker-item",
+  "module_testid": "microsoft-fabric-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:31:35.963939+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Microsoft Fabric",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Microsoft Fabric|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "SKU",
+      "clean_name": "computeSku",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "SKU",
+      "name": "computeSku",
+      "options": [
+        {
+          "group": null,
+          "text": "F2, 2 Capacity units",
+          "value": "two"
+        },
+        {
+          "group": null,
+          "text": "F4, 4 Capacity units",
+          "value": "four"
+        },
+        {
+          "group": null,
+          "text": "F8, 8 Capacity units",
+          "value": "eight"
+        },
+        {
+          "group": null,
+          "text": "F16, 16 Capacity units",
+          "value": "sixteen"
+        },
+        {
+          "group": null,
+          "text": "F32, 32 Capacity units",
+          "value": "thirtytwo"
+        },
+        {
+          "group": null,
+          "text": "F64, 64 Capacity units",
+          "value": "sixtyfour"
+        },
+        {
+          "group": null,
+          "text": "F128, 128 Capacity units",
+          "value": "onetwentyeight"
+        },
+        {
+          "group": null,
+          "text": "F256, 256 Capacity units",
+          "value": "twofiftysix"
+        },
+        {
+          "group": null,
+          "text": "F512, 512 Capacity units",
+          "value": "fiveonetwo"
+        },
+        {
+          "group": null,
+          "text": "F1024, 1024 Capacity units",
+          "value": "onezerotwofour"
+        },
+        {
+          "group": null,
+          "text": "F2048, 2048 Capacity units",
+          "value": "twozerofoureight"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"SKU\"][name=\"computeSku\"]",
+      "selector_unique": true,
+      "signature": "select||computeSku|SKU||||",
+      "tag": "select",
+      "type": null,
+      "value": "two",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "computeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "computeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"computeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "computeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "computeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"computeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||computeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-adf27ee6-3ec4-425e-a34d-938cb0b1ef2e-computeBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-adf27ee6-3ec4-425e-a34d-938cb0b1ef2e-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-adf27ee6-3ec4-425e-a34d-938cb0b1ef2e-computeBillingOption",
+      "label": "1 year reserved",
+      "name": "radioButton-adf27ee6-3ec4-425e-a34d-938cb0b1ef2e-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-adf27ee6-3ec4-425e-a34d-938cb0b1ef2e-computeBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-adf27ee6-3ec4-425e-a34d-938cb0b1ef2e-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hot storage type",
+      "clean_name": "storageType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hot storage type",
+      "name": "storageType",
+      "options": [
+        {
+          "group": null,
+          "text": "OneLake hot storage",
+          "value": "onelake-hot-storage"
+        },
+        {
+          "group": null,
+          "text": "OneLake BCDR hot storage",
+          "value": "onelake-bcdr-hot-storage"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hot\\ storage\\ type\"][name=\"storageType\"]",
+      "selector_unique": true,
+      "signature": "select||storageType|Hot storage type||||",
+      "tag": "select",
+      "type": null,
+      "value": "onelake-hot-storage",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "storage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "storage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"storage\"]",
+      "selector_unique": true,
+      "signature": "input|number|storage|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Cool storage type",
+      "clean_name": "coolStorageType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cool storage type",
+      "name": "coolStorageType",
+      "options": [
+        {
+          "group": null,
+          "text": "OneLake cool storage",
+          "value": "onelake-cool-storage"
+        },
+        {
+          "group": null,
+          "text": "OneLake BCDR cool Storage",
+          "value": "onelake-bcdr-cool-storage"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Cool\\ storage\\ type\"][name=\"coolStorageType\"]",
+      "selector_unique": true,
+      "signature": "select||coolStorageType|Cool storage type||||",
+      "tag": "select",
+      "type": null,
+      "value": "onelake-cool-storage",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "coolStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "coolStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"coolStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|coolStorage|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Cold storage type",
+      "clean_name": "coldStorageType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cold storage type",
+      "name": "coldStorageType",
+      "options": [
+        {
+          "group": null,
+          "text": "OneLake cold storage",
+          "value": "onelake-cold-storage"
+        },
+        {
+          "group": null,
+          "text": "OneLake BCDR cold storage",
+          "value": "onelake-bcdr-cold-storage"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Cold\\ storage\\ type\"][name=\"coldStorageType\"]",
+      "selector_unique": true,
+      "signature": "select||coldStorageType|Cold storage type||||",
+      "tag": "select",
+      "type": null,
+      "value": "onelake-cold-storage",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "coldStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "coldStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"coldStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|coldStorage|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Cache",
+      "clean_name": "cacheStorageType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Cache",
+      "name": "cacheStorageType",
+      "options": [
+        {
+          "group": null,
+          "text": "OneLake cache",
+          "value": "onelake-cache"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Cache\"][name=\"cacheStorageType\"]",
+      "selector_unique": true,
+      "signature": "select||cacheStorageType|Cache||||",
+      "tag": "select",
+      "type": null,
+      "value": "onelake-cache",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "cacheStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "cacheStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"cacheStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|cacheStorage|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "computeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "computeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"computeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "computeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "computeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"computeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||computeHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

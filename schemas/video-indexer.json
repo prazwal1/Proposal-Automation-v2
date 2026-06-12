@@ -1,0 +1,541 @@
+{
+  "schema_version": 2,
+  "product": "Video Indexer",
+  "slug": "video-indexer",
+  "picker_testid": "video-indexer-picker-item",
+  "module_testid": "video-indexer-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:39:10.863994+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure AI Video Indexer",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure AI Video Indexer|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east-2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Analysis Type",
+      "clean_name": "analysisType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Analysis Type",
+      "name": "analysisType",
+      "options": [
+        {
+          "group": null,
+          "text": "All insights",
+          "value": "allinsights"
+        },
+        {
+          "group": null,
+          "text": "Only audio insights",
+          "value": "onlyaudioinsights"
+        },
+        {
+          "group": null,
+          "text": "Only video insights",
+          "value": "onlyvideoinsights"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Analysis\\ Type\"][name=\"analysisType\"]",
+      "selector_unique": true,
+      "signature": "select||analysisType|Analysis Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "allinsights",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Analysis Mode",
+      "clean_name": "audioAnalysisMode",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Analysis Mode",
+      "name": "audioAnalysisMode",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Advanced",
+          "value": "advanced"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Analysis\\ Mode\"][name=\"audioAnalysisMode\"]",
+      "selector_unique": true,
+      "signature": "select||audioAnalysisMode|Analysis Mode||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "analysisType",
+          "value": "onlyaudioinsights",
+          "text": "Only audio insights"
+        },
+        {
+          "field": "analysisType",
+          "value": "onlyvideoinsights",
+          "text": "Only video insights"
+        }
+      ],
+      "depends_on": [
+        "analysisType"
+      ]
+    },
+    {
+      "aria_label": "Total Minutes of content",
+      "clean_name": "mediaTotalMinutes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total Minutes of content",
+      "name": "mediaTotalMinutes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ Minutes\\ of\\ content\"][name=\"mediaTotalMinutes\"]",
+      "selector_unique": true,
+      "signature": "input|number|mediaTotalMinutes|Total Minutes of content||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Total content minutes",
+      "clean_name": "videoRedactionTotalContentMinutes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total content minutes",
+      "name": "videoRedactionTotalContentMinutes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ content\\ minutes\"][name=\"videoRedactionTotalContentMinutes\"]",
+      "selector_unique": true,
+      "signature": "input|number|videoRedactionTotalContentMinutes|Total content minutes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Audio Analysis Mode",
+      "clean_name": "audioAnalysisMode",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Audio Analysis Mode",
+      "name": "audioAnalysisMode",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Advanced",
+          "value": "advanced"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Audio\\ Analysis\\ Mode\"][name=\"audioAnalysisMode\"]",
+      "selector_unique": true,
+      "signature": "select||audioAnalysisMode|Audio Analysis Mode||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "analysisType",
+          "value": "onlyaudioinsights",
+          "text": "Only audio insights"
+        }
+      ],
+      "depends_on": [
+        "analysisType"
+      ]
+    },
+    {
+      "aria_label": "Video Analysis Mode",
+      "clean_name": "videoAnalysisMode",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Video Analysis Mode",
+      "name": "videoAnalysisMode",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Advanced",
+          "value": "advanced"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Video\\ Analysis\\ Mode\"][name=\"videoAnalysisMode\"]",
+      "selector_unique": true,
+      "signature": "select||videoAnalysisMode|Video Analysis Mode||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "analysisType",
+          "value": "onlyvideoinsights",
+          "text": "Only video insights"
+        }
+      ],
+      "depends_on": [
+        "analysisType"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Cost Calculations",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Cost Calculations",
+      "tag": "button",
+      "text": "View Cost Calculations",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "schema_version": 2,
+  "product": "Load Testing",
+  "slug": "load-testing",
+  "picker_testid": "load-testing-picker-item",
+  "module_testid": "load-testing-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:53:39.494015+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure App Testing",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure App Testing|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Estimation Method",
+      "clean_name": "usageType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Estimation Method",
+      "name": "usageType",
+      "options": [
+        {
+          "group": null,
+          "text": "Aggregated usage",
+          "value": "aggregatedusage"
+        },
+        {
+          "group": null,
+          "text": "Load test details",
+          "value": "loadtestdetails"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Estimation\\ Method\"][name=\"usageType\"]",
+      "selector_unique": true,
+      "signature": "select||usageType|Estimation Method||||",
+      "tag": "select",
+      "type": null,
+      "value": "loadtestdetails",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Virtual users per test",
+      "clean_name": "virtualUsersPerTest0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Virtual users per test",
+      "name": "virtualUsersPerTest0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Virtual\\ users\\ per\\ test\"][name=\"virtualUsersPerTest0\"]",
+      "selector_unique": true,
+      "signature": "input|number|virtualUsersPerTest0|Virtual users per test||||",
+      "tag": "input",
+      "type": "number",
+      "value": "50",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "usageType",
+          "value": "aggregatedusage",
+          "text": "Aggregated usage"
+        }
+      ],
+      "depends_on": [
+        "usageType"
+      ]
+    },
+    {
+      "aria_label": "Test Duration (minutes)",
+      "clean_name": "testDuration0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Test Duration (minutes)",
+      "name": "testDuration0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Test\\ Duration\\ \\(minutes\\)\"][name=\"testDuration0\"]",
+      "selector_unique": true,
+      "signature": "input|number|testDuration0|Test Duration (minutes)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "15",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "usageType",
+          "value": "aggregatedusage",
+          "text": "Aggregated usage"
+        }
+      ],
+      "depends_on": [
+        "usageType"
+      ]
+    },
+    {
+      "aria_label": "Test runs per month",
+      "clean_name": "testRunsPerMonth0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Test runs per month",
+      "name": "testRunsPerMonth0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Test\\ runs\\ per\\ month\"][name=\"testRunsPerMonth0\"]",
+      "selector_unique": true,
+      "signature": "input|number|testRunsPerMonth0|Test runs per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "usageType",
+          "value": "aggregatedusage",
+          "text": "Aggregated usage"
+        }
+      ],
+      "depends_on": [
+        "usageType"
+      ]
+    },
+    {
+      "aria_label": "Operating system of the cloud browser",
+      "clean_name": "operatingSystem",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operating system of the cloud browser",
+      "name": "operatingSystem",
+      "options": [
+        {
+          "group": null,
+          "text": "Linux",
+          "value": "linux"
+        },
+        {
+          "group": null,
+          "text": "Windows",
+          "value": "windows"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Operating\\ system\\ of\\ the\\ cloud\\ browser\"][name=\"operatingSystem\"]",
+      "selector_unique": true,
+      "signature": "select||operatingSystem|Operating system of the cloud browser||||",
+      "tag": "select",
+      "type": null,
+      "value": "linux",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Total number of Playwright tests in the test suite",
+      "clean_name": "totalTest",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total number of Playwright tests in the test suite",
+      "name": "totalTest",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ number\\ of\\ Playwright\\ tests\\ in\\ the\\ test\\ suite\"][name=\"totalTest\"]",
+      "selector_unique": true,
+      "signature": "input|number|totalTest|Total number of Playwright tests in the test suite||||",
+      "tag": "input",
+      "type": "number",
+      "value": "200",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Average seconds per test",
+      "clean_name": "secondsPerTest",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average seconds per test",
+      "name": "secondsPerTest",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ seconds\\ per\\ test\"][name=\"secondsPerTest\"]",
+      "selector_unique": true,
+      "signature": "input|number|secondsPerTest|Average seconds per test||||",
+      "tag": "input",
+      "type": "number",
+      "value": "6",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number test runs per month",
+      "clean_name": "testRuns",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number test runs per month",
+      "name": "testRuns",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ test\\ runs\\ per\\ month\"][name=\"testRuns\"]",
+      "selector_unique": true,
+      "signature": "input|number|testRuns|Number test runs per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "220",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Total virtual user hours",
+      "clean_name": "aggregateUsageHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total virtual user hours",
+      "name": "aggregateUsageHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ virtual\\ user\\ hours\"][name=\"aggregateUsageHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|aggregateUsageHours|Total virtual user hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "usageType",
+          "value": "aggregatedusage",
+          "text": "Aggregated usage"
+        }
+      ],
+      "depends_on": [
+        "usageType"
+      ]
+    }
+  ],
+  "toggles": []
+}

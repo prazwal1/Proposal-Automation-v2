@@ -1,0 +1,2889 @@
+{
+  "schema_version": 2,
+  "product": "Synapse Analytics",
+  "slug": "synapse-analytics",
+  "picker_testid": "synapse-analytics-picker-item",
+  "module_testid": "synapse-analytics-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:38:44.541960+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Synapse Analytics",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Synapse Analytics|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Performance Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Performance Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Compute Optimized Gen1",
+          "value": "gen1"
+        },
+        {
+          "group": null,
+          "text": "Compute Optimized Gen2",
+          "value": "gen2"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Performance\\ Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Performance Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "gen2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "DWU blocks",
+      "clean_name": "blocks",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "DWU blocks",
+      "name": "blocks",
+      "options": [
+        {
+          "group": null,
+          "text": "100",
+          "value": "100"
+        },
+        {
+          "group": null,
+          "text": "200",
+          "value": "200"
+        },
+        {
+          "group": null,
+          "text": "300",
+          "value": "300"
+        },
+        {
+          "group": null,
+          "text": "400",
+          "value": "400"
+        },
+        {
+          "group": null,
+          "text": "500",
+          "value": "500"
+        },
+        {
+          "group": null,
+          "text": "1000",
+          "value": "1000"
+        },
+        {
+          "group": null,
+          "text": "1500",
+          "value": "1500"
+        },
+        {
+          "group": null,
+          "text": "2000",
+          "value": "2000"
+        },
+        {
+          "group": null,
+          "text": "2500",
+          "value": "2500"
+        },
+        {
+          "group": null,
+          "text": "3000",
+          "value": "3000"
+        },
+        {
+          "group": null,
+          "text": "5000",
+          "value": "5000"
+        },
+        {
+          "group": null,
+          "text": "6000",
+          "value": "6000"
+        },
+        {
+          "group": null,
+          "text": "7500",
+          "value": "7500"
+        },
+        {
+          "group": null,
+          "text": "10000",
+          "value": "10000"
+        },
+        {
+          "group": null,
+          "text": "15000",
+          "value": "15000"
+        },
+        {
+          "group": null,
+          "text": "30000",
+          "value": "30000"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"DWU\\ blocks\"][name=\"blocks\"]",
+      "selector_unique": true,
+      "signature": "select||blocks|DWU blocks||||",
+      "tag": "select",
+      "type": null,
+      "value": "500",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "gen1",
+            "text": "Compute Optimized Gen1"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "100",
+              "value": "100"
+            },
+            {
+              "group": null,
+              "text": "200",
+              "value": "200"
+            },
+            {
+              "group": null,
+              "text": "300",
+              "value": "300"
+            },
+            {
+              "group": null,
+              "text": "400",
+              "value": "400"
+            },
+            {
+              "group": null,
+              "text": "500",
+              "value": "500"
+            },
+            {
+              "group": null,
+              "text": "600",
+              "value": "600"
+            },
+            {
+              "group": null,
+              "text": "1000",
+              "value": "1000"
+            },
+            {
+              "group": null,
+              "text": "1200",
+              "value": "1200"
+            },
+            {
+              "group": null,
+              "text": "1500",
+              "value": "1500"
+            },
+            {
+              "group": null,
+              "text": "2000",
+              "value": "2000"
+            },
+            {
+              "group": null,
+              "text": "3000",
+              "value": "3000"
+            },
+            {
+              "group": null,
+              "text": "6000",
+              "value": "6000"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "computeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "computeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"computeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "computeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "computeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"computeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||computeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-1337bbee-cb4f-4cae-b26d-55eb47706e2b-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-1337bbee-cb4f-4cae-b26d-55eb47706e2b-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-one-year-1337bbee-cb4f-4cae-b26d-55eb47706e2b-billingOption",
+      "label": "1 year reserved (~37% savings)",
+      "name": "radioButton-1337bbee-cb4f-4cae-b26d-55eb47706e2b-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-three-year-1337bbee-cb4f-4cae-b26d-55eb47706e2b-billingOption",
+      "label": "3 year reserved (~65% savings)",
+      "name": "radioButton-1337bbee-cb4f-4cae-b26d-55eb47706e2b-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "storageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "storageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageUnits|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "serverlessUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "serverlessUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"serverlessUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|serverlessUnits|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Node size",
+      "clean_name": "sparkInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Node size",
+      "name": "sparkInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "Small (4 vCores / 32 GB)",
+          "value": "small-sparkpool"
+        },
+        {
+          "group": null,
+          "text": "Medium (8 vCores / 64 GB)",
+          "value": "medium-sparkpool"
+        },
+        {
+          "group": null,
+          "text": "Large (16 vCores / 128 GB)",
+          "value": "large-sparkpool"
+        },
+        {
+          "group": null,
+          "text": "XLarge (32 vCores / 256 GB)",
+          "value": "xlarge-sparkpool"
+        },
+        {
+          "group": null,
+          "text": "XXLarge (64 vCores / 432 GB)",
+          "value": "xxlarge-sparkpool"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Node\\ size\"][name=\"sparkInstance\"]",
+      "selector_unique": true,
+      "signature": "select||sparkInstance|Node size||||",
+      "tag": "select",
+      "type": null,
+      "value": "small-sparkpool",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "sparkMemoryOptimizedUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "sparkMemoryOptimizedUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"sparkMemoryOptimizedUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|sparkMemoryOptimizedUnits|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "sparkMemoryOptimizedHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "sparkMemoryOptimizedHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"sparkMemoryOptimizedHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|sparkMemoryOptimizedHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        },
+        {
+          "field": "sparkMemoryOptimizedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "sparkMemoryOptimizedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "sparkMemoryOptimizedHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "sparkMemoryOptimizedHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"sparkMemoryOptimizedHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||sparkMemoryOptimizedHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        },
+        {
+          "field": "sparkMemoryOptimizedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "sparkMemoryOptimizedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Node size",
+      "clean_name": "sparkHardwareAcceleratedInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Node size",
+      "name": "sparkHardwareAcceleratedInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "Large (16 vCores / 112 GB)",
+          "value": "large-sparkpool"
+        },
+        {
+          "group": null,
+          "text": "XLarge (64 vCores / 448 GB)",
+          "value": "xlarge-sparkpool"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Node\\ size\"][name=\"sparkHardwareAcceleratedInstance\"]",
+      "selector_unique": true,
+      "signature": "select||sparkHardwareAcceleratedInstance|Node size||||",
+      "tag": "select",
+      "type": null,
+      "value": "large-sparkpool",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "sparkHardwareAcceleratedUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "sparkHardwareAcceleratedUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"sparkHardwareAcceleratedUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|sparkHardwareAcceleratedUnits|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "sparkHardwareAcceleratedHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "sparkHardwareAcceleratedHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"sparkHardwareAcceleratedHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|sparkHardwareAcceleratedHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        },
+        {
+          "field": "sparkHardwareAcceleratedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "sparkHardwareAcceleratedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "sparkHardwareAcceleratedHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "sparkHardwareAcceleratedHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"sparkHardwareAcceleratedHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||sparkHardwareAcceleratedHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        },
+        {
+          "field": "sparkHardwareAcceleratedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "sparkHardwareAcceleratedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "dataCollectedUnit",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "dataCollectedUnit",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GB\"][name=\"dataCollectedUnit\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataCollectedUnit|GB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "GB",
+      "clean_name": "dataCollectedUnitFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GB",
+      "name": "dataCollectedUnitFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GB\"][name=\"dataCollectedUnitFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataCollectedUnitFactor|GB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "Hot Cache retention (days)",
+      "clean_name": "hotCache",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hot Cache retention (days)",
+      "name": "hotCache",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hot\\ Cache\\ retention\\ \\(days\\)\"][name=\"hotCache\"]",
+      "selector_unique": true,
+      "signature": "input|number|hotCache|Hot Cache retention (days)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "7",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Total retention (days)",
+      "clean_name": "totalRetention",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total retention (days)",
+      "name": "totalRetention",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ retention\\ \\(days\\)\"][name=\"totalRetention\"]",
+      "selector_unique": true,
+      "signature": "input|number|totalRetention|Total retention (days)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "30",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Estimated Data Compression",
+      "clean_name": "estimatedDataCompression",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Estimated Data Compression",
+      "name": "estimatedDataCompression",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Estimated\\ Data\\ Compression\"][name=\"estimatedDataCompression\"]",
+      "selector_unique": true,
+      "signature": "input|number|estimatedDataCompression|Estimated Data Compression||||",
+      "tag": "input",
+      "type": "number",
+      "value": "7",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "engineInstanceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "engineInstanceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"engineInstanceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|engineInstanceHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Engine vCores",
+      "absent_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "engineInstanceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "engineInstanceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"engineInstanceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||engineInstanceHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Engine vCores",
+      "absent_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dataManagementHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dataManagementHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"dataManagementHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataManagementHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Data Management vCores",
+      "absent_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dataManagementHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dataManagementHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"dataManagementHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataManagementHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Data Management vCores",
+      "absent_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Activity Runs (X 1,000)",
+      "clean_name": "azureHostedOrchestrationUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Activity Runs (X 1,000)",
+      "name": "azureHostedOrchestrationUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Activity\\ Runs\\ \\(X\\ 1\\,000\\)\"][name=\"azureHostedOrchestrationUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureHostedOrchestrationUnits|Activity Runs (X 1,000)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Data Integration Unit",
+      "clean_name": "azureHostedExecutionUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Integration Unit",
+      "name": "azureHostedExecutionUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ Integration\\ Unit\"][name=\"azureHostedExecutionUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureHostedExecutionUnits|Data Integration Unit||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "azureHostedExecutionHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "azureHostedExecutionHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"azureHostedExecutionHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureHostedExecutionHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Azure-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "azureHostedExecutionHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "azureHostedExecutionHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"azureHostedExecutionHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||azureHostedExecutionHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Azure-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Integration Hours",
+      "clean_name": "azureHostedIntegrationRuntimeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Integration Hours",
+      "name": "azureHostedIntegrationRuntimeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Integration\\ Hours\"][name=\"azureHostedIntegrationRuntimeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureHostedIntegrationRuntimeUnits|Integration Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Integration Hours",
+      "clean_name": "azureHostedExternalIntegrationRuntimeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Integration Hours",
+      "name": "azureHostedExternalIntegrationRuntimeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Integration\\ Hours\"][name=\"azureHostedExternalIntegrationRuntimeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureHostedExternalIntegrationRuntimeUnits|Integration Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Activity Runs (X 1,000)",
+      "clean_name": "azureVnetHostedOrchestrationUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Activity Runs (X 1,000)",
+      "name": "azureVnetHostedOrchestrationUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Activity\\ Runs\\ \\(X\\ 1\\,000\\)\"][name=\"azureVnetHostedOrchestrationUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureVnetHostedOrchestrationUnits|Activity Runs (X 1,000)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted Managed VNET",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Data Integration Unit",
+      "clean_name": "azureVnetHostedExecutionUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Integration Unit",
+      "name": "azureVnetHostedExecutionUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ Integration\\ Unit\"][name=\"azureVnetHostedExecutionUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureVnetHostedExecutionUnits|Data Integration Unit||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted Managed VNET",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "azureVnetHostedExecutionHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "azureVnetHostedExecutionHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"azureVnetHostedExecutionHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureVnetHostedExecutionHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Azure-Hosted Managed VNET",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "azureVnetHostedExecutionHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "azureVnetHostedExecutionHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"azureVnetHostedExecutionHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||azureVnetHostedExecutionHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Azure-Hosted Managed VNET",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Integration Hours",
+      "clean_name": "azureVnetHostedIntegrationRuntimeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Integration Hours",
+      "name": "azureVnetHostedIntegrationRuntimeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Integration\\ Hours\"][name=\"azureVnetHostedIntegrationRuntimeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureVnetHostedIntegrationRuntimeUnits|Integration Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted Managed VNET",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Integration Hours",
+      "clean_name": "azureVnetHostedExternalIntegrationRuntimeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Integration Hours",
+      "name": "azureVnetHostedExternalIntegrationRuntimeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Integration\\ Hours\"][name=\"azureVnetHostedExternalIntegrationRuntimeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureVnetHostedExternalIntegrationRuntimeUnits|Integration Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Azure-Hosted Managed VNET",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Activity Runs (X 1,000)",
+      "clean_name": "selfHostedOrchestrationUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Activity Runs (X 1,000)",
+      "name": "selfHostedOrchestrationUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Activity\\ Runs\\ \\(X\\ 1\\,000\\)\"][name=\"selfHostedOrchestrationUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|selfHostedOrchestrationUnits|Activity Runs (X 1,000)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Self-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "selfHostedExecutionHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "selfHostedExecutionHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"selfHostedExecutionHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|selfHostedExecutionHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Self-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "selfHostedExecutionHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "selfHostedExecutionHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"selfHostedExecutionHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||selfHostedExecutionHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Self-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Integration Hours",
+      "clean_name": "selfHostedIntegrationRuntimeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Integration Hours",
+      "name": "selfHostedIntegrationRuntimeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Integration\\ Hours\"][name=\"selfHostedIntegrationRuntimeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|selfHostedIntegrationRuntimeUnits|Integration Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Self-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Integration Hours",
+      "clean_name": "selfHostedExternalIntegrationRuntimeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Integration Hours",
+      "name": "selfHostedExternalIntegrationRuntimeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Integration\\ Hours\"][name=\"selfHostedExternalIntegrationRuntimeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|selfHostedExternalIntegrationRuntimeUnits|Integration Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Self-Hosted",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "basicVcoreInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "basicVcoreInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "8 vCores",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "12 vCores",
+          "value": "12"
+        },
+        {
+          "group": null,
+          "text": "20 vCores",
+          "value": "20"
+        },
+        {
+          "group": null,
+          "text": "36 vCores",
+          "value": "36"
+        },
+        {
+          "group": null,
+          "text": "68 vCores",
+          "value": "68"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"basicVcoreInstance\"]",
+      "selector_unique": true,
+      "signature": "select||basicVcoreInstance|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "8",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "basicVcoreUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "basicVcoreUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"basicVcoreUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|basicVcoreUnits|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "basicVcoreHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "basicVcoreHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"basicVcoreHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|basicVcoreHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "basicVcoreHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "basicVcoreHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"basicVcoreHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||basicVcoreHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "standardVcoreInstance",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "standardVcoreInstance",
+      "options": [
+        {
+          "group": null,
+          "text": "8 vCores",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "12 vCores",
+          "value": "12"
+        },
+        {
+          "group": null,
+          "text": "20 vCores",
+          "value": "20"
+        },
+        {
+          "group": null,
+          "text": "36 vCores",
+          "value": "36"
+        },
+        {
+          "group": null,
+          "text": "68 vCores",
+          "value": "68"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"standardVcoreInstance\"]",
+      "selector_unique": true,
+      "signature": "select||standardVcoreInstance|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "8",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "standardVcoreUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "standardVcoreUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"standardVcoreUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardVcoreUnits|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardVcoreHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardVcoreHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"standardVcoreHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardVcoreHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "standardVcoreHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "standardVcoreHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"standardVcoreHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||standardVcoreHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Data Flows",
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "gen1",
+          "text": "Compute Optimized Gen1"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "computeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "computeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"computeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|computeHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "computeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "computeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"computeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||computeHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "computeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "computeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "sparkMemoryOptimizedHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "sparkMemoryOptimizedHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"sparkMemoryOptimizedHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|sparkMemoryOptimizedHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "sparkMemoryOptimizedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "sparkMemoryOptimizedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "sparkMemoryOptimizedHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "sparkMemoryOptimizedHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"sparkMemoryOptimizedHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||sparkMemoryOptimizedHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "sparkMemoryOptimizedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "sparkMemoryOptimizedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "sparkHardwareAcceleratedHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "sparkHardwareAcceleratedHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"sparkHardwareAcceleratedHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|sparkHardwareAcceleratedHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "sparkHardwareAcceleratedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "sparkHardwareAcceleratedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "sparkHardwareAcceleratedHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "sparkHardwareAcceleratedHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"sparkHardwareAcceleratedHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||sparkHardwareAcceleratedHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "sparkHardwareAcceleratedHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "sparkHardwareAcceleratedHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "dataCollectedUnit",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "dataCollectedUnit",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TB\"][name=\"dataCollectedUnit\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataCollectedUnit|TB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "TB",
+      "clean_name": "dataCollectedUnitFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TB",
+      "name": "dataCollectedUnitFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TB\"][name=\"dataCollectedUnitFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataCollectedUnitFactor|TB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataCollectedUnitFactor",
+          "value": "1024",
+          "text": "TB"
+        }
+      ],
+      "depends_on": [
+        "dataCollectedUnitFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "engineInstanceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "engineInstanceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"engineInstanceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|engineInstanceHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "engineInstanceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "engineInstanceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"engineInstanceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||engineInstanceHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "engineInstanceHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "engineInstanceHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "dataManagementHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "dataManagementHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"dataManagementHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataManagementHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "dataManagementHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "dataManagementHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"dataManagementHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dataManagementHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "dataManagementHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "dataManagementHoursFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Engine vCores",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Engine vCores",
+      "tag": "button",
+      "text": "Engine vCores",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Management vCores",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Data Management vCores",
+      "tag": "button",
+      "text": "Data Management vCores",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Storage",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Storage",
+      "tag": "button",
+      "text": "Storage",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Azure-Hosted",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Azure-Hosted",
+      "tag": "button",
+      "text": "Azure-Hosted",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Azure-Hosted Managed VNET",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Azure-Hosted Managed VNET",
+      "tag": "button",
+      "text": "Azure-Hosted Managed VNET",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Self-Hosted",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Self-Hosted",
+      "tag": "button",
+      "text": "Self-Hosted",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Flows",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Data Flows",
+      "tag": "button",
+      "text": "Data Flows",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

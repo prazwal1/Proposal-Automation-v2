@@ -1,0 +1,1290 @@
+{
+  "schema_version": 2,
+  "product": "Dedicated Host",
+  "slug": "virtual-machines--dedicated-host",
+  "picker_testid": "virtual-machines\\dedicated-host-picker-item",
+  "module_testid": "virtual-machines\\dedicated-host-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:50:46.686268+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Dedicated Host",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Dedicated Host|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "VM series",
+      "clean_name": "vmSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "VM series",
+      "name": "vmSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "Dadsv5",
+          "value": "dadsv5"
+        },
+        {
+          "group": null,
+          "text": "Dasv4",
+          "value": "dasv4"
+        },
+        {
+          "group": null,
+          "text": "Dasv5",
+          "value": "dasv5"
+        },
+        {
+          "group": null,
+          "text": "Dcadsv5",
+          "value": "dcadsv5"
+        },
+        {
+          "group": null,
+          "text": "Dcasv5",
+          "value": "dcasv5"
+        },
+        {
+          "group": null,
+          "text": "Dcdsv3",
+          "value": "dcdsv3"
+        },
+        {
+          "group": null,
+          "text": "Dcsv2",
+          "value": "dcsv2"
+        },
+        {
+          "group": null,
+          "text": "Dcsv3",
+          "value": "dcsv3"
+        },
+        {
+          "group": null,
+          "text": "Ddsv4",
+          "value": "ddsv4"
+        },
+        {
+          "group": null,
+          "text": "Ddsv5",
+          "value": "ddsv5"
+        },
+        {
+          "group": null,
+          "text": "Dsv3",
+          "value": "dsv3"
+        },
+        {
+          "group": null,
+          "text": "Dsv4",
+          "value": "dsv4"
+        },
+        {
+          "group": null,
+          "text": "Dsv5",
+          "value": "dsv5"
+        },
+        {
+          "group": null,
+          "text": "Eadsv5",
+          "value": "eadsv5"
+        },
+        {
+          "group": null,
+          "text": "Easv4",
+          "value": "easv4"
+        },
+        {
+          "group": null,
+          "text": "Easv5",
+          "value": "easv5"
+        },
+        {
+          "group": null,
+          "text": "Ebdsv5",
+          "value": "ebdsv5"
+        },
+        {
+          "group": null,
+          "text": "Ebsv5",
+          "value": "ebsv5"
+        },
+        {
+          "group": null,
+          "text": "Ecadsv5",
+          "value": "ecadsv5"
+        },
+        {
+          "group": null,
+          "text": "Ecasv5",
+          "value": "ecasv5"
+        },
+        {
+          "group": null,
+          "text": "Edsv4",
+          "value": "edsv4"
+        },
+        {
+          "group": null,
+          "text": "Edsv5",
+          "value": "edsv5"
+        },
+        {
+          "group": null,
+          "text": "Esv3",
+          "value": "esv3"
+        },
+        {
+          "group": null,
+          "text": "Esv4",
+          "value": "esv4"
+        },
+        {
+          "group": null,
+          "text": "Esv5",
+          "value": "esv5"
+        },
+        {
+          "group": null,
+          "text": "Fsv2",
+          "value": "fsv2"
+        },
+        {
+          "group": null,
+          "text": "FXmds",
+          "value": "fxmds"
+        },
+        {
+          "group": null,
+          "text": "Lasv3",
+          "value": "lasv3"
+        },
+        {
+          "group": null,
+          "text": "Lsv2",
+          "value": "lsv2"
+        },
+        {
+          "group": null,
+          "text": "Lsv3",
+          "value": "lsv3"
+        },
+        {
+          "group": null,
+          "text": "Mdmsv2 MedMem",
+          "value": "mdmsv2medmem"
+        },
+        {
+          "group": null,
+          "text": "Mdsv2 MedMem",
+          "value": "mdsv2medmem"
+        },
+        {
+          "group": null,
+          "text": "Mmsv2 MedMem",
+          "value": "mmsv2medmem"
+        },
+        {
+          "group": null,
+          "text": "Ms",
+          "value": "ms"
+        },
+        {
+          "group": null,
+          "text": "Msm",
+          "value": "msm"
+        },
+        {
+          "group": null,
+          "text": "Msmv2",
+          "value": "msmv2"
+        },
+        {
+          "group": null,
+          "text": "Msv2",
+          "value": "msv2"
+        },
+        {
+          "group": null,
+          "text": "Msv2 MedMem",
+          "value": "msv2medmem"
+        },
+        {
+          "group": null,
+          "text": "Nvasv4",
+          "value": "nvasv4"
+        },
+        {
+          "group": null,
+          "text": "Nvsv3",
+          "value": "nvsv3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"VM\\ series\"][name=\"vmSeries\"]",
+      "selector_unique": true,
+      "signature": "select||vmSeries|VM series||||",
+      "tag": "select",
+      "type": null,
+      "value": "dsv3",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Host type",
+      "clean_name": "hostType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Host type",
+      "name": "hostType",
+      "options": [
+        {
+          "group": null,
+          "text": "Type 3",
+          "value": "type3"
+        },
+        {
+          "group": null,
+          "text": "Type 4",
+          "value": "type4"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Host\\ type\"][name=\"hostType\"]",
+      "selector_unique": true,
+      "signature": "select||hostType|Host type||||",
+      "tag": "select",
+      "type": null,
+      "value": "type3",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Host",
+      "clean_name": "hostCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Host",
+      "name": "hostCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Host\"][name=\"hostCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|hostCount|Host||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hostHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hostHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hostHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hostHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hostHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hostHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hostHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hostHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hostHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hostHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hostHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hostHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "label": "1 year savings plan (~31% savings)",
+      "name": "radioButton-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "label": "3 year savings plan (~53% savings)",
+      "name": "radioButton-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-one-year-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "label": "1 year reserved (~41% savings)",
+      "name": "radioButton-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-three-year-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "label": "3 year reserved (~62% savings)",
+      "name": "radioButton-a57517e1-c59a-4bc6-8864-67b990e893c0-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Software",
+      "clean_name": "softwareLicense-0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Software",
+      "name": "softwareLicense-0",
+      "options": [
+        {
+          "group": null,
+          "text": "Windows OS",
+          "value": "windows_os"
+        },
+        {
+          "group": null,
+          "text": "Biztalk Enterprise",
+          "value": "biztalk_enterprise"
+        },
+        {
+          "group": null,
+          "text": "Biztalk Standard",
+          "value": "biztalk_standard"
+        },
+        {
+          "group": null,
+          "text": "RHEL for SAP Business Applications",
+          "value": "rhel_sap_business_applications"
+        },
+        {
+          "group": null,
+          "text": "SUSE Linux Enterprise for HPC + 24x7 Support",
+          "value": "sles_hpc_standard"
+        },
+        {
+          "group": null,
+          "text": "SUSE Linux Enterprise for SAP Applications + 24x7 Support",
+          "value": "sles_sap_priority"
+        },
+        {
+          "group": null,
+          "text": "SUSE Linux Enterprise + 24x7 Support",
+          "value": "sles_enterprise_standard"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Enterprise",
+          "value": "sql_enterprise"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Linux Enterprise",
+          "value": "sql_linux_enterprise"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Linux Standard",
+          "value": "sql_linux_standard"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Linux Web",
+          "value": "sql_linux_web"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Enterprise Red Hat Enterprise Linux",
+          "value": "sql_redhat_enterprise"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Standard Red Hat Enterprise Linux",
+          "value": "sql_redhat_standard"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Web Red Hat Enterprise Linux",
+          "value": "sql_redhat_web"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Enterprise SLES",
+          "value": "sql_sles_priority_enterprise"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Standard SLES",
+          "value": "sql_sles_priority_standard"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Web SLES",
+          "value": "sql_sles_priority_web"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Standard",
+          "value": "sql_standard"
+        },
+        {
+          "group": null,
+          "text": "SQL Server Web",
+          "value": "sql_web"
+        },
+        {
+          "group": null,
+          "text": "Ubuntu Advantage",
+          "value": "ubuntu_advantage"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Software\"][name=\"softwareLicense-0\"]",
+      "selector_unique": true,
+      "signature": "select||softwareLicense-0|Software||||",
+      "tag": "select",
+      "type": null,
+      "value": "windows_os",
+      "visible": true,
+      "revealed_by": "Software licenses"
+    },
+    {
+      "aria_label": "vCPU",
+      "clean_name": "softwareVcpu-0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "vCPU",
+      "name": "softwareVcpu-0",
+      "options": [
+        {
+          "group": null,
+          "text": "2 vCPU",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "4 vCPU",
+          "value": "4"
+        },
+        {
+          "group": null,
+          "text": "8 vCPU",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "12 vCPU",
+          "value": "12"
+        },
+        {
+          "group": null,
+          "text": "16 vCPU",
+          "value": "16"
+        },
+        {
+          "group": null,
+          "text": "20 vCPU",
+          "value": "20"
+        },
+        {
+          "group": null,
+          "text": "24 vCPU",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "32 vCPU",
+          "value": "32"
+        },
+        {
+          "group": null,
+          "text": "48 vCPU",
+          "value": "48"
+        },
+        {
+          "group": null,
+          "text": "64 vCPU",
+          "value": "64"
+        },
+        {
+          "group": null,
+          "text": "72 vCPU",
+          "value": "72"
+        },
+        {
+          "group": null,
+          "text": "80 vCPU",
+          "value": "80"
+        },
+        {
+          "group": null,
+          "text": "96 vCPU",
+          "value": "96"
+        },
+        {
+          "group": null,
+          "text": "128 vCPU",
+          "value": "128"
+        },
+        {
+          "group": null,
+          "text": "208 vCPU",
+          "value": "208"
+        },
+        {
+          "group": null,
+          "text": "416 vCPU",
+          "value": "416"
+        },
+        {
+          "group": null,
+          "text": "112 vCPU",
+          "value": "112"
+        },
+        {
+          "group": null,
+          "text": "36 vCPU",
+          "value": "36"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"vCPU\"][name=\"softwareVcpu-0\"]",
+      "selector_unique": true,
+      "signature": "select||softwareVcpu-0|vCPU||||",
+      "tag": "select",
+      "type": null,
+      "value": "2",
+      "visible": true,
+      "revealed_by": "Software licenses"
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "softwareHours-0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "softwareHours-0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"softwareHours-0\"]",
+      "selector_unique": true,
+      "signature": "input|number|softwareHours-0|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Software licenses",
+      "absent_when": [
+        {
+          "field": "softwareHoursFactor-0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "softwareHoursFactor-0"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "softwareHoursFactor-0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "softwareHoursFactor-0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"softwareHoursFactor-0\"]",
+      "selector_unique": true,
+      "signature": "select||softwareHoursFactor-0|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Software licenses",
+      "absent_when": [
+        {
+          "field": "softwareHoursFactor-0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "softwareHoursFactor-0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hostHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hostHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hostHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hostHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hostHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hostHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hostHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hostHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hostHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hostHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hostHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hostHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "softwareHours-0",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "softwareHours-0",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"softwareHours-0\"]",
+      "selector_unique": true,
+      "signature": "input|number|softwareHours-0|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "softwareHoursFactor-0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "softwareHoursFactor-0"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "softwareHoursFactor-0",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "softwareHoursFactor-0",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"softwareHoursFactor-0\"]",
+      "selector_unique": true,
+      "signature": "select||softwareHoursFactor-0|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "softwareHoursFactor-0",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "softwareHoursFactor-0"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Software licenses",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Software licenses",
+      "tag": "button",
+      "text": "Software licenses",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

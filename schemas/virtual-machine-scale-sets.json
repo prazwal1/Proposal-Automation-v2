@@ -1,0 +1,4717 @@
+{
+  "schema_version": 2,
+  "product": "Virtual Machine Scale Sets",
+  "slug": "virtual-machine-scale-sets",
+  "picker_testid": "virtual-machine-scale-sets-picker-item",
+  "module_testid": "virtual-machine-scale-sets-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:40:33.500330+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Virtual Machine Scale Sets",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Virtual Machine Scale Sets|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Operating System",
+      "clean_name": "operatingSystem",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Operating System",
+      "name": "operatingSystem",
+      "options": [
+        {
+          "group": null,
+          "text": "Linux",
+          "value": "linux"
+        },
+        {
+          "group": null,
+          "text": "Windows",
+          "value": "windows"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Operating\\ System\"][name=\"operatingSystem\"]",
+      "selector_unique": true,
+      "signature": "select||operatingSystem|Operating System||||",
+      "tag": "select",
+      "type": null,
+      "value": "windows",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Type",
+      "clean_name": "type",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Type",
+      "name": "type",
+      "options": [
+        {
+          "group": null,
+          "text": "(OS Only)",
+          "value": "os-only"
+        },
+        {
+          "group": null,
+          "text": "BizTalk",
+          "value": "biztalk"
+        },
+        {
+          "group": null,
+          "text": "SQL Server",
+          "value": "sql"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Type\"][name=\"type\"]",
+      "selector_unique": true,
+      "signature": "select||type|Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "os-only",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "operatingSystem",
+            "value": "linux",
+            "text": "Linux"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Red Hat Enterprise Linux",
+              "value": "redhat"
+            },
+            {
+              "group": null,
+              "text": "Red Hat Enterprise Linux with HA",
+              "value": "rhel-ha"
+            },
+            {
+              "group": null,
+              "text": "RHEL for SAP Business Applications",
+              "value": "rhel-sap-business"
+            },
+            {
+              "group": null,
+              "text": "RHEL for SAP with HA",
+              "value": "rhel-sap-ha"
+            },
+            {
+              "group": null,
+              "text": "SQL Server Red Hat Enterprise Linux",
+              "value": "sql-redhat"
+            },
+            {
+              "group": null,
+              "text": "SQL Server SUSE Priority",
+              "value": "sql-sles-priority"
+            },
+            {
+              "group": null,
+              "text": "SQL Server Ubuntu Linux",
+              "value": "sql-linux"
+            },
+            {
+              "group": null,
+              "text": "SQL Server Ubuntu Pro",
+              "value": "sql-ubuntu-pro"
+            },
+            {
+              "group": null,
+              "text": "SUSE Linux Enterprise",
+              "value": "sles-enterprise"
+            },
+            {
+              "group": null,
+              "text": "SUSE Linux Enterprise for HPC",
+              "value": "sles-hpc"
+            },
+            {
+              "group": null,
+              "text": "SUSE Linux Enterprise for SAP Applications + 24x7 Support",
+              "value": "sles-sap-priority"
+            },
+            {
+              "group": null,
+              "text": "Ubuntu",
+              "value": "ubuntu"
+            },
+            {
+              "group": null,
+              "text": "Ubuntu Advantage",
+              "value": "ubuntu-advantage"
+            },
+            {
+              "group": null,
+              "text": "Ubuntu Pro",
+              "value": "ubuntu-pro"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "operatingSystem"
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "category",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "category",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "Compute optimized",
+          "value": "computeoptimized"
+        },
+        {
+          "group": null,
+          "text": "General purpose",
+          "value": "generalpurpose"
+        },
+        {
+          "group": null,
+          "text": "GPU",
+          "value": "gpu"
+        },
+        {
+          "group": null,
+          "text": "High performance compute",
+          "value": "highperformancecompute"
+        },
+        {
+          "group": null,
+          "text": "Memory optimized",
+          "value": "memoryoptimized"
+        },
+        {
+          "group": null,
+          "text": "Storage optimized",
+          "value": "storageoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"category\"]",
+      "selector_unique": true,
+      "signature": "select||category|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "General purpose",
+              "value": "generalpurpose"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "instanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "instanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "A-series",
+          "value": "a"
+        },
+        {
+          "group": null,
+          "text": "Av2 Standard",
+          "value": "av2"
+        },
+        {
+          "group": null,
+          "text": "Basv2-series",
+          "value": "basv2"
+        },
+        {
+          "group": null,
+          "text": "Bs-series",
+          "value": "bs"
+        },
+        {
+          "group": null,
+          "text": "Bsv2-series",
+          "value": "bsv2"
+        },
+        {
+          "group": null,
+          "text": "Constrained vCPUs capable",
+          "value": "constrained"
+        },
+        {
+          "group": null,
+          "text": "Da v4-series",
+          "value": "dav4"
+        },
+        {
+          "group": null,
+          "text": "Dadsv5-series",
+          "value": "dadsv5"
+        },
+        {
+          "group": null,
+          "text": "Dadsv6-series",
+          "value": "dadsv6"
+        },
+        {
+          "group": null,
+          "text": "Dadsv7-series",
+          "value": "dadsv7"
+        },
+        {
+          "group": null,
+          "text": "Daldsv6-series",
+          "value": "daldsv6"
+        },
+        {
+          "group": null,
+          "text": "Daldsv7-series",
+          "value": "daldsv7"
+        },
+        {
+          "group": null,
+          "text": "Dalsv6-series",
+          "value": "dalsv6"
+        },
+        {
+          "group": null,
+          "text": "Dalsv7-series",
+          "value": "dalsv7"
+        },
+        {
+          "group": null,
+          "text": "Das v4-series",
+          "value": "dasv4"
+        },
+        {
+          "group": null,
+          "text": "Dasv5-series",
+          "value": "dasv5"
+        },
+        {
+          "group": null,
+          "text": "Dasv6-series",
+          "value": "dasv6"
+        },
+        {
+          "group": null,
+          "text": "Dasv7-series",
+          "value": "dasv7"
+        },
+        {
+          "group": null,
+          "text": "DCadsv5-series",
+          "value": "dcadsv5"
+        },
+        {
+          "group": null,
+          "text": "DCadsv6-series",
+          "value": "dcadsv6"
+        },
+        {
+          "group": null,
+          "text": "DCasv5-series",
+          "value": "dcasv5"
+        },
+        {
+          "group": null,
+          "text": "DCasv6-series",
+          "value": "dcasv6"
+        },
+        {
+          "group": null,
+          "text": "DCdsv3-series",
+          "value": "dcdsv3"
+        },
+        {
+          "group": null,
+          "text": "DCedsv6-series",
+          "value": "dcedsv6"
+        },
+        {
+          "group": null,
+          "text": "DCesv6-series",
+          "value": "dcesv6"
+        },
+        {
+          "group": null,
+          "text": "DCsv2-series",
+          "value": "dcsv2"
+        },
+        {
+          "group": null,
+          "text": "DCsv3-series",
+          "value": "dcsv3"
+        },
+        {
+          "group": null,
+          "text": "Dd v4-series",
+          "value": "ddv4"
+        },
+        {
+          "group": null,
+          "text": "Dds v4-series",
+          "value": "ddsv4"
+        },
+        {
+          "group": null,
+          "text": "Ddsv5-series",
+          "value": "ddsv5"
+        },
+        {
+          "group": null,
+          "text": "Ddsv6-series",
+          "value": "ddsv6"
+        },
+        {
+          "group": null,
+          "text": "Ddsv7-series",
+          "value": "ddsv7"
+        },
+        {
+          "group": null,
+          "text": "Ddv5-series",
+          "value": "ddv5"
+        },
+        {
+          "group": null,
+          "text": "Dldsv5-series",
+          "value": "dldsv5"
+        },
+        {
+          "group": null,
+          "text": "Dldsv6-series",
+          "value": "dldsv6"
+        },
+        {
+          "group": null,
+          "text": "Dldsv7-series",
+          "value": "dldsv7"
+        },
+        {
+          "group": null,
+          "text": "Dlsv5-series",
+          "value": "dlsv5"
+        },
+        {
+          "group": null,
+          "text": "Dlsv6-series",
+          "value": "dlsv6"
+        },
+        {
+          "group": null,
+          "text": "Dlsv7-series",
+          "value": "dlsv7"
+        },
+        {
+          "group": null,
+          "text": "Dndsv6-series",
+          "value": "dndsv6"
+        },
+        {
+          "group": null,
+          "text": "D-series",
+          "value": "d"
+        },
+        {
+          "group": null,
+          "text": "DS-series",
+          "value": "ds"
+        },
+        {
+          "group": null,
+          "text": "Dsv2-series",
+          "value": "dsv2"
+        },
+        {
+          "group": null,
+          "text": "Dsv3-series",
+          "value": "dsv3"
+        },
+        {
+          "group": null,
+          "text": "Dsv4-series",
+          "value": "dsv4"
+        },
+        {
+          "group": null,
+          "text": "Dsv5-series",
+          "value": "dsv5"
+        },
+        {
+          "group": null,
+          "text": "Dsv6-series",
+          "value": "dsv6"
+        },
+        {
+          "group": null,
+          "text": "Dsv7-series",
+          "value": "dsv7"
+        },
+        {
+          "group": null,
+          "text": "Dv2-series",
+          "value": "dv2"
+        },
+        {
+          "group": null,
+          "text": "Dv3-series",
+          "value": "dv3"
+        },
+        {
+          "group": null,
+          "text": "Dv4-series",
+          "value": "dv4"
+        },
+        {
+          "group": null,
+          "text": "Dv5-series",
+          "value": "dv5"
+        },
+        {
+          "group": null,
+          "text": "Ea v4-series",
+          "value": "eav4"
+        },
+        {
+          "group": null,
+          "text": "Eadsv5-series",
+          "value": "eadsv5"
+        },
+        {
+          "group": null,
+          "text": "Eadsv6-series",
+          "value": "eadsv6"
+        },
+        {
+          "group": null,
+          "text": "Eadsv7-series",
+          "value": "eadsv7"
+        },
+        {
+          "group": null,
+          "text": "Eas v4-series",
+          "value": "easv4"
+        },
+        {
+          "group": null,
+          "text": "Easv5-series",
+          "value": "easv5"
+        },
+        {
+          "group": null,
+          "text": "Easv6-series",
+          "value": "easv6"
+        },
+        {
+          "group": null,
+          "text": "Easv7-series",
+          "value": "easv7"
+        },
+        {
+          "group": null,
+          "text": "Ebdsv5-series",
+          "value": "ebdsv5"
+        },
+        {
+          "group": null,
+          "text": "Ebsv5-series",
+          "value": "ebsv5"
+        },
+        {
+          "group": null,
+          "text": "ECadsv5-series",
+          "value": "ecadsv5"
+        },
+        {
+          "group": null,
+          "text": "ECadsv6-series",
+          "value": "ecadsv6"
+        },
+        {
+          "group": null,
+          "text": "ECasv5-series",
+          "value": "ecasv5"
+        },
+        {
+          "group": null,
+          "text": "ECasv6-series",
+          "value": "ecasv6"
+        },
+        {
+          "group": null,
+          "text": "ECedsv6-series",
+          "value": "ecedsv6"
+        },
+        {
+          "group": null,
+          "text": "ECesv6-series",
+          "value": "ecesv6"
+        },
+        {
+          "group": null,
+          "text": "Ed v4-series",
+          "value": "edv4"
+        },
+        {
+          "group": null,
+          "text": "Eds v4-series",
+          "value": "edsv4"
+        },
+        {
+          "group": null,
+          "text": "Edsv5-series",
+          "value": "edsv5"
+        },
+        {
+          "group": null,
+          "text": "Edsv6-series",
+          "value": "edsv6"
+        },
+        {
+          "group": null,
+          "text": "Edsv7-series",
+          "value": "edsv7"
+        },
+        {
+          "group": null,
+          "text": "Edv5-series",
+          "value": "edv5"
+        },
+        {
+          "group": null,
+          "text": "Esv3-series",
+          "value": "esv3"
+        },
+        {
+          "group": null,
+          "text": "Esv4-series",
+          "value": "esv4"
+        },
+        {
+          "group": null,
+          "text": "Esv5-series",
+          "value": "esv5"
+        },
+        {
+          "group": null,
+          "text": "Esv6-series",
+          "value": "esv6"
+        },
+        {
+          "group": null,
+          "text": "Esv7-series",
+          "value": "esv7"
+        },
+        {
+          "group": null,
+          "text": "Ev3-series",
+          "value": "ev3"
+        },
+        {
+          "group": null,
+          "text": "Ev4-series",
+          "value": "ev4"
+        },
+        {
+          "group": null,
+          "text": "Ev5-series",
+          "value": "ev5"
+        },
+        {
+          "group": null,
+          "text": "Fadsv7-series",
+          "value": "fadsv7"
+        },
+        {
+          "group": null,
+          "text": "Faldsv7-series",
+          "value": "faldsv7"
+        },
+        {
+          "group": null,
+          "text": "Falsv6-series",
+          "value": "falsv6"
+        },
+        {
+          "group": null,
+          "text": "Falsv7-series",
+          "value": "falsv7"
+        },
+        {
+          "group": null,
+          "text": "Famdsv7-series",
+          "value": "famdsv7"
+        },
+        {
+          "group": null,
+          "text": "Famsv6-series",
+          "value": "famsv6"
+        },
+        {
+          "group": null,
+          "text": "Famsv7-series",
+          "value": "famsv7"
+        },
+        {
+          "group": null,
+          "text": "Fasv6-series",
+          "value": "fasv6"
+        },
+        {
+          "group": null,
+          "text": "Fasv7-series",
+          "value": "fasv7"
+        },
+        {
+          "group": null,
+          "text": "F-series",
+          "value": "f"
+        },
+        {
+          "group": null,
+          "text": "Fs-series",
+          "value": "fs"
+        },
+        {
+          "group": null,
+          "text": "Fsv2-series",
+          "value": "fsv2"
+        },
+        {
+          "group": null,
+          "text": "FXmdsv2-series",
+          "value": "fxmdsv2"
+        },
+        {
+          "group": null,
+          "text": "FXmsv2-series",
+          "value": "fxmsv2"
+        },
+        {
+          "group": null,
+          "text": "G-series",
+          "value": "g"
+        },
+        {
+          "group": null,
+          "text": "Gs-series",
+          "value": "gs"
+        },
+        {
+          "group": null,
+          "text": "HB-series",
+          "value": "hb"
+        },
+        {
+          "group": null,
+          "text": "HBv2-series",
+          "value": "hbv2"
+        },
+        {
+          "group": null,
+          "text": "HBv3-series",
+          "value": "hbv3"
+        },
+        {
+          "group": null,
+          "text": "HC-series",
+          "value": "hc"
+        },
+        {
+          "group": null,
+          "text": "H-series",
+          "value": "h"
+        },
+        {
+          "group": null,
+          "text": "Laosv4-series",
+          "value": "laosv4"
+        },
+        {
+          "group": null,
+          "text": "Lasv3-series",
+          "value": "lasv3"
+        },
+        {
+          "group": null,
+          "text": "Lasv4-series",
+          "value": "lasv4"
+        },
+        {
+          "group": null,
+          "text": "Ls-series",
+          "value": "ls"
+        },
+        {
+          "group": null,
+          "text": "Lsv2-series",
+          "value": "lsv2"
+        },
+        {
+          "group": null,
+          "text": "Lsv3-series",
+          "value": "lsv3"
+        },
+        {
+          "group": null,
+          "text": "Lsv4-series",
+          "value": "lsv4"
+        },
+        {
+          "group": null,
+          "text": "Mdsv2-series",
+          "value": "mdsv2"
+        },
+        {
+          "group": null,
+          "text": "Mdsv3-series",
+          "value": "mdsv3"
+        },
+        {
+          "group": null,
+          "text": "M-series",
+          "value": "m"
+        },
+        {
+          "group": null,
+          "text": "Msv2-series",
+          "value": "msv2"
+        },
+        {
+          "group": null,
+          "text": "Msv3-series",
+          "value": "msv3"
+        },
+        {
+          "group": null,
+          "text": "Mv2-series",
+          "value": "mv2"
+        },
+        {
+          "group": null,
+          "text": "NC A100 v4-series",
+          "value": "nca100v4"
+        },
+        {
+          "group": null,
+          "text": "NC_T4_v3-series",
+          "value": "ncast4v3"
+        },
+        {
+          "group": null,
+          "text": "NCads A10 v4-series",
+          "value": "nca10v4"
+        },
+        {
+          "group": null,
+          "text": "NCads H100 v5-series",
+          "value": "ncadsh100v5"
+        },
+        {
+          "group": null,
+          "text": "NCdsxlRTX6Kv6-series",
+          "value": "ncdsxlrtx6kv6"
+        },
+        {
+          "group": null,
+          "text": "NCldsxlRTX6Kv6-series",
+          "value": "ncldsxlrtx6kv6"
+        },
+        {
+          "group": null,
+          "text": "NCsv2-series",
+          "value": "ncsv2"
+        },
+        {
+          "group": null,
+          "text": "NCsv3-series",
+          "value": "ncsv3"
+        },
+        {
+          "group": null,
+          "text": "ND A100 v4-series",
+          "value": "ndasrv4"
+        },
+        {
+          "group": null,
+          "text": "NDm A100 v4-series",
+          "value": "ndamsrv4"
+        },
+        {
+          "group": null,
+          "text": "NDsrH100v5-series",
+          "value": "ndsrv5"
+        },
+        {
+          "group": null,
+          "text": "NDs-series",
+          "value": "nds"
+        },
+        {
+          "group": null,
+          "text": "NDv2-series",
+          "value": "ndv2"
+        },
+        {
+          "group": null,
+          "text": "NMads MA35D-Series",
+          "value": "nmadsma35d"
+        },
+        {
+          "group": null,
+          "text": "NVads A10 v5-series",
+          "value": "nvv5"
+        },
+        {
+          "group": null,
+          "text": "NVads V710 v5-series",
+          "value": "nvadsv710v5"
+        },
+        {
+          "group": null,
+          "text": "NVv3-series",
+          "value": "nvv3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"instanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||instanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "operatingSystem",
+            "value": "linux",
+            "text": "Linux"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "Av2 Standard",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "Basv2-series",
+              "value": "basv2"
+            },
+            {
+              "group": null,
+              "text": "Bpsv2-series",
+              "value": "bpsv2"
+            },
+            {
+              "group": null,
+              "text": "Bs-series",
+              "value": "bs"
+            },
+            {
+              "group": null,
+              "text": "Bsv2-series",
+              "value": "bsv2"
+            },
+            {
+              "group": null,
+              "text": "Constrained vCPUs capable",
+              "value": "constrained"
+            },
+            {
+              "group": null,
+              "text": "Da v4-series",
+              "value": "dav4"
+            },
+            {
+              "group": null,
+              "text": "Dadsv5-series",
+              "value": "dadsv5"
+            },
+            {
+              "group": null,
+              "text": "Dadsv6-series",
+              "value": "dadsv6"
+            },
+            {
+              "group": null,
+              "text": "Dadsv7-series",
+              "value": "dadsv7"
+            },
+            {
+              "group": null,
+              "text": "Daldsv6-series",
+              "value": "daldsv6"
+            },
+            {
+              "group": null,
+              "text": "Daldsv7-series",
+              "value": "daldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dalsv6-series",
+              "value": "dalsv6"
+            },
+            {
+              "group": null,
+              "text": "Dalsv7-series",
+              "value": "dalsv7"
+            },
+            {
+              "group": null,
+              "text": "Das v4-series",
+              "value": "dasv4"
+            },
+            {
+              "group": null,
+              "text": "Dasv5-series",
+              "value": "dasv5"
+            },
+            {
+              "group": null,
+              "text": "Dasv6-series",
+              "value": "dasv6"
+            },
+            {
+              "group": null,
+              "text": "Dasv7-series",
+              "value": "dasv7"
+            },
+            {
+              "group": null,
+              "text": "DCadsv5-series",
+              "value": "dcadsv5"
+            },
+            {
+              "group": null,
+              "text": "DCadsv6-series",
+              "value": "dcadsv6"
+            },
+            {
+              "group": null,
+              "text": "DCasv5-series",
+              "value": "dcasv5"
+            },
+            {
+              "group": null,
+              "text": "DCasv6-series",
+              "value": "dcasv6"
+            },
+            {
+              "group": null,
+              "text": "DCdsv3-series",
+              "value": "dcdsv3"
+            },
+            {
+              "group": null,
+              "text": "DCedsv6-series",
+              "value": "dcedsv6"
+            },
+            {
+              "group": null,
+              "text": "DCesv6-series",
+              "value": "dcesv6"
+            },
+            {
+              "group": null,
+              "text": "DCsv2-series",
+              "value": "dcsv2"
+            },
+            {
+              "group": null,
+              "text": "DCsv3-series",
+              "value": "dcsv3"
+            },
+            {
+              "group": null,
+              "text": "Dd v4-series",
+              "value": "ddv4"
+            },
+            {
+              "group": null,
+              "text": "Dds v4-series",
+              "value": "ddsv4"
+            },
+            {
+              "group": null,
+              "text": "Ddsv5-series",
+              "value": "ddsv5"
+            },
+            {
+              "group": null,
+              "text": "Ddsv6-series",
+              "value": "ddsv6"
+            },
+            {
+              "group": null,
+              "text": "Ddsv7-series",
+              "value": "ddsv7"
+            },
+            {
+              "group": null,
+              "text": "Ddv5-series",
+              "value": "ddv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv5-series",
+              "value": "dldsv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv6-series",
+              "value": "dldsv6"
+            },
+            {
+              "group": null,
+              "text": "Dldsv7-series",
+              "value": "dldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dlsv5-series",
+              "value": "dlsv5"
+            },
+            {
+              "group": null,
+              "text": "Dlsv6-series",
+              "value": "dlsv6"
+            },
+            {
+              "group": null,
+              "text": "Dlsv7-series",
+              "value": "dlsv7"
+            },
+            {
+              "group": null,
+              "text": "Dpdsv5-Series",
+              "value": "dpdsv5"
+            },
+            {
+              "group": null,
+              "text": "Dpdsv6-series",
+              "value": "dpdsv6"
+            },
+            {
+              "group": null,
+              "text": "Dpldsv5-Series",
+              "value": "dpldsv5"
+            },
+            {
+              "group": null,
+              "text": "Dpldsv6-series",
+              "value": "dpldsv6"
+            },
+            {
+              "group": null,
+              "text": "Dplsv5-Series",
+              "value": "dplsv5"
+            },
+            {
+              "group": null,
+              "text": "Dplsv6-series",
+              "value": "dplsv6"
+            },
+            {
+              "group": null,
+              "text": "Dpsv5-Series",
+              "value": "dpsv5"
+            },
+            {
+              "group": null,
+              "text": "Dpsv6-series",
+              "value": "dpsv6"
+            },
+            {
+              "group": null,
+              "text": "D-series",
+              "value": "d"
+            },
+            {
+              "group": null,
+              "text": "DS-series",
+              "value": "ds"
+            },
+            {
+              "group": null,
+              "text": "Dsv2-series",
+              "value": "dsv2"
+            },
+            {
+              "group": null,
+              "text": "Dsv3-series",
+              "value": "dsv3"
+            },
+            {
+              "group": null,
+              "text": "Dsv4-series",
+              "value": "dsv4"
+            },
+            {
+              "group": null,
+              "text": "Dsv5-series",
+              "value": "dsv5"
+            },
+            {
+              "group": null,
+              "text": "Dsv6-series",
+              "value": "dsv6"
+            },
+            {
+              "group": null,
+              "text": "Dsv7-series",
+              "value": "dsv7"
+            },
+            {
+              "group": null,
+              "text": "Dv2-series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "Dv3-series",
+              "value": "dv3"
+            },
+            {
+              "group": null,
+              "text": "Dv4-series",
+              "value": "dv4"
+            },
+            {
+              "group": null,
+              "text": "Dv5-series",
+              "value": "dv5"
+            },
+            {
+              "group": null,
+              "text": "Ea v4-series",
+              "value": "eav4"
+            },
+            {
+              "group": null,
+              "text": "Eadsv5-series",
+              "value": "eadsv5"
+            },
+            {
+              "group": null,
+              "text": "Eadsv6-series",
+              "value": "eadsv6"
+            },
+            {
+              "group": null,
+              "text": "Eadsv7-series",
+              "value": "eadsv7"
+            },
+            {
+              "group": null,
+              "text": "Eas v4-series",
+              "value": "easv4"
+            },
+            {
+              "group": null,
+              "text": "Easv5-series",
+              "value": "easv5"
+            },
+            {
+              "group": null,
+              "text": "Easv6-series",
+              "value": "easv6"
+            },
+            {
+              "group": null,
+              "text": "Easv7-series",
+              "value": "easv7"
+            },
+            {
+              "group": null,
+              "text": "Ebdsv5-series",
+              "value": "ebdsv5"
+            },
+            {
+              "group": null,
+              "text": "Ebsv5-series",
+              "value": "ebsv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv5-series",
+              "value": "ecadsv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv6-series",
+              "value": "ecadsv6"
+            },
+            {
+              "group": null,
+              "text": "ECasv5-series",
+              "value": "ecasv5"
+            },
+            {
+              "group": null,
+              "text": "ECasv6-series",
+              "value": "ecasv6"
+            },
+            {
+              "group": null,
+              "text": "ECedsv6-series",
+              "value": "ecedsv6"
+            },
+            {
+              "group": null,
+              "text": "ECesv6-series",
+              "value": "ecesv6"
+            },
+            {
+              "group": null,
+              "text": "Ed v4-series",
+              "value": "edv4"
+            },
+            {
+              "group": null,
+              "text": "Eds v4-series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5-series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Edsv6-series",
+              "value": "edsv6"
+            },
+            {
+              "group": null,
+              "text": "Edsv7-series",
+              "value": "edsv7"
+            },
+            {
+              "group": null,
+              "text": "Edv5-series",
+              "value": "edv5"
+            },
+            {
+              "group": null,
+              "text": "Epdsv5-Series",
+              "value": "epdsv5"
+            },
+            {
+              "group": null,
+              "text": "Epdsv6-series",
+              "value": "epdsv6"
+            },
+            {
+              "group": null,
+              "text": "Epsv5-Series",
+              "value": "epsv5"
+            },
+            {
+              "group": null,
+              "text": "Epsv6-series",
+              "value": "epsv6"
+            },
+            {
+              "group": null,
+              "text": "Esv3-series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv4-series",
+              "value": "esv4"
+            },
+            {
+              "group": null,
+              "text": "Esv5-series",
+              "value": "esv5"
+            },
+            {
+              "group": null,
+              "text": "Esv6-series",
+              "value": "esv6"
+            },
+            {
+              "group": null,
+              "text": "Esv7-series",
+              "value": "esv7"
+            },
+            {
+              "group": null,
+              "text": "Ev3-series",
+              "value": "ev3"
+            },
+            {
+              "group": null,
+              "text": "Ev4-series",
+              "value": "ev4"
+            },
+            {
+              "group": null,
+              "text": "Ev5-series",
+              "value": "ev5"
+            },
+            {
+              "group": null,
+              "text": "Fadsv7-series",
+              "value": "fadsv7"
+            },
+            {
+              "group": null,
+              "text": "Faldsv7-series",
+              "value": "faldsv7"
+            },
+            {
+              "group": null,
+              "text": "Falsv6-series",
+              "value": "falsv6"
+            },
+            {
+              "group": null,
+              "text": "Falsv7-series",
+              "value": "falsv7"
+            },
+            {
+              "group": null,
+              "text": "Famdsv7-series",
+              "value": "famdsv7"
+            },
+            {
+              "group": null,
+              "text": "Famsv6-series",
+              "value": "famsv6"
+            },
+            {
+              "group": null,
+              "text": "Famsv7-series",
+              "value": "famsv7"
+            },
+            {
+              "group": null,
+              "text": "Fasv6-series",
+              "value": "fasv6"
+            },
+            {
+              "group": null,
+              "text": "Fasv7-series",
+              "value": "fasv7"
+            },
+            {
+              "group": null,
+              "text": "F-series",
+              "value": "f"
+            },
+            {
+              "group": null,
+              "text": "Fs-series",
+              "value": "fs"
+            },
+            {
+              "group": null,
+              "text": "Fsv2-series",
+              "value": "fsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmdsv2-series",
+              "value": "fxmdsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmsv2-series",
+              "value": "fxmsv2"
+            },
+            {
+              "group": null,
+              "text": "G-series",
+              "value": "g"
+            },
+            {
+              "group": null,
+              "text": "Gs-series",
+              "value": "gs"
+            },
+            {
+              "group": null,
+              "text": "H-series",
+              "value": "h"
+            },
+            {
+              "group": null,
+              "text": "Laosv4-series",
+              "value": "laosv4"
+            },
+            {
+              "group": null,
+              "text": "Lasv3-series",
+              "value": "lasv3"
+            },
+            {
+              "group": null,
+              "text": "Lasv4-series",
+              "value": "lasv4"
+            },
+            {
+              "group": null,
+              "text": "Ls-series",
+              "value": "ls"
+            },
+            {
+              "group": null,
+              "text": "Lsv2-series",
+              "value": "lsv2"
+            },
+            {
+              "group": null,
+              "text": "Lsv3-series",
+              "value": "lsv3"
+            },
+            {
+              "group": null,
+              "text": "Lsv4-series",
+              "value": "lsv4"
+            },
+            {
+              "group": null,
+              "text": "Mdsv2-series",
+              "value": "mdsv2"
+            },
+            {
+              "group": null,
+              "text": "Mdsv3-series",
+              "value": "mdsv3"
+            },
+            {
+              "group": null,
+              "text": "M-series",
+              "value": "m"
+            },
+            {
+              "group": null,
+              "text": "Msv2-series",
+              "value": "msv2"
+            },
+            {
+              "group": null,
+              "text": "Msv3-series",
+              "value": "msv3"
+            },
+            {
+              "group": null,
+              "text": "Mv2-series",
+              "value": "mv2"
+            },
+            {
+              "group": null,
+              "text": "NC A100 v4-series",
+              "value": "nca100v4"
+            },
+            {
+              "group": null,
+              "text": "NC_T4_v3-series",
+              "value": "ncast4v3"
+            },
+            {
+              "group": null,
+              "text": "NCads H100 v5-series",
+              "value": "ncadsh100v5"
+            },
+            {
+              "group": null,
+              "text": "NCdsxlRTX6Kv6-series",
+              "value": "ncdsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NCldsxlRTX6Kv6-series",
+              "value": "ncldsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NCsv3-series",
+              "value": "ncsv3"
+            },
+            {
+              "group": null,
+              "text": "NDm A100 v4-series",
+              "value": "ndamsrv4"
+            },
+            {
+              "group": null,
+              "text": "NDsrH100v5-series",
+              "value": "ndsrv5"
+            },
+            {
+              "group": null,
+              "text": "NMads MA35D-Series",
+              "value": "nmadsma35d"
+            },
+            {
+              "group": null,
+              "text": "NVads A10 v5-series",
+              "value": "nvv5"
+            },
+            {
+              "group": null,
+              "text": "NVads V710 v5-series",
+              "value": "nvadsv710v5"
+            },
+            {
+              "group": null,
+              "text": "NVv3-series",
+              "value": "nvv3"
+            },
+            {
+              "group": null,
+              "text": "SAP HANA",
+              "value": "saphana"
+            },
+            {
+              "group": null,
+              "text": "SAP HANA (2nd Gen)",
+              "value": "saphanagen2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "biztalk",
+            "text": "BizTalk"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "Av2 Standard",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "Basv2-series",
+              "value": "basv2"
+            },
+            {
+              "group": null,
+              "text": "Bs-series",
+              "value": "bs"
+            },
+            {
+              "group": null,
+              "text": "Bsv2-series",
+              "value": "bsv2"
+            },
+            {
+              "group": null,
+              "text": "Constrained vCPUs capable",
+              "value": "constrained"
+            },
+            {
+              "group": null,
+              "text": "Da v4-series",
+              "value": "dav4"
+            },
+            {
+              "group": null,
+              "text": "Dadsv5-series",
+              "value": "dadsv5"
+            },
+            {
+              "group": null,
+              "text": "Dadsv6-series",
+              "value": "dadsv6"
+            },
+            {
+              "group": null,
+              "text": "Dadsv7-series",
+              "value": "dadsv7"
+            },
+            {
+              "group": null,
+              "text": "Daldsv6-series",
+              "value": "daldsv6"
+            },
+            {
+              "group": null,
+              "text": "Daldsv7-series",
+              "value": "daldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dalsv6-series",
+              "value": "dalsv6"
+            },
+            {
+              "group": null,
+              "text": "Dalsv7-series",
+              "value": "dalsv7"
+            },
+            {
+              "group": null,
+              "text": "Das v4-series",
+              "value": "dasv4"
+            },
+            {
+              "group": null,
+              "text": "Dasv5-series",
+              "value": "dasv5"
+            },
+            {
+              "group": null,
+              "text": "Dasv6-series",
+              "value": "dasv6"
+            },
+            {
+              "group": null,
+              "text": "Dasv7-series",
+              "value": "dasv7"
+            },
+            {
+              "group": null,
+              "text": "DCadsv5-series",
+              "value": "dcadsv5"
+            },
+            {
+              "group": null,
+              "text": "DCadsv6-series",
+              "value": "dcadsv6"
+            },
+            {
+              "group": null,
+              "text": "DCasv5-series",
+              "value": "dcasv5"
+            },
+            {
+              "group": null,
+              "text": "DCasv6-series",
+              "value": "dcasv6"
+            },
+            {
+              "group": null,
+              "text": "DCdsv3-series",
+              "value": "dcdsv3"
+            },
+            {
+              "group": null,
+              "text": "DCedsv6-series",
+              "value": "dcedsv6"
+            },
+            {
+              "group": null,
+              "text": "DCesv6-series",
+              "value": "dcesv6"
+            },
+            {
+              "group": null,
+              "text": "DCsv2-series",
+              "value": "dcsv2"
+            },
+            {
+              "group": null,
+              "text": "DCsv3-series",
+              "value": "dcsv3"
+            },
+            {
+              "group": null,
+              "text": "Dd v4-series",
+              "value": "ddv4"
+            },
+            {
+              "group": null,
+              "text": "Dds v4-series",
+              "value": "ddsv4"
+            },
+            {
+              "group": null,
+              "text": "Ddsv5-series",
+              "value": "ddsv5"
+            },
+            {
+              "group": null,
+              "text": "Ddsv6-series",
+              "value": "ddsv6"
+            },
+            {
+              "group": null,
+              "text": "Ddsv7-series",
+              "value": "ddsv7"
+            },
+            {
+              "group": null,
+              "text": "Ddv5-series",
+              "value": "ddv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv5-series",
+              "value": "dldsv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv6-series",
+              "value": "dldsv6"
+            },
+            {
+              "group": null,
+              "text": "Dldsv7-series",
+              "value": "dldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dlsv5-series",
+              "value": "dlsv5"
+            },
+            {
+              "group": null,
+              "text": "Dlsv6-series",
+              "value": "dlsv6"
+            },
+            {
+              "group": null,
+              "text": "Dlsv7-series",
+              "value": "dlsv7"
+            },
+            {
+              "group": null,
+              "text": "Dndsv6-series",
+              "value": "dndsv6"
+            },
+            {
+              "group": null,
+              "text": "D-series",
+              "value": "d"
+            },
+            {
+              "group": null,
+              "text": "DS-series",
+              "value": "ds"
+            },
+            {
+              "group": null,
+              "text": "Dsv2-series",
+              "value": "dsv2"
+            },
+            {
+              "group": null,
+              "text": "Dsv3-series",
+              "value": "dsv3"
+            },
+            {
+              "group": null,
+              "text": "Dsv4-series",
+              "value": "dsv4"
+            },
+            {
+              "group": null,
+              "text": "Dsv5-series",
+              "value": "dsv5"
+            },
+            {
+              "group": null,
+              "text": "Dsv6-series",
+              "value": "dsv6"
+            },
+            {
+              "group": null,
+              "text": "Dsv7-series",
+              "value": "dsv7"
+            },
+            {
+              "group": null,
+              "text": "Dv2-series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "Dv3-series",
+              "value": "dv3"
+            },
+            {
+              "group": null,
+              "text": "Dv4-series",
+              "value": "dv4"
+            },
+            {
+              "group": null,
+              "text": "Dv5-series",
+              "value": "dv5"
+            },
+            {
+              "group": null,
+              "text": "Ea v4-series",
+              "value": "eav4"
+            },
+            {
+              "group": null,
+              "text": "Eadsv5-series",
+              "value": "eadsv5"
+            },
+            {
+              "group": null,
+              "text": "Eadsv6-series",
+              "value": "eadsv6"
+            },
+            {
+              "group": null,
+              "text": "Eadsv7-series",
+              "value": "eadsv7"
+            },
+            {
+              "group": null,
+              "text": "Eas v4-series",
+              "value": "easv4"
+            },
+            {
+              "group": null,
+              "text": "Easv5-series",
+              "value": "easv5"
+            },
+            {
+              "group": null,
+              "text": "Easv6-series",
+              "value": "easv6"
+            },
+            {
+              "group": null,
+              "text": "Easv7-series",
+              "value": "easv7"
+            },
+            {
+              "group": null,
+              "text": "Ebdsv5-series",
+              "value": "ebdsv5"
+            },
+            {
+              "group": null,
+              "text": "Ebsv5-series",
+              "value": "ebsv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv5-series",
+              "value": "ecadsv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv6-series",
+              "value": "ecadsv6"
+            },
+            {
+              "group": null,
+              "text": "ECasv5-series",
+              "value": "ecasv5"
+            },
+            {
+              "group": null,
+              "text": "ECasv6-series",
+              "value": "ecasv6"
+            },
+            {
+              "group": null,
+              "text": "ECedsv6-series",
+              "value": "ecedsv6"
+            },
+            {
+              "group": null,
+              "text": "ECesv6-series",
+              "value": "ecesv6"
+            },
+            {
+              "group": null,
+              "text": "Ed v4-series",
+              "value": "edv4"
+            },
+            {
+              "group": null,
+              "text": "Eds v4-series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5-series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Edsv6-series",
+              "value": "edsv6"
+            },
+            {
+              "group": null,
+              "text": "Edsv7-series",
+              "value": "edsv7"
+            },
+            {
+              "group": null,
+              "text": "Edv5-series",
+              "value": "edv5"
+            },
+            {
+              "group": null,
+              "text": "Esv3-series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv4-series",
+              "value": "esv4"
+            },
+            {
+              "group": null,
+              "text": "Esv5-series",
+              "value": "esv5"
+            },
+            {
+              "group": null,
+              "text": "Esv6-series",
+              "value": "esv6"
+            },
+            {
+              "group": null,
+              "text": "Esv7-series",
+              "value": "esv7"
+            },
+            {
+              "group": null,
+              "text": "Ev3-series",
+              "value": "ev3"
+            },
+            {
+              "group": null,
+              "text": "Ev4-series",
+              "value": "ev4"
+            },
+            {
+              "group": null,
+              "text": "Ev5-series",
+              "value": "ev5"
+            },
+            {
+              "group": null,
+              "text": "Fadsv7-series",
+              "value": "fadsv7"
+            },
+            {
+              "group": null,
+              "text": "Faldsv7-series",
+              "value": "faldsv7"
+            },
+            {
+              "group": null,
+              "text": "Falsv6-series",
+              "value": "falsv6"
+            },
+            {
+              "group": null,
+              "text": "Falsv7-series",
+              "value": "falsv7"
+            },
+            {
+              "group": null,
+              "text": "Famdsv7-series",
+              "value": "famdsv7"
+            },
+            {
+              "group": null,
+              "text": "Famsv6-series",
+              "value": "famsv6"
+            },
+            {
+              "group": null,
+              "text": "Famsv7-series",
+              "value": "famsv7"
+            },
+            {
+              "group": null,
+              "text": "Fasv6-series",
+              "value": "fasv6"
+            },
+            {
+              "group": null,
+              "text": "Fasv7-series",
+              "value": "fasv7"
+            },
+            {
+              "group": null,
+              "text": "F-series",
+              "value": "f"
+            },
+            {
+              "group": null,
+              "text": "Fs-series",
+              "value": "fs"
+            },
+            {
+              "group": null,
+              "text": "Fsv2-series",
+              "value": "fsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmdsv2-series",
+              "value": "fxmdsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmsv2-series",
+              "value": "fxmsv2"
+            },
+            {
+              "group": null,
+              "text": "G-series",
+              "value": "g"
+            },
+            {
+              "group": null,
+              "text": "Gs-series",
+              "value": "gs"
+            },
+            {
+              "group": null,
+              "text": "HB-series",
+              "value": "hb"
+            },
+            {
+              "group": null,
+              "text": "HBv2-series",
+              "value": "hbv2"
+            },
+            {
+              "group": null,
+              "text": "HBv3-series",
+              "value": "hbv3"
+            },
+            {
+              "group": null,
+              "text": "HBv5-series",
+              "value": "hbv5"
+            },
+            {
+              "group": null,
+              "text": "HC-series",
+              "value": "hc"
+            },
+            {
+              "group": null,
+              "text": "H-series",
+              "value": "h"
+            },
+            {
+              "group": null,
+              "text": "Laosv4-series",
+              "value": "laosv4"
+            },
+            {
+              "group": null,
+              "text": "Lasv3-series",
+              "value": "lasv3"
+            },
+            {
+              "group": null,
+              "text": "Lasv4-series",
+              "value": "lasv4"
+            },
+            {
+              "group": null,
+              "text": "Ls-series",
+              "value": "ls"
+            },
+            {
+              "group": null,
+              "text": "Lsv2-series",
+              "value": "lsv2"
+            },
+            {
+              "group": null,
+              "text": "Lsv3-series",
+              "value": "lsv3"
+            },
+            {
+              "group": null,
+              "text": "Lsv4-series",
+              "value": "lsv4"
+            },
+            {
+              "group": null,
+              "text": "Mbdsv3-series",
+              "value": "mbdsv3"
+            },
+            {
+              "group": null,
+              "text": "Mbsv3-series",
+              "value": "mbsv3"
+            },
+            {
+              "group": null,
+              "text": "Mdsv2-series",
+              "value": "mdsv2"
+            },
+            {
+              "group": null,
+              "text": "Mdsv3-series",
+              "value": "mdsv3"
+            },
+            {
+              "group": null,
+              "text": "M-series",
+              "value": "m"
+            },
+            {
+              "group": null,
+              "text": "Msv2-series",
+              "value": "msv2"
+            },
+            {
+              "group": null,
+              "text": "Msv3-series",
+              "value": "msv3"
+            },
+            {
+              "group": null,
+              "text": "Mv2-series",
+              "value": "mv2"
+            },
+            {
+              "group": null,
+              "text": "NC A100 v4-series",
+              "value": "nca100v4"
+            },
+            {
+              "group": null,
+              "text": "NC_T4_v3-series",
+              "value": "ncast4v3"
+            },
+            {
+              "group": null,
+              "text": "NCads A10 v4-series",
+              "value": "nca10v4"
+            },
+            {
+              "group": null,
+              "text": "NCads H100 v5-series",
+              "value": "ncadsh100v5"
+            },
+            {
+              "group": null,
+              "text": "NCdsxlRTX6Kv6-series",
+              "value": "ncdsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NCldsxlRTX6Kv6-series",
+              "value": "ncldsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NC-series",
+              "value": "nc"
+            },
+            {
+              "group": null,
+              "text": "NCsv2-series",
+              "value": "ncsv2"
+            },
+            {
+              "group": null,
+              "text": "NCsv3-series",
+              "value": "ncsv3"
+            },
+            {
+              "group": null,
+              "text": "ND A100 v4-series",
+              "value": "ndasrv4"
+            },
+            {
+              "group": null,
+              "text": "NDm A100 v4-series",
+              "value": "ndamsrv4"
+            },
+            {
+              "group": null,
+              "text": "NDsrH100v5-series",
+              "value": "ndsrv5"
+            },
+            {
+              "group": null,
+              "text": "NDs-series",
+              "value": "nds"
+            },
+            {
+              "group": null,
+              "text": "NDv2-series",
+              "value": "ndv2"
+            },
+            {
+              "group": null,
+              "text": "NMads MA35D-Series",
+              "value": "nmadsma35d"
+            },
+            {
+              "group": null,
+              "text": "NVads A10 v5-series",
+              "value": "nvv5"
+            },
+            {
+              "group": null,
+              "text": "NVads V710 v5-series",
+              "value": "nvadsv710v5"
+            },
+            {
+              "group": null,
+              "text": "NV-series",
+              "value": "nv"
+            },
+            {
+              "group": null,
+              "text": "NVv3-series",
+              "value": "nvv3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "sql",
+            "text": "SQL Server"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "Av2 Standard",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "Basv2-series",
+              "value": "basv2"
+            },
+            {
+              "group": null,
+              "text": "Bs-series",
+              "value": "bs"
+            },
+            {
+              "group": null,
+              "text": "Bsv2-series",
+              "value": "bsv2"
+            },
+            {
+              "group": null,
+              "text": "Constrained vCPUs capable",
+              "value": "constrained"
+            },
+            {
+              "group": null,
+              "text": "Da v4-series",
+              "value": "dav4"
+            },
+            {
+              "group": null,
+              "text": "Dadsv5-series",
+              "value": "dadsv5"
+            },
+            {
+              "group": null,
+              "text": "Dadsv6-series",
+              "value": "dadsv6"
+            },
+            {
+              "group": null,
+              "text": "Dadsv7-series",
+              "value": "dadsv7"
+            },
+            {
+              "group": null,
+              "text": "Daldsv6-series",
+              "value": "daldsv6"
+            },
+            {
+              "group": null,
+              "text": "Daldsv7-series",
+              "value": "daldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dalsv6-series",
+              "value": "dalsv6"
+            },
+            {
+              "group": null,
+              "text": "Dalsv7-series",
+              "value": "dalsv7"
+            },
+            {
+              "group": null,
+              "text": "Das v4-series",
+              "value": "dasv4"
+            },
+            {
+              "group": null,
+              "text": "Dasv5-series",
+              "value": "dasv5"
+            },
+            {
+              "group": null,
+              "text": "Dasv6-series",
+              "value": "dasv6"
+            },
+            {
+              "group": null,
+              "text": "Dasv7-series",
+              "value": "dasv7"
+            },
+            {
+              "group": null,
+              "text": "DCadsv5-series",
+              "value": "dcadsv5"
+            },
+            {
+              "group": null,
+              "text": "DCadsv6-series",
+              "value": "dcadsv6"
+            },
+            {
+              "group": null,
+              "text": "DCasv5-series",
+              "value": "dcasv5"
+            },
+            {
+              "group": null,
+              "text": "DCasv6-series",
+              "value": "dcasv6"
+            },
+            {
+              "group": null,
+              "text": "DCdsv3-series",
+              "value": "dcdsv3"
+            },
+            {
+              "group": null,
+              "text": "DCedsv6-series",
+              "value": "dcedsv6"
+            },
+            {
+              "group": null,
+              "text": "DCesv6-series",
+              "value": "dcesv6"
+            },
+            {
+              "group": null,
+              "text": "DCsv2-series",
+              "value": "dcsv2"
+            },
+            {
+              "group": null,
+              "text": "DCsv3-series",
+              "value": "dcsv3"
+            },
+            {
+              "group": null,
+              "text": "Dd v4-series",
+              "value": "ddv4"
+            },
+            {
+              "group": null,
+              "text": "Dds v4-series",
+              "value": "ddsv4"
+            },
+            {
+              "group": null,
+              "text": "Ddsv5-series",
+              "value": "ddsv5"
+            },
+            {
+              "group": null,
+              "text": "Ddsv6-series",
+              "value": "ddsv6"
+            },
+            {
+              "group": null,
+              "text": "Ddsv7-series",
+              "value": "ddsv7"
+            },
+            {
+              "group": null,
+              "text": "Ddv5-series",
+              "value": "ddv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv5-series",
+              "value": "dldsv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv6-series",
+              "value": "dldsv6"
+            },
+            {
+              "group": null,
+              "text": "Dldsv7-series",
+              "value": "dldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dlsv5-series",
+              "value": "dlsv5"
+            },
+            {
+              "group": null,
+              "text": "Dlsv6-series",
+              "value": "dlsv6"
+            },
+            {
+              "group": null,
+              "text": "Dlsv7-series",
+              "value": "dlsv7"
+            },
+            {
+              "group": null,
+              "text": "Dndsv6-series",
+              "value": "dndsv6"
+            },
+            {
+              "group": null,
+              "text": "D-series",
+              "value": "d"
+            },
+            {
+              "group": null,
+              "text": "DS-series",
+              "value": "ds"
+            },
+            {
+              "group": null,
+              "text": "Dsv2-series",
+              "value": "dsv2"
+            },
+            {
+              "group": null,
+              "text": "Dsv3-series",
+              "value": "dsv3"
+            },
+            {
+              "group": null,
+              "text": "Dsv4-series",
+              "value": "dsv4"
+            },
+            {
+              "group": null,
+              "text": "Dsv5-series",
+              "value": "dsv5"
+            },
+            {
+              "group": null,
+              "text": "Dsv6-series",
+              "value": "dsv6"
+            },
+            {
+              "group": null,
+              "text": "Dsv7-series",
+              "value": "dsv7"
+            },
+            {
+              "group": null,
+              "text": "Dv2-series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "Dv3-series",
+              "value": "dv3"
+            },
+            {
+              "group": null,
+              "text": "Dv4-series",
+              "value": "dv4"
+            },
+            {
+              "group": null,
+              "text": "Dv5-series",
+              "value": "dv5"
+            },
+            {
+              "group": null,
+              "text": "Ea v4-series",
+              "value": "eav4"
+            },
+            {
+              "group": null,
+              "text": "Eadsv5-series",
+              "value": "eadsv5"
+            },
+            {
+              "group": null,
+              "text": "Eadsv6-series",
+              "value": "eadsv6"
+            },
+            {
+              "group": null,
+              "text": "Eadsv7-series",
+              "value": "eadsv7"
+            },
+            {
+              "group": null,
+              "text": "Eas v4-series",
+              "value": "easv4"
+            },
+            {
+              "group": null,
+              "text": "Easv5-series",
+              "value": "easv5"
+            },
+            {
+              "group": null,
+              "text": "Easv6-series",
+              "value": "easv6"
+            },
+            {
+              "group": null,
+              "text": "Easv7-series",
+              "value": "easv7"
+            },
+            {
+              "group": null,
+              "text": "Ebdsv5-series",
+              "value": "ebdsv5"
+            },
+            {
+              "group": null,
+              "text": "Ebsv5-series",
+              "value": "ebsv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv5-series",
+              "value": "ecadsv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv6-series",
+              "value": "ecadsv6"
+            },
+            {
+              "group": null,
+              "text": "ECasv5-series",
+              "value": "ecasv5"
+            },
+            {
+              "group": null,
+              "text": "ECasv6-series",
+              "value": "ecasv6"
+            },
+            {
+              "group": null,
+              "text": "ECedsv6-series",
+              "value": "ecedsv6"
+            },
+            {
+              "group": null,
+              "text": "ECesv6-series",
+              "value": "ecesv6"
+            },
+            {
+              "group": null,
+              "text": "Ed v4-series",
+              "value": "edv4"
+            },
+            {
+              "group": null,
+              "text": "Eds v4-series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5-series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Edsv6-series",
+              "value": "edsv6"
+            },
+            {
+              "group": null,
+              "text": "Edsv7-series",
+              "value": "edsv7"
+            },
+            {
+              "group": null,
+              "text": "Edv5-series",
+              "value": "edv5"
+            },
+            {
+              "group": null,
+              "text": "Esv3-series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv4-series",
+              "value": "esv4"
+            },
+            {
+              "group": null,
+              "text": "Esv5-series",
+              "value": "esv5"
+            },
+            {
+              "group": null,
+              "text": "Esv6-series",
+              "value": "esv6"
+            },
+            {
+              "group": null,
+              "text": "Esv7-series",
+              "value": "esv7"
+            },
+            {
+              "group": null,
+              "text": "Ev3-series",
+              "value": "ev3"
+            },
+            {
+              "group": null,
+              "text": "Ev4-series",
+              "value": "ev4"
+            },
+            {
+              "group": null,
+              "text": "Ev5-series",
+              "value": "ev5"
+            },
+            {
+              "group": null,
+              "text": "Fadsv7-series",
+              "value": "fadsv7"
+            },
+            {
+              "group": null,
+              "text": "Faldsv7-series",
+              "value": "faldsv7"
+            },
+            {
+              "group": null,
+              "text": "Falsv6-series",
+              "value": "falsv6"
+            },
+            {
+              "group": null,
+              "text": "Falsv7-series",
+              "value": "falsv7"
+            },
+            {
+              "group": null,
+              "text": "Famdsv7-series",
+              "value": "famdsv7"
+            },
+            {
+              "group": null,
+              "text": "Famsv6-series",
+              "value": "famsv6"
+            },
+            {
+              "group": null,
+              "text": "Famsv7-series",
+              "value": "famsv7"
+            },
+            {
+              "group": null,
+              "text": "Fasv6-series",
+              "value": "fasv6"
+            },
+            {
+              "group": null,
+              "text": "Fasv7-series",
+              "value": "fasv7"
+            },
+            {
+              "group": null,
+              "text": "F-series",
+              "value": "f"
+            },
+            {
+              "group": null,
+              "text": "Fs-series",
+              "value": "fs"
+            },
+            {
+              "group": null,
+              "text": "Fsv2-series",
+              "value": "fsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmdsv2-series",
+              "value": "fxmdsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmsv2-series",
+              "value": "fxmsv2"
+            },
+            {
+              "group": null,
+              "text": "G-series",
+              "value": "g"
+            },
+            {
+              "group": null,
+              "text": "Gs-series",
+              "value": "gs"
+            },
+            {
+              "group": null,
+              "text": "HB-series",
+              "value": "hb"
+            },
+            {
+              "group": null,
+              "text": "HBv2-series",
+              "value": "hbv2"
+            },
+            {
+              "group": null,
+              "text": "HBv3-series",
+              "value": "hbv3"
+            },
+            {
+              "group": null,
+              "text": "HBv5-series",
+              "value": "hbv5"
+            },
+            {
+              "group": null,
+              "text": "HC-series",
+              "value": "hc"
+            },
+            {
+              "group": null,
+              "text": "H-series",
+              "value": "h"
+            },
+            {
+              "group": null,
+              "text": "Laosv4-series",
+              "value": "laosv4"
+            },
+            {
+              "group": null,
+              "text": "Lasv3-series",
+              "value": "lasv3"
+            },
+            {
+              "group": null,
+              "text": "Lasv4-series",
+              "value": "lasv4"
+            },
+            {
+              "group": null,
+              "text": "Ls-series",
+              "value": "ls"
+            },
+            {
+              "group": null,
+              "text": "Lsv2-series",
+              "value": "lsv2"
+            },
+            {
+              "group": null,
+              "text": "Lsv3-series",
+              "value": "lsv3"
+            },
+            {
+              "group": null,
+              "text": "Lsv4-series",
+              "value": "lsv4"
+            },
+            {
+              "group": null,
+              "text": "Mbdsv3-series",
+              "value": "mbdsv3"
+            },
+            {
+              "group": null,
+              "text": "Mbsv3-series",
+              "value": "mbsv3"
+            },
+            {
+              "group": null,
+              "text": "Mdsv2-series",
+              "value": "mdsv2"
+            },
+            {
+              "group": null,
+              "text": "Mdsv3-series",
+              "value": "mdsv3"
+            },
+            {
+              "group": null,
+              "text": "M-series",
+              "value": "m"
+            },
+            {
+              "group": null,
+              "text": "Msv2-series",
+              "value": "msv2"
+            },
+            {
+              "group": null,
+              "text": "Msv3-series",
+              "value": "msv3"
+            },
+            {
+              "group": null,
+              "text": "Mv2-series",
+              "value": "mv2"
+            },
+            {
+              "group": null,
+              "text": "NC A100 v4-series",
+              "value": "nca100v4"
+            },
+            {
+              "group": null,
+              "text": "NC_T4_v3-series",
+              "value": "ncast4v3"
+            },
+            {
+              "group": null,
+              "text": "NCads A10 v4-series",
+              "value": "nca10v4"
+            },
+            {
+              "group": null,
+              "text": "NCads H100 v5-series",
+              "value": "ncadsh100v5"
+            },
+            {
+              "group": null,
+              "text": "NCdsxlRTX6Kv6-series",
+              "value": "ncdsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NCldsxlRTX6Kv6-series",
+              "value": "ncldsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NC-series",
+              "value": "nc"
+            },
+            {
+              "group": null,
+              "text": "NCsv2-series",
+              "value": "ncsv2"
+            },
+            {
+              "group": null,
+              "text": "NCsv3-series",
+              "value": "ncsv3"
+            },
+            {
+              "group": null,
+              "text": "ND A100 v4-series",
+              "value": "ndasrv4"
+            },
+            {
+              "group": null,
+              "text": "NDm A100 v4-series",
+              "value": "ndamsrv4"
+            },
+            {
+              "group": null,
+              "text": "NDsrH100v5-series",
+              "value": "ndsrv5"
+            },
+            {
+              "group": null,
+              "text": "NDs-series",
+              "value": "nds"
+            },
+            {
+              "group": null,
+              "text": "NDv2-series",
+              "value": "ndv2"
+            },
+            {
+              "group": null,
+              "text": "NMads MA35D-Series",
+              "value": "nmadsma35d"
+            },
+            {
+              "group": null,
+              "text": "NVads A10 v5-series",
+              "value": "nvv5"
+            },
+            {
+              "group": null,
+              "text": "NVads V710 v5-series",
+              "value": "nvadsv710v5"
+            },
+            {
+              "group": null,
+              "text": "NV-series",
+              "value": "nv"
+            },
+            {
+              "group": null,
+              "text": "NVv3-series",
+              "value": "nvv3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-series",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "computeoptimized",
+            "text": "Compute optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Fadsv7-series",
+              "value": "fadsv7"
+            },
+            {
+              "group": null,
+              "text": "Faldsv7-series",
+              "value": "faldsv7"
+            },
+            {
+              "group": null,
+              "text": "Falsv6-series",
+              "value": "falsv6"
+            },
+            {
+              "group": null,
+              "text": "Falsv7-series",
+              "value": "falsv7"
+            },
+            {
+              "group": null,
+              "text": "Famdsv7-series",
+              "value": "famdsv7"
+            },
+            {
+              "group": null,
+              "text": "Famsv6-series",
+              "value": "famsv6"
+            },
+            {
+              "group": null,
+              "text": "Famsv7-series",
+              "value": "famsv7"
+            },
+            {
+              "group": null,
+              "text": "Fasv6-series",
+              "value": "fasv6"
+            },
+            {
+              "group": null,
+              "text": "Fasv7-series",
+              "value": "fasv7"
+            },
+            {
+              "group": null,
+              "text": "F-series",
+              "value": "f"
+            },
+            {
+              "group": null,
+              "text": "Fs-series",
+              "value": "fs"
+            },
+            {
+              "group": null,
+              "text": "Fsv2-series",
+              "value": "fsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmdsv2-series",
+              "value": "fxmdsv2"
+            },
+            {
+              "group": null,
+              "text": "FXmsv2-series",
+              "value": "fxmsv2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "generalpurpose",
+            "text": "General purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "Av2 Standard",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "Basv2-series",
+              "value": "basv2"
+            },
+            {
+              "group": null,
+              "text": "Bs-series",
+              "value": "bs"
+            },
+            {
+              "group": null,
+              "text": "Bsv2-series",
+              "value": "bsv2"
+            },
+            {
+              "group": null,
+              "text": "Da v4-series",
+              "value": "dav4"
+            },
+            {
+              "group": null,
+              "text": "Dadsv5-series",
+              "value": "dadsv5"
+            },
+            {
+              "group": null,
+              "text": "Dadsv6-series",
+              "value": "dadsv6"
+            },
+            {
+              "group": null,
+              "text": "Dadsv7-series",
+              "value": "dadsv7"
+            },
+            {
+              "group": null,
+              "text": "Daldsv6-series",
+              "value": "daldsv6"
+            },
+            {
+              "group": null,
+              "text": "Daldsv7-series",
+              "value": "daldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dalsv6-series",
+              "value": "dalsv6"
+            },
+            {
+              "group": null,
+              "text": "Dalsv7-series",
+              "value": "dalsv7"
+            },
+            {
+              "group": null,
+              "text": "Das v4-series",
+              "value": "dasv4"
+            },
+            {
+              "group": null,
+              "text": "Dasv5-series",
+              "value": "dasv5"
+            },
+            {
+              "group": null,
+              "text": "Dasv6-series",
+              "value": "dasv6"
+            },
+            {
+              "group": null,
+              "text": "Dasv7-series",
+              "value": "dasv7"
+            },
+            {
+              "group": null,
+              "text": "DCadsv5-series",
+              "value": "dcadsv5"
+            },
+            {
+              "group": null,
+              "text": "DCadsv6-series",
+              "value": "dcadsv6"
+            },
+            {
+              "group": null,
+              "text": "DCasv5-series",
+              "value": "dcasv5"
+            },
+            {
+              "group": null,
+              "text": "DCasv6-series",
+              "value": "dcasv6"
+            },
+            {
+              "group": null,
+              "text": "DCdsv3-series",
+              "value": "dcdsv3"
+            },
+            {
+              "group": null,
+              "text": "DCedsv6-series",
+              "value": "dcedsv6"
+            },
+            {
+              "group": null,
+              "text": "DCesv6-series",
+              "value": "dcesv6"
+            },
+            {
+              "group": null,
+              "text": "DCsv2-series",
+              "value": "dcsv2"
+            },
+            {
+              "group": null,
+              "text": "DCsv3-series",
+              "value": "dcsv3"
+            },
+            {
+              "group": null,
+              "text": "Dd v4-series",
+              "value": "ddv4"
+            },
+            {
+              "group": null,
+              "text": "Dds v4-series",
+              "value": "ddsv4"
+            },
+            {
+              "group": null,
+              "text": "Ddsv5-series",
+              "value": "ddsv5"
+            },
+            {
+              "group": null,
+              "text": "Ddsv6-series",
+              "value": "ddsv6"
+            },
+            {
+              "group": null,
+              "text": "Ddsv7-series",
+              "value": "ddsv7"
+            },
+            {
+              "group": null,
+              "text": "Ddv5-series",
+              "value": "ddv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv5-series",
+              "value": "dldsv5"
+            },
+            {
+              "group": null,
+              "text": "Dldsv6-series",
+              "value": "dldsv6"
+            },
+            {
+              "group": null,
+              "text": "Dldsv7-series",
+              "value": "dldsv7"
+            },
+            {
+              "group": null,
+              "text": "Dlsv5-series",
+              "value": "dlsv5"
+            },
+            {
+              "group": null,
+              "text": "Dlsv6-series",
+              "value": "dlsv6"
+            },
+            {
+              "group": null,
+              "text": "Dlsv7-series",
+              "value": "dlsv7"
+            },
+            {
+              "group": null,
+              "text": "Dndsv6-series",
+              "value": "dndsv6"
+            },
+            {
+              "group": null,
+              "text": "D-series",
+              "value": "d"
+            },
+            {
+              "group": null,
+              "text": "DS-series",
+              "value": "ds"
+            },
+            {
+              "group": null,
+              "text": "Dsv2-series",
+              "value": "dsv2"
+            },
+            {
+              "group": null,
+              "text": "Dsv3-series",
+              "value": "dsv3"
+            },
+            {
+              "group": null,
+              "text": "Dsv4-series",
+              "value": "dsv4"
+            },
+            {
+              "group": null,
+              "text": "Dsv5-series",
+              "value": "dsv5"
+            },
+            {
+              "group": null,
+              "text": "Dsv6-series",
+              "value": "dsv6"
+            },
+            {
+              "group": null,
+              "text": "Dsv7-series",
+              "value": "dsv7"
+            },
+            {
+              "group": null,
+              "text": "Dv2-series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "Dv3-series",
+              "value": "dv3"
+            },
+            {
+              "group": null,
+              "text": "Dv4-series",
+              "value": "dv4"
+            },
+            {
+              "group": null,
+              "text": "Dv5-series",
+              "value": "dv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv5-series",
+              "value": "ecadsv5"
+            },
+            {
+              "group": null,
+              "text": "ECadsv6-series",
+              "value": "ecadsv6"
+            },
+            {
+              "group": null,
+              "text": "ECasv5-series",
+              "value": "ecasv5"
+            },
+            {
+              "group": null,
+              "text": "ECasv6-series",
+              "value": "ecasv6"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "gpu",
+            "text": "GPU"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "NC A100 v4-series",
+              "value": "nca100v4"
+            },
+            {
+              "group": null,
+              "text": "NC_T4_v3-series",
+              "value": "ncast4v3"
+            },
+            {
+              "group": null,
+              "text": "NCads A10 v4-series",
+              "value": "nca10v4"
+            },
+            {
+              "group": null,
+              "text": "NCads H100 v5-series",
+              "value": "ncadsh100v5"
+            },
+            {
+              "group": null,
+              "text": "NCdsxlRTX6Kv6-series",
+              "value": "ncdsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NCldsxlRTX6Kv6-series",
+              "value": "ncldsxlrtx6kv6"
+            },
+            {
+              "group": null,
+              "text": "NCsv2-series",
+              "value": "ncsv2"
+            },
+            {
+              "group": null,
+              "text": "NCsv3-series",
+              "value": "ncsv3"
+            },
+            {
+              "group": null,
+              "text": "ND A100 v4-series",
+              "value": "ndasrv4"
+            },
+            {
+              "group": null,
+              "text": "NDm A100 v4-series",
+              "value": "ndamsrv4"
+            },
+            {
+              "group": null,
+              "text": "NDsrH100v5-series",
+              "value": "ndsrv5"
+            },
+            {
+              "group": null,
+              "text": "NDs-series",
+              "value": "nds"
+            },
+            {
+              "group": null,
+              "text": "NDv2-series",
+              "value": "ndv2"
+            },
+            {
+              "group": null,
+              "text": "NMads MA35D-Series",
+              "value": "nmadsma35d"
+            },
+            {
+              "group": null,
+              "text": "NVads A10 v5-series",
+              "value": "nvv5"
+            },
+            {
+              "group": null,
+              "text": "NVads V710 v5-series",
+              "value": "nvadsv710v5"
+            },
+            {
+              "group": null,
+              "text": "NVv3-series",
+              "value": "nvv3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "highperformancecompute",
+            "text": "High performance compute"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Constrained vCPUs capable",
+              "value": "constrained"
+            },
+            {
+              "group": null,
+              "text": "HB-series",
+              "value": "hb"
+            },
+            {
+              "group": null,
+              "text": "HBv2-series",
+              "value": "hbv2"
+            },
+            {
+              "group": null,
+              "text": "HBv3-series",
+              "value": "hbv3"
+            },
+            {
+              "group": null,
+              "text": "HC-series",
+              "value": "hc"
+            },
+            {
+              "group": null,
+              "text": "H-series",
+              "value": "h"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "memoryoptimized",
+            "text": "Memory optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Constrained vCPUs capable",
+              "value": "constrained"
+            },
+            {
+              "group": null,
+              "text": "D-series",
+              "value": "d"
+            },
+            {
+              "group": null,
+              "text": "DS-series",
+              "value": "ds"
+            },
+            {
+              "group": null,
+              "text": "Dsv2-series",
+              "value": "dsv2"
+            },
+            {
+              "group": null,
+              "text": "Dv2-series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "Ea v4-series",
+              "value": "eav4"
+            },
+            {
+              "group": null,
+              "text": "Eadsv5-series",
+              "value": "eadsv5"
+            },
+            {
+              "group": null,
+              "text": "Eadsv6-series",
+              "value": "eadsv6"
+            },
+            {
+              "group": null,
+              "text": "Eadsv7-series",
+              "value": "eadsv7"
+            },
+            {
+              "group": null,
+              "text": "Eas v4-series",
+              "value": "easv4"
+            },
+            {
+              "group": null,
+              "text": "Easv5-series",
+              "value": "easv5"
+            },
+            {
+              "group": null,
+              "text": "Easv6-series",
+              "value": "easv6"
+            },
+            {
+              "group": null,
+              "text": "Easv7-series",
+              "value": "easv7"
+            },
+            {
+              "group": null,
+              "text": "Ebdsv5-series",
+              "value": "ebdsv5"
+            },
+            {
+              "group": null,
+              "text": "Ebsv5-series",
+              "value": "ebsv5"
+            },
+            {
+              "group": null,
+              "text": "ECedsv6-series",
+              "value": "ecedsv6"
+            },
+            {
+              "group": null,
+              "text": "ECesv6-series",
+              "value": "ecesv6"
+            },
+            {
+              "group": null,
+              "text": "Ed v4-series",
+              "value": "edv4"
+            },
+            {
+              "group": null,
+              "text": "Eds v4-series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5-series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Edsv6-series",
+              "value": "edsv6"
+            },
+            {
+              "group": null,
+              "text": "Edsv7-series",
+              "value": "edsv7"
+            },
+            {
+              "group": null,
+              "text": "Edv5-series",
+              "value": "edv5"
+            },
+            {
+              "group": null,
+              "text": "Esv3-series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv4-series",
+              "value": "esv4"
+            },
+            {
+              "group": null,
+              "text": "Esv5-series",
+              "value": "esv5"
+            },
+            {
+              "group": null,
+              "text": "Esv6-series",
+              "value": "esv6"
+            },
+            {
+              "group": null,
+              "text": "Esv7-series",
+              "value": "esv7"
+            },
+            {
+              "group": null,
+              "text": "Ev3-series",
+              "value": "ev3"
+            },
+            {
+              "group": null,
+              "text": "Ev4-series",
+              "value": "ev4"
+            },
+            {
+              "group": null,
+              "text": "Ev5-series",
+              "value": "ev5"
+            },
+            {
+              "group": null,
+              "text": "G-series",
+              "value": "g"
+            },
+            {
+              "group": null,
+              "text": "Gs-series",
+              "value": "gs"
+            },
+            {
+              "group": null,
+              "text": "Mdsv2-series",
+              "value": "mdsv2"
+            },
+            {
+              "group": null,
+              "text": "Mdsv3-series",
+              "value": "mdsv3"
+            },
+            {
+              "group": null,
+              "text": "M-series",
+              "value": "m"
+            },
+            {
+              "group": null,
+              "text": "Msv2-series",
+              "value": "msv2"
+            },
+            {
+              "group": null,
+              "text": "Msv3-series",
+              "value": "msv3"
+            },
+            {
+              "group": null,
+              "text": "Mv2-series",
+              "value": "mv2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "category",
+            "value": "storageoptimized",
+            "text": "Storage optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Laosv4-series",
+              "value": "laosv4"
+            },
+            {
+              "group": null,
+              "text": "Lasv3-series",
+              "value": "lasv3"
+            },
+            {
+              "group": null,
+              "text": "Lasv4-series",
+              "value": "lasv4"
+            },
+            {
+              "group": null,
+              "text": "Ls-series",
+              "value": "ls"
+            },
+            {
+              "group": null,
+              "text": "Lsv2-series",
+              "value": "lsv2"
+            },
+            {
+              "group": null,
+              "text": "Lsv3-series",
+              "value": "lsv3"
+            },
+            {
+              "group": null,
+              "text": "Lsv4-series",
+              "value": "lsv4"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "operatingSystem",
+        "type",
+        "tier",
+        "category"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": null,
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": "size",
+      "label": "Instance: (Need help finding the right VM?)",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": "#size",
+      "selector_unique": true,
+      "signature": "input|text||||||",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Virtual Machines",
+      "clean_name": "count",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Virtual Machines",
+      "name": "count",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Virtual\\ Machines\"][name=\"count\"]",
+      "selector_unique": true,
+      "signature": "input|number|count|Virtual Machines||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "label": "1 year savings plan (~31% discount)",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "label": "3 year savings plan (~53% discount)",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "label": "1 year reserved (~31% discount)",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "computeBillingOption",
+      "control": "radio",
+      "data_name_override": "computeBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "label": "3 year reserved",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-computeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"computeBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|computeBillingOption||computeBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "osBillingOption",
+      "control": "radio",
+      "data_name_override": "osBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-713f8dab-2ad7-43b1-a0fc-abecf1a56074-osBillingOption",
+      "label": "License included",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-osBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"osBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|osBillingOption||osBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "operatingSystem",
+          "value": "linux",
+          "text": "Linux"
+        }
+      ],
+      "depends_on": [
+        "operatingSystem"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "osBillingOption",
+      "control": "radio",
+      "data_name_override": "osBillingOption",
+      "data_testid": null,
+      "id": "radio-ahb-713f8dab-2ad7-43b1-a0fc-abecf1a56074-osBillingOption",
+      "label": "Azure Hybrid Benefit",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-osBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "ahb",
+      "selector": "input[data-name-override=\"osBillingOption\"][value=\"ahb\"]",
+      "selector_unique": true,
+      "signature": "input|radio|osBillingOption||osBillingOption|ahb||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "operatingSystem",
+          "value": "linux",
+          "text": "Linux"
+        }
+      ],
+      "depends_on": [
+        "operatingSystem"
+      ]
+    },
+    {
+      "aria_label": "License",
+      "clean_name": "license",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "License",
+      "name": "license",
+      "options": [
+        {
+          "group": null,
+          "text": "BizTalk Enterprise",
+          "value": "biztalk-enterprise"
+        },
+        {
+          "group": null,
+          "text": "BizTalk Standard",
+          "value": "biztalk-standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"License\"][name=\"license\"]",
+      "selector_unique": true,
+      "signature": "select||license|License||||",
+      "tag": "select",
+      "type": null,
+      "value": "biztalk-enterprise",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "biztalk",
+          "text": "BizTalk"
+        },
+        {
+          "field": "type",
+          "value": "sql",
+          "text": "SQL Server"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-713f8dab-2ad7-43b1-a0fc-abecf1a56074-softwareBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "biztalk",
+          "text": "BizTalk"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "sqlSoftwareBillingOption",
+      "control": "radio",
+      "data_name_override": "sqlSoftwareBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-713f8dab-2ad7-43b1-a0fc-abecf1a56074-sqlSoftwareBillingOption",
+      "label": "License included",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-sqlSoftwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"sqlSoftwareBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|sqlSoftwareBillingOption||sqlSoftwareBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "sql",
+          "text": "SQL Server"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "sqlSoftwareBillingOption",
+      "control": "radio",
+      "data_name_override": "sqlSoftwareBillingOption",
+      "data_testid": null,
+      "id": "radio-ahb-713f8dab-2ad7-43b1-a0fc-abecf1a56074-sqlSoftwareBillingOption",
+      "label": "Azure Hybrid Benefit",
+      "name": "radioButton-713f8dab-2ad7-43b1-a0fc-abecf1a56074-sqlSoftwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "ahb",
+      "selector": "input[data-name-override=\"sqlSoftwareBillingOption\"][value=\"ahb\"]",
+      "selector_unique": true,
+      "signature": "input|radio|sqlSoftwareBillingOption||sqlSoftwareBillingOption|ahb||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "type",
+          "value": "sql",
+          "text": "SQL Server"
+        }
+      ],
+      "depends_on": [
+        "type"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

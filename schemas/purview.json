@@ -1,0 +1,1861 @@
+{
+  "schema_version": 2,
+  "product": "Purview",
+  "slug": "purview",
+  "picker_testid": "purview-picker-item",
+  "module_testid": "purview-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:35:27.158832+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Microsoft Purview",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Microsoft Purview|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Offer",
+      "clean_name": "purviewOfferType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Offer",
+      "name": "purviewOfferType",
+      "options": [
+        {
+          "group": null,
+          "text": "Data Security",
+          "value": "datasecurity"
+        },
+        {
+          "group": null,
+          "text": "Data Compliance",
+          "value": "datacompliance"
+        },
+        {
+          "group": null,
+          "text": "Data Governance\u200b",
+          "value": "datagovernance"
+        },
+        {
+          "group": null,
+          "text": "Data Map (Classic)",
+          "value": "datamap"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Offer\"][name=\"purviewOfferType\"]",
+      "selector_unique": true,
+      "signature": "select||purviewOfferType|Offer||||",
+      "tag": "select",
+      "type": null,
+      "value": "datasecurity",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Assets",
+      "clean_name": "informationAssets",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Assets",
+      "name": "informationAssets",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Assets\"][name=\"informationAssets\"]",
+      "selector_unique": true,
+      "signature": "input|number|informationAssets|Assets||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datagovernance",
+            "text": "Data Governance\u200b"
+          },
+          "selector": "input[aria-label=\"Assets\"][name=\"dataCatalogAssets\"]",
+          "name": "dataCatalogAssets",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "informationAssetsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "informationAssetsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"informationAssetsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|informationAssetsHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datacompliance",
+            "text": "Data Compliance"
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"lifecycleAssetsHours\"]",
+          "name": "lifecycleAssetsHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datagovernance",
+            "text": "Data Governance\u200b"
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"dataCatalogAssetsHours\"]",
+          "name": "dataCatalogAssetsHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "informationAssetsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "informationAssetsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Days",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "31"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"informationAssetsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||informationAssetsHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datacompliance",
+            "text": "Data Compliance"
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"lifecycleAssetsHoursFactor\"]",
+          "name": "lifecycleAssetsHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Days",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "31"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datagovernance",
+            "text": "Data Governance\u200b"
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"dataCatalogAssetsHoursFactor\"]",
+          "name": "dataCatalogAssetsHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Days",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "31"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "User Activities",
+      "clean_name": "userActivities",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "User Activities",
+      "name": "userActivities",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"User\\ Activities\"][name=\"userActivities\"]",
+      "selector_unique": true,
+      "signature": "input|number|userActivities|User Activities||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Requests per day",
+      "clean_name": "userRequests",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Requests per day",
+      "name": "userRequests",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Requests\\ per\\ day\"][name=\"userRequests\"]",
+      "selector_unique": true,
+      "signature": "input|number|userRequests|Requests per day||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "requestsAssetsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "requestsAssetsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"requestsAssetsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|requestsAssetsHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        },
+        {
+          "field": "requestsAssetsHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType",
+        "requestsAssetsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "requestsAssetsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "requestsAssetsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Days",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "31"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"requestsAssetsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||requestsAssetsHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        },
+        {
+          "field": "requestsAssetsHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType",
+        "requestsAssetsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "GBs",
+      "clean_name": "securityInvestigations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GBs",
+      "name": "securityInvestigations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GBs\"][name=\"securityInvestigations\"]",
+      "selector_unique": true,
+      "signature": "input|number|securityInvestigations|GBs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "securityHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "securityHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"securityHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|securityHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        },
+        {
+          "field": "securityHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType",
+        "securityHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "securityHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "securityHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Days",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "31"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"securityHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||securityHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        },
+        {
+          "field": "securityHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType",
+        "securityHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "1 Compute Unit",
+      "clean_name": "investigations",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "1 Compute Unit",
+      "name": "investigations",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"\\31 \\ Compute\\ Unit\"][name=\"investigations\"]",
+      "selector_unique": true,
+      "signature": "input|number|investigations|1 Compute Unit||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "investigationsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "investigationsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"investigationsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|investigationsHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"resourceSetHours\"]",
+          "name": "resourceSetHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"reportGenerationHours\"]",
+          "name": "reportGenerationHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"elasticDataMapHours\"]",
+          "name": "elasticDataMapHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"policyHours\"]",
+          "name": "policyHours",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "investigationHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "investigationHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"investigationHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||investigationHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"resourceSetHoursFactor\"]",
+          "name": "resourceSetHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"reportGenerationHoursFactor\"]",
+          "name": "reportGenerationHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"elasticDataMapHoursFactor\"]",
+          "name": "elasticDataMapHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "purviewOfferType",
+            "value": "datamap",
+            "text": "Data Map (Classic)"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"policyHoursFactor\"]",
+          "name": "policyHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "x 10,000 assets",
+      "clean_name": "standardAssets",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 10,000 assets",
+      "name": "standardAssets",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 10\\,000\\ assets\"][name=\"standardAssets\"]",
+      "selector_unique": true,
+      "signature": "input|number|standardAssets|x 10,000 assets||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        },
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 assets",
+      "clean_name": "lifecycleAssets",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 assets",
+      "name": "lifecycleAssets",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ assets\"][name=\"lifecycleAssets\"]",
+      "selector_unique": true,
+      "signature": "input|number|lifecycleAssets|x 1,000 assets||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 assets",
+      "clean_name": "auditAssets",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 assets",
+      "name": "auditAssets",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ assets\"][name=\"auditAssets\"]",
+      "selector_unique": true,
+      "signature": "input|number|auditAssets|x 1,000 assets||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "x 1 text record",
+      "clean_name": "communicationComplianceStandard",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1 text record",
+      "name": "communicationComplianceStandard",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\ text\\ record\"][name=\"communicationComplianceStandard\"]",
+      "selector_unique": true,
+      "signature": "input|number|communicationComplianceStandard|x 1 text record||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "x 1 text record",
+      "clean_name": "communicationCompliancePremium",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1 text record",
+      "name": "communicationCompliancePremium",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\ text\\ record\"][name=\"communicationCompliancePremium\"]",
+      "selector_unique": true,
+      "signature": "input|number|communicationCompliancePremium|x 1 text record||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datacompliance",
+          "text": "Data Compliance"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "SKU (Data Quality)\u200b",
+      "clean_name": "enterpriseSKUDataQuality",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "SKU (Data Quality)\u200b",
+      "name": "enterpriseSKUDataQuality",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Advanced",
+          "value": "advanced"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"SKU\\ \\(Data\\ Quality\\)\u200b\"][name=\"enterpriseSKUDataQuality\"]",
+      "selector_unique": true,
+      "signature": "select||enterpriseSKUDataQuality|SKU (Data Quality)\u200b||||",
+      "tag": "select",
+      "type": null,
+      "value": "basic",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Units",
+      "clean_name": "enterpriseSKUDataQualityUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Units",
+      "name": "enterpriseSKUDataQualityUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Units\"][name=\"enterpriseSKUDataQualityUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|enterpriseSKUDataQualityUnits|Units||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "SKU (Controls and Reports)\u200b",
+      "clean_name": "enterpriseSKUControlsReports",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "SKU (Controls and Reports)\u200b",
+      "name": "enterpriseSKUControlsReports",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"SKU\\ \\(Controls\\ and\\ Reports\\)\u200b\"][name=\"enterpriseSKUControlsReports\"]",
+      "selector_unique": true,
+      "signature": "select||enterpriseSKUControlsReports|SKU (Controls and Reports)\u200b||||",
+      "tag": "select",
+      "type": null,
+      "value": "basic",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Units",
+      "clean_name": "enterpriseSKUControlsReportsUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Units",
+      "name": "enterpriseSKUControlsReportsUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Units\"][name=\"enterpriseSKUControlsReportsUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|enterpriseSKUControlsReportsUnits|Units||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datagovernance",
+          "text": "Data Governance\u200b"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Minutes",
+      "clean_name": "otherDataSourcesHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Minutes",
+      "name": "otherDataSourcesHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Minutes\"][name=\"otherDataSourcesHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|otherDataSourcesHours|Minutes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Minutes",
+      "clean_name": "otherDataSourcesHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Minutes",
+      "name": "otherDataSourcesHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Minutes",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "60"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Minutes\"][name=\"otherDataSourcesHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||otherDataSourcesHoursFactor|Minutes||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Total vCores across all scans",
+      "clean_name": "otherDataSourcesTotalvCores",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total vCores across all scans",
+      "name": "otherDataSourcesTotalvCores",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ vCores\\ across\\ all\\ scans\"][name=\"otherDataSourcesTotalvCores\"]",
+      "selector_unique": true,
+      "signature": "input|number|otherDataSourcesTotalvCores|Total vCores across all scans||||",
+      "tag": "input",
+      "type": "number",
+      "value": "32",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Capacity Units",
+      "clean_name": "elasticDataMapCapacityUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Capacity Units",
+      "name": "elasticDataMapCapacityUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Capacity\\ Units\"][name=\"elasticDataMapCapacityUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|elasticDataMapCapacityUnits|Capacity Units||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Service",
+      "clean_name": "dataCatalogService",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Service",
+      "name": "dataCatalogService",
+      "options": [
+        {
+          "group": null,
+          "text": "C0",
+          "value": "c0"
+        },
+        {
+          "group": null,
+          "text": "C1",
+          "value": "c1"
+        },
+        {
+          "group": null,
+          "text": "D0",
+          "value": "d0"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Service\"][name=\"dataCatalogService\"]",
+      "selector_unique": true,
+      "signature": "select||dataCatalogService|Service||||",
+      "tag": "select",
+      "type": null,
+      "value": "c0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "DevOps policies",
+      "clean_name": "policy",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "DevOps policies",
+      "name": "policy",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"DevOps\\ policies\"][name=\"policy\"]",
+      "selector_unique": true,
+      "signature": "input|number|policy|DevOps policies||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "API calls",
+      "clean_name": "insightsConsumption",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "API calls",
+      "name": "insightsConsumption",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"API\\ calls\"][name=\"insightsConsumption\"]",
+      "selector_unique": true,
+      "signature": "input|number|insightsConsumption|API calls||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "purviewOfferType",
+          "value": "datamap",
+          "text": "Data Map (Classic)"
+        }
+      ],
+      "depends_on": [
+        "purviewOfferType"
+      ]
+    },
+    {
+      "aria_label": "Month",
+      "clean_name": "informationAssetsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Month",
+      "name": "informationAssetsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Month\"][name=\"informationAssetsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|informationAssetsHours|Month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "informationAssetsHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "informationAssetsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Month",
+      "clean_name": "informationAssetsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Month",
+      "name": "informationAssetsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Days",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "31"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Month\"][name=\"informationAssetsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||informationAssetsHoursFactor|Month||||",
+      "tag": "select",
+      "type": null,
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "informationAssetsHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "informationAssetsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Month",
+      "clean_name": "requestsAssetsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Month",
+      "name": "requestsAssetsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Month\"][name=\"requestsAssetsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|requestsAssetsHours|Month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "requestsAssetsHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "requestsAssetsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Month",
+      "clean_name": "requestsAssetsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Month",
+      "name": "requestsAssetsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Days",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "31"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Month\"][name=\"requestsAssetsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||requestsAssetsHoursFactor|Month||||",
+      "tag": "select",
+      "type": null,
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "requestsAssetsHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "requestsAssetsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Month",
+      "clean_name": "securityHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Month",
+      "name": "securityHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Month\"][name=\"securityHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|securityHours|Month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "securityHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "securityHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Month",
+      "clean_name": "securityHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Month",
+      "name": "securityHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Days",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "31"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Month\"][name=\"securityHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||securityHoursFactor|Month||||",
+      "tag": "select",
+      "type": null,
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "securityHoursFactor",
+          "value": "31",
+          "text": "Month"
+        }
+      ],
+      "depends_on": [
+        "securityHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

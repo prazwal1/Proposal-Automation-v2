@@ -1,0 +1,493 @@
+{
+  "schema_version": 2,
+  "product": "Virtual Network Manager",
+  "slug": "virtual-network-manager",
+  "picker_testid": "virtual-network-manager-picker-item",
+  "module_testid": "virtual-network-manager-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:40:52.095418+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Virtual Network Manager",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Virtual Network Manager|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Deployed Configurations",
+      "clean_name": "deployedConfiguration",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Deployed Configurations",
+      "name": "deployedConfiguration",
+      "options": [
+        {
+          "group": null,
+          "text": "Virtual Network-based billing",
+          "value": "virtual-network-based-billing"
+        },
+        {
+          "group": null,
+          "text": "Subscription-based billing",
+          "value": "subscription-based-billing"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Deployed\\ Configurations\"][name=\"deployedConfiguration\"]",
+      "selector_unique": true,
+      "signature": "select||deployedConfiguration|Deployed Configurations||||",
+      "tag": "select",
+      "type": null,
+      "value": "virtual-network-based-billing",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of managed virtual networks",
+      "clean_name": "numberOfManagedVirtualNetworks",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of managed virtual networks",
+      "name": "numberOfManagedVirtualNetworks",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ managed\\ virtual\\ networks\"][name=\"numberOfManagedVirtualNetworks\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfManagedVirtualNetworks|Number of managed virtual networks||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "deployedConfiguration",
+          "value": "subscription-based-billing",
+          "text": "Subscription-based billing"
+        }
+      ],
+      "depends_on": [
+        "deployedConfiguration"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "virtualNetworkHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "virtualNetworkHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"virtualNetworkHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|virtualNetworkHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "deployedConfiguration",
+            "value": "subscription-based-billing",
+            "text": "Subscription-based billing"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"subscriptionHours\"]",
+          "name": "subscriptionHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "deployedConfiguration"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "virtualNetworkHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "virtualNetworkHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"virtualNetworkHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||virtualNetworkHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "deployedConfiguration",
+            "value": "subscription-based-billing",
+            "text": "Subscription-based billing"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"subscriptionHoursFactor\"]",
+          "name": "subscriptionHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "deployedConfiguration"
+      ]
+    },
+    {
+      "aria_label": "Reachability analysis runs",
+      "clean_name": "numberOfReachabilityAnalysis",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Reachability analysis runs",
+      "name": "numberOfReachabilityAnalysis",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Reachability\\ analysis\\ runs\"][name=\"numberOfReachabilityAnalysis\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfReachabilityAnalysis|Reachability analysis runs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Number of managed IPs",
+      "clean_name": "numberOfManagedIps",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of managed IPs",
+      "name": "numberOfManagedIps",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ managed\\ IPs\"][name=\"numberOfManagedIps\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfManagedIps|Number of managed IPs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "ipsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "ipsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"ipsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|ipsHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "ipsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "ipsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "ipsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "ipsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"ipsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||ipsHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "ipsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "ipsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Number of managed subscriptions",
+      "clean_name": "numberOfManagedSubscriptions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of managed subscriptions",
+      "name": "numberOfManagedSubscriptions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ managed\\ subscriptions\"][name=\"numberOfManagedSubscriptions\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfManagedSubscriptions|Number of managed subscriptions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "deployedConfiguration",
+          "value": "subscription-based-billing",
+          "text": "Subscription-based billing"
+        }
+      ],
+      "depends_on": [
+        "deployedConfiguration"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "virtualNetworkHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "virtualNetworkHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"virtualNetworkHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|virtualNetworkHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "virtualNetworkHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "virtualNetworkHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "virtualNetworkHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "virtualNetworkHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"virtualNetworkHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||virtualNetworkHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "virtualNetworkHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "virtualNetworkHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "ipsHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "ipsHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"ipsHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|ipsHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ipsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "ipsHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "ipsHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "ipsHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"ipsHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||ipsHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ipsHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "ipsHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

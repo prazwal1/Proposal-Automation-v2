@@ -1,0 +1,1276 @@
+{
+  "schema_version": 2,
+  "product": "Container Apps",
+  "slug": "container-apps",
+  "picker_testid": "container-apps-picker-item",
+  "module_testid": "container-apps-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:20:52.304995+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Container Apps",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Container Apps|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east-2",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Plan Type",
+      "clean_name": "planType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Plan Type",
+      "name": "planType",
+      "options": [
+        {
+          "group": null,
+          "text": "Consumption",
+          "value": "consumption"
+        },
+        {
+          "group": null,
+          "text": "Dedicated",
+          "value": "dedicated"
+        },
+        {
+          "group": null,
+          "text": "Dedicated \u2013 GPU enabled",
+          "value": "dedicatedgpu"
+        },
+        {
+          "group": null,
+          "text": "Dynamic Sessions",
+          "value": "dynamicsessions"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Plan\\ Type\"][name=\"planType\"]",
+      "selector_unique": true,
+      "signature": "select||planType|Plan Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "consumption",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "x1 million total requests per month",
+      "clean_name": "requestsInMillions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1 million total requests per month",
+      "name": "requestsInMillions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\ million\\ total\\ requests\\ per\\ month\"][name=\"requestsInMillions\"]",
+      "selector_unique": true,
+      "signature": "input|number|requestsInMillions|x1 million total requests per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "requestBillingOption",
+      "control": "radio",
+      "data_name_override": "requestBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-requestBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-requestBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"requestBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|requestBillingOption||requestBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "dedicated",
+            "text": "Dedicated"
+          },
+          "selector": "input[data-name-override=\"workloadBillingOption\"][value=\"payg\"]",
+          "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-workloadBillingOption",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "dynamicsessions",
+            "text": "Dynamic Sessions"
+          },
+          "selector": "input[data-name-override=\"sessionBillingOption\"][value=\"payg\"]",
+          "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-sessionBillingOption",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "requestBillingOption",
+      "control": "radio",
+      "data_name_override": "requestBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-requestBillingOption",
+      "label": "1 year savings plan (~15% discount)",
+      "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-requestBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"requestBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|requestBillingOption||requestBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "dedicated",
+            "text": "Dedicated"
+          },
+          "selector": "input[data-name-override=\"workloadBillingOption\"][value=\"sv-one-year\"]",
+          "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-workloadBillingOption",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "dynamicsessions",
+            "text": "Dynamic Sessions"
+          },
+          "selector": "input[data-name-override=\"sessionBillingOption\"][value=\"sv-one-year\"]",
+          "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-sessionBillingOption",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "requestBillingOption",
+      "control": "radio",
+      "data_name_override": "requestBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-requestBillingOption",
+      "label": "3 year savings plan (~17% discount)",
+      "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-requestBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"requestBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|requestBillingOption||requestBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "dedicated",
+            "text": "Dedicated"
+          },
+          "selector": "input[data-name-override=\"workloadBillingOption\"][value=\"sv-three-year\"]",
+          "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-workloadBillingOption",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "dynamicsessions",
+            "text": "Dynamic Sessions"
+          },
+          "selector": "input[data-name-override=\"sessionBillingOption\"][value=\"sv-three-year\"]",
+          "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-sessionBillingOption",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Concurrent requests per container app",
+      "clean_name": "activeUsageConcurrentRequests",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Concurrent requests per container app",
+      "name": "activeUsageConcurrentRequests",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Concurrent\\ requests\\ per\\ container\\ app\"][name=\"activeUsageConcurrentRequests\"]",
+      "selector_unique": true,
+      "signature": "input|number|activeUsageConcurrentRequests|Concurrent requests per container app||||",
+      "tag": "input",
+      "type": "number",
+      "value": "20",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Execution time per request (ms)",
+      "clean_name": "activeUsageExecutionMsPerRequest",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Execution time per request (ms)",
+      "name": "activeUsageExecutionMsPerRequest",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Execution\\ time\\ per\\ request\\ \\(ms\\)\"][name=\"activeUsageExecutionMsPerRequest\"]",
+      "selector_unique": true,
+      "signature": "input|number|activeUsageExecutionMsPerRequest|Execution time per request (ms)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "100",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "vCPU",
+      "clean_name": "vCpuCount",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "vCPU",
+      "name": "vCpuCount",
+      "options": [
+        {
+          "group": null,
+          "text": "0.25",
+          "value": "0.25"
+        },
+        {
+          "group": null,
+          "text": "0.5",
+          "value": "0.5"
+        },
+        {
+          "group": null,
+          "text": "0.75",
+          "value": "0.75"
+        },
+        {
+          "group": null,
+          "text": "1",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "1.25",
+          "value": "1.25"
+        },
+        {
+          "group": null,
+          "text": "1.5",
+          "value": "1.5"
+        },
+        {
+          "group": null,
+          "text": "1.75",
+          "value": "1.75"
+        },
+        {
+          "group": null,
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "2.25",
+          "value": "2.25"
+        },
+        {
+          "group": null,
+          "text": "2.5",
+          "value": "2.5"
+        },
+        {
+          "group": null,
+          "text": "2.75",
+          "value": "2.75"
+        },
+        {
+          "group": null,
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "group": null,
+          "text": "3.25",
+          "value": "3.25"
+        },
+        {
+          "group": null,
+          "text": "3.5",
+          "value": "3.5"
+        },
+        {
+          "group": null,
+          "text": "3.75",
+          "value": "3.75"
+        },
+        {
+          "group": null,
+          "text": "4",
+          "value": "4"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"vCPU\"][name=\"vCpuCount\"]",
+      "selector_unique": true,
+      "signature": "select||vCpuCount|vCPU||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Memory",
+      "clean_name": "memorySize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Memory",
+      "name": "memorySize",
+      "options": [
+        {
+          "group": null,
+          "text": "1 GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "2 GiB",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "3 GiB",
+          "value": "3"
+        },
+        {
+          "group": null,
+          "text": "4 GiB",
+          "value": "4"
+        },
+        {
+          "group": null,
+          "text": "5 GiB",
+          "value": "5"
+        },
+        {
+          "group": null,
+          "text": "6 GiB",
+          "value": "6"
+        },
+        {
+          "group": null,
+          "text": "7 GiB",
+          "value": "7"
+        },
+        {
+          "group": null,
+          "text": "8 GiB",
+          "value": "8"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Memory\"][name=\"memorySize\"]",
+      "selector_unique": true,
+      "signature": "select||memorySize|Memory||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "resourceBillingOption",
+      "control": "radio",
+      "data_name_override": "resourceBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-resourceBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-resourceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"resourceBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|resourceBillingOption||resourceBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "resourceBillingOption",
+      "control": "radio",
+      "data_name_override": "resourceBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-resourceBillingOption",
+      "label": "1 year savings plan (~15% discount)",
+      "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-resourceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"resourceBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|resourceBillingOption||resourceBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "resourceBillingOption",
+      "control": "radio",
+      "data_name_override": "resourceBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-resourceBillingOption",
+      "label": "3 year savings plan (~17% discount)",
+      "name": "radioButton-a4e08d79-4e00-41f8-a96d-a4983f1a6ff0-resourceBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"resourceBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|resourceBillingOption||resourceBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        },
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "workload",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": "workload-profile-dropdown",
+      "id": null,
+      "label": null,
+      "name": "workload",
+      "options": [
+        {
+          "group": null,
+          "text": "D4, 4 vCPU, 16 GiB RAM, $0.31",
+          "value": "D4"
+        },
+        {
+          "group": null,
+          "text": "D8, 8 vCPU, 32 GiB RAM, $0.62",
+          "value": "D8"
+        },
+        {
+          "group": null,
+          "text": "D16, 16 vCPU, 64 GiB RAM, $1.23",
+          "value": "D16"
+        },
+        {
+          "group": null,
+          "text": "D32, 32 vCPU, 128 GiB RAM, $2.46",
+          "value": "D32"
+        },
+        {
+          "group": null,
+          "text": "E4, 4 vCPU, 32 GiB RAM, $0.39",
+          "value": "E4"
+        },
+        {
+          "group": null,
+          "text": "E8, 8 vCPU, 64 GiB RAM, $0.78",
+          "value": "E8"
+        },
+        {
+          "group": null,
+          "text": "E16, 16 vCPU, 128 GiB RAM, $1.55",
+          "value": "E16"
+        },
+        {
+          "group": null,
+          "text": "E32, 32 vCPU, 256 GiB RAM, $3.10",
+          "value": "E32"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[data-testid=\"workload-profile-dropdown\"]",
+      "selector_unique": true,
+      "signature": "select||workload|||||",
+      "tag": "select",
+      "type": null,
+      "value": "D4",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "dedicatedgpu",
+            "text": "Dedicated \u2013 GPU enabled"
+          },
+          "selector": "select[data-testid=\"workload-profile-dropdown\"]",
+          "name": "gpuWorkload",
+          "options": [
+            {
+              "group": null,
+              "text": "A100 GPU, $4.41",
+              "value": "A100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "dedicatedInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "dedicatedInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"dedicatedInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|dedicatedInstances|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dedicatedInstanceHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dedicatedInstanceHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"dedicatedInstanceHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|dedicatedInstanceHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "dynamicsessions",
+            "text": "Dynamic Sessions"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"sessionHours\"]",
+          "name": "sessionHours",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "dedicatedInstanceHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "dedicatedInstanceHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"dedicatedInstanceHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||dedicatedInstanceHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "dedicated",
+          "text": "Dedicated"
+        },
+        {
+          "field": "planType",
+          "value": "dedicatedgpu",
+          "text": "Dedicated \u2013 GPU enabled"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "dynamicsessions",
+            "text": "Dynamic Sessions"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"sessionHoursFactor\"]",
+          "name": "sessionHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Sessions",
+      "clean_name": "sessions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Sessions",
+      "name": "sessions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Sessions\"][name=\"sessions\"]",
+      "selector_unique": true,
+      "signature": "input|number|sessions|Sessions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "dynamicsessions",
+          "text": "Dynamic Sessions"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "View Active usage Calculation",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||View Active usage Calculation",
+      "tag": "button",
+      "text": "View Active usage Calculation",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

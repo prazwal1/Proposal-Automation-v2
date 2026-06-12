@@ -1,0 +1,1615 @@
+{
+  "schema_version": 2,
+  "product": "Openshift",
+  "slug": "openshift",
+  "picker_testid": "openshift-picker-item",
+  "module_testid": "openshift-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:33:41.801597+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Red Hat OpenShift",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Red Hat OpenShift|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Version",
+      "clean_name": "openshiftVersion",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Version",
+      "name": "openshiftVersion",
+      "options": [
+        {
+          "group": null,
+          "text": "Red Hat OpenShift 4",
+          "value": "openshift4"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Version\"][name=\"openshiftVersion\"]",
+      "selector_unique": true,
+      "signature": "select||openshiftVersion|Version||||",
+      "tag": "select",
+      "type": null,
+      "value": "openshift4",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "workerNodeCategory",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "workerNodeCategory",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "Compute optimized",
+          "value": "computeoptimized"
+        },
+        {
+          "group": null,
+          "text": "General purpose",
+          "value": "generalpurpose"
+        },
+        {
+          "group": null,
+          "text": "GPU",
+          "value": "gpu"
+        },
+        {
+          "group": null,
+          "text": "Memory optimized",
+          "value": "memoryoptimized"
+        },
+        {
+          "group": null,
+          "text": "Storage optimized",
+          "value": "storageoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"workerNodeCategory\"]",
+      "selector_unique": true,
+      "signature": "select||workerNodeCategory|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "workerNodeInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "workerNodeInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "Das v4-series",
+          "value": "dasv4"
+        },
+        {
+          "group": null,
+          "text": "Dasv5-series",
+          "value": "dasv5"
+        },
+        {
+          "group": null,
+          "text": "Dsv3-series",
+          "value": "dsv3"
+        },
+        {
+          "group": null,
+          "text": "Dsv4-series",
+          "value": "dsv4"
+        },
+        {
+          "group": null,
+          "text": "Dsv5-series",
+          "value": "dsv5"
+        },
+        {
+          "group": null,
+          "text": "Eas v4-series",
+          "value": "easv4"
+        },
+        {
+          "group": null,
+          "text": "Easv5-series",
+          "value": "easv5"
+        },
+        {
+          "group": null,
+          "text": "Eds v4-series",
+          "value": "edsv4"
+        },
+        {
+          "group": null,
+          "text": "Edsv5-series",
+          "value": "edsv5"
+        },
+        {
+          "group": null,
+          "text": "Esv3-series",
+          "value": "esv3"
+        },
+        {
+          "group": null,
+          "text": "Esv4-series",
+          "value": "esv4"
+        },
+        {
+          "group": null,
+          "text": "Esv5-series",
+          "value": "esv5"
+        },
+        {
+          "group": null,
+          "text": "Fsv2-series",
+          "value": "fsv2"
+        },
+        {
+          "group": null,
+          "text": "Ls-series",
+          "value": "ls"
+        },
+        {
+          "group": null,
+          "text": "Lsv2-series",
+          "value": "lsv2"
+        },
+        {
+          "group": null,
+          "text": "Lsv3-series",
+          "value": "lsv3"
+        },
+        {
+          "group": null,
+          "text": "M-series",
+          "value": "m"
+        },
+        {
+          "group": null,
+          "text": "NC_T4_v3-series",
+          "value": "ncast4v3"
+        },
+        {
+          "group": null,
+          "text": "NCsv3-series",
+          "value": "ncsv3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"workerNodeInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||workerNodeInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "dsv3",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "workerNodeCategory",
+            "value": "computeoptimized",
+            "text": "Compute optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Fsv2-series",
+              "value": "fsv2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "workerNodeCategory",
+            "value": "generalpurpose",
+            "text": "General purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Das v4-series",
+              "value": "dasv4"
+            },
+            {
+              "group": null,
+              "text": "Dasv5-series",
+              "value": "dasv5"
+            },
+            {
+              "group": null,
+              "text": "Dsv3-series",
+              "value": "dsv3"
+            },
+            {
+              "group": null,
+              "text": "Dsv4-series",
+              "value": "dsv4"
+            },
+            {
+              "group": null,
+              "text": "Dsv5-series",
+              "value": "dsv5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "workerNodeCategory",
+            "value": "gpu",
+            "text": "GPU"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "NC_T4_v3-series",
+              "value": "ncast4v3"
+            },
+            {
+              "group": null,
+              "text": "NCsv3-series",
+              "value": "ncsv3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "workerNodeCategory",
+            "value": "memoryoptimized",
+            "text": "Memory optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Eas v4-series",
+              "value": "easv4"
+            },
+            {
+              "group": null,
+              "text": "Easv5-series",
+              "value": "easv5"
+            },
+            {
+              "group": null,
+              "text": "Eds v4-series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5-series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Esv3-series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv4-series",
+              "value": "esv4"
+            },
+            {
+              "group": null,
+              "text": "Esv5-series",
+              "value": "esv5"
+            },
+            {
+              "group": null,
+              "text": "M-series",
+              "value": "m"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "workerNodeCategory",
+            "value": "storageoptimized",
+            "text": "Storage optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Ls-series",
+              "value": "ls"
+            },
+            {
+              "group": null,
+              "text": "Lsv2-series",
+              "value": "lsv2"
+            },
+            {
+              "group": null,
+              "text": "Lsv3-series",
+              "value": "lsv3"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "workerNodeCategory"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": null,
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": "workerNodeSize",
+      "label": "Instance: (Need help finding the right VM?)",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": "#workerNodeSize",
+      "selector_unique": true,
+      "signature": "input|text||||||",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Worker Nodes",
+      "clean_name": "workerNodeCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Worker Nodes",
+      "name": "workerNodeCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Worker\\ Nodes\"][name=\"workerNodeCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|workerNodeCount|Worker Nodes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "workerNodeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "workerNodeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"workerNodeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|workerNodeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "workerNodeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "workerNodeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "workerNodeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "workerNodeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"workerNodeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||workerNodeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "workerNodeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "workerNodeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "workerNodeBillingOption",
+      "control": "radio",
+      "data_name_override": "workerNodeBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"workerNodeBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|workerNodeBillingOption||workerNodeBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "workerNodeBillingOption",
+      "control": "radio",
+      "data_name_override": "workerNodeBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeBillingOption",
+      "label": "1 year reserved (~33% savings)",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"workerNodeBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|workerNodeBillingOption||workerNodeBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "workerNodeBillingOption",
+      "control": "radio",
+      "data_name_override": "workerNodeBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeBillingOption",
+      "label": "3 year reserved (~56% savings)",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"workerNodeBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|workerNodeBillingOption||workerNodeBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "workerNodeVMBillingOption",
+      "control": "radio",
+      "data_name_override": "workerNodeVMBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeVMBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeVMBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"workerNodeVMBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|workerNodeVMBillingOption||workerNodeVMBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "workerNodeVMBillingOption",
+      "control": "radio",
+      "data_name_override": "workerNodeVMBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeVMBillingOption",
+      "label": "1 year reserved (~40% savings)",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeVMBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"workerNodeVMBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|workerNodeVMBillingOption||workerNodeVMBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "workerNodeVMBillingOption",
+      "control": "radio",
+      "data_name_override": "workerNodeVMBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeVMBillingOption",
+      "label": "3 year reserved (~62% savings)",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-workerNodeVMBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"workerNodeVMBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|workerNodeVMBillingOption||workerNodeVMBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Disk size",
+      "clean_name": "disk4Size",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disk size",
+      "name": "disk4Size",
+      "options": [
+        {
+          "group": null,
+          "text": "P10: 128 GiB, 500 IOPS, 100 MB/sec",
+          "value": "premiumssd-p10-lrs"
+        },
+        {
+          "group": null,
+          "text": "P15: 256 GiB, 1100 IOPS, 125 MB/sec",
+          "value": "premiumssd-p15-lrs"
+        },
+        {
+          "group": null,
+          "text": "P20: 512 GiB, 2300 IOPS, 150 MB/sec",
+          "value": "premiumssd-p20-lrs"
+        },
+        {
+          "group": null,
+          "text": "P30: 1024 GiB, 5000 IOPS, 200 MB/sec",
+          "value": "premiumssd-p30-lrs"
+        },
+        {
+          "group": null,
+          "text": "P40: 2048 GiB, 7500 IOPS, 250 MB/sec",
+          "value": "premiumssd-p40-lrs"
+        },
+        {
+          "group": null,
+          "text": "P60: 8192 GiB, 16000 IOPS, 500 MB/sec",
+          "value": "premiumssd-p60-lrs"
+        },
+        {
+          "group": null,
+          "text": "P70: 16384 GiB, 18000 IOPS, 750 MB/sec",
+          "value": "premiumssd-p70-lrs"
+        },
+        {
+          "group": null,
+          "text": "P80: 32767 GiB, 20000 IOPS, 900 MB/sec",
+          "value": "premiumssd-p80-lrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Disk\\ size\"][name=\"disk4Size\"]",
+      "selector_unique": true,
+      "signature": "select||disk4Size|Disk size||||",
+      "tag": "select",
+      "type": null,
+      "value": "premiumssd-p10-lrs",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "masterNodesCategory",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "masterNodesCategory",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "Compute optimized",
+          "value": "computeoptimized"
+        },
+        {
+          "group": null,
+          "text": "General purpose",
+          "value": "generalpurpose"
+        },
+        {
+          "group": null,
+          "text": "Memory optimized",
+          "value": "memoryoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"masterNodesCategory\"]",
+      "selector_unique": true,
+      "signature": "select||masterNodesCategory|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "masterNodesInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "masterNodesInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "Das v4-series",
+          "value": "dasv4"
+        },
+        {
+          "group": null,
+          "text": "Dasv5-series",
+          "value": "dasv5"
+        },
+        {
+          "group": null,
+          "text": "Dsv3-series",
+          "value": "dsv3"
+        },
+        {
+          "group": null,
+          "text": "Dsv4-series",
+          "value": "dsv4"
+        },
+        {
+          "group": null,
+          "text": "Dsv5-series",
+          "value": "dsv5"
+        },
+        {
+          "group": null,
+          "text": "Eas v4-series",
+          "value": "easv4"
+        },
+        {
+          "group": null,
+          "text": "Easv5-series",
+          "value": "easv5"
+        },
+        {
+          "group": null,
+          "text": "Eds v4-series",
+          "value": "edsv4"
+        },
+        {
+          "group": null,
+          "text": "Edsv5-series",
+          "value": "edsv5"
+        },
+        {
+          "group": null,
+          "text": "Esv3-series",
+          "value": "esv3"
+        },
+        {
+          "group": null,
+          "text": "Esv4-series",
+          "value": "esv4"
+        },
+        {
+          "group": null,
+          "text": "Esv5-series",
+          "value": "esv5"
+        },
+        {
+          "group": null,
+          "text": "Fsv2-series",
+          "value": "fsv2"
+        },
+        {
+          "group": null,
+          "text": "M-series",
+          "value": "m"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"masterNodesInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||masterNodesInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "dsv3",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "masterNodesCategory",
+            "value": "computeoptimized",
+            "text": "Compute optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Fsv2-series",
+              "value": "fsv2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "masterNodesCategory",
+            "value": "generalpurpose",
+            "text": "General purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Das v4-series",
+              "value": "dasv4"
+            },
+            {
+              "group": null,
+              "text": "Dasv5-series",
+              "value": "dasv5"
+            },
+            {
+              "group": null,
+              "text": "Dsv3-series",
+              "value": "dsv3"
+            },
+            {
+              "group": null,
+              "text": "Dsv4-series",
+              "value": "dsv4"
+            },
+            {
+              "group": null,
+              "text": "Dsv5-series",
+              "value": "dsv5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "masterNodesCategory",
+            "value": "memoryoptimized",
+            "text": "Memory optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Eas v4-series",
+              "value": "easv4"
+            },
+            {
+              "group": null,
+              "text": "Easv5-series",
+              "value": "easv5"
+            },
+            {
+              "group": null,
+              "text": "Eds v4-series",
+              "value": "edsv4"
+            },
+            {
+              "group": null,
+              "text": "Edsv5-series",
+              "value": "edsv5"
+            },
+            {
+              "group": null,
+              "text": "Esv3-series",
+              "value": "esv3"
+            },
+            {
+              "group": null,
+              "text": "Esv4-series",
+              "value": "esv4"
+            },
+            {
+              "group": null,
+              "text": "Esv5-series",
+              "value": "esv5"
+            },
+            {
+              "group": null,
+              "text": "M-series",
+              "value": "m"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "masterNodesCategory"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": null,
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": "masterNodesSize",
+      "label": "Instance: (Need help finding the right VM?)",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": "#masterNodesSize",
+      "selector_unique": true,
+      "signature": "input|text||||||",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "masterNodesHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "masterNodesHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"masterNodesHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|masterNodesHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "masterNodesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "masterNodesHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "masterNodesHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "masterNodesHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"masterNodesHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||masterNodesHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "masterNodesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "masterNodesHoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "masterNodesBillingOption",
+      "control": "radio",
+      "data_name_override": "masterNodesBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-6983ff40-289f-4d4f-a325-b94ded88e1a4-masterNodesBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-masterNodesBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"masterNodesBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|masterNodesBillingOption||masterNodesBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "masterNodesBillingOption",
+      "control": "radio",
+      "data_name_override": "masterNodesBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-6983ff40-289f-4d4f-a325-b94ded88e1a4-masterNodesBillingOption",
+      "label": "1 year reserved (~40% savings)",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-masterNodesBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"masterNodesBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|masterNodesBillingOption||masterNodesBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "masterNodesBillingOption",
+      "control": "radio",
+      "data_name_override": "masterNodesBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-6983ff40-289f-4d4f-a325-b94ded88e1a4-masterNodesBillingOption",
+      "label": "3 year reserved (~62% savings)",
+      "name": "radioButton-6983ff40-289f-4d4f-a325-b94ded88e1a4-masterNodesBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"masterNodesBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|masterNodesBillingOption||masterNodesBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Disk size",
+      "clean_name": "disk5Size",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disk size",
+      "name": "disk5Size",
+      "options": [
+        {
+          "group": null,
+          "text": "P30: 1024 GiB, 5000 IOPS, 200 MB/sec",
+          "value": "premiumssd-p30-lrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Disk\\ size\"][name=\"disk5Size\"]",
+      "selector_unique": true,
+      "signature": "select||disk5Size|Disk size||||",
+      "tag": "select",
+      "type": null,
+      "value": "premiumssd-p30-lrs",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "workerNodeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "workerNodeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"workerNodeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|workerNodeHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "workerNodeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "workerNodeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "workerNodeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "workerNodeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"workerNodeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||workerNodeHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "workerNodeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "workerNodeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "masterNodesHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "masterNodesHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"masterNodesHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|masterNodesHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "masterNodesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "masterNodesHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "masterNodesHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "masterNodesHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"masterNodesHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||masterNodesHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "masterNodesHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "masterNodesHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

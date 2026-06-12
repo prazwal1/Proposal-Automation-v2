@@ -1,0 +1,1374 @@
+{
+  "schema_version": 2,
+  "product": "Defender For Cloud",
+  "slug": "defender-for-cloud",
+  "picker_testid": "defender-for-cloud-picker-item",
+  "module_testid": "defender-for-cloud-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:23:44.935857+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Microsoft Defender for Cloud",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Microsoft Defender for Cloud|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Defender for Cloud Solution Plan Type",
+      "clean_name": "planType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Defender for Cloud Solution Plan Type",
+      "name": "planType",
+      "options": [
+        {
+          "group": null,
+          "text": "Cloud Security Posture Management (CSPM)",
+          "value": "posturemanagement"
+        },
+        {
+          "group": null,
+          "text": "Cloud Workload Protection",
+          "value": "workloadprotection"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Defender\\ for\\ Cloud\\ Solution\\ Plan\\ Type\"][name=\"planType\"]",
+      "selector_unique": true,
+      "signature": "select||planType|Defender for Cloud Solution Plan Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "posturemanagement",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Billable resources",
+      "clean_name": "postureMgmtNodes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Billable resources",
+      "name": "postureMgmtNodes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Billable\\ resources\"][name=\"postureMgmtNodes\"]",
+      "selector_unique": true,
+      "signature": "input|number|postureMgmtNodes|Billable resources||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "postureMgmtHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "postureMgmtHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"postureMgmtHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|postureMgmtHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"serversPlan1Hours\"]",
+          "name": "serversPlan1Hours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"serversPlan2Hours\"]",
+          "name": "serversPlan2Hours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"containerHours\"]",
+          "name": "containerHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"appServiceHours\"]",
+          "name": "appServiceHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"sqlDbOutsideHours\"]",
+          "name": "sqlDbOutsideHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"cosmosDbHours\"]",
+          "name": "cosmosDbHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"storageHours\"]",
+          "name": "storageHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "postureMgmtHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "postureMgmtHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"postureMgmtHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||postureMgmtHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"serversPlan1HoursFactor\"]",
+          "name": "serversPlan1HoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"serversPlan2HoursFactor\"]",
+          "name": "serversPlan2HoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"containerHoursFactor\"]",
+          "name": "containerHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"appServiceHoursFactor\"]",
+          "name": "appServiceHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"sqlDbOutsideHoursFactor\"]",
+          "name": "sqlDbOutsideHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"cosmosDbHoursFactor\"]",
+          "name": "cosmosDbHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "planType",
+            "value": "workloadprotection",
+            "text": "Cloud Workload Protection"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"storageHoursFactor\"]",
+          "name": "storageHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Servers",
+      "clean_name": "serversPlan1Nodes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Servers",
+      "name": "serversPlan1Nodes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Servers\"][name=\"serversPlan1Nodes\"]",
+      "selector_unique": true,
+      "signature": "input|number|serversPlan1Nodes|Servers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Servers",
+      "clean_name": "serversPlan2Nodes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Servers",
+      "name": "serversPlan2Nodes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Servers\"][name=\"serversPlan2Nodes\"]",
+      "selector_unique": true,
+      "signature": "input|number|serversPlan2Nodes|Servers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "vCores",
+      "clean_name": "containersVCores",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "vCores",
+      "name": "containersVCores",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"vCores\"][name=\"containersVCores\"]",
+      "selector_unique": true,
+      "signature": "input|number|containersVCores|vCores||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Images",
+      "clean_name": "containersImages",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Images",
+      "name": "containersImages",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Images\"][name=\"containersImages\"]",
+      "selector_unique": true,
+      "signature": "input|number|containersImages|Images||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Nodes",
+      "clean_name": "appServiceNodes",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Nodes",
+      "name": "appServiceNodes",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Nodes\"][name=\"appServiceNodes\"]",
+      "selector_unique": true,
+      "signature": "input|number|appServiceNodes|Nodes||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Servers",
+      "clean_name": "sqlDbServers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Servers",
+      "name": "sqlDbServers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Servers\"][name=\"sqlDbServers\"]",
+      "selector_unique": true,
+      "signature": "input|number|sqlDbServers|Servers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Total vCores",
+      "clean_name": "sqlDbOutsideServers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total vCores",
+      "name": "sqlDbOutsideServers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ vCores\"][name=\"sqlDbOutsideServers\"]",
+      "selector_unique": true,
+      "signature": "input|number|sqlDbOutsideServers|Total vCores||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "mySqlInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "mySqlInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"mySqlInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|mySqlInstances|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "postgresqlInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "postgresqlInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"postgresqlInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|postgresqlInstances|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "x100 RUs",
+      "clean_name": "cosmosDbInstances",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x100 RUs",
+      "name": "cosmosDbInstances",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x100\\ RUs\"][name=\"cosmosDbInstances\"]",
+      "selector_unique": true,
+      "signature": "input|number|cosmosDbInstances|x100 RUs||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Number of storage accounts",
+      "clean_name": "storageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of storage accounts",
+      "name": "storageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ storage\\ accounts\"][name=\"storageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageUnits|Number of storage accounts||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Total overage of transactions across each storage account (x millions)",
+      "clean_name": "overageUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total overage of transactions across each storage account (x millions)",
+      "name": "overageUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ overage\\ of\\ transactions\\ across\\ each\\ storage\\ account\\ \\(x\\ millions\\)\"][name=\"overageUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|overageUnits|Total overage of transactions across each storage account (x millions)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Storage scanned (GB)",
+      "clean_name": "malwareScanning",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Storage scanned (GB)",
+      "name": "malwareScanning",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Storage\\ scanned\\ \\(GB\\)\"][name=\"malwareScanning\"]",
+      "selector_unique": true,
+      "signature": "input|number|malwareScanning|Storage scanned (GB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 total tokens",
+      "clean_name": "aiTokens",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 total tokens",
+      "name": "aiTokens",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ total\\ tokens\"][name=\"aiTokens\"]",
+      "selector_unique": true,
+      "signature": "input|number|aiTokens|x 1,000 total tokens||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Estimated API monthly Transactions (in millions)",
+      "clean_name": "estimatedApi",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Estimated API monthly Transactions (in millions)",
+      "name": "estimatedApi",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Estimated\\ API\\ monthly\\ Transactions\\ \\(in\\ millions\\)\"][name=\"estimatedApi\"]",
+      "selector_unique": true,
+      "signature": "input|number|estimatedApi|Estimated API monthly Transactions (in millions)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Plan",
+      "clean_name": "defenderPlan",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Plan",
+      "name": "defenderPlan",
+      "options": [
+        {
+          "group": null,
+          "text": "Plan 1, Entitlement Limit: 1 Million API Calls",
+          "value": "p1"
+        },
+        {
+          "group": null,
+          "text": "Plan 2, Entitlement Limit: 5 Million API Calls",
+          "value": "p2"
+        },
+        {
+          "group": null,
+          "text": "Plan 3, Entitlement Limit: 50 Million API Calls",
+          "value": "p3"
+        },
+        {
+          "group": null,
+          "text": "Plan 4, Entitlement Limit: 100 Million API Calls",
+          "value": "p4"
+        },
+        {
+          "group": null,
+          "text": "Plan 5, Entitlement Limit: 1 Billion API Calls",
+          "value": "p5"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Plan\"][name=\"defenderPlan\"]",
+      "selector_unique": true,
+      "signature": "select||defenderPlan|Plan||||",
+      "tag": "select",
+      "type": null,
+      "value": "p1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Vaults",
+      "clean_name": "keyVaults",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Vaults",
+      "name": "keyVaults",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Vaults\"][name=\"keyVaults\"]",
+      "selector_unique": true,
+      "signature": "input|number|keyVaults|Vaults||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Subscriptions",
+      "clean_name": "azureResourceManager",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Subscriptions",
+      "name": "azureResourceManager",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Subscriptions\"][name=\"azureResourceManager\"]",
+      "selector_unique": true,
+      "signature": "input|number|azureResourceManager|Subscriptions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "planType",
+          "value": "workloadprotection",
+          "text": "Cloud Workload Protection"
+        }
+      ],
+      "depends_on": [
+        "planType"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "postureMgmtHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "postureMgmtHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"postureMgmtHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|postureMgmtHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "postureMgmtHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "postureMgmtHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "postureMgmtHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "postureMgmtHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"postureMgmtHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||postureMgmtHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "postureMgmtHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "postureMgmtHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

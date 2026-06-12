@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "product": "Managed Applications",
+  "slug": "managed-applications",
+  "picker_testid": "managed-applications-picker-item",
+  "module_testid": "managed-applications-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:30:02.694873+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Managed Applications",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Managed Applications|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

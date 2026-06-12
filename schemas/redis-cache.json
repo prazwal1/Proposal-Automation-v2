@@ -1,0 +1,1240 @@
+{
+  "schema_version": 2,
+  "product": "Redis Cache",
+  "slug": "redis-cache",
+  "picker_testid": "redis-cache-picker-item",
+  "module_testid": "redis-cache-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:54:48.396768+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Cache for Redis",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Cache for Redis|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-west",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Basic",
+          "value": "basic"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Premium",
+          "value": "premium"
+        },
+        {
+          "group": null,
+          "text": "Enterprise",
+          "value": "enterprise"
+        },
+        {
+          "group": null,
+          "text": "Enterprise Flash",
+          "value": "enterprise-flash"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "basic",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "size",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "size",
+      "options": [
+        {
+          "group": null,
+          "text": "C0: 250 MB cache, $0.022/hour",
+          "value": "c0"
+        },
+        {
+          "group": null,
+          "text": "C1: 1,024 MB cache, $0.055/hour",
+          "value": "c1"
+        },
+        {
+          "group": null,
+          "text": "C2: 2,560 MB cache, $0.090/hour",
+          "value": "c2"
+        },
+        {
+          "group": null,
+          "text": "C3: 6,144 MB cache, $0.180/hour",
+          "value": "c3"
+        },
+        {
+          "group": null,
+          "text": "C4: 13,312 MB cache, $0.210/hour",
+          "value": "c4"
+        },
+        {
+          "group": null,
+          "text": "C5: 26,624 MB cache, $0.420/hour",
+          "value": "c5"
+        },
+        {
+          "group": null,
+          "text": "C6: 54,272 MB cache, $0.840/hour",
+          "value": "c6"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"size\"]",
+      "selector_unique": true,
+      "signature": "select||size|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "c0",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "standard",
+            "text": "Standard"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "C0: 250 MB cache, $0.055/hour",
+              "value": "c0"
+            },
+            {
+              "group": null,
+              "text": "C1: 1,024 MB cache, $0.138/hour",
+              "value": "c1"
+            },
+            {
+              "group": null,
+              "text": "C2: 2,560 MB cache, $0.224/hour",
+              "value": "c2"
+            },
+            {
+              "group": null,
+              "text": "C3: 6,144 MB cache, $0.450/hour",
+              "value": "c3"
+            },
+            {
+              "group": null,
+              "text": "C4: 13,312 MB cache, $0.524/hour",
+              "value": "c4"
+            },
+            {
+              "group": null,
+              "text": "C5: 26,624 MB cache, $1.050/hour",
+              "value": "c5"
+            },
+            {
+              "group": null,
+              "text": "C6: 54,272 MB cache, $2.100/hour",
+              "value": "c6"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "P1: 6,144 MB cache, $0.554/hour",
+              "value": "p1"
+            },
+            {
+              "group": null,
+              "text": "P2: 13,312 MB cache, $1.110/hour",
+              "value": "p2"
+            },
+            {
+              "group": null,
+              "text": "P3: 26,624 MB cache, $2.218/hour",
+              "value": "p3"
+            },
+            {
+              "group": null,
+              "text": "P4: 54,272 MB cache, $4.440/hour",
+              "value": "p4"
+            },
+            {
+              "group": null,
+              "text": "P5: 122,880 MB cache, $10.040/hour",
+              "value": "p5"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise",
+            "text": "Enterprise"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "E1: 1,024 MB cache, $0.080/hour",
+              "value": "e1"
+            },
+            {
+              "group": null,
+              "text": "E5: 4,096 MB cache, $0.626/hour",
+              "value": "e5"
+            },
+            {
+              "group": null,
+              "text": "E10: 12,288 MB cache, $0.962/hour",
+              "value": "e10"
+            },
+            {
+              "group": null,
+              "text": "E20: 25,600 MB cache, $1.919/hour",
+              "value": "e20"
+            },
+            {
+              "group": null,
+              "text": "E50: 51,200 MB cache, $3.770/hour",
+              "value": "e50"
+            },
+            {
+              "group": null,
+              "text": "E100: 102,400 MB cache, $9.800/hour",
+              "value": "e100"
+            },
+            {
+              "group": null,
+              "text": "E200: 204,800 MB cache, $19.598/hour",
+              "value": "e200"
+            },
+            {
+              "group": null,
+              "text": "E400: 409,600 MB cache, $39.198/hour",
+              "value": "e400"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise-flash",
+            "text": "Enterprise Flash"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "F300: 393,216 MB cache, $6.017/hour",
+              "value": "f300"
+            },
+            {
+              "group": null,
+              "text": "F700: 732,160 MB cache, $12.034/hour",
+              "value": "f700"
+            },
+            {
+              "group": null,
+              "text": "F1500: 1,489,920 MB cache, $24.069/hour",
+              "value": "f1500"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "count",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "count",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"count\"]",
+      "selector_unique": true,
+      "signature": "input|number|count|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise-flash",
+          "text": "Enterprise Flash"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise",
+            "text": "Enterprise"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"enterpriseHours\"]",
+          "name": "enterpriseHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise-flash",
+            "text": "Enterprise Flash"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"enterpriseFlashHours\"]",
+          "name": "enterpriseFlashHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise",
+            "text": "Enterprise"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"enterpriseHoursFactor\"]",
+          "name": "enterpriseHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise-flash",
+            "text": "Enterprise Flash"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"enterpriseFlashHoursFactor\"]",
+          "name": "enterpriseFlashHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "shards",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Shardper Instance",
+      "name": "shards",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[name=\"shards\"][type=\"number\"]",
+      "selector_unique": true,
+      "signature": "input|number|shards|||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "replicas",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "AdditionalReplicasper Shard",
+      "name": "replicas",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[name=\"replicas\"][type=\"number\"]",
+      "selector_unique": true,
+      "signature": "input|number|replicas|||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "count",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "count",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instance\"][name=\"count\"]",
+      "selector_unique": true,
+      "signature": "input|number|count|Instance||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise",
+            "text": "Enterprise"
+          },
+          "selector": "input[name=\"enterpriseCount\"][type=\"number\"]",
+          "name": "enterpriseCount",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise-flash",
+            "text": "Enterprise Flash"
+          },
+          "selector": "input[name=\"enterpriseFlashCount\"][type=\"number\"]",
+          "name": "enterpriseFlashCount",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-payg-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-billingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise-flash",
+          "text": "Enterprise Flash"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-one-year-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-billingOption",
+      "label": "1 year reserved (~36% savings)",
+      "name": "radioButton-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise-flash",
+          "text": "Enterprise Flash"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "billingOption",
+      "control": "radio",
+      "data_name_override": "billingOption",
+      "data_testid": null,
+      "id": "radio-three-year-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-billingOption",
+      "label": "3 year reserved (~55% savings)",
+      "name": "radioButton-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-billingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"billingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|billingOption||billingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise-flash",
+          "text": "Enterprise Flash"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Scale Factor",
+      "clean_name": "enterpriseScaleFactors",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Scale Factor",
+      "name": "enterpriseScaleFactors",
+      "options": [
+        {
+          "group": null,
+          "text": "x1 (Capacity 2)",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "x2 (Capacity 4)",
+          "value": "2"
+        },
+        {
+          "group": null,
+          "text": "x3 (Capacity 6)",
+          "value": "3"
+        },
+        {
+          "group": null,
+          "text": "x4 (Capacity 8)",
+          "value": "4"
+        },
+        {
+          "group": null,
+          "text": "x5 (Capacity 10)",
+          "value": "5"
+        },
+        {
+          "group": null,
+          "text": "x6 (Capacity 12)",
+          "value": "6"
+        },
+        {
+          "group": null,
+          "text": "x7 (Capacity 14)",
+          "value": "7"
+        },
+        {
+          "group": null,
+          "text": "x8 (Capacity 16)",
+          "value": "8"
+        },
+        {
+          "group": null,
+          "text": "x9 (Capacity 18)",
+          "value": "9"
+        },
+        {
+          "group": null,
+          "text": "x10 (Capacity 20)",
+          "value": "10"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Scale\\ Factor\"][name=\"enterpriseScaleFactors\"]",
+      "selector_unique": true,
+      "signature": "select||enterpriseScaleFactors|Scale Factor||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "enterprise",
+          "text": "Enterprise"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "enterprise-flash",
+            "text": "Enterprise Flash"
+          },
+          "selector": "select[aria-label=\"Scale\\ Factor\"][name=\"enterpriseFlashScaleFactors\"]",
+          "name": "enterpriseFlashScaleFactors",
+          "options": [
+            {
+              "group": null,
+              "text": "x1 (Capacity 3)",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "x3 (Capacity 9)",
+              "value": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "softwareBillingOption",
+      "control": "radio",
+      "data_name_override": "softwareBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-softwareBillingOption",
+      "label": "License included",
+      "name": "radioButton-50f0fd1a-67a2-4951-8b3a-ca6f789fa1ea-softwareBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"softwareBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|softwareBillingOption||softwareBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "enterprise",
+          "text": "Enterprise"
+        },
+        {
+          "field": "tier",
+          "value": "enterprise-flash",
+          "text": "Enterprise Flash"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

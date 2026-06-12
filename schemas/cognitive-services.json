@@ -1,0 +1,2256 @@
+{
+  "schema_version": 2,
+  "product": "Cognitive Services",
+  "slug": "cognitive-services",
+  "picker_testid": "cognitive-services-picker-item",
+  "module_testid": "cognitive-services-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:20:19.021387+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Foundry Tools",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Foundry Tools|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "API",
+      "clean_name": "api",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "API",
+      "name": "api",
+      "options": [
+        {
+          "group": null,
+          "text": "Azure AI Custom Vision",
+          "value": "custom-vision-service"
+        },
+        {
+          "group": null,
+          "text": "Azure AI Immersive Reader",
+          "value": "immersive-reader"
+        },
+        {
+          "group": null,
+          "text": "Azure Language in Foundry Tools",
+          "value": "language-service"
+        },
+        {
+          "group": null,
+          "text": "Azure Speech in Foundry Tools",
+          "value": "speech-services"
+        },
+        {
+          "group": null,
+          "text": "Azure Translator in Foundry Tools",
+          "value": "translator-text-api"
+        },
+        {
+          "group": null,
+          "text": "Azure Vision in Foundry Tools",
+          "value": "computer-vision"
+        },
+        {
+          "group": null,
+          "text": "Content Safety in Foundry Control Plane",
+          "value": "content-safety"
+        },
+        {
+          "group": null,
+          "text": "Face API",
+          "value": "face-api"
+        },
+        {
+          "group": null,
+          "text": "QnA Maker",
+          "value": "cognitive-services\\qna-maker"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"API\"][name=\"api\"]",
+      "selector_unique": true,
+      "signature": "select||api|API||||",
+      "tag": "select",
+      "type": null,
+      "value": "language-service",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "api",
+            "value": "custom-vision-service",
+            "text": "Azure AI Custom Vision"
+          },
+          "options": [
+            {
+              "group": "United States",
+              "text": "Central US",
+              "value": "us-central"
+            },
+            {
+              "group": "United States",
+              "text": "East US",
+              "value": "us-east"
+            },
+            {
+              "group": "United States",
+              "text": "East US 2",
+              "value": "us-east-2"
+            },
+            {
+              "group": "United States",
+              "text": "North Central US",
+              "value": "us-north-central"
+            },
+            {
+              "group": "United States",
+              "text": "South Central US",
+              "value": "us-south-central"
+            },
+            {
+              "group": "United States",
+              "text": "West Central US",
+              "value": "us-west-central"
+            },
+            {
+              "group": "United States",
+              "text": "West US",
+              "value": "us-west"
+            },
+            {
+              "group": "United States",
+              "text": "West US 2",
+              "value": "us-west-2"
+            },
+            {
+              "group": "United States",
+              "text": "West US 3",
+              "value": "us-west-3"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK South",
+              "value": "united-kingdom-south"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK West",
+              "value": "united-kingdom-west"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland North",
+              "value": "switzerland-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland West",
+              "value": "switzerland-west"
+            },
+            {
+              "group": "Sweden",
+              "text": "Sweden Central",
+              "value": "sweden-central"
+            },
+            {
+              "group": "Qatar",
+              "text": "Qatar Central",
+              "value": "qatar-central"
+            },
+            {
+              "group": "Poland",
+              "text": "Poland Central",
+              "value": "poland-central"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea Central",
+              "value": "korea-central"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan East",
+              "value": "japan-east"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan West",
+              "value": "japan-west"
+            },
+            {
+              "group": "Italy",
+              "text": "Italy North",
+              "value": "italy-north"
+            },
+            {
+              "group": "India",
+              "text": "Central India",
+              "value": "central-india"
+            },
+            {
+              "group": "India",
+              "text": "South India",
+              "value": "south-india"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany West Central",
+              "value": "germany-west-central"
+            },
+            {
+              "group": "France",
+              "text": "France Central",
+              "value": "france-central"
+            },
+            {
+              "group": "Europe",
+              "text": "North Europe",
+              "value": "europe-north"
+            },
+            {
+              "group": "Europe",
+              "text": "West Europe",
+              "value": "europe-west"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada Central",
+              "value": "canada-central"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil South",
+              "value": "brazil-south"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil Southeast",
+              "value": "brazil-southeast"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Arizona",
+              "value": "usgov-arizona"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Texas",
+              "value": "usgov-texas"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Virginia",
+              "value": "usgov-virginia"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia East",
+              "value": "australia-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "East Asia",
+              "value": "asia-pacific-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "Southeast Asia",
+              "value": "asia-pacific-southeast"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "immersive-reader",
+            "text": "Azure AI Immersive Reader"
+          },
+          "options": [
+            {
+              "group": "United States",
+              "text": "Central US",
+              "value": "us-central"
+            },
+            {
+              "group": "United States",
+              "text": "East US",
+              "value": "us-east"
+            },
+            {
+              "group": "United States",
+              "text": "North Central US",
+              "value": "us-north-central"
+            },
+            {
+              "group": "United States",
+              "text": "West US",
+              "value": "us-west"
+            },
+            {
+              "group": "United Arab Emirates",
+              "text": "UAE North",
+              "value": "uae-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland North",
+              "value": "switzerland-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland West",
+              "value": "switzerland-west"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea Central",
+              "value": "korea-central"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan East",
+              "value": "japan-east"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan West",
+              "value": "japan-west"
+            },
+            {
+              "group": "India",
+              "text": "Central India",
+              "value": "central-india"
+            },
+            {
+              "group": "France",
+              "text": "France Central",
+              "value": "france-central"
+            },
+            {
+              "group": "Europe",
+              "text": "North Europe",
+              "value": "europe-north"
+            },
+            {
+              "group": "Europe",
+              "text": "West Europe",
+              "value": "europe-west"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada Central",
+              "value": "canada-central"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil South",
+              "value": "brazil-south"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Virginia",
+              "value": "usgov-virginia"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia East",
+              "value": "australia-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "East Asia",
+              "value": "asia-pacific-east"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "computer-vision",
+            "text": "Azure Vision in Foundry Tools"
+          },
+          "options": [
+            {
+              "group": "United States",
+              "text": "Central US",
+              "value": "us-central"
+            },
+            {
+              "group": "United States",
+              "text": "East US",
+              "value": "us-east"
+            },
+            {
+              "group": "United States",
+              "text": "East US 2",
+              "value": "us-east-2"
+            },
+            {
+              "group": "United States",
+              "text": "North Central US",
+              "value": "us-north-central"
+            },
+            {
+              "group": "United States",
+              "text": "South Central US",
+              "value": "us-south-central"
+            },
+            {
+              "group": "United States",
+              "text": "West Central US",
+              "value": "us-west-central"
+            },
+            {
+              "group": "United States",
+              "text": "West US",
+              "value": "us-west"
+            },
+            {
+              "group": "United States",
+              "text": "West US 2",
+              "value": "us-west-2"
+            },
+            {
+              "group": "United States",
+              "text": "West US 3",
+              "value": "us-west-3"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK South",
+              "value": "united-kingdom-south"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK West",
+              "value": "united-kingdom-west"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland North",
+              "value": "switzerland-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland West",
+              "value": "switzerland-west"
+            },
+            {
+              "group": "Sweden",
+              "text": "Sweden Central",
+              "value": "sweden-central"
+            },
+            {
+              "group": "Qatar",
+              "text": "Qatar Central",
+              "value": "qatar-central"
+            },
+            {
+              "group": "Poland",
+              "text": "Poland Central",
+              "value": "poland-central"
+            },
+            {
+              "group": "Mexico",
+              "text": "Mexico Central",
+              "value": "mexico-central"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea Central",
+              "value": "korea-central"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan East",
+              "value": "japan-east"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan West",
+              "value": "japan-west"
+            },
+            {
+              "group": "Italy",
+              "text": "Italy North",
+              "value": "italy-north"
+            },
+            {
+              "group": "India",
+              "text": "Central India",
+              "value": "central-india"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany West Central",
+              "value": "germany-west-central"
+            },
+            {
+              "group": "France",
+              "text": "France Central",
+              "value": "france-central"
+            },
+            {
+              "group": "Europe",
+              "text": "North Europe",
+              "value": "europe-north"
+            },
+            {
+              "group": "Europe",
+              "text": "West Europe",
+              "value": "europe-west"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada Central",
+              "value": "canada-central"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil South",
+              "value": "brazil-south"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Arizona",
+              "value": "usgov-arizona"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Texas",
+              "value": "usgov-texas"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Virginia",
+              "value": "usgov-virginia"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia East",
+              "value": "australia-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "East Asia",
+              "value": "asia-pacific-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "Southeast Asia",
+              "value": "asia-pacific-southeast"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "content-safety",
+            "text": "Content Safety in Foundry Control Plane"
+          },
+          "options": [
+            {
+              "group": "United States",
+              "text": "Central US",
+              "value": "us-central"
+            },
+            {
+              "group": "United States",
+              "text": "East US",
+              "value": "us-east"
+            },
+            {
+              "group": "United States",
+              "text": "East US 2",
+              "value": "us-east-2"
+            },
+            {
+              "group": "United States",
+              "text": "North Central US",
+              "value": "us-north-central"
+            },
+            {
+              "group": "United States",
+              "text": "South Central US",
+              "value": "us-south-central"
+            },
+            {
+              "group": "United States",
+              "text": "West Central US",
+              "value": "us-west-central"
+            },
+            {
+              "group": "United States",
+              "text": "West US",
+              "value": "us-west"
+            },
+            {
+              "group": "United States",
+              "text": "West US 2",
+              "value": "us-west-2"
+            },
+            {
+              "group": "United States",
+              "text": "West US 3",
+              "value": "us-west-3"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK South",
+              "value": "united-kingdom-south"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK West",
+              "value": "united-kingdom-west"
+            },
+            {
+              "group": "United Arab Emirates",
+              "text": "UAE Central",
+              "value": "uae-central"
+            },
+            {
+              "group": "United Arab Emirates",
+              "text": "UAE North",
+              "value": "uae-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland North",
+              "value": "switzerland-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland West",
+              "value": "switzerland-west"
+            },
+            {
+              "group": "Sweden",
+              "text": "Sweden Central",
+              "value": "sweden-central"
+            },
+            {
+              "group": "Sweden",
+              "text": "Sweden South",
+              "value": "sweden-south"
+            },
+            {
+              "group": "Spain",
+              "text": "Spain Central",
+              "value": "spain-central"
+            },
+            {
+              "group": "Qatar",
+              "text": "Qatar Central",
+              "value": "qatar-central"
+            },
+            {
+              "group": "Poland",
+              "text": "Poland Central",
+              "value": "poland-central"
+            },
+            {
+              "group": "Norway",
+              "text": "Norway East",
+              "value": "norway-east"
+            },
+            {
+              "group": "Norway",
+              "text": "Norway West",
+              "value": "norway-west"
+            },
+            {
+              "group": "New Zealand",
+              "text": "New Zealand North",
+              "value": "new-zealand-north"
+            },
+            {
+              "group": "Mexico",
+              "text": "Mexico Central",
+              "value": "mexico-central"
+            },
+            {
+              "group": "Malaysia",
+              "text": "Malaysia West",
+              "value": "malaysia-west"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea Central",
+              "value": "korea-central"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea South",
+              "value": "korea-south"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan East",
+              "value": "japan-east"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan West",
+              "value": "japan-west"
+            },
+            {
+              "group": "Italy",
+              "text": "Italy North",
+              "value": "italy-north"
+            },
+            {
+              "group": "Israel",
+              "text": "Israel Central",
+              "value": "israel-central"
+            },
+            {
+              "group": "Indonesia",
+              "text": "Indonesia Central",
+              "value": "indonesia-central"
+            },
+            {
+              "group": "India",
+              "text": "Central India",
+              "value": "central-india"
+            },
+            {
+              "group": "India",
+              "text": "South India",
+              "value": "south-india"
+            },
+            {
+              "group": "India",
+              "text": "West India",
+              "value": "west-india"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany North",
+              "value": "germany-north"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany West Central",
+              "value": "germany-west-central"
+            },
+            {
+              "group": "France",
+              "text": "France Central",
+              "value": "france-central"
+            },
+            {
+              "group": "France",
+              "text": "France South",
+              "value": "france-south"
+            },
+            {
+              "group": "Europe",
+              "text": "North Europe",
+              "value": "europe-north"
+            },
+            {
+              "group": "Europe",
+              "text": "West Europe",
+              "value": "europe-west"
+            },
+            {
+              "group": "Denmark",
+              "text": "Denmark East",
+              "value": "denmark-east"
+            },
+            {
+              "group": "Chile",
+              "text": "Chile Central",
+              "value": "chile-central"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada Central",
+              "value": "canada-central"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada East",
+              "value": "canada-east"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil South",
+              "value": "brazil-south"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil Southeast",
+              "value": "brazil-southeast"
+            },
+            {
+              "group": "Belgium",
+              "text": "Belgium Central",
+              "value": "belgium-central"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Arizona",
+              "value": "usgov-arizona"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Virginia",
+              "value": "usgov-virginia"
+            },
+            {
+              "group": "Austria",
+              "text": "Austria East",
+              "value": "austria-east"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia Central",
+              "value": "australia-central"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia Central 2",
+              "value": "australia-central-2"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia East",
+              "value": "australia-east"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia Southeast",
+              "value": "australia-southeast"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "East Asia",
+              "value": "asia-pacific-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "Southeast Asia",
+              "value": "asia-pacific-southeast"
+            },
+            {
+              "group": "Africa",
+              "text": "South Africa North",
+              "value": "south-africa-north"
+            },
+            {
+              "group": "Africa",
+              "text": "South Africa West",
+              "value": "south-africa-west"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "face-api",
+            "text": "Face API"
+          },
+          "options": [
+            {
+              "group": "United States",
+              "text": "Central US",
+              "value": "us-central"
+            },
+            {
+              "group": "United States",
+              "text": "East US",
+              "value": "us-east"
+            },
+            {
+              "group": "United States",
+              "text": "East US 2",
+              "value": "us-east-2"
+            },
+            {
+              "group": "United States",
+              "text": "North Central US",
+              "value": "us-north-central"
+            },
+            {
+              "group": "United States",
+              "text": "South Central US",
+              "value": "us-south-central"
+            },
+            {
+              "group": "United States",
+              "text": "West Central US",
+              "value": "us-west-central"
+            },
+            {
+              "group": "United States",
+              "text": "West US",
+              "value": "us-west"
+            },
+            {
+              "group": "United States",
+              "text": "West US 2",
+              "value": "us-west-2"
+            },
+            {
+              "group": "United States",
+              "text": "West US 3",
+              "value": "us-west-3"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK South",
+              "value": "united-kingdom-south"
+            },
+            {
+              "group": "United Kingdom",
+              "text": "UK West",
+              "value": "united-kingdom-west"
+            },
+            {
+              "group": "United Arab Emirates",
+              "text": "UAE North",
+              "value": "uae-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland North",
+              "value": "switzerland-north"
+            },
+            {
+              "group": "Switzerland",
+              "text": "Switzerland West",
+              "value": "switzerland-west"
+            },
+            {
+              "group": "Sweden",
+              "text": "Sweden Central",
+              "value": "sweden-central"
+            },
+            {
+              "group": "Qatar",
+              "text": "Qatar Central",
+              "value": "qatar-central"
+            },
+            {
+              "group": "Norway",
+              "text": "Norway East",
+              "value": "norway-east"
+            },
+            {
+              "group": "Korea",
+              "text": "Korea Central",
+              "value": "korea-central"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan East",
+              "value": "japan-east"
+            },
+            {
+              "group": "Japan",
+              "text": "Japan West",
+              "value": "japan-west"
+            },
+            {
+              "group": "Italy",
+              "text": "Italy North",
+              "value": "italy-north"
+            },
+            {
+              "group": "India",
+              "text": "Central India",
+              "value": "central-india"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany North",
+              "value": "germany-north"
+            },
+            {
+              "group": "Germany",
+              "text": "Germany West Central",
+              "value": "germany-west-central"
+            },
+            {
+              "group": "France",
+              "text": "France Central",
+              "value": "france-central"
+            },
+            {
+              "group": "Europe",
+              "text": "North Europe",
+              "value": "europe-north"
+            },
+            {
+              "group": "Europe",
+              "text": "West Europe",
+              "value": "europe-west"
+            },
+            {
+              "group": "Canada",
+              "text": "Canada Central",
+              "value": "canada-central"
+            },
+            {
+              "group": "Brazil",
+              "text": "Brazil South",
+              "value": "brazil-south"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Arizona",
+              "value": "usgov-arizona"
+            },
+            {
+              "group": "Azure Government",
+              "text": "US Gov Virginia",
+              "value": "usgov-virginia"
+            },
+            {
+              "group": "Australia",
+              "text": "Australia East",
+              "value": "australia-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "East Asia",
+              "value": "asia-pacific-east"
+            },
+            {
+              "group": "Asia Pacific",
+              "text": "Southeast Asia",
+              "value": "asia-pacific-southeast"
+            },
+            {
+              "group": "Africa",
+              "text": "South Africa North",
+              "value": "south-africa-north"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Payment Option",
+      "clean_name": "languageServiceType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Payment Option",
+      "name": "languageServiceType",
+      "options": [
+        {
+          "group": null,
+          "text": "Pay as you go",
+          "value": "payg"
+        },
+        {
+          "group": null,
+          "text": "Commitment tiers",
+          "value": "commitmenttier"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Payment\\ Option\"][name=\"languageServiceType\"]",
+      "selector_unique": true,
+      "signature": "select||languageServiceType|Payment Option||||",
+      "tag": "select",
+      "type": null,
+      "value": "payg",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "api",
+          "value": "custom-vision-service",
+          "text": "Azure AI Custom Vision"
+        },
+        {
+          "field": "api",
+          "value": "immersive-reader",
+          "text": "Azure AI Immersive Reader"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "api",
+            "value": "speech-services",
+            "text": "Azure Speech in Foundry Tools"
+          },
+          "selector": "select[aria-label=\"Payment\\ Option\"][name=\"speechServicePaymentOption\"]",
+          "name": "speechServicePaymentOption",
+          "options": [
+            {
+              "group": null,
+              "text": "Pay as you go",
+              "value": "payg"
+            },
+            {
+              "group": null,
+              "text": "Commitment tiers",
+              "value": "commitmenttier"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "translator-text-api",
+            "text": "Azure Translator in Foundry Tools"
+          },
+          "selector": "select[aria-label=\"Payment\\ Option\"][name=\"translatorTextPaymentOption\"]",
+          "name": "translatorTextPaymentOption",
+          "options": [
+            {
+              "group": null,
+              "text": "Pay as you go",
+              "value": "payg"
+            },
+            {
+              "group": null,
+              "text": "Volume discount",
+              "value": "volumediscount"
+            },
+            {
+              "group": null,
+              "text": "Commitment tiers",
+              "value": "commitmenttier"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "computer-vision",
+            "text": "Azure Vision in Foundry Tools"
+          },
+          "selector": "select[aria-label=\"Payment\\ Option\"][name=\"computerVisionPaymentOption\"]",
+          "name": "computerVisionPaymentOption",
+          "options": [
+            {
+              "group": null,
+              "text": "Pay as you go",
+              "value": "payg"
+            },
+            {
+              "group": null,
+              "text": "Commitment tiers",
+              "value": "commitmenttier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "languageServiceSize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "languageServiceSize",
+      "options": [
+        {
+          "group": null,
+          "text": "Free: $0.00/month",
+          "value": "free"
+        },
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"languageServiceSize\"]",
+      "selector_unique": true,
+      "signature": "select||languageServiceSize|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "free",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "api",
+            "value": "custom-vision-service",
+            "text": "Azure AI Custom Vision"
+          },
+          "selector": "select[aria-label=\"Instance\"][name=\"customVisionTier\"]",
+          "name": "customVisionTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Free",
+              "value": "free"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "speech-services",
+            "text": "Azure Speech in Foundry Tools"
+          },
+          "selector": "select[aria-label=\"Instance\"][name=\"speechServiceTier\"]",
+          "name": "speechServiceTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Free",
+              "value": "free"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "translator-text-api",
+            "text": "Azure Translator in Foundry Tools"
+          },
+          "selector": "select[aria-label=\"Instance\"][name=\"translatorTextTier\"]",
+          "name": "translatorTextTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Free",
+              "value": "free"
+            },
+            {
+              "group": null,
+              "text": "S1",
+              "value": "s1"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "content-safety",
+            "text": "Content Safety in Foundry Control Plane"
+          },
+          "selector": "select[aria-label=\"Instance\"][name=\"contentSafetyTier\"]",
+          "name": "contentSafetyTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Free",
+              "value": "free"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "api",
+            "value": "face-api",
+            "text": "Face API"
+          },
+          "selector": "select[aria-label=\"Instance\"][name=\"faceTier\"]",
+          "name": "faceTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Free",
+              "value": "free"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "api",
+        "languageServiceType"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "languageServiceType",
+            "value": "commitmenttier",
+            "text": "Commitment tiers"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Azure standard",
+              "value": "azurestandard"
+            },
+            {
+              "group": null,
+              "text": "Connected container",
+              "value": "connectedcontainer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "immersiveReaderTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "immersiveReaderTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Education/Nonprofit",
+          "value": "education"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"immersiveReaderTier\"]",
+      "selector_unique": true,
+      "signature": "select||immersiveReaderTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "immersive-reader",
+          "text": "Azure AI Immersive Reader"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "api",
+            "value": "computer-vision",
+            "text": "Azure Vision in Foundry Tools"
+          },
+          "selector": "select[aria-label=\"Tier\"][name=\"computerVisionTier\"]",
+          "name": "computerVisionTier",
+          "options": [
+            {
+              "group": null,
+              "text": "Free",
+              "value": "free"
+            },
+            {
+              "group": null,
+              "text": "Standard",
+              "value": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "x1 million characters",
+      "clean_name": "immersiveReaderUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1 million characters",
+      "name": "immersiveReaderUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\ million\\ characters\"][name=\"immersiveReaderUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|immersiveReaderUnits|x1 million characters||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "immersive-reader",
+          "text": "Azure AI Immersive Reader"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "x1,000 transactions per month",
+      "clean_name": "faceTransactions",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 transactions per month",
+      "name": "faceTransactions",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ transactions\\ per\\ month\"][name=\"faceTransactions\"]",
+      "selector_unique": true,
+      "signature": "input|number|faceTransactions|x1,000 transactions per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "face-api",
+          "text": "Face API"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "x1,000 faces stored",
+      "clean_name": "faceStorage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 faces stored",
+      "name": "faceStorage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ faces\\ stored\"][name=\"faceStorage\"]",
+      "selector_unique": true,
+      "signature": "input|number|faceStorage|x1,000 faces stored||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "face-api",
+          "text": "Face API"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Number of retrains",
+      "clean_name": "numberOfRetrains",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Number of retrains",
+      "name": "numberOfRetrains",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Number\\ of\\ retrains\"][name=\"numberOfRetrains\"]",
+      "selector_unique": true,
+      "signature": "input|number|numberOfRetrains|Number of retrains||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "face-api",
+          "text": "Face API"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "x1,000 transactions",
+      "clean_name": "faceLiveliness",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 transactions",
+      "name": "faceLiveliness",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ transactions\"][name=\"faceLiveliness\"]",
+      "selector_unique": true,
+      "signature": "input|number|faceLiveliness|x1,000 transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "face-api",
+          "text": "Face API"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "x1,000 transactions",
+      "clean_name": "faceLivelinessVerification",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1,000 transactions",
+      "name": "faceLivelinessVerification",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\,000\\ transactions\"][name=\"faceLivelinessVerification\"]",
+      "selector_unique": true,
+      "signature": "input|number|faceLivelinessVerification|x1,000 transactions||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "api",
+          "value": "face-api",
+          "text": "Face API"
+        }
+      ],
+      "depends_on": [
+        "api"
+      ]
+    },
+    {
+      "aria_label": "Commitment tier",
+      "clean_name": "languageServiceAzureStandardCommitmentTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Commitment tier",
+      "name": "languageServiceAzureStandardCommitmentTier",
+      "options": [
+        {
+          "group": null,
+          "text": "- Select a tier -",
+          "value": "selectatier"
+        },
+        {
+          "group": null,
+          "text": "Commitment tier $700 per 1 million text records",
+          "value": "1m"
+        },
+        {
+          "group": null,
+          "text": "Commitment tier $1,375 per 3 million text records",
+          "value": "3m"
+        },
+        {
+          "group": null,
+          "text": "Commitment tier $3,500 per 10 million text records",
+          "value": "10m"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Commitment\\ tier\"][name=\"languageServiceAzureStandardCommitmentTier\"]",
+      "selector_unique": true,
+      "signature": "select||languageServiceAzureStandardCommitmentTier|Commitment tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "selectatier",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceType",
+          "value": "commitmenttier",
+          "text": "Commitment tiers"
+        }
+      ],
+      "depends_on": [
+        "languageServiceType"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 text records per month",
+      "clean_name": "languageServiceAzureStandardTextRecordsOverage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 text records per month",
+      "name": "languageServiceAzureStandardTextRecordsOverage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\\ per\\ month\"][name=\"languageServiceAzureStandardTextRecordsOverage\"]",
+      "selector_unique": true,
+      "signature": "input|number|languageServiceAzureStandardTextRecordsOverage|x 1,000 text records per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceType",
+          "value": "commitmenttier",
+          "text": "Commitment tiers"
+        }
+      ],
+      "depends_on": [
+        "languageServiceType",
+        "languageServiceSize"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "languageServiceSize",
+            "value": "standard",
+            "text": "Standard"
+          },
+          "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\\ per\\ month\"][name=\"languageServiceTextRecords\"]",
+          "name": "languageServiceTextRecords",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "languageServiceSize",
+            "value": "standard",
+            "text": "Standard"
+          },
+          "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\\ per\\ month\"][name=\"summarization\"]",
+          "name": "summarization",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "languageServiceSize",
+            "value": "standard",
+            "text": "Standard"
+          },
+          "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\\ per\\ month\"][name=\"languageServiceTextRecordsForHealth\"]",
+          "name": "languageServiceTextRecordsForHealth",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "languageServiceSize",
+            "value": "standard",
+            "text": "Standard"
+          },
+          "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\\ per\\ month\"][name=\"languageServiceCustomAndPrebuiltQuestionAnswering\"]",
+          "name": "languageServiceCustomAndPrebuiltQuestionAnswering",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "languageServiceSize",
+            "value": "standard",
+            "text": "Standard"
+          },
+          "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\\ per\\ month\"][name=\"languageServiceCustomEntityRecordAndText\"]",
+          "name": "languageServiceCustomEntityRecordAndText",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Commitment tier",
+      "clean_name": "summarizationAzureStandardCommitmentTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Commitment tier",
+      "name": "summarizationAzureStandardCommitmentTier",
+      "options": [
+        {
+          "group": null,
+          "text": "- Select a tier -",
+          "value": "selectatier"
+        },
+        {
+          "group": null,
+          "text": "Commitment tier $3,300 per 3 million text records",
+          "value": "3m"
+        },
+        {
+          "group": null,
+          "text": "Commitment tier $7,000 per 10 million text records",
+          "value": "10m"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Commitment\\ tier\"][name=\"summarizationAzureStandardCommitmentTier\"]",
+      "selector_unique": true,
+      "signature": "select||summarizationAzureStandardCommitmentTier|Commitment tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "selectatier",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceType",
+          "value": "commitmenttier",
+          "text": "Commitment tiers"
+        }
+      ],
+      "depends_on": [
+        "languageServiceType"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 text records per month",
+      "clean_name": "summarizationAzureStandardTextRecordsOverage",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 text records per month",
+      "name": "summarizationAzureStandardTextRecordsOverage",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\\ per\\ month\"][name=\"summarizationAzureStandardTextRecordsOverage\"]",
+      "selector_unique": true,
+      "signature": "input|number|summarizationAzureStandardTextRecordsOverage|x 1,000 text records per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceType",
+          "value": "commitmenttier",
+          "text": "Commitment tiers"
+        }
+      ],
+      "depends_on": [
+        "languageServiceType"
+      ]
+    },
+    {
+      "aria_label": "Training hours per month",
+      "clean_name": "languageServiceCustomTraining",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Training hours per month",
+      "name": "languageServiceCustomTraining",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Training\\ hours\\ per\\ month\"][name=\"languageServiceCustomTraining\"]",
+      "selector_unique": true,
+      "signature": "input|number|languageServiceCustomTraining|Training hours per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceSize",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "languageServiceSize"
+      ]
+    },
+    {
+      "aria_label": "Endpoint hosting models per month",
+      "clean_name": "languageServiceCustomEndpointHostingModel",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Endpoint hosting models per month",
+      "name": "languageServiceCustomEndpointHostingModel",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Endpoint\\ hosting\\ models\\ per\\ month\"][name=\"languageServiceCustomEndpointHostingModel\"]",
+      "selector_unique": true,
+      "signature": "input|number|languageServiceCustomEndpointHostingModel|Endpoint hosting models per month||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceSize",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "languageServiceSize"
+      ]
+    },
+    {
+      "aria_label": "x 1,000 text records",
+      "clean_name": "conversationalLanguageTextRecords",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x 1,000 text records",
+      "name": "conversationalLanguageTextRecords",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x\\ 1\\,000\\ text\\ records\"][name=\"conversationalLanguageTextRecords\"]",
+      "selector_unique": true,
+      "signature": "input|number|conversationalLanguageTextRecords|x 1,000 text records||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceSize",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "languageServiceSize"
+      ]
+    },
+    {
+      "aria_label": "Advanced training hours",
+      "clean_name": "advancedTrainingHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Advanced training hours",
+      "name": "advancedTrainingHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Advanced\\ training\\ hours\"][name=\"advancedTrainingHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|advancedTrainingHours|Advanced training hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "languageServiceSize",
+          "value": "standard",
+          "text": "Standard"
+        }
+      ],
+      "depends_on": [
+        "languageServiceSize"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

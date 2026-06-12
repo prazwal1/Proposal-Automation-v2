@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "product": "Advisor",
+  "slug": "advisor",
+  "picker_testid": "advisor-picker-item",
+  "module_testid": "advisor-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:14:22.752902+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Advisor",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Advisor|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    }
+  ],
+  "toggles": []
+}

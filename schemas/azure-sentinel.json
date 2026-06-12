@@ -1,0 +1,1514 @@
+{
+  "schema_version": 2,
+  "product": "Azure Sentinel",
+  "slug": "azure-sentinel",
+  "picker_testid": "azure-sentinel-picker-item",
+  "module_testid": "azure-sentinel-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:17:15.606552+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Microsoft Sentinel",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Microsoft Sentinel|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Ingestion Size Estimation Type",
+      "clean_name": "ingestionSizeEstimationType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Ingestion Size Estimation Type",
+      "name": "ingestionSizeEstimationType",
+      "options": [
+        {
+          "group": null,
+          "text": "Daily Logs Ingested",
+          "value": "daily-logs-ingested"
+        },
+        {
+          "group": null,
+          "text": "Events Per Second",
+          "value": "events-per-second"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Ingestion\\ Size\\ Estimation\\ Type\"][name=\"ingestionSizeEstimationType\"]",
+      "selector_unique": true,
+      "signature": "select||ingestionSizeEstimationType|Ingestion Size Estimation Type||||",
+      "tag": "select",
+      "type": null,
+      "value": "daily-logs-ingested",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Per day (GB)",
+      "clean_name": "dailyAnalyticLogsIngested",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Per day (GB)",
+      "name": "dailyAnalyticLogsIngested",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Per\\ day\\ \\(GB\\)\"][name=\"dailyAnalyticLogsIngested\"]",
+      "selector_unique": true,
+      "signature": "input|number|dailyAnalyticLogsIngested|Per day (GB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "ingestionSizeEstimationType",
+          "value": "events-per-second",
+          "text": "Events Per Second"
+        }
+      ],
+      "depends_on": [
+        "ingestionSizeEstimationType"
+      ]
+    },
+    {
+      "aria_label": "Per day (GB)",
+      "clean_name": "dailyDataLakeTierLogsIngested",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Per day (GB)",
+      "name": "dailyDataLakeTierLogsIngested",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Per\\ day\\ \\(GB\\)\"][name=\"dailyDataLakeTierLogsIngested\"]",
+      "selector_unique": true,
+      "signature": "input|number|dailyDataLakeTierLogsIngested|Per day (GB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "ingestionSizeEstimationType",
+          "value": "events-per-second",
+          "text": "Events Per Second"
+        }
+      ],
+      "depends_on": [
+        "ingestionSizeEstimationType"
+      ]
+    },
+    {
+      "aria_label": "Analytics retention (months)",
+      "clean_name": "dataRetentionTotalRetention",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Analytics retention (months)",
+      "name": "dataRetentionTotalRetention",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Analytics\\ retention\\ \\(months\\)\"][name=\"dataRetentionTotalRetention\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataRetentionTotalRetention|Analytics retention (months)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": "Storage"
+    },
+    {
+      "aria_label": "Total retention (months)",
+      "clean_name": "dataStorageTotalRetention",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total retention (months)",
+      "name": "dataStorageTotalRetention",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ retention\\ \\(months\\)\"][name=\"dataStorageTotalRetention\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataStorageTotalRetention|Total retention (months)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "3",
+      "visible": true,
+      "revealed_by": "Storage"
+    },
+    {
+      "aria_label": "Data lake retention (months)",
+      "clean_name": "dataLakeRetentionInMonths",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data lake retention (months)",
+      "name": "dataLakeRetentionInMonths",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ lake\\ retention\\ \\(months\\)\"][name=\"dataLakeRetentionInMonths\"]",
+      "selector_unique": true,
+      "signature": "input|number|dataLakeRetentionInMonths|Data lake retention (months)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Storage"
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Advanced Data Insights",
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Advanced Data Insights",
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Total number of queries (per Month)",
+      "clean_name": "searchQueriesTotalQueries",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total number of queries (per Month)",
+      "name": "searchQueriesTotalQueries",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ number\\ of\\ queries\\ \\(per\\ Month\\)\"][name=\"searchQueriesTotalQueries\"]",
+      "selector_unique": true,
+      "signature": "input|number|searchQueriesTotalQueries|Total number of queries (per Month)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Data Lake Query"
+    },
+    {
+      "aria_label": "Data scanned per query (GB)",
+      "clean_name": "searchQueriesDataScanned",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data scanned per query (GB)",
+      "name": "searchQueriesDataScanned",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ scanned\\ per\\ query\\ \\(GB\\)\"][name=\"searchQueriesDataScanned\"]",
+      "selector_unique": true,
+      "signature": "input|number|searchQueriesDataScanned|Data scanned per query (GB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Data Lake Query"
+    },
+    {
+      "aria_label": "Total number of queries (per Month)",
+      "clean_name": "searchJobsTotalQueries",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Total number of queries (per Month)",
+      "name": "searchJobsTotalQueries",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Total\\ number\\ of\\ queries\\ \\(per\\ Month\\)\"][name=\"searchJobsTotalQueries\"]",
+      "selector_unique": true,
+      "signature": "input|number|searchJobsTotalQueries|Total number of queries (per Month)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Data Lake Query"
+    },
+    {
+      "aria_label": "Data scanned per query (GB)",
+      "clean_name": "searchJobsDataScanned",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data scanned per query (GB)",
+      "name": "searchJobsDataScanned",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Data\\ scanned\\ per\\ query\\ \\(GB\\)\"][name=\"searchJobsDataScanned\"]",
+      "selector_unique": true,
+      "signature": "input|number|searchJobsDataScanned|Data scanned per query (GB)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Data Lake Query"
+    },
+    {
+      "aria_label": "Security compute units per hour",
+      "clean_name": "provisionedSecurityComputeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Security compute units per hour",
+      "name": "provisionedSecurityComputeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Security\\ compute\\ units\\ per\\ hour\"][name=\"provisionedSecurityComputeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedSecurityComputeUnits|Security compute units per hour||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Entity Analyzer"
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedSecurityComputeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedSecurityComputeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"provisionedSecurityComputeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedSecurityComputeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Entity Analyzer",
+      "absent_when": [
+        {
+          "field": "provisionedSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "provisionedSecurityComputeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "provisionedSecurityComputeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"provisionedSecurityComputeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedSecurityComputeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Entity Analyzer",
+      "absent_when": [
+        {
+          "field": "provisionedSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Security compute units per hour",
+      "clean_name": "overageSecurityComputeUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Security compute units per hour",
+      "name": "overageSecurityComputeUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Security\\ compute\\ units\\ per\\ hour\"][name=\"overageSecurityComputeUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|overageSecurityComputeUnits|Security compute units per hour||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Entity Analyzer"
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "overageSecurityComputeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "overageSecurityComputeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"overageSecurityComputeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|overageSecurityComputeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": "Entity Analyzer",
+      "absent_when": [
+        {
+          "field": "overageSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "overageSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "overageSecurityComputeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "overageSecurityComputeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"overageSecurityComputeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||overageSecurityComputeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Entity Analyzer",
+      "absent_when": [
+        {
+          "field": "overageSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "overageSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "graphHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "graphHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"graphHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|graphHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": "Graph",
+      "absent_when": [
+        {
+          "field": "graphHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "graphHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "graphHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "graphHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"graphHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||graphHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": "Graph",
+      "absent_when": [
+        {
+          "field": "graphHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "graphHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Events per second",
+      "clean_name": "eventsAnalyticLogsPerSecond",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Events per second",
+      "name": "eventsAnalyticLogsPerSecond",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Events\\ per\\ second\"][name=\"eventsAnalyticLogsPerSecond\"]",
+      "selector_unique": true,
+      "signature": "input|number|eventsAnalyticLogsPerSecond|Events per second||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ingestionSizeEstimationType",
+          "value": "events-per-second",
+          "text": "Events Per Second"
+        }
+      ],
+      "depends_on": [
+        "ingestionSizeEstimationType"
+      ]
+    },
+    {
+      "aria_label": "Average event size (bytes)",
+      "clean_name": "eventsAnalyticLogsEventSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average event size (bytes)",
+      "name": "eventsAnalyticLogsEventSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ event\\ size\\ \\(bytes\\)\"][name=\"eventsAnalyticLogsEventSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|eventsAnalyticLogsEventSize|Average event size (bytes)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "500",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ingestionSizeEstimationType",
+          "value": "events-per-second",
+          "text": "Events Per Second"
+        }
+      ],
+      "depends_on": [
+        "ingestionSizeEstimationType"
+      ]
+    },
+    {
+      "aria_label": "Events per second",
+      "clean_name": "eventsDataLakeTierLogsPerSecond",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Events per second",
+      "name": "eventsDataLakeTierLogsPerSecond",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Events\\ per\\ second\"][name=\"eventsDataLakeTierLogsPerSecond\"]",
+      "selector_unique": true,
+      "signature": "input|number|eventsDataLakeTierLogsPerSecond|Events per second||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1000",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ingestionSizeEstimationType",
+          "value": "events-per-second",
+          "text": "Events Per Second"
+        }
+      ],
+      "depends_on": [
+        "ingestionSizeEstimationType"
+      ]
+    },
+    {
+      "aria_label": "Average event size (bytes)",
+      "clean_name": "eventsDataLakeTierLogsEventSize",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average event size (bytes)",
+      "name": "eventsDataLakeTierLogsEventSize",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Average\\ event\\ size\\ \\(bytes\\)\"][name=\"eventsDataLakeTierLogsEventSize\"]",
+      "selector_unique": true,
+      "signature": "input|number|eventsDataLakeTierLogsEventSize|Average event size (bytes)||||",
+      "tag": "input",
+      "type": "number",
+      "value": "500",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "ingestionSizeEstimationType",
+          "value": "events-per-second",
+          "text": "Events Per Second"
+        }
+      ],
+      "depends_on": [
+        "ingestionSizeEstimationType"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedSecurityComputeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedSecurityComputeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"provisionedSecurityComputeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|provisionedSecurityComputeHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "provisionedSecurityComputeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "provisionedSecurityComputeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"provisionedSecurityComputeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||provisionedSecurityComputeHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "provisionedSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "provisionedSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "overageSecurityComputeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "overageSecurityComputeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"overageSecurityComputeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|overageSecurityComputeHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "overageSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "overageSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "overageSecurityComputeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "overageSecurityComputeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"overageSecurityComputeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||overageSecurityComputeHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "overageSecurityComputeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "overageSecurityComputeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "graphHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "graphHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"graphHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|graphHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "graphHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "graphHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "graphHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "graphHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"graphHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||graphHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "graphHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "graphHoursFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Ingestion",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Ingestion",
+      "tag": "button",
+      "text": "Ingestion",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Processing",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Data Processing",
+      "tag": "button",
+      "text": "Data Processing",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Storage",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Storage",
+      "tag": "button",
+      "text": "Storage",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Advanced Data Insights",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Advanced Data Insights",
+      "tag": "button",
+      "text": "Advanced Data Insights",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Data Lake Query",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Data Lake Query",
+      "tag": "button",
+      "text": "Data Lake Query",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Entity Analyzer",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Entity Analyzer",
+      "tag": "button",
+      "text": "Entity Analyzer",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "toggle-submodule-btn collapsible collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Graph",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|submit||||||Graph",
+      "tag": "button",
+      "text": "Graph",
+      "type": "submit",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}

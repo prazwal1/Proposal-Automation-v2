@@ -1,0 +1,2529 @@
+{
+  "schema_version": 2,
+  "product": "Hdinsight",
+  "slug": "hdinsight",
+  "picker_testid": "hdinsight-picker-item",
+  "module_testid": "hdinsight-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:26:50.232711+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "HDInsight",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||HDInsight|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Component",
+      "clean_name": "cluster",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Component",
+      "name": "cluster",
+      "options": [
+        {
+          "group": null,
+          "text": "Hadoop",
+          "value": "hadoop"
+        },
+        {
+          "group": null,
+          "text": "Spark",
+          "value": "spark"
+        },
+        {
+          "group": null,
+          "text": "Interactive Query",
+          "value": "interactivehive"
+        },
+        {
+          "group": null,
+          "text": "HDInsight Machine Learning Services",
+          "value": "mlservices"
+        },
+        {
+          "group": null,
+          "text": "Kafka",
+          "value": "kafka"
+        },
+        {
+          "group": null,
+          "text": "HBase",
+          "value": "hbase"
+        },
+        {
+          "group": null,
+          "text": "Storm",
+          "value": "storm"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Component\"][name=\"cluster\"]",
+      "selector_unique": true,
+      "signature": "select||cluster|Component||||",
+      "tag": "select",
+      "type": null,
+      "value": "hadoop",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "headCategory",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "headCategory",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "generalpurposenodes"
+        },
+        {
+          "group": null,
+          "text": "Optimized",
+          "value": "optimizednodes"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"headCategory\"]",
+      "selector_unique": true,
+      "signature": "select||headCategory|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Category\"][name=\"stormSupervisorCategory\"]",
+          "name": "stormSupervisorCategory",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurposenodes"
+            },
+            {
+              "group": null,
+              "text": "Optimized",
+              "value": "optimizednodes"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Category\"][name=\"stormNimbusCategory\"]",
+          "name": "stormNimbusCategory",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurposenodes"
+            },
+            {
+              "group": null,
+              "text": "Optimized",
+              "value": "optimizednodes"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Category\"][name=\"zookeeperCategory\"]",
+          "name": "zookeeperCategory",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurposenodes"
+            },
+            {
+              "group": null,
+              "text": "Optimized",
+              "value": "optimizednodes"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "headInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "headInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "A-Series",
+          "value": "a"
+        },
+        {
+          "group": null,
+          "text": "AV2-Series",
+          "value": "av2"
+        },
+        {
+          "group": null,
+          "text": "DV2-Series",
+          "value": "dv2"
+        },
+        {
+          "group": null,
+          "text": "EV3-Series",
+          "value": "ev3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"headInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||headInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "interactivehive",
+            "text": "Interactive Query"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "headCategory",
+            "value": "generalpurposenodes",
+            "text": "General Purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "headCategory",
+            "value": "optimizednodes",
+            "text": "Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster",
+        "headCategory"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Instance\\ Series\"][name=\"stormSupervisorInstanceSeries\"]",
+          "name": "stormSupervisorInstanceSeries",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Instance\\ Series\"][name=\"stormNimbusInstanceSeries\"]",
+          "name": "stormNimbusInstanceSeries",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Instance\\ Series\"][name=\"zookeeperInstanceSeries\"]",
+          "name": "zookeeperInstanceSeries",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": null,
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": "head",
+      "label": "Instance: (Need help finding the right VM?)",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": "#head",
+      "selector_unique": true,
+      "signature": "input|text||||||",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "headHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "headHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"headHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|headHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"stormSupervisorHours\"]",
+          "name": "stormSupervisorHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"stormNimbusHours\"]",
+          "name": "stormNimbusHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"zookeeperHours\"]",
+          "name": "zookeeperHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "headHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "headHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"headHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||headHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"stormSupervisorHoursFactor\"]",
+          "name": "stormSupervisorHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"stormNimbusHoursFactor\"]",
+          "name": "stormNimbusHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"zookeeperHoursFactor\"]",
+          "name": "zookeeperHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "workerCategory",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "workerCategory",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "generalpurposenodes"
+        },
+        {
+          "group": null,
+          "text": "Optimized",
+          "value": "optimizednodes"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"workerCategory\"]",
+      "selector_unique": true,
+      "signature": "select||workerCategory|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "mlservices",
+            "text": "HDInsight Machine Learning Services"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Compute Optimized",
+              "value": "computeoptimized"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurposenodes"
+            },
+            {
+              "group": null,
+              "text": "Optimized",
+              "value": "optimizednodes"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "select[aria-label=\"Category\"][name=\"hBaseRegionCategory\"]",
+          "name": "hBaseRegionCategory",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurposenodes"
+            },
+            {
+              "group": null,
+              "text": "Optimized",
+              "value": "optimizednodes"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "select[aria-label=\"Category\"][name=\"zookeeperCategory\"]",
+          "name": "zookeeperCategory",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurposenodes"
+            },
+            {
+              "group": null,
+              "text": "Optimized",
+              "value": "optimizednodes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "workerInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "workerInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "A-Series",
+          "value": "a"
+        },
+        {
+          "group": null,
+          "text": "AV2-Series",
+          "value": "av2"
+        },
+        {
+          "group": null,
+          "text": "DV2-Series",
+          "value": "dv2"
+        },
+        {
+          "group": null,
+          "text": "EV3-Series",
+          "value": "ev3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"workerInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||workerInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "interactivehive",
+            "text": "Interactive Query"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "mlservices",
+            "text": "HDInsight Machine Learning Services"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            },
+            {
+              "group": null,
+              "text": "F-Series",
+              "value": "f"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "workerCategory",
+            "value": "generalpurposenodes",
+            "text": "General Purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "workerCategory",
+            "value": "optimizednodes",
+            "text": "Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster",
+        "workerCategory"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "select[aria-label=\"Instance\\ Series\"][name=\"hBaseRegionInstanceSeries\"]",
+          "name": "hBaseRegionInstanceSeries",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "select[aria-label=\"Instance\\ Series\"][name=\"zookeeperInstanceSeries\"]",
+          "name": "zookeeperInstanceSeries",
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": null,
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": "worker",
+      "label": "Instance: (Need help finding the right VM?)",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": "#worker",
+      "selector_unique": true,
+      "signature": "input|text||||||",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "workerCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "workerCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"workerCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|workerCount|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "input[aria-label=\"Instances\"][name=\"hBaseRegionCount\"]",
+          "name": "hBaseRegionCount",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "storm",
+            "text": "Storm"
+          },
+          "selector": "input[aria-label=\"Instances\"][name=\"stormSupervisorCount\"]",
+          "name": "stormSupervisorCount",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "workerHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "workerHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"workerHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|workerHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"hBaseRegionHours\"]",
+          "name": "hBaseRegionHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"zookeeperHours\"]",
+          "name": "zookeeperHours",
+          "options": null
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "workerHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "workerHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"workerHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||workerHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"hBaseRegionHoursFactor\"]",
+          "name": "hBaseRegionHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "cluster",
+            "value": "hbase",
+            "text": "HBase"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"zookeeperHoursFactor\"]",
+          "name": "zookeeperHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "edgeCategory",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "edgeCategory",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "generalpurposenodes"
+        },
+        {
+          "group": null,
+          "text": "Optimized",
+          "value": "optimizednodes"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"edgeCategory\"]",
+      "selector_unique": true,
+      "signature": "select||edgeCategory|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "mlservices",
+            "text": "HDInsight Machine Learning Services"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "Compute Optimized",
+              "value": "computeoptimized"
+            },
+            {
+              "group": null,
+              "text": "General Purpose",
+              "value": "generalpurposenodes"
+            },
+            {
+              "group": null,
+              "text": "Optimized",
+              "value": "optimizednodes"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "edgeInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "edgeInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "A-Series",
+          "value": "a"
+        },
+        {
+          "group": null,
+          "text": "AV2-Series",
+          "value": "av2"
+        },
+        {
+          "group": null,
+          "text": "DV2-Series",
+          "value": "dv2"
+        },
+        {
+          "group": null,
+          "text": "EV3-Series",
+          "value": "ev3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"edgeInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||edgeInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "option_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "mlservices",
+            "text": "HDInsight Machine Learning Services"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            },
+            {
+              "group": null,
+              "text": "F-Series",
+              "value": "f"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "edgeCategory",
+            "value": "generalpurposenodes",
+            "text": "General Purpose"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "A-Series",
+              "value": "a"
+            },
+            {
+              "group": null,
+              "text": "AV2-Series",
+              "value": "av2"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "edgeCategory",
+            "value": "optimizednodes",
+            "text": "Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "All",
+              "value": "all"
+            },
+            {
+              "group": null,
+              "text": "DV2-Series",
+              "value": "dv2"
+            },
+            {
+              "group": null,
+              "text": "EV3-Series",
+              "value": "ev3"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "cluster",
+        "edgeCategory"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": null,
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": "edge",
+      "label": "Instance: (Need help finding the right VM?)",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": "#edge",
+      "selector_unique": true,
+      "signature": "input|text||||||",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instances",
+      "clean_name": "edgeCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instances",
+      "name": "edgeCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Instances\"][name=\"edgeCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|edgeCount|Instances||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "edgeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "edgeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"edgeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|edgeHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "edgeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "edgeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "edgeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "edgeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"edgeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||edgeHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "edgeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "edgeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Category",
+      "clean_name": "zookeeperCategory",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Category",
+      "name": "zookeeperCategory",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "generalpurposenodes"
+        },
+        {
+          "group": null,
+          "text": "Optimized",
+          "value": "optimizednodes"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Category\"][name=\"zookeeperCategory\"]",
+      "selector_unique": true,
+      "signature": "select||zookeeperCategory|Category||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "interactivehive",
+          "text": "Interactive Query"
+        },
+        {
+          "field": "cluster",
+          "value": "mlservices",
+          "text": "HDInsight Machine Learning Services"
+        },
+        {
+          "field": "cluster",
+          "value": "kafka",
+          "text": "Kafka"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "zookeeperInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "zookeeperInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "All",
+          "value": "all"
+        },
+        {
+          "group": null,
+          "text": "A-Series",
+          "value": "a"
+        },
+        {
+          "group": null,
+          "text": "AV2-Series",
+          "value": "av2"
+        },
+        {
+          "group": null,
+          "text": "DV2-Series",
+          "value": "dv2"
+        },
+        {
+          "group": null,
+          "text": "EV3-Series",
+          "value": "ev3"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"zookeeperInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||zookeeperInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "all",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "interactivehive",
+          "text": "Interactive Query"
+        },
+        {
+          "field": "cluster",
+          "value": "mlservices",
+          "text": "HDInsight Machine Learning Services"
+        },
+        {
+          "field": "cluster",
+          "value": "kafka",
+          "text": "Kafka"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "zookeeperHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "zookeeperHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"zookeeperHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|zookeeperHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "interactivehive",
+          "text": "Interactive Query"
+        },
+        {
+          "field": "cluster",
+          "value": "mlservices",
+          "text": "HDInsight Machine Learning Services"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "zookeeperHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "zookeeperHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"zookeeperHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||zookeeperHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "interactivehive",
+          "text": "Interactive Query"
+        },
+        {
+          "field": "cluster",
+          "value": "mlservices",
+          "text": "HDInsight Machine Learning Services"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "mlServerHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "mlServerHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"mlServerHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|mlServerHours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "mlservices",
+          "text": "HDInsight Machine Learning Services"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "kafka",
+            "text": "Kafka"
+          },
+          "selector": "input[aria-label=\"Hours\"][name=\"zookeeperHours\"]",
+          "name": "zookeeperHours",
+          "options": null
+        }
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "mlServerHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "mlServerHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"mlServerHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||mlServerHoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "mlservices",
+          "text": "HDInsight Machine Learning Services"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "cluster",
+            "value": "kafka",
+            "text": "Kafka"
+          },
+          "selector": "select[aria-label=\"Hours\"][name=\"zookeeperHoursFactor\"]",
+          "name": "zookeeperHoursFactor",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "managedDisksTier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "managedDisksTier",
+      "options": [
+        {
+          "group": null,
+          "text": "Standard",
+          "value": "standard"
+        },
+        {
+          "group": null,
+          "text": "Premium",
+          "value": "premium"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"managedDisksTier\"]",
+      "selector_unique": true,
+      "signature": "select||managedDisksTier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "standard",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "kafka",
+          "text": "Kafka"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Disk size",
+      "clean_name": "managedDisksSize",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disk size",
+      "name": "managedDisksSize",
+      "options": [
+        {
+          "group": null,
+          "text": "S30 - 1024 GB",
+          "value": "s30"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Disk\\ size\"][name=\"managedDisksSize\"]",
+      "selector_unique": true,
+      "signature": "select||managedDisksSize|Disk size||||",
+      "tag": "select",
+      "type": null,
+      "value": "s30",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "kafka",
+          "text": "Kafka"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Disks",
+      "clean_name": "managedDisksCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Disks",
+      "name": "managedDisksCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Disks\"][name=\"managedDisksCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|managedDisksCount|Disks||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "cluster",
+          "value": "kafka",
+          "text": "Kafka"
+        }
+      ],
+      "depends_on": [
+        "cluster"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "headHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "headHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"headHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|headHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "headHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "headHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "headHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "headHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"headHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||headHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "headHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "headHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "workerHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "workerHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"workerHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|workerHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "workerHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "workerHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "workerHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "workerHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"workerHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||workerHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "workerHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "workerHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "edgeHours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "edgeHours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"edgeHours\"]",
+      "selector_unique": true,
+      "signature": "input|number|edgeHours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "edgeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "edgeHoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "edgeHoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "edgeHoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"edgeHoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||edgeHoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "edgeHoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "edgeHoursFactor"
+      ]
+    }
+  ],
+  "toggles": []
+}

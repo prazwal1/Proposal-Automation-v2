@@ -1,0 +1,1360 @@
+{
+  "schema_version": 2,
+  "product": "Mysql",
+  "slug": "mysql",
+  "picker_testid": "mysql-picker-item",
+  "module_testid": "mysql-module",
+  "category": null,
+  "learned_at": "2026-06-12T16:32:31.552134+00:00",
+  "fields": [
+    {
+      "aria_label": "product-name",
+      "clean_name": "displayName",
+      "control": "text",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "product-name",
+      "name": "displayName",
+      "options": null,
+      "placeholder": "Azure Database for MySQL",
+      "selector": "input[aria-label=\"product-name\"][name=\"displayName\"]",
+      "selector_unique": true,
+      "signature": "input|text|displayName|product-name|||Azure Database for MySQL|",
+      "tag": "input",
+      "type": "text",
+      "value": "",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Region",
+      "clean_name": "region",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Region",
+      "name": "region",
+      "options": [
+        {
+          "group": "United States",
+          "text": "Central US",
+          "value": "us-central"
+        },
+        {
+          "group": "United States",
+          "text": "East US",
+          "value": "us-east"
+        },
+        {
+          "group": "United States",
+          "text": "East US 2",
+          "value": "us-east-2"
+        },
+        {
+          "group": "United States",
+          "text": "North Central US",
+          "value": "us-north-central"
+        },
+        {
+          "group": "United States",
+          "text": "South Central US",
+          "value": "us-south-central"
+        },
+        {
+          "group": "United States",
+          "text": "West Central US",
+          "value": "us-west-central"
+        },
+        {
+          "group": "United States",
+          "text": "West US",
+          "value": "us-west"
+        },
+        {
+          "group": "United States",
+          "text": "West US 2",
+          "value": "us-west-2"
+        },
+        {
+          "group": "United States",
+          "text": "West US 3",
+          "value": "us-west-3"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK South",
+          "value": "united-kingdom-south"
+        },
+        {
+          "group": "United Kingdom",
+          "text": "UK West",
+          "value": "united-kingdom-west"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE Central",
+          "value": "uae-central"
+        },
+        {
+          "group": "United Arab Emirates",
+          "text": "UAE North",
+          "value": "uae-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland North",
+          "value": "switzerland-north"
+        },
+        {
+          "group": "Switzerland",
+          "text": "Switzerland West",
+          "value": "switzerland-west"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden Central",
+          "value": "sweden-central"
+        },
+        {
+          "group": "Sweden",
+          "text": "Sweden South",
+          "value": "sweden-south"
+        },
+        {
+          "group": "Spain",
+          "text": "Spain Central",
+          "value": "spain-central"
+        },
+        {
+          "group": "Qatar",
+          "text": "Qatar Central",
+          "value": "qatar-central"
+        },
+        {
+          "group": "Poland",
+          "text": "Poland Central",
+          "value": "poland-central"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway East",
+          "value": "norway-east"
+        },
+        {
+          "group": "Norway",
+          "text": "Norway West",
+          "value": "norway-west"
+        },
+        {
+          "group": "New Zealand",
+          "text": "New Zealand North",
+          "value": "new-zealand-north"
+        },
+        {
+          "group": "Mexico",
+          "text": "Mexico Central",
+          "value": "mexico-central"
+        },
+        {
+          "group": "Malaysia",
+          "text": "Malaysia West",
+          "value": "malaysia-west"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea Central",
+          "value": "korea-central"
+        },
+        {
+          "group": "Korea",
+          "text": "Korea South",
+          "value": "korea-south"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan East",
+          "value": "japan-east"
+        },
+        {
+          "group": "Japan",
+          "text": "Japan West",
+          "value": "japan-west"
+        },
+        {
+          "group": "Italy",
+          "text": "Italy North",
+          "value": "italy-north"
+        },
+        {
+          "group": "Israel",
+          "text": "Israel Central",
+          "value": "israel-central"
+        },
+        {
+          "group": "Indonesia",
+          "text": "Indonesia Central",
+          "value": "indonesia-central"
+        },
+        {
+          "group": "India",
+          "text": "Central India",
+          "value": "central-india"
+        },
+        {
+          "group": "India",
+          "text": "South India",
+          "value": "south-india"
+        },
+        {
+          "group": "India",
+          "text": "West India",
+          "value": "west-india"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany North",
+          "value": "germany-north"
+        },
+        {
+          "group": "Germany",
+          "text": "Germany West Central",
+          "value": "germany-west-central"
+        },
+        {
+          "group": "France",
+          "text": "France Central",
+          "value": "france-central"
+        },
+        {
+          "group": "France",
+          "text": "France South",
+          "value": "france-south"
+        },
+        {
+          "group": "Europe",
+          "text": "North Europe",
+          "value": "europe-north"
+        },
+        {
+          "group": "Europe",
+          "text": "West Europe",
+          "value": "europe-west"
+        },
+        {
+          "group": "Denmark",
+          "text": "Denmark East",
+          "value": "denmark-east"
+        },
+        {
+          "group": "Chile",
+          "text": "Chile Central",
+          "value": "chile-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada Central",
+          "value": "canada-central"
+        },
+        {
+          "group": "Canada",
+          "text": "Canada East",
+          "value": "canada-east"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil South",
+          "value": "brazil-south"
+        },
+        {
+          "group": "Brazil",
+          "text": "Brazil Southeast",
+          "value": "brazil-southeast"
+        },
+        {
+          "group": "Belgium",
+          "text": "Belgium Central",
+          "value": "belgium-central"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Arizona",
+          "value": "usgov-arizona"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Texas",
+          "value": "usgov-texas"
+        },
+        {
+          "group": "Azure Government",
+          "text": "US Gov Virginia",
+          "value": "usgov-virginia"
+        },
+        {
+          "group": "Austria",
+          "text": "Austria East",
+          "value": "austria-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central",
+          "value": "australia-central"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Central 2",
+          "value": "australia-central-2"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia East",
+          "value": "australia-east"
+        },
+        {
+          "group": "Australia",
+          "text": "Australia Southeast",
+          "value": "australia-southeast"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "East Asia",
+          "value": "asia-pacific-east"
+        },
+        {
+          "group": "Asia Pacific",
+          "text": "Southeast Asia",
+          "value": "asia-pacific-southeast"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa North",
+          "value": "south-africa-north"
+        },
+        {
+          "group": "Africa",
+          "text": "South Africa West",
+          "value": "south-africa-west"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Region\"][name=\"region\"]",
+      "selector_unique": true,
+      "signature": "select||region|Region||||",
+      "tag": "select",
+      "type": null,
+      "value": "us-east",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Deployment Option",
+      "clean_name": "deploymentType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Deployment Option",
+      "name": "deploymentType",
+      "options": [
+        {
+          "group": null,
+          "text": "Flexible Server",
+          "value": "flexibleserver"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Deployment\\ Option\"][name=\"deploymentType\"]",
+      "selector_unique": true,
+      "signature": "select||deploymentType|Deployment Option||||",
+      "tag": "select",
+      "type": null,
+      "value": "flexibleserver",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Tier",
+      "clean_name": "tier",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Tier",
+      "name": "tier",
+      "options": [
+        {
+          "group": null,
+          "text": "Burstable",
+          "value": "burstable"
+        },
+        {
+          "group": null,
+          "text": "General Purpose",
+          "value": "generalpurpose"
+        },
+        {
+          "group": null,
+          "text": "Memory Optimized",
+          "value": "memoryoptimized"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Tier\"][name=\"tier\"]",
+      "selector_unique": true,
+      "signature": "select||tier|Tier||||",
+      "tag": "select",
+      "type": null,
+      "value": "generalpurpose",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Instance Series",
+      "clean_name": "computeInstanceSeries",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance Series",
+      "name": "computeInstanceSeries",
+      "options": [
+        {
+          "group": null,
+          "text": "Ddsv6 - Series",
+          "value": "ddsv6"
+        },
+        {
+          "group": null,
+          "text": "Ddsv4 - Series",
+          "value": "ddsv4"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\\ Series\"][name=\"computeInstanceSeries\"]",
+      "selector_unique": true,
+      "signature": "select||computeInstanceSeries|Instance Series||||",
+      "tag": "select",
+      "type": null,
+      "value": "ddsv4",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "memoryoptimized",
+            "text": "Memory Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Edsv6 - Series",
+              "value": "edsv6"
+            },
+            {
+              "group": null,
+              "text": "Edsv4 - Series",
+              "value": "edsv4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Instance",
+      "clean_name": "computeType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Instance",
+      "name": "computeType",
+      "options": [
+        {
+          "group": null,
+          "text": "D2ds v4, 2 vCore, $0.1710/hour",
+          "value": "d2dsv4"
+        },
+        {
+          "group": null,
+          "text": "D4ds v4, 4 vCore, $0.3420/hour",
+          "value": "d4dsv4"
+        },
+        {
+          "group": null,
+          "text": "D8ds v4, 8 vCore, $0.6840/hour",
+          "value": "d8dsv4"
+        },
+        {
+          "group": null,
+          "text": "D16ds v4, 16 vCore, $1.3680/hour",
+          "value": "d16dsv4"
+        },
+        {
+          "group": null,
+          "text": "D32ds v4, 32 vCore, $2.7360/hour",
+          "value": "d32dsv4"
+        },
+        {
+          "group": null,
+          "text": "D48ds v4, 48 vCore, $4.1040/hour",
+          "value": "d48dsv4"
+        },
+        {
+          "group": null,
+          "text": "D64ds v4, 64 vCore, $5.4720/hour",
+          "value": "d64dsv4"
+        },
+        {
+          "group": null,
+          "text": "D96ds v4, 96 vCore, $8.2080/hour",
+          "value": "d96dsv4"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Instance\"][name=\"computeType\"]",
+      "selector_unique": true,
+      "signature": "select||computeType|Instance||||",
+      "tag": "select",
+      "type": null,
+      "value": "d2dsv4",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier",
+        "computeInstanceSeries"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "tier",
+            "value": "memoryoptimized",
+            "text": "Memory Optimized"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "E2ds v4, 2 vCore, $0.2362/hour",
+              "value": "e2dsv4"
+            },
+            {
+              "group": null,
+              "text": "E4ds v4, 4 vCore, $0.4724/hour",
+              "value": "e4dsv4"
+            },
+            {
+              "group": null,
+              "text": "E8ds v4, 8 vCore, $0.9448/hour",
+              "value": "e8dsv4"
+            },
+            {
+              "group": null,
+              "text": "E16ds v4, 16 vCore, $1.8896/hour",
+              "value": "e16dsv4"
+            },
+            {
+              "group": null,
+              "text": "E32ds v4, 32 vCore, $3.7792/hour",
+              "value": "e32dsv4"
+            },
+            {
+              "group": null,
+              "text": "E48ds v4, 48 vCore, $5.6688/hour",
+              "value": "e48dsv4"
+            },
+            {
+              "group": null,
+              "text": "E64ds v4, 64 vCore, $7.5584/hour",
+              "value": "e64dsv4"
+            },
+            {
+              "group": null,
+              "text": "E80ds v4, 80 vCore, $9.4480/hour",
+              "value": "e80dsv4"
+            },
+            {
+              "group": null,
+              "text": "E96ds v4, 96 vCore, $11.3376/hour",
+              "value": "e96dsv4"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "computeInstanceSeries",
+            "value": "ddsv6",
+            "text": "Ddsv6 - Series"
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "D2ds v6, 2 vCore, $0.2240/hour",
+              "value": "d2dsv6"
+            },
+            {
+              "group": null,
+              "text": "D4ds v6, 4 vCore, $0.4480/hour",
+              "value": "d4dsv6"
+            },
+            {
+              "group": null,
+              "text": "D8ds v6, 8 vCore, $0.8960/hour",
+              "value": "d8dsv6"
+            },
+            {
+              "group": null,
+              "text": "D16ds v6, 16 vCore, $1.7920/hour",
+              "value": "d16dsv6"
+            },
+            {
+              "group": null,
+              "text": "D32ds v6, 32 vCore, $3.5840/hour",
+              "value": "d32dsv6"
+            },
+            {
+              "group": null,
+              "text": "D48ds v6, 48 vCore, $5.3760/hour",
+              "value": "d48dsv6"
+            },
+            {
+              "group": null,
+              "text": "D64ds v6, 64 vCore, $7.1680/hour",
+              "value": "d64dsv6"
+            },
+            {
+              "group": null,
+              "text": "D96ds v6, 96 vCore, $10.7520/hour",
+              "value": "d96dsv6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Servers",
+      "clean_name": "servers",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Servers",
+      "name": "servers",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Servers\"][name=\"servers\"]",
+      "selector_unique": true,
+      "signature": "input|number|servers|Servers||||",
+      "tag": "input",
+      "type": "number",
+      "value": "1",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Hours\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Hours||||",
+      "tag": "input",
+      "type": "number",
+      "value": "730",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Hours",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Hours",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Hours\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Hours||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "flexibleServerBillingOption",
+      "control": "radio",
+      "data_name_override": "flexibleServerBillingOption",
+      "data_testid": null,
+      "id": "radio-payg-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "label": "Pay as you go",
+      "name": "radioButton-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "payg",
+      "selector": "input[data-name-override=\"flexibleServerBillingOption\"][value=\"payg\"]",
+      "selector_unique": true,
+      "signature": "input|radio|flexibleServerBillingOption||flexibleServerBillingOption|payg||",
+      "tag": "input",
+      "type": "radio",
+      "value": "true",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": null,
+      "clean_name": "flexibleServerBillingOption",
+      "control": "radio",
+      "data_name_override": "flexibleServerBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-one-year-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "label": "1 year savings plan (~20% savings)",
+      "name": "radioButton-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-one-year",
+      "selector": "input[data-name-override=\"flexibleServerBillingOption\"][value=\"sv-one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|flexibleServerBillingOption||flexibleServerBillingOption|sv-one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "flexibleServerBillingOption",
+      "control": "radio",
+      "data_name_override": "flexibleServerBillingOption",
+      "data_testid": null,
+      "id": "radio-sv-three-year-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "label": "3 year savings plan",
+      "name": "radioButton-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "sv-three-year",
+      "selector": "input[data-name-override=\"flexibleServerBillingOption\"][value=\"sv-three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|flexibleServerBillingOption||flexibleServerBillingOption|sv-three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "flexibleServerBillingOption",
+      "control": "radio",
+      "data_name_override": "flexibleServerBillingOption",
+      "data_testid": null,
+      "id": "radio-one-year-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "label": "1 year reserved (~40% savings)",
+      "name": "radioButton-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "one-year",
+      "selector": "input[data-name-override=\"flexibleServerBillingOption\"][value=\"one-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|flexibleServerBillingOption||flexibleServerBillingOption|one-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": null,
+      "clean_name": "flexibleServerBillingOption",
+      "control": "radio",
+      "data_name_override": "flexibleServerBillingOption",
+      "data_testid": null,
+      "id": "radio-three-year-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "label": "3 year reserved (~60% savings)",
+      "name": "radioButton-d8becc5c-69d4-4242-9ebd-485d0c18642a-flexibleServerBillingOption",
+      "options": null,
+      "placeholder": null,
+      "radio_value": "three-year",
+      "selector": "input[data-name-override=\"flexibleServerBillingOption\"][value=\"three-year\"]",
+      "selector_unique": true,
+      "signature": "input|radio|flexibleServerBillingOption||flexibleServerBillingOption|three-year||",
+      "tag": "input",
+      "type": "radio",
+      "value": "false",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "storageCount",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "storageCount",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"storageCount\"]",
+      "selector_unique": true,
+      "signature": "input|number|storageCount|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "5",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Option",
+      "clean_name": "iopsOption",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Option",
+      "name": "iopsOption",
+      "options": [
+        {
+          "group": null,
+          "text": "Paid IO",
+          "value": "paidio"
+        },
+        {
+          "group": null,
+          "text": "Additional IOPS",
+          "value": "additionaliops"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Option\"][name=\"iopsOption\"]",
+      "selector_unique": true,
+      "signature": "select||iopsOption|Option||||",
+      "tag": "select",
+      "type": null,
+      "value": "paidio",
+      "visible": true,
+      "revealed_by": null
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "storageRedundancy",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "storageRedundancy",
+      "options": [
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "ZRS",
+          "value": "zrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"storageRedundancy\"]",
+      "selector_unique": true,
+      "signature": "select||storageRedundancy|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "zrs",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "iopsOption",
+          "value": "additionaliops",
+          "text": "Additional IOPS"
+        }
+      ],
+      "depends_on": [
+        "iopsOption"
+      ]
+    },
+    {
+      "aria_label": "x1 million IOPS",
+      "clean_name": "backupAdditionalIopUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "x1 million IOPS",
+      "name": "backupAdditionalIopUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"x1\\ million\\ IOPS\"][name=\"backupAdditionalIopUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|backupAdditionalIopUnits|x1 million IOPS||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "iopsOption",
+          "value": "additionaliops",
+          "text": "Additional IOPS"
+        }
+      ],
+      "depends_on": [
+        "iopsOption"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "backupUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "backupUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"GiB\"][name=\"backupUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|backupUnits|GiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "backupUnitsFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "backupUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "GiB",
+      "clean_name": "backupUnitsFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "GiB",
+      "name": "backupUnitsFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"GiB\"][name=\"backupUnitsFactor\"]",
+      "selector_unique": true,
+      "signature": "select||backupUnitsFactor|GiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1",
+      "visible": true,
+      "revealed_by": null,
+      "absent_when": [
+        {
+          "field": "backupUnitsFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "backupUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "Compute",
+      "clean_name": "computeType",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Compute",
+      "name": "computeType",
+      "options": [
+        {
+          "group": null,
+          "text": "B1MS, 2 vCore, $0.0170/hour",
+          "value": "b1ms"
+        },
+        {
+          "group": null,
+          "text": "B2S, 1 vCore, $0.0680/hour",
+          "value": "b2s"
+        },
+        {
+          "group": null,
+          "text": "B2MS2, 1 vCore, $0.1360/hour",
+          "value": "b2ms2"
+        },
+        {
+          "group": null,
+          "text": "B4MS, 1 vCore, $0.2720/hour",
+          "value": "b4ms"
+        },
+        {
+          "group": null,
+          "text": "B8MS, 1 vCore, $0.5440/hour",
+          "value": "b8ms"
+        },
+        {
+          "group": null,
+          "text": "B12MS, 1 vCore, $0.8160/hour",
+          "value": "b12ms"
+        },
+        {
+          "group": null,
+          "text": "B16MS, 1 vCore, $1.0880/hour",
+          "value": "b16ms"
+        },
+        {
+          "group": null,
+          "text": "B20MS, 1 vCore, $1.3600/hour",
+          "value": "b20ms"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Compute\"][name=\"computeType\"]",
+      "selector_unique": true,
+      "signature": "select||computeType|Compute||||",
+      "tag": "select",
+      "type": null,
+      "value": "b1ms",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "tier",
+          "value": "burstable",
+          "text": "Burstable"
+        }
+      ],
+      "depends_on": [
+        "tier"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hours",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hours",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Days\"][name=\"hours\"]",
+      "selector_unique": true,
+      "signature": "input|number|hours|Days||||",
+      "tag": "input",
+      "type": "number",
+      "value": "31",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Days",
+      "clean_name": "hoursFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Days",
+      "name": "hoursFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "Hours",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "Days",
+          "value": "24"
+        },
+        {
+          "group": null,
+          "text": "Month",
+          "value": "730"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Days\"][name=\"hoursFactor\"]",
+      "selector_unique": true,
+      "signature": "select||hoursFactor|Days||||",
+      "tag": "select",
+      "type": null,
+      "value": "24",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "hoursFactor",
+          "value": "24",
+          "text": "Days"
+        }
+      ],
+      "depends_on": [
+        "hoursFactor"
+      ]
+    },
+    {
+      "aria_label": "Additional IOPS",
+      "clean_name": "backupAdditionalIopUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Additional IOPS",
+      "name": "backupAdditionalIopUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"Additional\\ IOPS\"][name=\"backupAdditionalIopUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|backupAdditionalIopUnits|Additional IOPS||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "iopsOption",
+          "value": "additionaliops",
+          "text": "Additional IOPS"
+        }
+      ],
+      "depends_on": [
+        "iopsOption"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "backupUnits",
+      "control": "number",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "backupUnits",
+      "options": null,
+      "placeholder": null,
+      "selector": "input[aria-label=\"TiB\"][name=\"backupUnits\"]",
+      "selector_unique": true,
+      "signature": "input|number|backupUnits|TiB||||",
+      "tag": "input",
+      "type": "number",
+      "value": "0",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "backupUnitsFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "backupUnitsFactor"
+      ]
+    },
+    {
+      "aria_label": "TiB",
+      "clean_name": "backupUnitsFactor",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "TiB",
+      "name": "backupUnitsFactor",
+      "options": [
+        {
+          "group": null,
+          "text": "GiB",
+          "value": "1"
+        },
+        {
+          "group": null,
+          "text": "TiB",
+          "value": "1024"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"TiB\"][name=\"backupUnitsFactor\"]",
+      "selector_unique": true,
+      "signature": "select||backupUnitsFactor|TiB||||",
+      "tag": "select",
+      "type": null,
+      "value": "1024",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "backupUnitsFactor",
+          "value": "1024",
+          "text": "TiB"
+        }
+      ],
+      "depends_on": [
+        "backupUnitsFactor"
+      ]
+    }
+  ],
+  "toggles": [
+    {
+      "aria_expanded": "false",
+      "aria_label": null,
+      "classes": "seeFreeAccountBenefits collapsed",
+      "clean_name": null,
+      "control": "button",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "See free amounts",
+      "name": null,
+      "options": null,
+      "placeholder": null,
+      "selector": null,
+      "selector_unique": false,
+      "signature": "button|button||||||See free amounts",
+      "tag": "button",
+      "text": "See free amounts",
+      "type": "button",
+      "value": null,
+      "visible": true,
+      "revealed_by": null
+    }
+  ]
+}
