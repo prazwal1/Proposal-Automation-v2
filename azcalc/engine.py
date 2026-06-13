@@ -33,6 +33,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.common.exceptions import (
     ElementClickInterceptedException,
+    NoSuchElementException,
     StaleElementReferenceException,
     TimeoutException,
 )
@@ -140,6 +141,15 @@ class GenericEngine:
                 except Exception as e:
                     print(f"   ❌ {key} = {value}: {str(e)[:160]}")
                     raise
+                # the module is reactive — let it re-render before the next
+                # (often dependent) field, so controls revealed/replaced by this
+                # change are mounted before we look for them
+                try:
+                    r = self.nav._module_root(module_id)
+                    self.nav.watch(r, "module")
+                    self.nav.wait_settled("module", timeout=4)
+                except Exception:
+                    pass
 
         if config.get("estimate_name"):
             self._set_estimate_name(config["estimate_name"])
@@ -257,9 +267,12 @@ class GenericEngine:
                     raise ValueError(f"Unsupported control '{control}' for '{key}'")
                 return
             except (StaleElementReferenceException, ElementClickInterceptedException,
-                    TimeoutException) as e:
+                    TimeoutException, NoSuchElementException) as e:
+                # NoSuchElement included on purpose: a reactive re-render may not
+                # have mounted the control yet — wait and re-find rather than
+                # failing the whole build on a transient miss.
                 last = e
-                time.sleep(0.5)
+                time.sleep(0.7)
         raise last
 
     def _find(self, root, field, retries=3):
@@ -309,27 +322,49 @@ class GenericEngine:
     # ------------------------------------------------------------------
     def _set_select(self, elem, value):
         dropdown = Select(elem)
-        v = str(value).lower()
+        v = str(value).strip().lower()
+        opts = dropdown.options
         # exact text, then exact value, then partial text (v1 behaviour)
-        for opt in dropdown.options:
+        for opt in opts:
             if opt.text.strip().lower() == v:
                 dropdown.select_by_visible_text(opt.text)
                 return
-        for opt in dropdown.options:
+        for opt in opts:
             if (opt.get_attribute("value") or "").lower() == v:
                 dropdown.select_by_value(opt.get_attribute("value"))
                 return
-        for opt in dropdown.options:
-            if v in opt.text.lower():
+        for opt in opts:
+            if v and v in opt.text.strip().lower():
                 dropdown.select_by_visible_text(opt.text)
                 return
         # reverse containment, e.g. value 'Premium SSD' vs option 'Premium'
-        for opt in dropdown.options:
+        for opt in opts:
             t = opt.text.strip().lower()
             if t and t in v:
                 dropdown.select_by_visible_text(opt.text)
                 return
-        raise ValueError(f"No option matching '{value}'")
+        # token-subset: one side's words are all contained in the other's.
+        # Bridges label variance like 'SQL Server Standard' (the Linux-style
+        # name an agent may guess) vs the Windows option 'SQL Standard', where
+        # the inserted word breaks plain substring matching. Pick the option
+        # that shares the most words and adds the fewest extras.
+        vt = set(re.findall(r"[a-z0-9]+", v))
+        best, best_score = None, None
+        for opt in opts:
+            ot = set(re.findall(r"[a-z0-9]+", opt.text.lower()))
+            if not ot or not vt:
+                continue
+            if ot <= vt or vt <= ot:
+                score = (len(ot & vt), -len(ot ^ vt))
+                if best_score is None or score > best_score:
+                    best, best_score = opt, score
+        if best is not None:
+            dropdown.select_by_visible_text(best.text)
+            return
+        raise ValueError(
+            f"No option matching '{value}'. Available: "
+            f"{[o.text.strip() for o in opts][:12]}"
+        )
 
     def _set_input(self, elem, value):
         try:

@@ -15,6 +15,7 @@ Usage:
 """
 import argparse
 import json
+import re
 import sys
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -22,6 +23,10 @@ if hasattr(sys.stdout, "reconfigure"):
 
 from azcalc.adapter import assessment_to_config
 from azcalc.engine import GenericEngine, norm
+
+
+def _tokens(s):
+    return set(re.findall(r"[a-z0-9]+", str(s).lower()))
 
 
 def option_matches(value, options):
@@ -33,17 +38,19 @@ def option_matches(value, options):
         t = norm(o.get("text") or "")
         if v and (v in t or (t and t in v)):
             return True
+    # token-subset, mirroring the engine's _set_select fallback so the
+    # validator accepts exactly what the build will resolve (e.g. config value
+    # 'SQL Server Standard' vs the Windows option 'SQL Standard')
+    vt = _tokens(value)
+    for o in options or []:
+        ot = _tokens(o.get("text") or "")
+        if ot and vt and (ot <= vt or vt <= ot):
+            return True
     return False
 
 
-def when_satisfied(when, comp_fields, engine, schema, strict=False):
-    """Is the gating field set to the enabling value in this component?
-
-    strict=True requires exact (normalized) equality — used for absent_when,
-    where substring leniency causes false positives ('Azure VMs' must not
-    satisfy 'SAP HANA in Azure VMs', 'Premium SSD' must not satisfy
-    'Premium SSD v2').
-    """
+def _cond_satisfied(when, comp_fields, engine, schema, strict=False):
+    """Is a single {field, value, text} condition met by this component?"""
     want_field = norm(when.get("field") or "")
     want_vals = {norm(when.get("value") or ""), norm(when.get("text") or "")}
     want_vals.discard("")
@@ -61,6 +68,26 @@ def when_satisfied(when, comp_fields, engine, schema, strict=False):
             if not strict and any(v in w or w in v for w in want_vals):
                 return True
     return False
+
+
+def when_satisfied(when, comp_fields, engine, schema, strict=False):
+    """Is the gating condition met in this component?
+
+    A `when` may carry an `and` list of extra conditions (a field that depends
+    on a *combination* of choices, e.g. SQL Server License for Ubuntu needs
+    both Type=SQL Server and OS=Linux) — every part must hold.
+
+    strict=True requires exact (normalized) equality — used for absent_when,
+    where substring leniency causes false positives ('Azure VMs' must not
+    satisfy 'SAP HANA in Azure VMs', 'Premium SSD' must not satisfy
+    'Premium SSD v2').
+    """
+    if not _cond_satisfied(when, comp_fields, engine, schema, strict):
+        return False
+    for extra in when.get("and") or []:
+        if not _cond_satisfied(extra, comp_fields, engine, schema, strict):
+            return False
+    return True
 
 
 def validate(config, schema_dir="schemas"):

@@ -28,8 +28,14 @@ def main():
     ap.add_argument("--schemas", default="schemas", help="output directory")
     ap.add_argument("--no-interact", action="store_true",
                     help="skip the interactive option sweep (faster, shallower)")
-    ap.add_argument("--max-options", type=int, default=12,
-                    help="only sweep selects with at most this many options")
+    ap.add_argument("--no-nested", action="store_true",
+                    help="skip the nested (combination) sweep — only change one "
+                         "field at a time (faster, misses combo-gated fields like "
+                         "SQL Server License per OS)")
+    ap.add_argument("--max-options", type=int, default=16,
+                    help="only sweep selects with at most this many options "
+                         "(16 covers e.g. the 14-entry Linux VM Type list; "
+                         "region/instance lists stay excluded)")
     args = ap.parse_args()
 
     driver = get_driver(headless=args.headless)
@@ -47,6 +53,7 @@ def main():
         learner.learn_all(
             only=only, force=args.force, max_products=args.max,
             interact=not args.no_interact, max_options=args.max_options,
+            nested=not args.no_nested,
         )
     finally:
         driver.quit()

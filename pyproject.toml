@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Self-learning Azure Pricing Calculator agent: discovers products, maps their selectors to JSON schemas, and builds estimates from JSON configs"
 requires-python = ">=3.10"
 dependencies = [
+    "mcp>=1.27.2",
     "selenium>=4.21",
     "webdriver-manager>=4.0",
 ]

@@ -1,0 +1,111 @@
+"""MCP server exposing the v2 Azure calculator tool layer (stdio).
+
+Register with Claude Code:
+  claude mcp add azure-calc -- uv run --directory <repo> mcp_server.py
+
+Everything real lives in tools.py; this file only adapts it to MCP.
+"""
+from mcp.server.fastmcp import FastMCP
+
+import tools
+
+INSTRUCTIONS = """\
+Azure quotation tools built on a learned map of the Azure Pricing Calculator
+(152 services). You select services and author estimate configs; prices are
+NEVER computed by you — ballparks come from quick_price, official numbers
+from a calculator build.
+
+Recommended workflow:
+1. search_catalog / list_services to pick services.
+2. get_config_guide once, then get_service_doc(slug) for each chosen service
+   to learn its exact field keys, options and dependencies.
+3. Author the estimate config JSON and call validate_config. Fix every error
+   it reports (the messages say exactly which gating field to set) and
+   re-validate until ok.
+4. quick_price for an instant ballpark while the user decides.
+5. build_estimate to produce the official xlsx (takes minutes, runs in the
+   background) and check_build to poll until the xlsx path appears.
+"""
+
+mcp = FastMCP("azure-calc", instructions=INSTRUCTIONS)
+
+
+@mcp.tool()
+def list_services() -> list[dict]:
+    """List all 152 supported Azure services (product, slug, category, field count)."""
+    return tools.list_services()
+
+
+@mcp.tool()
+def search_catalog(query: str, limit: int = 12) -> list[dict]:
+    """Search supported services by name, category, field, or option text
+    (e.g. 'virtual machine', 'premium ssd', 'kubernetes'). Returns ranked
+    matches with the slug to use in configs and with get_service_doc."""
+    return tools.search_catalog(query, limit=limit)
+
+
+@mcp.tool()
+def get_service_doc(slug: str) -> str:
+    """Full reference for one service: every config field key, its options,
+    and state dependencies (fields that only exist when another field is set).
+    ALWAYS read this before authoring a component for a service."""
+    return tools.get_service_doc(slug)
+
+
+@mcp.tool()
+def get_config_guide() -> str:
+    """How to write estimate configs: JSON format, field-matching rules,
+    radio groups, dependent fields. Read once before your first config."""
+    return tools.get_config_guide()
+
+
+@mcp.tool()
+def validate_config(config: dict) -> dict:
+    """Validate an estimate config offline (instant, no browser). Returns
+    errors/warnings; error messages state exactly which field or gating
+    value to fix. Iterate until ok=true before building."""
+    return tools.validate_config(config)
+
+
+@mcp.tool()
+def build_estimate(config: dict, export: bool = True, force: bool = False) -> dict:
+    """Build the estimate in the real Azure Pricing Calculator (headless
+    Chrome) and export the official xlsx. Asynchronous: returns a job_id
+    immediately; poll check_build. Validates first and refuses on errors
+    unless force=true. Takes roughly 1-3 minutes per component."""
+    return tools.start_build(config, export=export, force=force)
+
+
+@mcp.tool()
+def check_build(job_id: str) -> dict:
+    """Status of a build job: running / succeeded / failed, the exported
+    xlsx path when done, and the last lines of the build log."""
+    return tools.check_build(job_id)
+
+
+@mcp.tool()
+def list_builds(limit: int = 10) -> list[dict]:
+    """Recent build jobs, newest first (use to recover a lost job_id)."""
+    return tools.list_builds(limit=limit)
+
+
+@mcp.tool()
+def quick_price(service_name: str = "", region: str = "",
+                sku_contains: str = "", product_contains: str = "",
+                price_type: str = "Consumption", top: int = 10) -> dict:
+    """Live list prices from the Azure Retail Prices API for instant
+    ballparks (NOT the official quote). region is the ARM name, e.g.
+    'southeastasia'. price_type: 'Consumption' or 'Reservation'. Use
+    service_name like 'Virtual Machines' plus sku_contains like 'D4s v5'."""
+    return tools.quick_price(
+        service_name=service_name or None,
+        region=region or None,
+        sku_contains=sku_contains or None,
+        product_contains=product_contains or None,
+        price_type=price_type or None,
+        top=top,
+    )
+
+
+if __name__ == "__main__":
+    mcp.run()  # stdio transport

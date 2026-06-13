@@ -147,7 +147,7 @@
 | Video Indexer | [`video-indexer`](services/video-indexer.md) | 8 | 3 |
 | Virtual Desktop | [`virtual-desktop`](services/virtual-desktop.md) | 31 | 28 |
 | Virtual Machine Scale Sets | [`virtual-machine-scale-sets`](services/virtual-machine-scale-sets.md) | 18 | 11 |
-| Virtual Machines | [`virtual-machines`](services/virtual-machines.md) | 26 | 17 |
+| Virtual Machines | [`virtual-machines`](services/virtual-machines.md) | 34 | 25 |
 | Dedicated Host | [`virtual-machines--dedicated-host`](services/virtual-machines--dedicated-host.md) | 16 | 8 |
 | Virtual Network | [`virtual-network`](services/virtual-network.md) | 11 | 8 |
 | Virtual Network Manager | [`virtual-network-manager`](services/virtual-network-manager.md) | 14 | 10 |

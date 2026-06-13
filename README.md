@@ -13,17 +13,29 @@ Instead of hand-writing page objects per product (v1: `framework/vm_page.py`,
 3. **Explore** — clicks every collapsed section (e.g. "Managed Disks" inside
    a VM module), watches the mutations in real time, and diffs the control
    list to record which fields are *revealed by* which toggle.
-4. **Play** — the page is reactive, so the learner *interacts* with it:
-   it selects **every option of every driving dropdown**, waits for the DOM
-   to settle, re-extracts, and records the observed differences:
-   - `option_variants` — another field's option list changes per state
-     (e.g. Managed Disk `Disk size` flips S10 → E10 → P10 SKUs per `Tier`)
+4. **Play** — the page is reactive, so the learner *interacts* with it in
+   two phases. **Phase A (single sweep):** select every option of every
+   driving dropdown from the default state, settle, re-extract, diff.
+   **Phase B (nested sweep):** pin each reactive driver to each of its options
+   and re-sweep *every other* driver, so fields and option lists that exist
+   only under a **combination** of choices are captured — e.g. the SQL Server
+   `License` list appears only for `Type = SQL Server` *and* its entries differ
+   between Windows (`SQL Standard`) and each Linux image (`SQL Server Standard
+   Ubuntu Linux`, `… Ubuntu Pro`, `… Red Hat`, …). The observed differences are
+   recorded as:
+   - `option_variants` — a field's option list under a given state; the gating
+     `when` may carry an `and` list for combination-dependent options
+     (e.g. Managed Disk `Disk size` flips S10 → E10 → P10 SKUs per `Tier`;
+     `License` shows the Ubuntu SQL list when `Type=SQL…` **and** `OS=Linux`)
    - `present_when` / `absent_when` — fields that only exist in some states
      (e.g. `License` appears for SQL Server, `storageV2*` fields appear for
      Premium SSD v2, AHB radios vanish on Linux)
    - `selector_variants` — a control whose name/selector itself changes per
      state (captured by label+control identity matching)
    - `depends_on` — the dependency edges between fields
+
+   Phase B is on by default; pass `--no-nested` to skip it (faster, but misses
+   combination-gated fields).
 5. **Persist** — writes one JSON schema per product to `schemas/<slug>.json`
    plus a master `schemas/index.json`. The crawl is resumable: already-learned
    products are skipped unless `--force`.
@@ -47,6 +59,7 @@ uv run learn.py --products "Virtual Machines,Managed Disks,Backup"
 uv run learn.py --all --headless                                # full crawl (slow, 150+ products)
 uv run learn.py --all --max 20                                  # partial crawl
 uv run learn.py --all --no-interact                             # skip option sweep (faster, shallower)
+uv run learn.py --all --no-nested                               # single-variable sweep only (skip combinations)
 uv run learn.py --all --max-options 20                          # sweep bigger dropdowns too
 ```
 
@@ -159,6 +172,27 @@ for the v1 vocabulary (`os` → Operating system, `instance` → size,
 `quantity` → Virtual machines). If a field lives behind a collapsed section,
 the engine opens that section automatically (`revealed_by`).
 
+## MCP server (drive it from Claude Code / Claude Desktop)
+
+`mcp_server.py` exposes the tool layer (`tools.py`) over MCP (stdio), so any
+MCP client can search the catalog, author + validate configs, and queue
+headless builds. The repo's `.mcp.json` registers it automatically for
+Claude Code sessions started in this directory; for other projects or
+Claude Desktop:
+
+```powershell
+claude mcp add --scope user azure-calc -- uv run --directory F:/CC/v2 mcp_server.py
+```
+
+Tools: `list_services`, `search_catalog`, `get_service_doc`,
+`get_config_guide`, `validate_config`, `build_estimate` (async, headless;
+returns a `job_id`), `check_build`, `list_builds`, `quick_price` (Azure
+Retail Prices API ballpark — official numbers always come from a build).
+
+Build jobs run detached with logs + exported xlsx under
+`Azure_Estimates/jobs/<job_id>/`. `build_estimate` validates first and
+refuses configs with errors (pass `force=true` to override).
+
 ## Layout
 
 ```
@@ -167,6 +201,8 @@ v2/
 ├── build.py              # CLI: build estimate from JSON config
 ├── catalog.py            # CLI: generate the AI-agent config catalog
 ├── validate.py           # CLI: validate a config offline (no browser)
+├── tools.py              # plain tool layer (imported by MCP / future REST+bots)
+├── mcp_server.py         # MCP stdio server wrapping tools.py
 ├── inspect_schema.py     # print a learned schema as a table
 ├── inspect_variants.py   # print learned state-dependencies
 ├── test_order.py         # offline config→schema matching check

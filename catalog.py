@@ -46,11 +46,25 @@ def field_key(field, used_keys):
     return f"{base} ({field.get('name')})"
 
 
+def summarize_cond(c):
+    """One gating condition, preserving any `and` combination constraints."""
+    d = {"field": c.get("field"), "value": c.get("value"), "text": c.get("text")}
+    if c.get("and"):
+        d["and"] = [summarize_cond(x) for x in c["and"]]
+    return d
+
+
 def summarize_when(conds):
-    return [
-        {"field": c.get("field"), "value": c.get("value"), "text": c.get("text")}
-        for c in conds
-    ]
+    return [summarize_cond(c) for c in conds]
+
+
+def cond_md(c):
+    """Human-readable gating condition, e.g. '`type` = *SQL Server* and
+    `operatingSystem` = *Linux*'."""
+    parts = [f"`{c['field']}` = *{c.get('text') or c.get('value')}*"]
+    for x in c.get("and") or []:
+        parts.append(f"`{x['field']}` = *{x.get('text') or x.get('value')}*")
+    return " and ".join(parts)
 
 
 def build_service_entry(schema):
@@ -95,9 +109,7 @@ def build_service_entry(schema):
         if f.get("option_variants"):
             entry["option_variants"] = [
                 {
-                    "when": {"field": v["when"].get("field"),
-                             "value": v["when"].get("value"),
-                             "text": v["when"].get("text")},
+                    "when": summarize_cond(v["when"]),
                     "options": [
                         {"value": o["value"], "text": clean_option(o["text"])}
                         for o in v["options"]
@@ -157,16 +169,10 @@ def render_md(entry):
         if f.get("depends_on"):
             lines.append(f"  - depends on: {', '.join('`%s`' % d for d in f['depends_on'])}")
         if f.get("present_when"):
-            conds = ", ".join(
-                f"`{c['field']}` = *{c.get('text') or c.get('value')}*"
-                for c in f["present_when"][:6]
-            )
+            conds = ", ".join(cond_md(c) for c in f["present_when"][:6])
             lines.append(f"  - only exists when: {conds}")
         if f.get("absent_when"):
-            conds = ", ".join(
-                f"`{c['field']}` = *{c.get('text') or c.get('value')}*"
-                for c in f["absent_when"][:6]
-            )
+            conds = ", ".join(cond_md(c) for c in f["absent_when"][:6])
             lines.append(f"  - disappears when: {conds}")
         if f["control"] == "radio":
             choices = ", ".join(
@@ -183,9 +189,7 @@ def render_md(entry):
         for v in (f.get("option_variants") or [])[:6]:
             opts = [o["text"] for o in v["options"]]
             shown = ", ".join(opts[:10]) + (", ..." if len(opts) > 10 else "")
-            lines.append(
-                f"  - when `{v['when']['field']}` = *{v['when'].get('text') or v['when'].get('value')}*: {shown}"
-            )
+            lines.append(f"  - when {cond_md(v['when'])}: {shown}")
         lines.append("")
     lines.append("## Example component")
     lines.append("")

@@ -14,8 +14,8 @@
     "module_testid": "virtual-machines-module",
     "category": null,
     "file": "virtual-machines.json",
-    "n_fields": 31,
-    "learned_at": "2026-06-12T16:03:31.906750+00:00"
+    "n_fields": 42,
+    "learned_at": "2026-06-13T04:00:20.434954+00:00"
   },
   "backup": {
     "product": "Backup",

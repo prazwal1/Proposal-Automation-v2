@@ -320,7 +320,8 @@ class SchemaLearner:
     # Learning one product
     # ------------------------------------------------------------------
     def learn_product(self, product, explore_toggles=True, interact=True,
-                      max_options=12, skip_sweep_names=("region", "destinationRegion")):
+                      max_options=16, nested=True,
+                      skip_sweep_names=("region", "destinationRegion")):
         """Add product, map every control, explore collapsibles, then *play*
         with the page: select every option of every driving dropdown, watch
         the DOM react in real time, and record how options / fields / selectors
@@ -351,7 +352,7 @@ class SchemaLearner:
         if interact:
             fields = self._sweep_select_states(
                 module_id, fields, max_options=max_options,
-                skip_names=set(skip_sweep_names),
+                skip_names=set(skip_sweep_names), nested=nested,
             )
 
         service = self._service_root(module_id)
@@ -376,45 +377,142 @@ class SchemaLearner:
     # even change a control's name/selector. We try every option of every
     # driving select and record the observed differences.
     # ------------------------------------------------------------------
-    def _sweep_select_states(self, module_id, fields, max_options, skip_names):
-        drivers = [
+    @staticmethod
+    def _field_key(f):
+        return f.get("clean_name") or f.get("name") or f.get("label")
+
+    def _collect_drivers(self, fields, max_options, skip_names):
+        """Selects worth sweeping: a bounded set of options and not skipped."""
+        return [
             f for f in fields
             if f["control"] == "select"
             and f.get("selector") and f.get("options")
             and 2 <= len(f["options"]) <= max_options
-            and (f.get("clean_name") or f.get("name") or "") not in skip_names
+            and self._field_key(f) not in skip_names
         ]
-        for drv in drivers:
-            drv_key = drv.get("clean_name") or drv.get("name") or drv.get("label")
-            original = drv.get("value")
-            print(f"        🎛  sweeping '{drv.get('label') or drv_key}' "
-                  f"({len(drv['options'])} options)")
 
-            # baseline re-extracted fresh per driver: previous sweeps/toggles
-            # may have changed the page
+    def _sweep_select_states(self, module_id, fields, max_options, skip_names,
+                             nested=True, max_outer=4):
+        """Reactive state discovery in two phases.
+
+        Phase A (single sweep): change every driving dropdown one option at a
+        time *from the default state* and fold the observed differences into
+        the schema. Records which drivers are reactive (and how strongly).
+
+        Phase B (nested sweep): for each reactive driver, pin it to each of its
+        options and re-sweep every *other* driver. This is what surfaces fields
+        and option lists that only exist under a *combination* of choices — e.g.
+        the SQL Server License list, which appears only when Type=SQL Server and
+        whose entries differ between Windows and Ubuntu/Linux.
+        """
+        drivers = self._collect_drivers(fields, max_options, skip_names)
+        gating = self._sweep_once(
+            module_id, fields, [self._field_key(d) for d in drivers],
+            base_context=[], max_options=max_options, skip_names=skip_names,
+        )
+        if nested and gating:
+            # Outer drivers = every reactive driver, kept in on-page (DOM) order
+            # so top-of-form gates (Operating system, Type) — which unlock the
+            # deepest combination-only states — are always explored first and
+            # never dropped by the cap.
+            order = {self._field_key(d): i for i, d in enumerate(drivers)}
+            outer = sorted(
+                (k for k in gating if gating[k] >= 1),
+                key=lambda k: order.get(k, len(order)),
+            )[:max_outer]
+            print(f"        🔁 nested sweep over {outer}")
+            for g_key in outer:
+                self._nested_sweep(module_id, fields, g_key, max_options, skip_names)
+        return fields
+
+    def _sweep_once(self, module_id, fields, driver_keys, base_context,
+                    max_options, skip_names):
+        """Sweep each driver (resolved fresh by key) through its options with
+        ``base_context`` already applied to the page. Returns ``{key: level}``
+        where level is 2 if the driver added/removed fields, 1 if it only
+        changed another control's options, 0 otherwise."""
+        gating = {}
+        for key in driver_keys:
+            if key in skip_names:
+                continue
             baseline = self._extract_settled(module_id)
             base_map = {f["signature"]: f for f in baseline if f["control"] != "button"}
-
-            for opt in drv["options"]:
+            drv = next((f for f in baseline
+                        if f["control"] == "select" and self._field_key(f) == key), None)
+            if not drv or not drv.get("options"):
+                continue
+            options = drv["options"]
+            if not (2 <= len(options) <= max_options):
+                continue
+            original = drv.get("value")
+            ctx_label = " + ".join(
+                f"{c['field']}={c['text']}" for c in base_context) or "default"
+            print(f"        🎛  [{ctx_label}] sweeping '{drv.get('label') or key}' "
+                  f"({len(options)} options)")
+            for opt in options:
                 if opt["value"] == original:
                     continue
                 if not self._select_option(module_id, drv, opt["value"]):
                     continue
                 after = self._extract_settled(module_id)
-                when = {"field": drv_key, "value": opt["value"], "text": opt["text"]}
-                self._merge_state_diff(fields, base_map, after, when, drv_key)
-
-            # restore the original state for the next driver
+                context = base_context + [
+                    {"field": key, "value": opt["value"], "text": opt["text"]}
+                ]
+                level = self._merge_state_diff(fields, base_map, after, context)
+                gating[key] = max(gating.get(key, 0), level)
             if original is not None:
                 self._select_option(module_id, drv, original)
                 self._extract_settled(module_id)
-        return fields
+        return gating
+
+    def _nested_sweep(self, module_id, fields, g_key, max_options, skip_names):
+        """Pin driver ``g_key`` to each of its options, then sweep every other
+        driver present in that state (recording combination-dependent fields)."""
+        baseline = self._extract_settled(module_id)
+        g = next((f for f in baseline
+                  if f["control"] == "select" and self._field_key(f) == g_key), None)
+        if not g or not g.get("options"):
+            return
+        original = g.get("value")
+        inner_skip = set(skip_names) | {g_key}
+        for opt in g["options"]:
+            if opt["value"] == original:
+                continue
+            if not self._select_option(module_id, g, opt["value"]):
+                continue
+            state_fields = self._extract_settled(module_id)
+            base_context = [{"field": g_key, "value": opt["value"], "text": opt["text"]}]
+            inner = self._collect_drivers(state_fields, max_options, inner_skip)
+            self._sweep_once(
+                module_id, fields, [self._field_key(d) for d in inner],
+                base_context=base_context, max_options=max_options,
+                skip_names=inner_skip,
+            )
+        if original is not None:
+            self._select_option(module_id, g, original)
+            self._extract_settled(module_id)
 
     def _extract_settled(self, module_id):
+        """Extract once the module's DOM is quiet *and* stable.
+
+        After a reactive change the calculator often unmounts and remounts a
+        whole sub-section (billing radios, the instance picker) within a single
+        render pass. The MutationObserver can report "quiet" mid-flutter, so a
+        lone read sometimes catches a control momentarily detached — which the
+        diff would misread as the field disappearing. Require two consecutive
+        reads to agree on the set of controls before trusting the snapshot.
+        """
         root = self._module_root(module_id)
         self.watch(root, "module")
         self.wait_settled("module", timeout=6)
-        return self.extract_fields(self._module_root(module_id))
+        prev = self.extract_fields(self._module_root(module_id))
+        for _ in range(3):
+            time.sleep(0.35)
+            cur = self.extract_fields(self._module_root(module_id))
+            if {f["signature"] for f in cur} == {f["signature"] for f in prev}:
+                return cur
+            prev = cur
+        return prev
 
     def _select_option(self, module_id, field, value):
         from selenium.webdriver.support.ui import Select
@@ -430,41 +528,140 @@ class SchemaLearner:
                 return False
         return False
 
-    def _merge_state_diff(self, fields, base_map, after, when, drv_key):
-        """Fold one observed page state into the schema fields."""
+    # ------------------------------------------------------------------
+    # Condition helpers. A "context" is the ordered list of dropdown choices
+    # that produced an observed state; it is stored as a single `when` whose
+    # head is the most-recently-changed driver and whose `and` list holds the
+    # other pinned conditions (so a field can depend on a *combination*).
+    # ------------------------------------------------------------------
+    @staticmethod
+    def _context_to_when(context):
+        head = dict(context[-1])
+        rest = [dict(c) for c in context[:-1]]
+        if rest:
+            head["and"] = rest
+        return head
+
+    @staticmethod
+    def _cond_set(when):
+        """The set of (field, value) constraints in a condition, head + and."""
+        s = {(when.get("field"), when.get("value"))}
+        for c in when.get("and") or []:
+            s.add((c.get("field"), c.get("value")))
+        return frozenset(s)
+
+    def _add_condition(self, field, key, when):
+        """Add a gating condition, keeping only the most general ones.
+
+        Conditions are OR-ed (the field exists when any holds), so a condition
+        that merely adds constraints to one already recorded is redundant — and
+        if a newly observed condition generalizes existing ones, those are
+        dropped. Stops `type=SQL AND category=GPU`, `... AND tier=Basic`, … from
+        piling up once `type=SQL` alone is known to reveal the field.
+        """
+        conds = field.setdefault(key, [])
+        new_set = self._cond_set(when)
+        kept = []
+        for c in conds:
+            c_set = self._cond_set(c)
+            if c_set <= new_set:
+                return  # an equal/more-general condition already covers this
+            if not new_set < c_set:
+                kept.append(c)  # unrelated; keep it (drop strict supersets)
+        kept.append(when)
+        field[key] = kept
+
+    def _add_option_variant(self, field, when, options):
+        """Record the option list a control shows under ``when`` — unless it
+        equals the baseline list, or a more-general state already yields the
+        same options (in which case the extra constraint is irrelevant)."""
+        if not options:
+            return
+        texts = [o["text"] for o in options]
+        if texts == [o["text"] for o in (field.get("options") or [])]:
+            return
+        new_set = self._cond_set(when)
+        variants = field.setdefault("option_variants", [])
+        kept = []
+        for v in variants:
+            if [o["text"] for o in (v.get("options") or [])] != texts:
+                kept.append(v)
+                continue
+            v_set = self._cond_set(v.get("when", {}))
+            if v_set <= new_set:
+                return  # same options under an equal/more-general state already
+            if not new_set < v_set:
+                kept.append(v)  # different state, same options — keep both
+        kept.append({"when": when, "options": options})
+        field["option_variants"] = kept
+
+    def _merge_state_diff(self, fields, base_map, after, context):
+        """Fold one observed page state into the schema fields.
+
+        Returns a reactivity level for the driver that produced this state:
+        2 if a field appeared/disappeared (structural), 1 if only an existing
+        control's option list changed, 0 if nothing changed.
+        """
         field_by_sig = {f["signature"]: f for f in fields if f["control"] != "button"}
         after_map = {f["signature"]: f for f in after if f["control"] != "button"}
+        # a control's selector is its stable identity (the signature can shift
+        # when e.g. a placeholder changes). Use it to tell a genuinely
+        # appearing/disappearing field from one that merely re-rendered.
+        after_selectors = {f.get("selector") for f in after if f.get("selector")}
+        base_selectors = {f.get("selector") for f in base_map.values() if f.get("selector")}
+        schema_by_selector = {f.get("selector"): f for f in fields if f.get("selector")}
+        when = self._context_to_when(context)
+        ctx_fields = [c["field"] for c in context]
+        level = 0
 
         def opt_texts(f):
             return [o["text"] for o in (f.get("options") or [])]
 
         def add_dep(f):
             deps = f.setdefault("depends_on", [])
-            if drv_key not in deps:
-                deps.append(drv_key)
+            for cf in ctx_fields:
+                if cf not in deps:
+                    deps.append(cf)
 
-        # 1. existing fields whose options changed in this state
+        # fields present in this state
         for sig, now in after_map.items():
             base = base_map.get(sig)
+            schema_f = field_by_sig.get(sig)
+
+            # 1. existing field, still present: did its options change?
             if base is not None:
-                schema_f = field_by_sig.get(sig)
                 if schema_f is None:
                     continue
                 if now.get("options") is not None and opt_texts(now) != opt_texts(base):
-                    variants = schema_f.setdefault("option_variants", [])
-                    variants.append({"when": when, "options": now["options"]})
+                    self._add_option_variant(schema_f, when, now["options"])
                     add_dep(schema_f)
+                    # a driver that rewrites another *select's* option list is a
+                    # strong combination signal (its new options can in turn
+                    # reveal fields), so treat it as gating, not a weak change.
+                    level = max(level, 2 if now["control"] == "select" else 1)
                 continue
 
-            # 2. field not present in baseline: either truly new in this
-            #    state, or an existing field whose name/selector changed
+            # guard: the same control re-rendered with a shifted signature but
+            # the same selector — it was present all along (a transient remount,
+            # or a placeholder/text change), not a newly revealed field.
+            if now.get("selector") and now["selector"] in base_selectors:
+                twin = schema_by_selector.get(now["selector"])
+                if (twin is not None and now.get("options") is not None
+                        and opt_texts(now) != opt_texts(twin)):
+                    self._add_option_variant(twin, when, now["options"])
+                    add_dep(twin)
+                    level = max(level, 2 if now["control"] == "select" else 1)
+                continue
+
+            # 2. field absent from this state's baseline: either an existing
+            #    field whose name/selector changed, or one revealed by context
             absent_twins = [
                 f for f in field_by_sig.values()
                 if f["signature"] not in after_map
                 and f.get("label") == now.get("label")
                 and f["control"] == now["control"]
             ]
-            if absent_twins:
+            if absent_twins and schema_f is None:
                 twin = absent_twins[0]
                 variants = twin.setdefault("selector_variants", [])
                 variants.append({
@@ -474,33 +671,41 @@ class SchemaLearner:
                     "options": now.get("options"),
                 })
                 add_dep(twin)
+                level = 2
                 continue
 
-            # truly new field for this state
-            existing_new = next(
-                (f for f in fields if f["signature"] == sig), None
-            )
-            if existing_new is not None:
-                conds = existing_new.setdefault("present_when", [])
-                if when not in conds:
-                    conds.append(when)
+            # 3. a field that only exists under this context
+            level = 2
+            if schema_f is not None:
+                # already known from another state — record THIS state's
+                # presence *and* its (state-specific) option list, which the
+                # old single-pass learner dropped.
+                self._add_condition(schema_f, "present_when", when)
+                self._add_option_variant(schema_f, when, now.get("options"))
+                add_dep(schema_f)
             else:
                 now["revealed_by"] = None
                 now["present_when"] = [when]
-                now["depends_on"] = [drv_key]
+                now["depends_on"] = list(ctx_fields)
                 fields.append(now)
                 field_by_sig[sig] = now
 
-        # 3. baseline fields missing in this state
+        # baseline fields missing in this state
         for sig, base in base_map.items():
-            if sig not in after_map:
-                schema_f = field_by_sig.get(sig)
-                if schema_f is None or schema_f.get("selector_variants"):
-                    continue
-                conds = schema_f.setdefault("absent_when", [])
-                if when not in conds:
-                    conds.append(when)
-                add_dep(schema_f)
+            if sig in after_map:
+                continue
+            schema_f = field_by_sig.get(sig)
+            if schema_f is None or schema_f.get("selector_variants"):
+                continue
+            # still on the page under a different signature (or a transient
+            # remount) → not actually absent; don't record a false absent_when
+            if base.get("selector") and base["selector"] in after_selectors:
+                continue
+            self._add_condition(schema_f, "absent_when", when)
+            add_dep(schema_f)
+            level = 2
+
+        return level
 
     def _explore_toggles(self, module_id, fields, known):
         """Click each collapsed section button; diff DOM to find revealed fields.
@@ -606,7 +811,7 @@ class SchemaLearner:
         index_path.write_text(json.dumps(index, indent=2), encoding="utf-8")
 
     def learn_all(self, products=None, only=None, force=False, max_products=None,
-                  interact=True, max_options=12):
+                  interact=True, max_options=16, nested=True):
         """Crawl the picker and learn schemas for every product.
 
         only: optional list of product names (case-insensitive substring match)
@@ -635,7 +840,8 @@ class SchemaLearner:
             for attempt in range(1, 3):
                 try:
                     schema = self.learn_product(
-                        product, interact=interact, max_options=max_options
+                        product, interact=interact, max_options=max_options,
+                        nested=nested,
                     )
                     path = self.save_schema(schema)
                     n_revealed = sum(1 for f in schema["fields"] if f.get("revealed_by"))
