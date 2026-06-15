@@ -36,7 +36,7 @@
 | Azure Stack Edge | [`azure-stack-edge`](services/azure-stack-edge.md) | 9 | 6 |
 | Azure Storage Discovery | [`azure-storage-discovery`](services/azure-storage-discovery.md) | 5 | 0 |
 | Azure Vmware | [`azure-vmware`](services/azure-vmware.md) | 9 | 4 |
-| Backup | [`backup`](services/backup.md) | 24 | 21 |
+| Backup | [`backup`](services/backup.md) | 26 | 23 |
 | Bandwidth | [`bandwidth`](services/bandwidth.md) | 6 | 3 |
 | Batch | [`batch`](services/batch.md) | 23 | 11 |
 | Bot Services | [`bot-services`](services/bot-services.md) | 4 | 1 |

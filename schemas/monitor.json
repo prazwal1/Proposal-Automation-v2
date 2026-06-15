@@ -5,7 +5,7 @@
   "picker_testid": "monitor-picker-item",
   "module_testid": "monitor-module",
   "category": null,
-  "learned_at": "2026-06-12T16:32:03.897975+00:00",
+  "learned_at": "2026-06-15T01:18:21.571533+00:00",
   "fields": [
     {
       "aria_label": "product-name",
@@ -1389,7 +1389,8 @@
       "type": "submit",
       "value": null,
       "visible": true,
-      "revealed_by": null
+      "revealed_by": null,
+      "_baseline": true
     },
     {
       "aria_expanded": "false",
@@ -1412,7 +1413,8 @@
       "type": "submit",
       "value": null,
       "visible": true,
-      "revealed_by": null
+      "revealed_by": null,
+      "_baseline": true
     },
     {
       "aria_expanded": "false",
@@ -1435,7 +1437,8 @@
       "type": "submit",
       "value": null,
       "visible": true,
-      "revealed_by": null
+      "revealed_by": null,
+      "_baseline": true
     },
     {
       "aria_expanded": "false",
@@ -1458,7 +1461,8 @@
       "type": "submit",
       "value": null,
       "visible": true,
-      "revealed_by": null
+      "revealed_by": null,
+      "_baseline": true
     },
     {
       "aria_expanded": "false",
@@ -1481,7 +1485,8 @@
       "type": "submit",
       "value": null,
       "visible": true,
-      "revealed_by": null
+      "revealed_by": null,
+      "_baseline": true
     },
     {
       "aria_expanded": "false",
@@ -1504,7 +1509,8 @@
       "type": "submit",
       "value": null,
       "visible": true,
-      "revealed_by": null
+      "revealed_by": null,
+      "_baseline": true
     },
     {
       "aria_expanded": "false",
@@ -1527,7 +1533,8 @@
       "type": "submit",
       "value": null,
       "visible": true,
-      "revealed_by": null
+      "revealed_by": null,
+      "_baseline": true
     }
   ]
 }

@@ -108,4 +108,23 @@ def quick_price(service_name: str = "", region: str = "",
 
 
 if __name__ == "__main__":
-    mcp.run()  # stdio transport
+    import argparse
+
+    ap = argparse.ArgumentParser(description="azure-calc MCP server")
+    ap.add_argument(
+        "--http", action="store_true",
+        help="serve over HTTP (streamable-http) instead of stdio — use this for "
+             "remote clients or AI hosts that connect to a URL rather than "
+             "launching the process themselves. Endpoint: http://<host>:<port>/mcp",
+    )
+    ap.add_argument("--host", default="127.0.0.1",
+                    help="bind address for --http (use 0.0.0.0 to accept LAN/tunnel)")
+    ap.add_argument("--port", type=int, default=8000, help="port for --http")
+    args = ap.parse_args()
+
+    if args.http:
+        mcp.settings.host = args.host
+        mcp.settings.port = args.port
+        mcp.run(transport="streamable-http")
+    else:
+        mcp.run()  # stdio (default; how Claude Code launches it via .mcp.json)

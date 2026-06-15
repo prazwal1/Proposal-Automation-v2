@@ -13,65 +13,67 @@
   - options: Basic, Standard, Premium
 
 - **`Logical firewall units`** (number)
-  - depends on: `tier`
+  - depends on: `tier`, `standardHoursUnits`, `standardDataProcessedUnits`, `standardCapacityHoursUnits`
 
 - **`Hours`** (number)
-  - depends on: `tier`
+  - depends on: `tier`, `standardCapacityHoursUnits`, `standardHoursUnits`
 
 - **`standardHoursUnits`** (select)
-  - depends on: `tier`
+  - depends on: `tier`, `standardCapacityHoursUnits`, `standardHoursUnits`
   - options: Hours, Days, Month
 
 - **`GB`** (number)
-  - depends on: `tier`
+  - depends on: `tier`, `standardHoursUnits`, `standardDataProcessedUnits`, `standardCapacityHoursUnits`
 
 - **`standardDataProcessedUnits`** (select)
-  - depends on: `tier`
+  - depends on: `tier`, `standardHoursUnits`, `standardDataProcessedUnits`, `standardCapacityHoursUnits`
   - options: GB, TB
 
 - **`With Secured Virtual Hub`** (select)
-  - depends on: `tier`
+  - depends on: `tier`, `standardHoursUnits`, `standardDataProcessedUnits`, `standardCapacityHoursUnits`
   - disappears when: `tier` = *Basic*
   - options: Yes, No
 
 - **`Number of capacity units`** (number)
-  - depends on: `tier`
+  - depends on: `tier`, `standardHoursUnits`, `standardDataProcessedUnits`, `standardCapacityHoursUnits`
   - disappears when: `tier` = *Basic*
 
 - **`standardCapacityHours`** (number)
-  - depends on: `tier`, `standardCapacityHoursUnits`
+  - depends on: `tier`, `standardCapacityHoursUnits`, `standardHoursUnits`, `standardDataProcessedUnits`
   - disappears when: `tier` = *Basic*, `tier` = *Premium*, `standardCapacityHoursUnits` = *Days*
 
 - **`standardCapacityHoursUnits`** (select)
-  - depends on: `tier`, `standardCapacityHoursUnits`
+  - depends on: `tier`, `standardCapacityHoursUnits`, `standardHoursUnits`, `standardDataProcessedUnits`
   - disappears when: `tier` = *Basic*, `tier` = *Premium*, `standardCapacityHoursUnits` = *Days*
   - options: Hours, Days, Month
 
 - **`Days`** (number)
-  - depends on: `standardHoursUnits`
+  - depends on: `standardHoursUnits`, `tier`, `basicHoursUnits`, `premiumHoursUnits`, `premiumCapacityHoursUnits`, `standardDataProcessedUnits`, `standardCapacityHoursUnits`
   - only exists when: `standardHoursUnits` = *Days*
 
 - **`Days (standardHoursUnits)`** (select)
-  - depends on: `standardHoursUnits`
+  - depends on: `standardHoursUnits`, `tier`, `basicHoursUnits`, `premiumHoursUnits`, `premiumCapacityHoursUnits`, `standardDataProcessedUnits`, `standardCapacityHoursUnits`
   - only exists when: `standardHoursUnits` = *Days*
   - options: Hours, Days, Month
 
 - **`TB`** (number)
-  - depends on: `standardDataProcessedUnits`
+  - depends on: `standardDataProcessedUnits`, `tier`, `basicDataProcessedUnits`, `premiumDataProcessedUnits`, `standardHoursUnits`, `standardCapacityHoursUnits`
   - only exists when: `standardDataProcessedUnits` = *TB*
 
 - **`TB (standardDataProcessedUnits)`** (select)
-  - depends on: `standardDataProcessedUnits`
+  - depends on: `standardDataProcessedUnits`, `tier`, `basicDataProcessedUnits`, `premiumDataProcessedUnits`, `standardHoursUnits`, `standardCapacityHoursUnits`
   - only exists when: `standardDataProcessedUnits` = *TB*
   - options: GB, TB
 
 - **`Days (standardCapacityHours)`** (number)
-  - depends on: `standardCapacityHoursUnits`
+  - depends on: `standardCapacityHoursUnits`, `standardHoursUnits`, `tier`, `standardDataProcessedUnits`
   - only exists when: `standardCapacityHoursUnits` = *Days*
+  - disappears when: `tier` = *Basic* and `standardHoursUnits` = *Hours*, `tier` = *Premium* and `standardHoursUnits` = *Hours*, `standardCapacityHoursUnits` = *Hours* and `standardHoursUnits` = *Hours*
 
 - **`Days (standardCapacityHoursUnits)`** (select)
-  - depends on: `standardCapacityHoursUnits`
+  - depends on: `standardCapacityHoursUnits`, `standardHoursUnits`, `tier`, `standardDataProcessedUnits`
   - only exists when: `standardCapacityHoursUnits` = *Days*
+  - disappears when: `tier` = *Basic* and `standardHoursUnits` = *Hours*, `tier` = *Premium* and `standardHoursUnits` = *Hours*, `standardCapacityHoursUnits` = *Hours* and `standardHoursUnits` = *Hours*
   - options: Hours, Days, Month
 
 ## Example component

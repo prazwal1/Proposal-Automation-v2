@@ -5,7 +5,7 @@
   "picker_testid": "backup-picker-item",
   "module_testid": "backup-module",
   "category": null,
-  "learned_at": "2026-06-12T16:02:30.094521+00:00",
+  "learned_at": "2026-06-15T00:13:25.892721+00:00",
   "fields": [
     {
       "aria_label": "product-name",
@@ -467,7 +467,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ],
       "selector_variants": [
         {
@@ -496,6 +498,118 @@
             "field": "type",
             "value": "backup-kubernetes-service",
             "text": "Kubernetes Service"
+          },
+          "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"kubernetesbackuppolicytype\"]",
+          "name": "kubernetesbackuppolicytype",
+          "options": [
+            {
+              "group": null,
+              "text": "Operational Tier",
+              "value": "operationaltier"
+            },
+            {
+              "group": null,
+              "text": "Vault Tier",
+              "value": "vaulttier"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-file-server",
+            "text": "Azure Files",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"azurefilesbackuppolicytype\"]",
+          "name": "azurefilesbackuppolicytype",
+          "options": [
+            {
+              "group": null,
+              "text": "Snapshot",
+              "value": "snapshot"
+            },
+            {
+              "group": null,
+              "text": "Vaulted",
+              "value": "vaulted"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-kubernetes-service",
+            "text": "Kubernetes Service",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"kubernetesbackuppolicytype\"]",
+          "name": "kubernetesbackuppolicytype",
+          "options": [
+            {
+              "group": null,
+              "text": "Operational Tier",
+              "value": "operationaltier"
+            },
+            {
+              "group": null,
+              "text": "Vault Tier",
+              "value": "vaulttier"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-file-server",
+            "text": "Azure Files",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"azurefilesbackuppolicytype\"]",
+          "name": "azurefilesbackuppolicytype",
+          "options": [
+            {
+              "group": null,
+              "text": "Snapshot",
+              "value": "snapshot"
+            },
+            {
+              "group": null,
+              "text": "Vaulted",
+              "value": "vaulted"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-kubernetes-service",
+            "text": "Kubernetes Service",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
           },
           "selector": "select[aria-label=\"Backup\\ Policy\\ Type\"][name=\"kubernetesbackuppolicytype\"]",
           "name": "kubernetesbackuppolicytype",
@@ -586,7 +700,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -616,7 +732,10 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backupUnits",
+        "kubernetesbackuppolicytype",
+        "backuppolicytype"
       ],
       "selector_variants": [
         {
@@ -624,6 +743,74 @@
             "field": "type",
             "value": "azure-cosmos-db",
             "text": "Azure Cosmos DB"
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"cosmosDBBackup\"]",
+          "name": "cosmosDBBackup",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "kubernetesbackuppolicytype",
+            "value": "vaulttier",
+            "text": "Vault Tier",
+            "and": [
+              {
+                "field": "type",
+                "value": "backup-kubernetes-service",
+                "text": "Kubernetes Service"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"clusterSize\"]",
+          "name": "clusterSize",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "backupUnits",
+            "value": "1",
+            "text": "GB",
+            "and": [
+              {
+                "field": "type",
+                "value": "azure-cosmos-db",
+                "text": "Azure Cosmos DB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"cosmosDBBackup\"]",
+          "name": "cosmosDBBackup",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "azure-cosmos-db",
+            "text": "Azure Cosmos DB",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"cosmosDBBackup\"]",
+          "name": "cosmosDBBackup",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "azure-cosmos-db",
+            "text": "Azure Cosmos DB",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
           },
           "selector": "input[aria-label=\"GB\"][name=\"cosmosDBBackup\"]",
           "name": "cosmosDBBackup",
@@ -675,7 +862,38 @@
       ],
       "depends_on": [
         "type",
-        "backupUnits"
+        "backupUnits",
+        "kubernetesbackuppolicytype"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "kubernetesbackuppolicytype",
+            "value": "vaulttier",
+            "text": "Vault Tier",
+            "and": [
+              {
+                "field": "type",
+                "value": "backup-kubernetes-service",
+                "text": "Kubernetes Service"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"clusterUnits\"]",
+          "name": "clusterUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        }
       ]
     },
     {
@@ -710,7 +928,10 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "kubernetesbackuppolicytype",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -742,10 +963,47 @@
           "selector": "input[aria-label=\"Week\\(s\\)\"][name=\"weeklyPostgreSqlRPs\"]",
           "name": "weeklyPostgreSqlRPs",
           "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Week\\(s\\)\"][name=\"weeklyPostgreSqlRPs\"]",
+          "name": "weeklyPostgreSqlRPs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Week\\(s\\)\"][name=\"weeklyPostgreSqlRPs\"]",
+          "name": "weeklyPostgreSqlRPs",
+          "options": null
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "kubernetesbackuppolicytype",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -777,10 +1035,47 @@
           "selector": "input[aria-label=\"Month\\(s\\)\"][name=\"monthlyPostgreSqlRPs\"]",
           "name": "monthlyPostgreSqlRPs",
           "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Month\\(s\\)\"][name=\"monthlyPostgreSqlRPs\"]",
+          "name": "monthlyPostgreSqlRPs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Month\\(s\\)\"][name=\"monthlyPostgreSqlRPs\"]",
+          "name": "monthlyPostgreSqlRPs",
+          "options": null
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "kubernetesbackuppolicytype",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -812,10 +1107,47 @@
           "selector": "input[aria-label=\"Year\\(s\\)\"][name=\"yearlyPostgreSqlRPs\"]",
           "name": "yearlyPostgreSqlRPs",
           "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Year\\(s\\)\"][name=\"yearlyPostgreSqlRPs\"]",
+          "name": "yearlyPostgreSqlRPs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-postgresql-flexible-server",
+            "text": "Azure PostgreSQL Servers or Flexible Servers",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Year\\(s\\)\"][name=\"yearlyPostgreSqlRPs\"]",
+          "name": "yearlyPostgreSqlRPs",
+          "options": null
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "kubernetesbackuppolicytype",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -855,7 +1187,10 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "azurefilesbackuppolicytype",
+        "backuppolicytype",
+        "backupUnits"
       ],
       "selector_variants": [
         {
@@ -883,6 +1218,108 @@
             "field": "type",
             "value": "backup-sql-server",
             "text": "SQL Server on Azure VMs"
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sap-server",
+            "text": "SAP HANA in Azure VMs",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sap-ase-azure-vm",
+            "text": "SAP ASE in Azure VMs",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sql-server",
+            "text": "SQL Server on Azure VMs",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sap-server",
+            "text": "SAP HANA in Azure VMs",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sap-ase-azure-vm",
+            "text": "SAP ASE in Azure VMs",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
+          "name": "logBackups",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-sql-server",
+            "text": "SQL Server on Azure VMs",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
           },
           "selector": "input[aria-label=\"Day\\(s\\)\"][name=\"logBackups\"]",
           "name": "logBackups",
@@ -938,7 +1375,10 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "kubernetesbackuppolicytype",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -1033,10 +1473,145 @@
               "value": "grs"
             }
           ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-blobs",
+            "text": "Azure Blob (non-HNS)",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Redundancy\"][name=\"redundancyType\"]",
+          "name": "redundancyType",
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-azure-data-lake-storage",
+            "text": "Azure Data Lake Storage (HNS)",
+            "and": [
+              {
+                "field": "backuppolicytype",
+                "value": "enhanced",
+                "text": "Enhanced"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Redundancy\"][name=\"redundancyType\"]",
+          "name": "redundancyType",
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-blobs",
+            "text": "Azure Blob (non-HNS)",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Redundancy\"][name=\"redundancyType\"]",
+          "name": "redundancyType",
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "type",
+            "value": "backup-azure-data-lake-storage",
+            "text": "Azure Data Lake Storage (HNS)",
+            "and": [
+              {
+                "field": "backupUnits",
+                "value": "1",
+                "text": "GB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Redundancy\"][name=\"redundancyType\"]",
+          "name": "redundancyType",
+          "options": [
+            {
+              "group": null,
+              "text": "LRS",
+              "value": "lrs"
+            },
+            {
+              "group": null,
+              "text": "ZRS",
+              "value": "zrs"
+            },
+            {
+              "group": null,
+              "text": "GRS",
+              "value": "grs"
+            }
+          ]
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "kubernetesbackuppolicytype",
+        "backuppolicytype",
+        "backupUnits"
       ],
       "option_variants": [
         {
@@ -1107,7 +1682,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -1142,7 +1719,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -1192,7 +1771,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -1243,7 +1824,43 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "redundancy",
+        "backuppolicytype",
+        "backupUnits"
+      ],
+      "option_variants": [
+        {
+          "when": {
+            "field": "redundancy",
+            "value": "grs",
+            "text": "GRS",
+            "and": [
+              {
+                "field": "type",
+                "value": "backup-file-server",
+                "text": "Azure Files"
+              }
+            ]
+          },
+          "options": [
+            {
+              "group": null,
+              "text": "Transaction Optimized",
+              "value": "transactionoptimized"
+            },
+            {
+              "group": null,
+              "text": "Hot",
+              "value": "hot"
+            },
+            {
+              "group": null,
+              "text": "Cool",
+              "value": "cool"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1273,7 +1890,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -1303,7 +1922,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -1333,7 +1954,9 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "backuppolicytype",
+        "backupUnits"
       ]
     },
     {
@@ -1389,7 +2012,131 @@
         }
       ],
       "depends_on": [
-        "backuppolicytype"
+        "backuppolicytype",
+        "type",
+        "backupUnits"
+      ],
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "backup-blobs",
+          "text": "Azure Blob (non-HNS)",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-on-prem",
+          "text": "On-premises Servers",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-file-server",
+          "text": "Azure Files",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-sap-server",
+          "text": "SAP HANA in Azure VMs",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-sap-ase-azure-vm",
+          "text": "SAP ASE in Azure VMs",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-sql-server",
+          "text": "SQL Server on Azure VMs",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-postgresql-flexible-server",
+          "text": "Azure PostgreSQL Servers or Flexible Servers",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-kubernetes-service",
+          "text": "Kubernetes Service",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "backup-azure-data-lake-storage",
+          "text": "Azure Data Lake Storage (HNS)",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "azure-cosmos-db",
+          "text": "Azure Cosmos DB",
+          "and": [
+            {
+              "field": "backuppolicytype",
+              "value": "enhanced",
+              "text": "Enhanced"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1419,7 +2166,59 @@
         }
       ],
       "depends_on": [
-        "backupUnits"
+        "backupUnits",
+        "type",
+        "backuppolicytype"
+      ],
+      "absent_when": [
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-blobs",
+              "text": "Azure Blob (non-HNS)"
+            }
+          ]
+        },
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-file-server",
+              "text": "Azure Files"
+            }
+          ]
+        },
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-sap-ase-azure-vm",
+              "text": "SAP ASE in Azure VMs"
+            }
+          ]
+        },
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-postgresql-flexible-server",
+              "text": "Azure PostgreSQL Servers or Flexible Servers"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1460,7 +2259,184 @@
         }
       ],
       "depends_on": [
-        "backupUnits"
+        "backupUnits",
+        "type",
+        "backuppolicytype"
+      ],
+      "absent_when": [
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-blobs",
+              "text": "Azure Blob (non-HNS)"
+            }
+          ]
+        },
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-file-server",
+              "text": "Azure Files"
+            }
+          ]
+        },
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-sap-ase-azure-vm",
+              "text": "SAP ASE in Azure VMs"
+            }
+          ]
+        },
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-postgresql-flexible-server",
+              "text": "Azure PostgreSQL Servers or Flexible Servers"
+            }
+          ]
+        },
+        {
+          "field": "backupUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "azure-cosmos-db",
+              "text": "Azure Cosmos DB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aria_label": "Average Daily Data Churn",
+      "clean_name": "averageDailyChurnVaulted",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Average Daily Data Churn",
+      "name": "averageDailyChurnVaulted",
+      "options": [
+        {
+          "group": null,
+          "text": "Low",
+          "value": "low"
+        },
+        {
+          "group": null,
+          "text": "Moderate",
+          "value": "moderate"
+        },
+        {
+          "group": null,
+          "text": "High",
+          "value": "high"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Average\\ Daily\\ Data\\ Churn\"][name=\"averageDailyChurnVaulted\"]",
+      "selector_unique": true,
+      "signature": "select||averageDailyChurnVaulted|Average Daily Data Churn||||",
+      "tag": "select",
+      "type": null,
+      "value": "low",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "azurefilesbackuppolicytype",
+          "value": "vaulted",
+          "text": "Vaulted",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-file-server",
+              "text": "Azure Files"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "type",
+        "azurefilesbackuppolicytype"
+      ]
+    },
+    {
+      "aria_label": "Redundancy",
+      "clean_name": "redundancyVaulted",
+      "control": "select",
+      "data_name_override": null,
+      "data_testid": null,
+      "id": null,
+      "label": "Redundancy",
+      "name": "redundancyVaulted",
+      "options": [
+        {
+          "group": null,
+          "text": "LRS",
+          "value": "lrs"
+        },
+        {
+          "group": null,
+          "text": "GRS",
+          "value": "grs"
+        },
+        {
+          "group": null,
+          "text": "RA-GRS",
+          "value": "ra-grs"
+        },
+        {
+          "group": null,
+          "text": "ZRS",
+          "value": "zrs"
+        }
+      ],
+      "placeholder": null,
+      "selector": "select[aria-label=\"Redundancy\"][name=\"redundancyVaulted\"]",
+      "selector_unique": true,
+      "signature": "select||redundancyVaulted|Redundancy||||",
+      "tag": "select",
+      "type": null,
+      "value": "lrs",
+      "visible": true,
+      "revealed_by": null,
+      "present_when": [
+        {
+          "field": "azurefilesbackuppolicytype",
+          "value": "vaulted",
+          "text": "Vaulted",
+          "and": [
+            {
+              "field": "type",
+              "value": "backup-file-server",
+              "text": "Azure Files"
+            }
+          ]
+        }
+      ],
+      "depends_on": [
+        "type",
+        "azurefilesbackuppolicytype"
       ]
     }
   ],

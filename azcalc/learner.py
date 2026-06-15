@@ -405,6 +405,14 @@ class SchemaLearner:
         the SQL Server License list, which appears only when Type=SQL Server and
         whose entries differ between Windows and Ubuntu/Linux.
         """
+        # Every field already on the page in the default state is
+        # *unconditionally* present. A driver sweep may later HIDE it (recorded
+        # as absent_when), but it must never gain a present_when: doing so is the
+        # classic nested-sweep artifact where a baseline field momentarily hides
+        # under one pinned option and "reappears" under another, so the learner
+        # mis-reads a reappearance as "only exists when <that combination>".
+        for f in fields:
+            f["_baseline"] = True
         drivers = self._collect_drivers(fields, max_options, skip_names)
         gating = self._sweep_once(
             module_id, fields, [self._field_key(d) for d in drivers],
@@ -578,7 +586,24 @@ class SchemaLearner:
         if not options:
             return
         texts = [o["text"] for o in options]
-        if texts == [o["text"] for o in (field.get("options") or [])]:
+        base_opts = field.get("options") or []
+        base_texts = [o["text"] for o in base_opts]
+        if texts == base_texts:
+            return
+        # Additive (superset) case: this state keeps every baseline option and
+        # merely *unlocks extra* ones (e.g. Premium SSD disk tiers appear once a
+        # premium-capable size/category is chosen). Such options are genuinely
+        # valid values for the control — the live page surfaces them in the right
+        # state — so widen the baseline option list instead of gating them behind
+        # a `when`, which would otherwise make every premium-disk config warn.
+        # A *replacement* state (different/overlapping set, e.g. S-SKUs -> P-SKUs)
+        # is not a superset and still recorded as a state-specific variant.
+        if base_texts and set(base_texts) < set(texts):
+            existing = {o["text"] for o in field["options"]}
+            for o in options:
+                if o["text"] not in existing:
+                    field["options"].append(o)
+                    existing.add(o["text"])
             return
         new_set = self._cond_set(when)
         variants = field.setdefault("option_variants", [])
@@ -679,8 +704,11 @@ class SchemaLearner:
             if schema_f is not None:
                 # already known from another state — record THIS state's
                 # presence *and* its (state-specific) option list, which the
-                # old single-pass learner dropped.
-                self._add_condition(schema_f, "present_when", when)
+                # old single-pass learner dropped. A baseline field is always
+                # present, so only its option list/deps are state-specific —
+                # never add present_when to it (see _sweep_select_states).
+                if not schema_f.get("_baseline"):
+                    self._add_condition(schema_f, "present_when", when)
                 self._add_option_variant(schema_f, when, now.get("options"))
                 add_dep(schema_f)
             else:
@@ -789,6 +817,10 @@ class SchemaLearner:
         return self.schema_dir / f"{slug}.json"
 
     def save_schema(self, schema):
+        # drop internal bookkeeping keys (e.g. _baseline) before persisting
+        for f in schema.get("fields", []):
+            for k in [k for k in f if k.startswith("_")]:
+                del f[k]
         path = self.schema_path(schema["slug"])
         path.write_text(json.dumps(schema, indent=2), encoding="utf-8")
         self._update_index(schema)

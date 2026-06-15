@@ -41,23 +41,22 @@
 
 - **`Hours`** (number)
   - depends on: `hoursFactor`, `managedDiskTier`, `operatingSystem`, `type`, `category`
-  - only exists when: `hoursFactor` = *Hours* and `operatingSystem` = *Linux*, `hoursFactor` = *Hours* and `type` = *SQL Server*, `hoursFactor` = *Hours* and `category` = *Compute optimized*, `hoursFactor` = *Hours* and `category` = *GPU*, `hoursFactor` = *Hours* and `category` = *Memory optimized*
   - disappears when: `hoursFactor` = *Days*
 
 - **`hoursFactor`** (select)
   - depends on: `hoursFactor`, `managedDiskTier`, `operatingSystem`, `type`, `category`
-  - only exists when: `hoursFactor` = *Hours* and `operatingSystem` = *Linux*, `hoursFactor` = *Hours* and `type` = *SQL Server*, `hoursFactor` = *Hours* and `category` = *Compute optimized*, `hoursFactor` = *Hours* and `category` = *GPU*, `hoursFactor` = *Hours* and `category` = *Memory optimized*
   - disappears when: `hoursFactor` = *Days*
   - options: Hours, Days, Month
 
 - **`managedDiskTier`** (select) — section: *Managed Disks* (opened automatically)
   - depends on: `category`, `operatingSystem`, `tier`, `type`
-  - options: Standard HDD, Standard SSD
-  - when `category` = *Compute optimized*: Standard HDD, Standard SSD, Premium SSD, Premium SSD v2
-  - when `category` = *GPU*: Standard HDD, Standard SSD, Premium SSD, Premium SSD v2
-  - when `category` = *High performance compute*: Standard HDD, Standard SSD, Premium SSD, Premium SSD v2
-  - when `category` = *Memory optimized*: Standard HDD, Standard SSD, Premium SSD, Premium SSD v2
-  - when `category` = *Storage optimized*: Standard HDD, Standard SSD, Premium SSD, Premium SSD v2
+  - options: Standard HDD, Standard SSD, Premium SSD, Premium SSD v2
+  - when `tier` = *Basic* and `operatingSystem` = *Linux*: Standard HDD, Standard SSD
+  - when `tier` = *Basic* and `type` = *BizTalk*: Standard HDD, Standard SSD
+  - when `tier` = *Basic* and `type` = *SQL Server*: Standard HDD, Standard SSD
+  - when `tier` = *Basic* and `category` = *Compute optimized*: Standard HDD, Standard SSD
+  - when `tier` = *Basic* and `category` = *GPU*: Standard HDD, Standard SSD
+  - when `tier` = *Basic* and `category` = *High performance compute*: Standard HDD, Standard SSD
 
 - **`Disk size`** (select) — section: *Managed Disks* (opened automatically)
   - depends on: `managedDiskTier`, `operatingSystem`, `type`, `tier`, `category`

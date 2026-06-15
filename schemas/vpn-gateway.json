@@ -5,7 +5,7 @@
   "picker_testid": "vpn-gateway-picker-item",
   "module_testid": "vpn-gateway-module",
   "category": null,
-  "learned_at": "2026-06-12T16:41:39.131990+00:00",
+  "learned_at": "2026-06-14T16:04:09.561362+00:00",
   "fields": [
     {
       "aria_label": "product-name",
@@ -496,7 +496,10 @@
         }
       ],
       "depends_on": [
-        "type"
+        "type",
+        "tier",
+        "vpnType",
+        "interVnetUnits"
       ]
     },
     {
@@ -579,10 +582,274 @@
           "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
           "name": "bandwidthGbs",
           "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "type",
+                "value": "express-route",
+                "text": "ExpressRoute Gateways"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw1",
+                "text": "VpnGw1"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw1az",
+                "text": "VpnGw1AZ"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw2",
+                "text": "VpnGw2"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw2az",
+                "text": "VpnGw2AZ"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw3",
+                "text": "VpnGw3"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw3az",
+                "text": "VpnGw3AZ"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw4",
+                "text": "VpnGw4"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw4az",
+                "text": "VpnGw4AZ"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw5",
+                "text": "VpnGw5"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw5az",
+                "text": "VpnGw5AZ"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"GB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
         }
       ],
       "depends_on": [
-        "vpnType"
+        "vpnType",
+        "type",
+        "interVnetUnits",
+        "tier"
+      ],
+      "present_when": [
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "express-route",
+              "text": "ExpressRoute Gateways"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        }
       ]
     },
     {
@@ -636,10 +903,395 @@
               "value": "1024"
             }
           ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "type",
+                "value": "express-route",
+                "text": "ExpressRoute Gateways"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw1",
+                "text": "VpnGw1"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw1az",
+                "text": "VpnGw1AZ"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw2",
+                "text": "VpnGw2"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw2az",
+                "text": "VpnGw2AZ"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw3",
+                "text": "VpnGw3"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw3az",
+                "text": "VpnGw3AZ"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw4",
+                "text": "VpnGw4"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw4az",
+                "text": "VpnGw4AZ"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw5",
+                "text": "VpnGw5"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "tier",
+                "value": "vpngw5az",
+                "text": "VpnGw5AZ"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"GB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
         }
       ],
       "depends_on": [
-        "vpnType"
+        "vpnType",
+        "type",
+        "interVnetUnits",
+        "tier"
+      ],
+      "present_when": [
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "express-route",
+              "text": "ExpressRoute Gateways"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        }
       ]
     },
     {
@@ -714,7 +1366,132 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "type",
+        "vpnType",
+        "interVnetUnits"
+      ],
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1",
+              "text": "VpnGw1"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2",
+              "text": "VpnGw2"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3",
+              "text": "VpnGw3"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4",
+              "text": "VpnGw4"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5",
+              "text": "VpnGw5"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        }
       ]
     },
     {
@@ -789,7 +1566,132 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "type",
+        "vpnType",
+        "interVnetUnits"
+      ],
+      "absent_when": [
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1",
+              "text": "VpnGw1"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2",
+              "text": "VpnGw2"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3",
+              "text": "VpnGw3"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4",
+              "text": "VpnGw4"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5",
+              "text": "VpnGw5"
+            }
+          ]
+        },
+        {
+          "field": "type",
+          "value": "express-route",
+          "text": "ExpressRoute Gateways",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        }
       ]
     },
     {
@@ -819,7 +1721,193 @@
         }
       ],
       "depends_on": [
-        "interVnetUnits"
+        "interVnetUnits",
+        "type",
+        "vpnType",
+        "tier",
+        "bandwidthUnits"
+      ],
+      "absent_when": [
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "type",
+              "value": "express-route",
+              "text": "ExpressRoute Gateways"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "express-route",
+              "text": "ExpressRoute Gateways"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        }
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "bandwidthUnits",
+            "value": "1024",
+            "text": "TB",
+            "and": [
+              {
+                "field": "vpnType",
+                "value": "vpn",
+                "text": "VPN"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "interVnetUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"bandwidthGbs\"]",
+          "name": "bandwidthGbs",
+          "options": null
+        }
       ]
     },
     {
@@ -860,7 +1948,215 @@
         }
       ],
       "depends_on": [
-        "interVnetUnits"
+        "interVnetUnits",
+        "type",
+        "vpnType",
+        "tier",
+        "bandwidthUnits"
+      ],
+      "absent_when": [
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "type",
+              "value": "express-route",
+              "text": "ExpressRoute Gateways"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "type",
+              "value": "express-route",
+              "text": "ExpressRoute Gateways"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw1az",
+              "text": "VpnGw1AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw2az",
+              "text": "VpnGw2AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw3az",
+              "text": "VpnGw3AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw4az",
+              "text": "VpnGw4AZ"
+            }
+          ]
+        },
+        {
+          "field": "vpnType",
+          "value": "vpn",
+          "text": "VPN",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        },
+        {
+          "field": "interVnetUnits",
+          "value": "1",
+          "text": "GB",
+          "and": [
+            {
+              "field": "tier",
+              "value": "vpngw5az",
+              "text": "VpnGw5AZ"
+            }
+          ]
+        }
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "bandwidthUnits",
+            "value": "1024",
+            "text": "TB",
+            "and": [
+              {
+                "field": "vpnType",
+                "value": "vpn",
+                "text": "VPN"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "vpnType",
+            "value": "vpn",
+            "text": "VPN",
+            "and": [
+              {
+                "field": "interVnetUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"bandwidthUnits\"]",
+          "name": "bandwidthUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        }
       ]
     }
   ],

@@ -5,6 +5,7 @@ Usage:
   uv run build.py configs/example_estimate.json
   uv run build.py ../data/assesment.json --v1            # old assessment format
   uv run build.py config.json --export --download Azure_Estimates
+  uv run build.py config.json --stop-time 5              # pause 5 min to log in / copy links
 """
 import argparse
 import json
@@ -32,6 +33,10 @@ def main():
     ap.add_argument("--download", default="Azure_Estimates")
     ap.add_argument("--keep-open", type=int, default=0,
                     help="seconds to keep the browser open after building")
+    ap.add_argument("--stop-time", type=float, default=0, metavar="MINUTES",
+                    help="pause with the browser open for this many minutes after "
+                         "building (and exporting) so you can log in, interact, or "
+                         "copy share links. No effect in --headless mode.")
     args = ap.parse_args()
 
     with open(args.config, encoding="utf-8") as f:
@@ -54,8 +59,22 @@ def main():
                 rename_to=config.get("estimate_name"),
             )
             print(f"📥 Exported: {path}" if path else "⚠️  Export did not complete")
-        if args.keep_open:
-            time.sleep(args.keep_open)
+
+        pause_s = args.keep_open + int(args.stop_time * 60)
+        if args.stop_time and args.headless:
+            print("⚠️  --stop-time has no effect in --headless mode "
+                  "(the browser is invisible); ignoring it.")
+            pause_s = args.keep_open
+        if pause_s:
+            until = time.strftime("%H:%M:%S",
+                                  time.localtime(time.time() + pause_s))
+            print(f"⏸️  Keeping the browser open for {pause_s // 60}m {pause_s % 60:02d}s "
+                  f"(until ~{until}) — log in / interact / copy links now. "
+                  "Press Ctrl+C to close early.")
+            try:
+                time.sleep(pause_s)
+            except KeyboardInterrupt:
+                print("\n▶️  Closing browser early.")
     finally:
         driver.quit()
 

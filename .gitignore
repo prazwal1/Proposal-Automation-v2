@@ -3,3 +3,6 @@ __pycache__
 *.pyc
 *.pyo
 Azure_Estimates
+estimate_*
+assessment_*
+*.log

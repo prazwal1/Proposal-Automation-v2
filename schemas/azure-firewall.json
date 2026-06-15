@@ -5,7 +5,7 @@
   "picker_testid": "azure-firewall-picker-item",
   "module_testid": "azure-firewall-module",
   "category": null,
-  "learned_at": "2026-06-12T16:16:47.206417+00:00",
+  "learned_at": "2026-06-15T00:09:07.251231+00:00",
   "fields": [
     {
       "aria_label": "product-name",
@@ -413,10 +413,115 @@
           "selector": "input[aria-label=\"Logical\\ firewall\\ units\"][name=\"premiumLogicalFirewallUnits\"]",
           "name": "premiumLogicalFirewallUnits",
           "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Logical\\ firewall\\ units\"][name=\"basicLogicalFirewallUnits\"]",
+          "name": "basicLogicalFirewallUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Logical\\ firewall\\ units\"][name=\"premiumLogicalFirewallUnits\"]",
+          "name": "premiumLogicalFirewallUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Logical\\ firewall\\ units\"][name=\"basicLogicalFirewallUnits\"]",
+          "name": "basicLogicalFirewallUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Logical\\ firewall\\ units\"][name=\"premiumLogicalFirewallUnits\"]",
+          "name": "premiumLogicalFirewallUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Logical\\ firewall\\ units\"][name=\"basicLogicalFirewallUnits\"]",
+          "name": "basicLogicalFirewallUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Logical\\ firewall\\ units\"][name=\"premiumLogicalFirewallUnits\"]",
+          "name": "premiumLogicalFirewallUnits",
+          "options": null
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "standardHoursUnits",
+        "standardDataProcessedUnits",
+        "standardCapacityHoursUnits"
       ]
     },
     {
@@ -471,7 +576,9 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "standardCapacityHoursUnits",
+        "standardHoursUnits"
       ]
     },
     {
@@ -590,7 +697,9 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "standardCapacityHoursUnits",
+        "standardHoursUnits"
       ]
     },
     {
@@ -635,7 +744,10 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "standardHoursUnits",
+        "standardDataProcessedUnits",
+        "standardCapacityHoursUnits"
       ]
     },
     {
@@ -713,7 +825,10 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "standardHoursUnits",
+        "standardDataProcessedUnits",
+        "standardCapacityHoursUnits"
       ]
     },
     {
@@ -754,7 +869,10 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "standardHoursUnits",
+        "standardDataProcessedUnits",
+        "standardCapacityHoursUnits"
       ]
     },
     {
@@ -784,7 +902,10 @@
         }
       ],
       "depends_on": [
-        "tier"
+        "tier",
+        "standardHoursUnits",
+        "standardDataProcessedUnits",
+        "standardCapacityHoursUnits"
       ],
       "selector_variants": [
         {
@@ -792,6 +913,57 @@
             "field": "tier",
             "value": "premium",
             "text": "Premium"
+          },
+          "selector": "input[aria-label=\"Number\\ of\\ capacity\\ units\"][name=\"premiumCapacityUnits\"]",
+          "name": "premiumCapacityUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Number\\ of\\ capacity\\ units\"][name=\"premiumCapacityUnits\"]",
+          "name": "premiumCapacityUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Number\\ of\\ capacity\\ units\"][name=\"premiumCapacityUnits\"]",
+          "name": "premiumCapacityUnits",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
           },
           "selector": "input[aria-label=\"Number\\ of\\ capacity\\ units\"][name=\"premiumCapacityUnits\"]",
           "name": "premiumCapacityUnits",
@@ -837,7 +1009,9 @@
       ],
       "depends_on": [
         "tier",
-        "standardCapacityHoursUnits"
+        "standardCapacityHoursUnits",
+        "standardHoursUnits",
+        "standardDataProcessedUnits"
       ]
     },
     {
@@ -894,7 +1068,9 @@
       ],
       "depends_on": [
         "tier",
-        "standardCapacityHoursUnits"
+        "standardCapacityHoursUnits",
+        "standardHoursUnits",
+        "standardDataProcessedUnits"
       ]
     },
     {
@@ -924,7 +1100,219 @@
         }
       ],
       "depends_on": [
-        "standardHoursUnits"
+        "standardHoursUnits",
+        "tier",
+        "basicHoursUnits",
+        "premiumHoursUnits",
+        "premiumCapacityHoursUnits",
+        "standardDataProcessedUnits",
+        "standardCapacityHoursUnits"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "basicHoursUnits",
+            "value": "24",
+            "text": "Days",
+            "and": [
+              {
+                "field": "tier",
+                "value": "basic",
+                "text": "Basic"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"basicHours\"]",
+          "name": "basicHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "premiumHoursUnits",
+            "value": "24",
+            "text": "Days",
+            "and": [
+              {
+                "field": "tier",
+                "value": "premium",
+                "text": "Premium"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumHours\"]",
+          "name": "premiumHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "premiumCapacityHoursUnits",
+            "value": "24",
+            "text": "Days",
+            "and": [
+              {
+                "field": "tier",
+                "value": "premium",
+                "text": "Premium"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumCapacityHours\"]",
+          "name": "premiumCapacityHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"basicHours\"]",
+          "name": "basicHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumHours\"]",
+          "name": "premiumHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumCapacityHours\"]",
+          "name": "premiumCapacityHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"basicHours\"]",
+          "name": "basicHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumHours\"]",
+          "name": "premiumHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumCapacityHours\"]",
+          "name": "premiumCapacityHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"basicHours\"]",
+          "name": "basicHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumHours\"]",
+          "name": "premiumHours",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"Days\"][name=\"premiumCapacityHours\"]",
+          "name": "premiumCapacityHours",
+          "options": null
+        }
       ]
     },
     {
@@ -970,7 +1358,411 @@
         }
       ],
       "depends_on": [
-        "standardHoursUnits"
+        "standardHoursUnits",
+        "tier",
+        "basicHoursUnits",
+        "premiumHoursUnits",
+        "premiumCapacityHoursUnits",
+        "standardDataProcessedUnits",
+        "standardCapacityHoursUnits"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "basicHoursUnits",
+            "value": "24",
+            "text": "Days",
+            "and": [
+              {
+                "field": "tier",
+                "value": "basic",
+                "text": "Basic"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"basicHoursUnits\"]",
+          "name": "basicHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "premiumHoursUnits",
+            "value": "24",
+            "text": "Days",
+            "and": [
+              {
+                "field": "tier",
+                "value": "premium",
+                "text": "Premium"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumHoursUnits\"]",
+          "name": "premiumHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "premiumCapacityHoursUnits",
+            "value": "24",
+            "text": "Days",
+            "and": [
+              {
+                "field": "tier",
+                "value": "premium",
+                "text": "Premium"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumCapacityHoursUnits\"]",
+          "name": "premiumCapacityHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"basicHoursUnits\"]",
+          "name": "basicHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumHoursUnits\"]",
+          "name": "premiumHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumCapacityHoursUnits\"]",
+          "name": "premiumCapacityHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"basicHoursUnits\"]",
+          "name": "basicHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumHoursUnits\"]",
+          "name": "premiumHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumCapacityHoursUnits\"]",
+          "name": "premiumCapacityHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"basicHoursUnits\"]",
+          "name": "basicHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumHoursUnits\"]",
+          "name": "premiumHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"Days\"][name=\"premiumCapacityHoursUnits\"]",
+          "name": "premiumCapacityHoursUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "Hours",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "Days",
+              "value": "24"
+            },
+            {
+              "group": null,
+              "text": "Month",
+              "value": "730"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1000,7 +1792,150 @@
         }
       ],
       "depends_on": [
-        "standardDataProcessedUnits"
+        "standardDataProcessedUnits",
+        "tier",
+        "basicDataProcessedUnits",
+        "premiumDataProcessedUnits",
+        "standardHoursUnits",
+        "standardCapacityHoursUnits"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "basicDataProcessedUnits",
+            "value": "1024",
+            "text": "TB",
+            "and": [
+              {
+                "field": "tier",
+                "value": "basic",
+                "text": "Basic"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"basicDataProcessed\"]",
+          "name": "basicDataProcessed",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "premiumDataProcessedUnits",
+            "value": "1024",
+            "text": "TB",
+            "and": [
+              {
+                "field": "tier",
+                "value": "premium",
+                "text": "Premium"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"premiumDataProcessed\"]",
+          "name": "premiumDataProcessed",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"basicDataProcessed\"]",
+          "name": "basicDataProcessed",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"premiumDataProcessed\"]",
+          "name": "premiumDataProcessed",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"basicDataProcessed\"]",
+          "name": "basicDataProcessed",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"premiumDataProcessed\"]",
+          "name": "premiumDataProcessed",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"basicDataProcessed\"]",
+          "name": "basicDataProcessed",
+          "options": null
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "input[aria-label=\"TB\"][name=\"premiumDataProcessed\"]",
+          "name": "premiumDataProcessed",
+          "options": null
+        }
       ]
     },
     {
@@ -1041,7 +1976,238 @@
         }
       ],
       "depends_on": [
-        "standardDataProcessedUnits"
+        "standardDataProcessedUnits",
+        "tier",
+        "basicDataProcessedUnits",
+        "premiumDataProcessedUnits",
+        "standardHoursUnits",
+        "standardCapacityHoursUnits"
+      ],
+      "selector_variants": [
+        {
+          "when": {
+            "field": "basicDataProcessedUnits",
+            "value": "1024",
+            "text": "TB",
+            "and": [
+              {
+                "field": "tier",
+                "value": "basic",
+                "text": "Basic"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"basicDataProcessedUnits\"]",
+          "name": "basicDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "premiumDataProcessedUnits",
+            "value": "1024",
+            "text": "TB",
+            "and": [
+              {
+                "field": "tier",
+                "value": "premium",
+                "text": "Premium"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"premiumDataProcessedUnits\"]",
+          "name": "premiumDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"basicDataProcessedUnits\"]",
+          "name": "basicDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"premiumDataProcessedUnits\"]",
+          "name": "premiumDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"basicDataProcessedUnits\"]",
+          "name": "basicDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardDataProcessedUnits",
+                "value": "1024",
+                "text": "TB"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"premiumDataProcessedUnits\"]",
+          "name": "premiumDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "basic",
+            "text": "Basic",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"basicDataProcessedUnits\"]",
+          "name": "basicDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        },
+        {
+          "when": {
+            "field": "tier",
+            "value": "premium",
+            "text": "Premium",
+            "and": [
+              {
+                "field": "standardCapacityHoursUnits",
+                "value": "1",
+                "text": "Hours"
+              }
+            ]
+          },
+          "selector": "select[aria-label=\"TB\"][name=\"premiumDataProcessedUnits\"]",
+          "name": "premiumDataProcessedUnits",
+          "options": [
+            {
+              "group": null,
+              "text": "GB",
+              "value": "1"
+            },
+            {
+              "group": null,
+              "text": "TB",
+              "value": "1024"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1071,7 +2237,48 @@
         }
       ],
       "depends_on": [
-        "standardCapacityHoursUnits"
+        "standardCapacityHoursUnits",
+        "standardHoursUnits",
+        "tier",
+        "standardDataProcessedUnits"
+      ],
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "basic",
+          "text": "Basic",
+          "and": [
+            {
+              "field": "standardHoursUnits",
+              "value": "1",
+              "text": "Hours"
+            }
+          ]
+        },
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium",
+          "and": [
+            {
+              "field": "standardHoursUnits",
+              "value": "1",
+              "text": "Hours"
+            }
+          ]
+        },
+        {
+          "field": "standardCapacityHoursUnits",
+          "value": "1",
+          "text": "Hours",
+          "and": [
+            {
+              "field": "standardHoursUnits",
+              "value": "1",
+              "text": "Hours"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1117,7 +2324,48 @@
         }
       ],
       "depends_on": [
-        "standardCapacityHoursUnits"
+        "standardCapacityHoursUnits",
+        "standardHoursUnits",
+        "tier",
+        "standardDataProcessedUnits"
+      ],
+      "absent_when": [
+        {
+          "field": "tier",
+          "value": "basic",
+          "text": "Basic",
+          "and": [
+            {
+              "field": "standardHoursUnits",
+              "value": "1",
+              "text": "Hours"
+            }
+          ]
+        },
+        {
+          "field": "tier",
+          "value": "premium",
+          "text": "Premium",
+          "and": [
+            {
+              "field": "standardHoursUnits",
+              "value": "1",
+              "text": "Hours"
+            }
+          ]
+        },
+        {
+          "field": "standardCapacityHoursUnits",
+          "value": "1",
+          "text": "Hours",
+          "and": [
+            {
+              "field": "standardHoursUnits",
+              "value": "1",
+              "text": "Hours"
+            }
+          ]
+        }
       ]
     }
   ],
