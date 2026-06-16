@@ -15,7 +15,7 @@
 - **`Type`** (select)
   - depends on: `operatingSystem`, `type`, `tier`, `category`
   - options: (OS Only), BizTalk, SQL Server
-  - when `operatingSystem` = *Linux*: Red Hat Enterprise Linux, Red Hat Enterprise Linux with HA, RHEL for SAP Business Applications, RHEL for SAP with HA, SQL Server Red Hat Enterprise Linux, SQL Server SUSE Priority, SQL Server Ubuntu Linux, SQL Server Ubuntu Pro, SUSE Linux Enterprise, SUSE Linux Enterprise for HPC, ...
+  - when `operatingSystem` = *Linux*: Red Hat Enterprise Linux, Red Hat Enterprise Linux with HA, RHEL for SAP Business Applications, RHEL for SAP with HA, SQL Server Red Hat Enterprise Linux, SQL Server SUSE Priority, SQL Server Ubuntu Linux, SQL Server Ubuntu Pro, SUSE Linux Enterprise, SUSE Linux Enterprise for HPC, SUSE Linux Enterprise for SAP Applications + 24x7 Support, Ubuntu, Ubuntu Advantage, Ubuntu Pro
 
 - **`Tier`** (select)
   - options: Basic, Standard
@@ -28,11 +28,11 @@
 - **`Instance Series`** (select)
   - depends on: `operatingSystem`, `tier`, `category`, `type`
   - options (144): All, A-series, Av2 Standard, Basv2-series, Bs-series, Bsv2-series, Constrained vCPUs capable, Da v4-series, Dadsv5-series, Dadsv6-series, Dadsv7-series, Daldsv6-series, Daldsv7-series, Dalsv6-series, Dalsv7-series, ...
-  - when `operatingSystem` = *Linux*: All, A-series, Av2 Standard, Basv2-series, Bpsv2-series, Bs-series, Bsv2-series, Constrained vCPUs capable, Da v4-series, Dadsv5-series, ...
+  - when `operatingSystem` = *Linux*: All, A-series, Av2 Standard, Basv2-series, Bpsv2-series, Bs-series, Bsv2-series, Constrained vCPUs capable, Da v4-series, Dadsv5-series, Dadsv6-series, Dadsv7-series, Daldsv6-series, Daldsv7-series, Dalsv6-series, Dalsv7-series, Das v4-series, Dasv5-series, Dasv6-series, Dasv7-series, DCadsv5-series, DCadsv6-series, DCasv5-series, DCasv6-series, ...
   - when `tier` = *Basic*: All, A-series
-  - when `category` = *Compute optimized*: All, Fadsv7-series, Faldsv7-series, Falsv6-series, Falsv7-series, Famdsv7-series, Famsv6-series, Famsv7-series, Fasv6-series, Fasv7-series, ...
-  - when `category` = *General purpose*: All, A-series, Av2 Standard, Basv2-series, Bs-series, Bsv2-series, Da v4-series, Dadsv5-series, Dadsv6-series, Dadsv7-series, ...
-  - when `category` = *GPU*: All, NC A100 v4-series, NC_T4_v3-series, NCads A10 v4-series, NCads H100 v5-series, NCdsxlRTX6Kv6-series, NCldsxlRTX6Kv6-series, NC-series, NCsv2-series, NCsv3-series, ...
+  - when `category` = *Compute optimized*: All, Fadsv7-series, Faldsv7-series, Falsv6-series, Falsv7-series, Famdsv7-series, Famsv6-series, Famsv7-series, Fasv6-series, Fasv7-series, F-series, Fs-series, Fsv2-series, FXmdsv2-series, FXmsv2-series, FX-series
+  - when `category` = *General purpose*: All, A-series, Av2 Standard, Basv2-series, Bs-series, Bsv2-series, Da v4-series, Dadsv5-series, Dadsv6-series, Dadsv7-series, Daldsv6-series, Daldsv7-series, Dalsv6-series, Dalsv7-series, Das v4-series, Dasv5-series, Dasv6-series, Dasv7-series, DCadsv5-series, DCadsv6-series, DCasv5-series, DCasv6-series, DCdsv3-series, DCedsv6-series, ...
+  - when `category` = *GPU*: All, NC A100 v4-series, NC_T4_v3-series, NCads A10 v4-series, NCads H100 v5-series, NCdsxlRTX6Kv6-series, NCldsxlRTX6Kv6-series, NC-series, NCsv2-series, NCsv3-series, ND A100 v4-series, NDm A100 v4-series, NDsrH100v5-series, NDs-series, NDv2-series, NGads V620 series, NMads MA35D-Series, NVads A10 v5-series, NVads V710 v5-series, NV-series, NVv3-series, NVv4-series
   - when `category` = *High performance compute*: All, Constrained vCPUs capable, HB-series, HBv2-series, HBv3-series, HBv4-series, HBv5-series, HC-series, H-series, HX-series
 
 - **`Instance: (Need help finding the right VM?)`** (text)
@@ -62,8 +62,8 @@
   - depends on: `managedDiskTier`, `operatingSystem`, `type`, `tier`, `category`
   - disappears when: `managedDiskTier` = *Premium SSD v2*
   - options: S4: 32 GiB, S6: 64 GiB, S10: 128 GiB, S15: 256 GiB, S20: 512 GiB, S30: 1024 GiB, S40: 2048 GiB, S50: 4096 GiB, S60: 8192 GiB, S70: 16384 GiB, S80: 32767 GiB
-  - when `managedDiskTier` = *Standard SSD*: E1: 4 GiB, E2: 8 GiB, E3: 16 GiB, E4: 32 GiB, E6: 64 GiB, E10: 128 GiB, E15: 256 GiB, E20: 512 GiB, E30: 1024 GiB, E40: 2048 GiB, ...
-  - when `managedDiskTier` = *Premium SSD*: P1: 4 GiB, 120 IOPS, 25 MB/sec, P2: 8 GiB, 120 IOPS, 25 MB/sec, P3: 16 GiB, 120 IOPS, 25 MB/sec, P4: 32 GiB, 120 IOPS, 25 MB/sec, P6: 64 GiB, 240 IOPS, 50 MB/sec, P10: 128 GiB, 500 IOPS, 100 MB/sec, P15: 256 GiB, 1100 IOPS, 125 MB/sec, P20: 512 GiB, 2300 IOPS, 150 MB/sec, P30: 1024 GiB, 5000 IOPS, 200 MB/sec, P40: 2048 GiB, 7500 IOPS, 250 MB/sec, ...
+  - when `managedDiskTier` = *Standard SSD*: E1: 4 GiB, E2: 8 GiB, E3: 16 GiB, E4: 32 GiB, E6: 64 GiB, E10: 128 GiB, E15: 256 GiB, E20: 512 GiB, E30: 1024 GiB, E40: 2048 GiB, E50: 4096 GiB, E60: 8192 GiB, E70: 16384 GiB, E80: 32767 GiB
+  - when `managedDiskTier` = *Premium SSD*: P1: 4 GiB, 120 IOPS, 25 MB/sec, P2: 8 GiB, 120 IOPS, 25 MB/sec, P3: 16 GiB, 120 IOPS, 25 MB/sec, P4: 32 GiB, 120 IOPS, 25 MB/sec, P6: 64 GiB, 240 IOPS, 50 MB/sec, P10: 128 GiB, 500 IOPS, 100 MB/sec, P15: 256 GiB, 1100 IOPS, 125 MB/sec, P20: 512 GiB, 2300 IOPS, 150 MB/sec, P30: 1024 GiB, 5000 IOPS, 200 MB/sec, P40: 2048 GiB, 7500 IOPS, 250 MB/sec, P50: 4096 GiB, 7500 IOPS, 250 MB/sec, P60: 8192 GiB, 16000 IOPS, 500 MB/sec, P70: 16384 GiB, 18000 IOPS, 750 MB/sec, P80: 32767 GiB, 20000 IOPS, 900 MB/sec
 
 - **`Disks`** (number) — section: *Managed Disks* (opened automatically)
   - depends on: `managedDiskTier`, `operatingSystem`, `type`

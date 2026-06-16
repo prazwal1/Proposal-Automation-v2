@@ -188,7 +188,7 @@ def render_md(entry):
                 lines.append(f"  - options: {', '.join(opts) if opts else '(state-dependent, see variants)'}")
         for v in (f.get("option_variants") or [])[:6]:
             opts = [o["text"] for o in v["options"]]
-            shown = ", ".join(opts[:10]) + (", ..." if len(opts) > 10 else "")
+            shown = ", ".join(opts[:24]) + (", ..." if len(opts) > 24 else "")
             lines.append(f"  - when {cond_md(v['when'])}: {shown}")
         lines.append("")
     lines.append("## Example component")
