@@ -21,6 +21,18 @@ def get_driver(download_path=None, headless=False):
     chrome_options.add_argument("--no-first-run")
     chrome_options.add_argument("--disable-notifications")
 
+    # Containers run as root with a tiny /dev/shm; both flags are required there
+    # and harmless on the desktop. Opt-in via env so desktop runs are unchanged.
+    if os.environ.get("CHROME_NO_SANDBOX"):
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+
+    # In Docker we ship a pinned Chromium + matching driver instead of letting
+    # webdriver-manager download one; point Selenium at them via env.
+    chrome_bin = os.environ.get("CHROME_BIN")
+    if chrome_bin:
+        chrome_options.binary_location = chrome_bin
+
     download_dir = os.path.abspath(download_path) if download_path else tempfile.gettempdir()
     os.makedirs(download_dir, exist_ok=True)
     if os.name == "nt":
@@ -38,9 +50,9 @@ def get_driver(download_path=None, headless=False):
         },
     )
 
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()), options=chrome_options
-    )
+    driver_path = os.environ.get("CHROMEDRIVER_PATH")
+    service = Service(driver_path) if driver_path else Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
     if not headless:
         driver.maximize_window()
     return driver

@@ -7,6 +7,8 @@ dependencies = [
     "mcp>=1.27.2",
     "selenium>=4.21",
     "webdriver-manager>=4.0",
+    "uvicorn>=0.30",
+    "pyjwt[crypto]>=2.8",
 ]
 
 [tool.uv]

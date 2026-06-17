@@ -44,14 +44,18 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "mcp" },
+    { name = "pyjwt", extra = ["crypto"] },
     { name = "selenium" },
+    { name = "uvicorn" },
     { name = "webdriver-manager" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "mcp", specifier = ">=1.27.2" },
+    { name = "pyjwt", extras = ["crypto"], specifier = ">=2.8" },
     { name = "selenium", specifier = ">=4.21" },
+    { name = "uvicorn", specifier = ">=0.30" },
     { name = "webdriver-manager", specifier = ">=4.0" },
 ]
 

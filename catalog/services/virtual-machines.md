@@ -25,7 +25,7 @@
   - options: All, Compute optimized, General purpose, GPU, High performance compute, Memory optimized, Storage optimized
   - when `tier` = *Basic*: All, General purpose
 
-- **`Instance Series`** (select)
+- **`Instance Series`** (combobox)
   - depends on: `operatingSystem`, `tier`, `category`, `type`
   - options (144): All, A-series, Av2 Standard, Basv2-series, Bs-series, Bsv2-series, Constrained vCPUs capable, Da v4-series, Dadsv5-series, Dadsv6-series, Dadsv7-series, Daldsv6-series, Daldsv7-series, Dalsv6-series, Dalsv7-series, ...
   - when `operatingSystem` = *Linux*: All, A-series, Av2 Standard, Basv2-series, Bpsv2-series, Bs-series, Bsv2-series, Constrained vCPUs capable, Da v4-series, Dadsv5-series, Dadsv6-series, Dadsv7-series, Daldsv6-series, Daldsv7-series, Dalsv6-series, Dalsv7-series, Das v4-series, Dasv5-series, Dasv6-series, Dasv7-series, DCadsv5-series, DCadsv6-series, DCasv5-series, DCasv6-series, ...
@@ -35,7 +35,7 @@
   - when `category` = *GPU*: All, NC A100 v4-series, NC_T4_v3-series, NCads A10 v4-series, NCads H100 v5-series, NCdsxlRTX6Kv6-series, NCldsxlRTX6Kv6-series, NC-series, NCsv2-series, NCsv3-series, ND A100 v4-series, NDm A100 v4-series, NDsrH100v5-series, NDs-series, NDv2-series, NGads V620 series, NMads MA35D-Series, NVads A10 v5-series, NVads V710 v5-series, NV-series, NVv3-series, NVv4-series
   - when `category` = *High performance compute*: All, Constrained vCPUs capable, HB-series, HBv2-series, HBv3-series, HBv4-series, HBv5-series, HC-series, H-series, HX-series
 
-- **`Instance: (Need help finding the right VM?)`** (text)
+- **`Instance: (Need help finding the right VM?)`** (combobox)
 
 - **`Virtual machines`** (number)
 

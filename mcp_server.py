@@ -6,8 +6,10 @@ Register with Claude Code:
 Everything real lives in tools.py; this file only adapts it to MCP.
 """
 from mcp.server.fastmcp import FastMCP
+from starlette.responses import JSONResponse
 
 import tools
+from auth import build_auth
 
 INSTRUCTIONS = """\
 Azure quotation tools built on a learned map of the Azure Pricing Calculator
@@ -27,7 +29,21 @@ Recommended workflow:
    background) and check_build to poll until the xlsx path appears.
 """
 
-mcp = FastMCP("azure-calc", instructions=INSTRUCTIONS)
+# When FUSIONAUTH_* env vars are set, run as an OAuth Resource Server that
+# validates FusionAuth JWTs; otherwise (local stdio) run unauthenticated.
+_token_verifier, _auth_settings = build_auth()
+mcp = FastMCP(
+    "azure-calc",
+    instructions=INSTRUCTIONS,
+    token_verifier=_token_verifier,
+    auth=_auth_settings,
+)
+
+
+@mcp.custom_route("/healthz", methods=["GET"])
+async def healthz(_request):
+    """Unauthenticated liveness probe for VM/load-balancer health checks."""
+    return JSONResponse({"status": "ok"})
 
 
 @mcp.tool()
@@ -120,11 +136,27 @@ if __name__ == "__main__":
     ap.add_argument("--host", default="127.0.0.1",
                     help="bind address for --http (use 0.0.0.0 to accept LAN/tunnel)")
     ap.add_argument("--port", type=int, default=8000, help="port for --http")
+    ap.add_argument(
+        "--no-auth", action="store_true",
+        help="DANGER: serve --http unauthenticated (only when FusionAuth env vars are "
+             "absent). Use only on a trusted private network, never on a public address.",
+    )
     args = ap.parse_args()
 
-    if args.http:
+    if not args.http:
+        mcp.run()  # stdio (default; how Claude Code launches it via .mcp.json)
+    else:
+        if _auth_settings is None and not args.no_auth:
+            ap.error(
+                "--http requires FusionAuth: set FUSIONAUTH_BASE_URL and MCP_RESOURCE_URL "
+                "(see auth.py for all vars), or pass --no-auth to run unauthenticated on a "
+                "trusted network."
+            )
+        if _auth_settings is not None:
+            print(f"[auth] FusionAuth enabled (issuer {_auth_settings.issuer_url}, "
+                  f"resource {_auth_settings.resource_server_url})")
+        else:
+            print("[WARN] Serving with NO authentication (--no-auth). Do not expose publicly.")
         mcp.settings.host = args.host
         mcp.settings.port = args.port
         mcp.run(transport="streamable-http")
-    else:
-        mcp.run()  # stdio (default; how Claude Code launches it via .mcp.json)

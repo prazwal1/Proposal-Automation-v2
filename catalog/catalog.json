@@ -79949,7 +79949,7 @@
         },
         {
           "key": "Instance Series",
-          "control": "select",
+          "control": "combobox",
           "label": "Instance Series",
           "name": "instanceSeries",
           "revealed_by": null,
@@ -90658,9 +90658,9 @@
         },
         {
           "key": "Instance: (Need help finding the right VM?)",
-          "control": "text",
+          "control": "combobox",
           "label": "Instance: (Need help finding the right VM?)",
-          "name": null,
+          "name": "size",
           "revealed_by": null,
           "depends_on": []
         },

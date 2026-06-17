@@ -15,7 +15,7 @@
 - **`DWU blocks`** (select)
   - depends on: `tier`
   - options (16): 100, 200, 300, 400, 500, 1000, 1500, 2000, 2500, 3000, 5000, 6000, 7500, 10000, 15000, ...
-  - when `tier` = *Compute Optimized Gen1*: 100, 200, 300, 400, 500, 600, 1000, 1200, 1500, 2000, ...
+  - when `tier` = *Compute Optimized Gen1*: 100, 200, 300, 400, 500, 600, 1000, 1200, 1500, 2000, 3000, 6000
 
 - **`Hours`** (number)
   - depends on: `computeHoursFactor`

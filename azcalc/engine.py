@@ -256,6 +256,8 @@ class GenericEngine:
                     self._set_select(elem, value)
                 elif control in ("text", "number"):
                     self._set_input(elem, value)
+                elif control == "combobox":
+                    self._set_combobox(elem, value)
                 elif control == "radio":
                     self.driver.execute_script("arguments[0].click();", elem)
                 elif control == "checkbox":
@@ -365,6 +367,48 @@ class GenericEngine:
             f"No option matching '{value}'. Available: "
             f"{[o.text.strip() for o in opts][:12]}"
         )
+
+    def _set_combobox(self, elem, value):
+        """Drive a React-Select typeahead (e.g. the VM 'Instance' size picker).
+
+        The visible control is an <input role="combobox"> with no name; the
+        chosen value is committed to a sibling hidden input. Type the query,
+        wait for the menu (rendered as [role=option] at document level), then
+        click the best matching option.
+        """
+        v = str(value).strip().lower()
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", elem)
+        try:
+            elem.click()
+        except ElementClickInterceptedException:
+            self.driver.execute_script("arguments[0].focus();", elem)
+        elem.send_keys(Keys.CONTROL, "a")
+        elem.send_keys(str(value))
+
+        chosen, deadline = None, time.time() + 8
+        while time.time() < deadline:
+            opts = [o for o in self.driver.find_elements(
+                By.CSS_SELECTOR, "[role='option']") if o.is_displayed()]
+            if opts:
+                # option text looks like "D2as v6: 2 vCPUs, 8 GB RAM, ..." —
+                # match on the head before the colon, then a prefix fallback
+                for o in opts:
+                    label = o.text.strip().lower()
+                    head = label.split(":", 1)[0].strip()
+                    if head == v or label.startswith(v):
+                        chosen = o
+                        break
+                chosen = chosen or opts[0]
+                break
+            time.sleep(0.3)
+
+        if chosen is None:
+            raise NoSuchElementException(
+                f"No typeahead suggestion appeared for '{value}'")
+        try:
+            chosen.click()
+        except (ElementClickInterceptedException, StaleElementReferenceException):
+            self.driver.execute_script("arguments[0].click();", chosen)
 
     def _set_input(self, elem, value):
         try:

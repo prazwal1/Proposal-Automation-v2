@@ -21,9 +21,9 @@
 - **`Instance Series`** (select)
   - depends on: `category`
   - options (44): All, Da v4-series, Dadsv5-series, Dadsv6-series, Das v4-series, Dasv5-series, DCasv5-series, Dd v4-series, Dds v4-series, Ddsv5-series, Ddsv6-series, Dpdsv6-series, Dpsv6-series, Dsv2-series, Dsv3-series, ...
-  - when `category` = *General purpose*: All, Da v4-series, Dadsv5-series, Dadsv6-series, Das v4-series, Dasv5-series, DCasv5-series, Dd v4-series, Dds v4-series, Ddsv5-series, ...
+  - when `category` = *General purpose*: All, Da v4-series, Dadsv5-series, Dadsv6-series, Das v4-series, Dasv5-series, DCasv5-series, Dd v4-series, Dds v4-series, Ddsv5-series, Ddsv6-series, Dpdsv6-series, Dpsv6-series, Dsv2-series, Dsv3-series, Dsv5-series, Dv2-series, Dv3-series, ECadsv5-series, ECasv5-series
   - when `category` = *GPU*: All, NC A100 v4-series, NC_T4_v3-series, NCads H100 v5-series, NCsv3-series, NDsrH100v5-series, NVads A10 v5-series
-  - when `category` = *Memory optimized*: All, Dsv2-series, Dv2-series, Ea v4-series, Eadsv5-series, Eadsv6-series, Eas v4-series, Easv5-series, Ed v4-series, Eds v4-series, ...
+  - when `category` = *Memory optimized*: All, Dsv2-series, Dv2-series, Ea v4-series, Eadsv5-series, Eadsv6-series, Eas v4-series, Easv5-series, Ed v4-series, Eds v4-series, Edsv5-series, Edsv6-series, Epdsv6-series, Epsv6-series, Esv3-series, Esv4-series, Esv5-series, Ev3-series
   - when `category` = *Storage optimized*: All, Lasv3-series, Ls-series, Lsv3-series
 
 - **`Instance: (Need help finding the right VM?)`** (text)

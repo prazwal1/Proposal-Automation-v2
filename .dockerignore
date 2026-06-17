@@ -1,0 +1,15 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+.git
+.gitignore
+Azure_Estimates
+estimate_*
+assessment_*
+*.log
+md_configs
+configs/*.local.json
+.mcp.json
+README.md
+future.md

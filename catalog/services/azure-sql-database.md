@@ -37,10 +37,10 @@
   - depends on: `type`, `purchaseModel`, `vcoreTier`, `computeTier`, `generation`
   - disappears when: `purchaseModel` = *DTU*, `computeTier` = *Serverless*
   - options: 2 vCore, 4 vCore, 6 vCore, 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, 24 vCore, 32 vCore, 40 vCore, 80 vCore, 128 vCore
-  - when `type` = *Elastic Pool*: 4 vCore, 6 vCore, 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, 24 vCore, ...
-  - when `vcoreTier` = *Hyperscale*: 2 vCore, 4 vCore, 6 vCore, 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, ...
-  - when `generation` = *Fsv2-series*: 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, 24 vCore, 32 vCore, 36 vCore, ...
-  - when `generation` = *DC-series*: 2 vCore, 4 vCore, 6 vCore, 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, ...
+  - when `type` = *Elastic Pool*: 4 vCore, 6 vCore, 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, 24 vCore, 32 vCore, 40 vCore, 80 vCore, 128 vCore
+  - when `vcoreTier` = *Hyperscale*: 2 vCore, 4 vCore, 6 vCore, 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, 24 vCore, 32 vCore, 40 vCore, 80 vCore
+  - when `generation` = *Fsv2-series*: 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, 24 vCore, 32 vCore, 36 vCore, 72 vCore
+  - when `generation` = *DC-series*: 2 vCore, 4 vCore, 6 vCore, 8 vCore, 10 vCore, 12 vCore, 14 vCore, 16 vCore, 18 vCore, 20 vCore, 32 vCore, 40 vCore
 
 - **`Disaster Recovery`** (select)
   - depends on: `type`, `purchaseModel`, `vcoreTier`, `computeTier`
